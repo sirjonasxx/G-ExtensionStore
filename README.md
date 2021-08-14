@@ -8,6 +8,7 @@ In contrast to what the name suggests, all extensions are free
 **Extension requirements**:
 
 * Your extension must be open-source
+* The extension must be compatible with the latest version of G-Earth (at time of submiting)
 * The files you submit may not be obfuscated
 * Your extension may not contain hardcoded header IDs
    * Always use packet names/hashes for identifying packets
