@@ -45,7 +45,7 @@ The file containing your extension information must look like this:
     "description": "Description of the extension",
     "author": "sirjonasxx",
     "version": "0.1.0",
-    "categories": ["Building", "Trading", "Others"]
+    "categories": ["Building", "Trading", "Others"],
     
     "source": "Url to the source code",
     "readme": "(optional) readme file",
