@@ -66,7 +66,7 @@ Most fields are self explaining, but some require extra attention:
 * `frameworkVersion` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
 * `executionCommand` is the command to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}` and must work in all OS's in `supportedOSes`
 
-Note: it's possible not all of the fields will be used, but they may be used in future G-Earth versions
+*Note: it's possible not all of the fields will be used, but they may be used in future G-Earth versions*
 
 
 ## Updating an extension
@@ -78,10 +78,10 @@ You're only allowed to overwrite existing files if it is to set `stable` to `fal
 
 ## Other information
 
-##### Notes
+#### Notes
 * All extensions will be reviewed to not contain malicious code
 * In future versions of G-Earth (not directly), you will have to enable `Experimental mode` in the `Extra` tab to install extensions in the old way. This will come with a warning! This means the G-ExtensionStore will be the main way of installing and publishing extensions
 
-##### Todo
+#### Todo
 * Github workflow to verify correctness of submissions
 * Create a tool to create the `extension.info` and `extension.zip` files
