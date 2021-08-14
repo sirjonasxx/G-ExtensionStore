@@ -49,7 +49,7 @@ The file containing your extension information must look like this:
     
     "framework": "Native",
     "frameworkVersion": "",
-    "language": "Java|Python|C#|Visual Basic|Node.js",
+    "language": "Java",
     "executionCommand": "java -jar ... -c {cookie} -p {port} -f {filename}",
     
     "supportedOSes": ["Linux", "Windows", "Mac"],
