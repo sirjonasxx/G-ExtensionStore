@@ -1,0 +1,59 @@
+{
+  "frameworks": [
+    {
+      "name": "Native",
+      "description": "The native G-Earth extension API",
+      "developers": ["sirjonasxx"],
+      "languages": ["Java"],
+      "source": "https://github.com/sirjonasxx/G-Earth",
+      "installation": {
+        "required": false,
+        "instructions": null
+      }
+    },
+    {
+      "name": "G-Python",
+      "description": "G-Earth extension interface for Python",
+      "developers": ["sirjonasxx"],
+      "languages": ["Python"],
+      "source": "https://github.com/sirjonasxx/G-Python",
+      "installation": {
+        "required": true,
+        "instructions": "https://github.com/sirjonasxx/G-Python#installation"
+      }
+    },
+    {
+      "name": "Geode",
+      "description": "C#(.NET 5.0) Extension API for the cross-platform packet logger G-Earth",
+      "developers": ["LilithRainbows", "ArachisH"],
+      "languages": ["C#", "Visual Basic"],
+      "source": "https://github.com/LilithRainbows/Geode",
+      "installation": {
+        "required": true,
+        "instructions": "https://github.com/LilithRainbows/Geode"
+      }
+    },
+    {
+      "name": "G-Node",
+      "description": "Node.js G-Earth extension API",
+      "developers": ["WiredSpast"],
+      "languages": ["Node.js"],
+      "source": "https://github.com/WiredSpast/G-Node",
+      "installation": {
+        "required": true,
+        "instructions": "https://github.com/WiredSpast/G-Node"
+      }
+    },
+    {
+      "name": "Xabbo",
+      "description": "A framework for creating G-Earth extensions using the Xabbo.Common library.",
+      "developers": ["b7c"],
+      "languages": ["C#"],
+      "source": "https://github.com/b7c/Xabbo.GEarth",
+      "installation": {
+        "required": false,
+        "instructions": null
+      }
+    }
+  ]
+}
