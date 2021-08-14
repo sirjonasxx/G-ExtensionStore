@@ -65,7 +65,7 @@ The file containing your extension information must look like this:
 }
 ```
 Most fields are self explaining, but some require extra attention:
-* `title` must be unique across G-ExtensionStore. Since it will also be part of a directory identifier, it can only contain characters that are valid folder names. Also don't include spaces, dots and underscores in the title.
+* `title` must be unique across G-ExtensionStore. Since it will also be part of a directory name, it can only contain characters that are valid folder names. Also don't include spaces, dots and underscores in the title.
 * `version` can only contain dots and numbers
 * `source` is a required field, it must link to your git repository
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty
