@@ -66,7 +66,7 @@ Most fields are self explaining, but some require extra attention:
 * `frameworkVersion` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
 * `executionCommand` is the command to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}` and must work in all OS's in `supportedOSes`
 
-Note: it's possible not all of the field will be used, but they may be used in future G-Earth versions
+Note: it's possible not all of the fields will be used, but they may be used in future G-Earth versions
 
 
 ## Updating an extension
