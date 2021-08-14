@@ -50,13 +50,18 @@ The file containing your extension information must look like this:
     
     "stable": true,
     
-    "framework": "Native",
-    "frameworkVersion": "",
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+
     "language": "Java",
-    "executionCommand": "java -jar ... -c {cookie} -p {port} -f {filename}",
+    "command": "java -jar G-Extension.jar -c {cookie} -p {port} -f {filename}",
     
-    "supportedOSes": ["Linux", "Windows", "Mac"],
-    "supportedClients": ["Unity", "Flash"]
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Unity", "Flash"]
+    }
 }
 ```
 Most fields are self explaining, but some require extra attention:
@@ -65,9 +70,9 @@ Most fields are self explaining, but some require extra attention:
 * `source` is a required field, it must link to your git repository
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
-* `framework` must be available in `frameworks.json`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
-* `frameworkVersion` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
-* `executionCommand` is the command to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}` and must work in all OS's in `supportedOSes`
+* `framework.name` must be available in `frameworks.json`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
+* `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
+* `command` is the command to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}` and must work in all operating systems in `compatibility.OSes`
 
 *Note: it's possible not all of the fields will be used, but they may be used in future G-Earth versions*
 
