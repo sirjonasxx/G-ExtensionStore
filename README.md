@@ -45,6 +45,7 @@ The file containing your extension information must look like this:
     "description": "Description of the extension",
     "author": "sirjonasxx",
     "version": "0.1.0",
+    "categories": ["Building", "Trading", "Others"]
     
     "source": "Url to the source code",
     "readme": "(optional) readme file",
@@ -68,6 +69,7 @@ The file containing your extension information must look like this:
 Most fields are self explaining, but some require extra attention:
 * `title` must be unique across G-ExtensionStore. Since it will also be part of a directory name, it can only contain characters that are valid folder names. Also don't include spaces, dots and underscores in the title.
 * `version` can only contain dots and numbers
+* `categories` describe the type of extension, at least 1 type is required. List of possible categories is yet to be decided but "Others" will be one of them.
 * `source` is a required field, it must link to your git repository
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
