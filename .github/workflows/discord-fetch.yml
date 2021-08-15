@@ -18,7 +18,7 @@ jobs:
       - name: fetch extension ratings from discord
         run: npm run discord:fetch
         env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
       - name: re-generate auto-generated folder
         run: npm run auto-generate

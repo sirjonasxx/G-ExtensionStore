@@ -15,5 +15,8 @@
     "mkdirp": "^1.0.4",
     "moment": "^2.29.1",
     "read-chunk": "^4.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0"
   }
 }
