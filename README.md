@@ -33,7 +33,7 @@ You need to follow these steps:
 2. In the `store/extensions/` folder, add a new folder named with the title of your extension
 3. The folder you just created can contain 3 files: `extension.zip` *(required)*, `logo.png` & `screenshot.png`.
     1. `extension.zip` contains all files required to execute the extension
-    2. `logo.png` is an optional 32x32 image for the extension store
+    2. `logo.png` is an optional 40x40 image for the extension store
     3. `screenshot.png` is an optional screenshot for the extension store
 4. In the `store/` folder of this repository, edit `extensions.json` and add a json object containing information of your extension to the list. Its contents are described in the next section.
 8. Open a Pull Request into this github repository with your newly added extension
