@@ -1,4 +1,4 @@
-name: Auto-generator
+name: ci
 
 on:
   push:
@@ -39,11 +39,14 @@ jobs:
       - run: npm run auto-generate
 
       - run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add ./auto-generated/*
-          git commit -m "Generate files in ./auto-generated/ folder"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com" &&
+          git config --local user.name "github-actions[bot]" &&
+          git add ./auto-generated/* ./store/ratings.json &&
+          OUTPUT=$(git commit -m "Generate ratings & update ./auto-generated/ folder" | tail -1) &&
+          echo "::set-output name=OUTPUT::$OUTPUT"
+
       - name: Push changes  # push the output folder to your repo
+        if: steps.main.outputs.OUTPUT != "no changes added to commit"
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
