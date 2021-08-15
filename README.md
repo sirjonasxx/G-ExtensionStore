@@ -31,19 +31,26 @@ In contrast to what the name suggests, all extensions are free
 You need to follow these steps:
 1. Fork the base branch of this repository. The base branch will always correspond to the latest G-Earth version.
 2. In the `store/` folder, add a new folder named `{title}_{version}`. For example if an extension is called G-Mimic, it could look like `G-Mimic_0.1.0`
-3. The folder you just created must contain 2 files: `extension.json` and `extension.zip`.
+3. The folder you just created can contain 3 files: `extension.zip` *(required)*, `logo.png` & `screenshot.png`.
     1. `extension.zip` contains all files required to execute the extension
-    2. `extension.json` contains information about your extension. Its contents are described in the next section.
-4. Open a Pull Request into this github repository with your newly added extension
+    2. `logo.png` is an optional 32x32 image for the extension store
+    3. `screenshot.png` is an optional screenshot for the extension store
+4. In the root folder of this repository, edit `extensions.json` and add a json object containing information of your extension to the list. Its contents are described in the next section.
+8. Open a Pull Request into this github repository with your newly added extension
 
 
 #### Extension information
-The file containing your extension information must look like this:
+The object containing your extension information must look like this *(fields that start with (optional) can also be null, but should still have correct syntax if they are not null)*:
 ```json
 {
     "title": "G-Extension",
-    "description": "Description of the extension",
-    "author": "sirjonasxx",
+    "description": "Description of the extension.\n\nGives your *infinite coins* and much more...",
+    "author": {
+      "name": "sirjonasxx",
+      "discord": "(optional) sirjonasxx#2633",
+      "hotel": "(optional) .nl",
+      "username": "(optional) sirjonasxx-VII"
+    },
     "version": "0.1.0",
     "categories": ["Building", "Trading", "Others"],
     
@@ -68,10 +75,11 @@ The file containing your extension information must look like this:
 ```
 Most fields are self explaining, but some require extra attention:
 * `title` must be unique across G-ExtensionStore. Since it will also be part of a directory name, it can only contain characters that are valid folder names. Also don't include spaces, dots and underscores in the title.
+* `description` can be very long, and a limited form of styling can be applied to it
 * `version` can only contain dots and numbers
 * `categories` describe the type of extension, at least 1 type is required. List of possible categories is yet to be decided but "Others" will be one of them.
 * `source` is a required field, it must link to your git repository
-* `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty
+* `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty or null
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
 * `framework.name` must be available in `frameworks.json`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
 * `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
@@ -95,4 +103,4 @@ You're only allowed to overwrite existing files if it is to set `stable` to `fal
 
 #### Todo
 * Github workflow to verify correctness of submissions
-* Create a tool to create the `extension.info` and `extension.zip` files
+* Create a tool to create the submission
