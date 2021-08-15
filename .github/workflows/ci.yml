@@ -44,7 +44,7 @@ jobs:
           echo "::set-output name=OUTPUT::$OUTPUT"
 
       - name: Push changes  # push the output folder to your repo
-        if: steps.main.outputs.OUTPUT != "no changes added to commit"
+        if: steps.main.outputs.OUTPUT != 'no changes added to commit'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
