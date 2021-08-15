@@ -1,3 +1,4 @@
+
 const Discord = require("discord.js");
 const {Intents} = require("discord.js");
 const client = new Discord.Client({
@@ -7,12 +8,21 @@ const client = new Discord.Client({
     ]
 });
 
-client.login(process.env.DISCORD_TOKEN);
+
+const sendmsg = async() => {
+    await client.login(process.env.DISCORD_TOKEN);
 
 
-client.on('ready', () => {
-    client.channels.fetch('876589495586275388')
-        .then(channel => {
-            channel.send("test!");
-        })
-});
+    client.on('ready', () => {
+        client.channels.fetch('876589495586275388')
+            .then(channel =>
+                channel.send("hi")
+            )
+            .finally(() =>
+                client.destroy()
+            )
+    });
+}
+
+
+sendmsg();

@@ -17,6 +17,7 @@
     "read-chunk": "^4.0.0"
   },
   "dependencies": {
-    "discord.js": "^13.1.0"
+    "discord.js": "^13.1.0",
+    "node": "16.6.1"
   }
 }
