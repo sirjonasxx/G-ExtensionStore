@@ -3,7 +3,7 @@ name: Auto-generator
 on:
   push:
     branches:
-      - *
+      - '**'
     paths:
       - 'store/extensions/**/*.json'
 
