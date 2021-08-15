@@ -1,4 +1,46 @@
 {
+  "categories": [
+    {
+      "name": "Fun",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Building",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Games",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Trading",
+      "description": "Improve your Habbo trading experience and efficiency",
+      "icon": ""
+    },
+    {
+      "name": "Moderation",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Usability",
+      "description": "General features that improve the Habbo user experience / features that are currently missing in Habbo",
+      "icon": ""
+    },
+    {
+      "name": "G-Earth utilities",
+      "description": "Extensions that provide extra tools for scripting",
+      "icon": ""
+    },
+    {
+      "name": "Others",
+      "description": "For all extensions that have features that don't quite fit in the other categories",
+      "icon": ""
+    }
+  ],
   "frameworks": [
     {
       "name": "Native",

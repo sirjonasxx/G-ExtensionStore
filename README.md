@@ -22,7 +22,7 @@ In contrast to what the name suggests, all extensions are free
     * It must pass a `cookie` and `filename` (which can also be a folder name) to G-Earth on initialization *(CLI arguments)*
     * It must use the `port` *(CLI argument)* to connect with G-Earth
 * The process of the extension must end when the socket with G-Earth is closed
-* The framework must be included in `frameworks.json`
+* The framework must be included in `config.json` -> `frameworks`
 
 ## Submitting an extension
 
@@ -30,7 +30,7 @@ In contrast to what the name suggests, all extensions are free
 
 You need to follow these steps:
 1. Fork the base branch of this repository. The base branch will always correspond to the latest G-Earth version.
-2. In the `store/` folder, add a new folder named `{title}_{version}`. For example if an extension is called G-Mimic, it could look like `G-Mimic_0.1.0`
+2. In the `store/` folder, add a new folder named with the title of your extension
 3. The folder you just created can contain 3 files: `extension.zip` *(required)*, `logo.png` & `screenshot.png`.
     1. `extension.zip` contains all files required to execute the extension
     2. `logo.png` is an optional 32x32 image for the extension store
@@ -74,14 +74,14 @@ The object containing your extension information must look like this *(fields th
 }
 ```
 Most fields are self explaining, but some require extra attention:
-* `title` must be unique across G-ExtensionStore. Since it will also be part of a directory name, it can only contain characters that are valid folder names. Also don't include spaces, dots and underscores in the title.
+* `title` must be unique across G-ExtensionStore. Since it will also be a directory name, it can only contain characters that are valid directory names. Also don't include spaces, dots and underscores in the title.
 * `description` can be very long, and a limited form of styling can be applied to it
 * `version` can only contain dots and numbers
 * `categories` describe the type of extension, at least 1 type is required. List of possible categories is yet to be decided but "Others" will be one of them.
 * `source` is a required field, it must link to your git repository
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty or null
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
-* `framework.name` must be available in `frameworks.json`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
+* `framework.name` must be available in `config.json` -> `frameworks`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
 * `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
 * `command` is the command to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}` and must work in all operating systems in `compatibility.OSes`
 
@@ -90,9 +90,9 @@ Most fields are self explaining, but some require extra attention:
 
 ## Updating an extension
 
-Create a new version of the extension and follow the steps from "Submitting an extension" again, but also delete the old folder in the PR.
+Create a new version of the extension and follow the steps from "Submitting an extension" again, do not forget to update `extensions.json` with the new version.
 
-You're only allowed to overwrite existing files if it is to set `stable` to `false`. Otherwise, always create a new version
+It is also possible to update an extension without setting a new version, for example when updating the description or screenshot. As soon as you have any changes in `extension.json`, or if the `command` value in `extension.json` changes, you need to set a new version.
 
 
 ## Other information
