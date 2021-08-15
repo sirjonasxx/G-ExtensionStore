@@ -2,27 +2,13 @@ const extensions = require('../extensions.json');
 const config = require('../config.json');
 const fs = require('fs');
 const moment = require("moment");
+const { exists, validURL, isVersion } = require('./test_utils');
 
 const countryCodes = new Set([".com.br", ".de", ".nl", ".es", ".fi", ".fr", ".it", ".com.tr", ".com"]);
 const OSes = new Set(["Linux", "Windows", "Mac"]);
 const clients = new Set(["Unity", "Flash"]);
 const allCategories = new Set(config.categories.map(c => c.name));
 const frameworks = new Map(config.frameworks.map((f) => [f.name, {... f, languages: new Set(f.languages)}]));
-
-
-
-const exists = (x) => x !== null && x !== undefined;
-const validURL = (str) => { // https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
-    var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
-        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
-        '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
-        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
-        '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
-        '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
-    return !!pattern.test(str);
-}
-const isVersion = (str) => str.match("^([0-9]+\.)*[0-9]+$") != null && str.match("[1-9]") != null;
-
 
 
 
