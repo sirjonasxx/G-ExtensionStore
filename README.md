@@ -70,7 +70,10 @@ The object containing your extension information must look like this *(fields th
     "compatibility": {
         "systems": ["Linux", "Windows", "Mac"],
         "clients": ["Unity", "Flash"]
-    }
+    },
+
+    "submissionDate": "15-08-2021 01:16:35",
+    "updateDate": "15-08-2021 01:16:35"
 }
 ```
 Most fields are self explaining, but some require extra attention:
