@@ -1,4 +1,5 @@
 const fs = require("fs");
+const {readdirSync} = require("fs");
 const exists = (x) => x !== null && x !== undefined;
 
 const validURL = (str) => { // https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
@@ -24,9 +25,14 @@ const fileExists = (path) => {
     }
 };
 
+const extensionConfigs = () => {
+    return readdirSync('./store/extensions/').map(extension => require(__dirname + `/../../store/extensions/${extension}/extension.json`));
+}
+
 module.exports = {
     exists,
     validURL,
     isVersion,
-    fileExists
+    fileExists,
+    extensionConfigs
 }

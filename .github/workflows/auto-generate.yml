@@ -1,0 +1,30 @@
+name: Update extensions.json on new Extension
+
+on:
+  push:
+    branches:
+      - repo/*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - run: npm install
+
+      - run: npm run auto-generate
+
+      - run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./auto-generated/docs
+          git commit -m "Auto generate files in ./auto-generated/ folder"
+      - name: Push changes  # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true

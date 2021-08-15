@@ -1,4 +1,4 @@
-const config = require('../store/config.json');
+const config = require('../../store/config.json');
 const {fileExists, validURL, exists} = require("./test_utils");
 
 const categoryNames = new Set(config.categories.map(c => c.name));

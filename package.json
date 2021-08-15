@@ -2,13 +2,15 @@
   "name": "g-extensionstore",
   "version": "0.1.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "auto-generate": "node scripts/auto-generators/main.js"
   },
   "devDependencies": {
     "image-size": "^1.0.0",
     "image-type": "^4.1.0",
     "is-image": "^3.0.0",
     "jest": "^27.0.6",
+    "mkdirp": "^1.0.4",
     "moment": "^2.29.1",
     "read-chunk": "^4.0.0"
   }

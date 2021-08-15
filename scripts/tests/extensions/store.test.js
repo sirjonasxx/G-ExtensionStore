@@ -1,13 +1,12 @@
 const imageType = require('image-type');
 const sizeOf = require('image-size')
 const { readdirSync, readFileSync } = require('fs');
-const extensions = require('../store/extensions.json');
-const { fileExists } = require('./test_utils');
+const { fileExists, extensionConfigs} = require('../test_utils');
 const fs = require("fs");
 
-
+const extensions = extensionConfigs();
 const configuredExtensions = new Set(extensions.map(extension => extension.title));
-const potentialFiles = new Set(["screenshot.png", "icon.png", "extension.zip"]);
+const potentialFiles = new Set(["screenshot.png", "extension.json", "icon.png", "extension.zip"]);
 
 
 readdirSync('./store/extensions/', { withFileTypes: true }).forEach((extension) => {
@@ -50,6 +49,12 @@ readdirSync('./store/extensions/', { withFileTypes: true }).forEach((extension) 
             expect(dim.width).toEqual(40);
             expect(dim.height).toEqual(40);
         }
+    });
+
+    it('has an extensions.json file', () => {
+        const path = `./store/extensions/${extension.name}/extension.json`;
+        expect(fileExists(path)).toBe(true);
+
     });
 
     it('does not have other files', () => {

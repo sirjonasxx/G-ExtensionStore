@@ -1,14 +1,15 @@
-const extensions = require('../store/extensions.json');
-const config = require('../store/config.json');
+const extension_configTest = require('../../../store/config.json');
 const fs = require('fs');
 const moment = require("moment");
-const { exists, validURL, isVersion } = require('./test_utils');
+const { exists, validURL, isVersion, extensionConfigs} = require('../test_utils');
+const {readdirSync} = require("fs");
 
+const extensions = extensionConfigs();
 const countryCodes = new Set([".com.br", ".de", ".nl", ".es", ".fi", ".fr", ".it", ".com.tr", ".com"]);
 const OSes = new Set(["Linux", "Windows", "Mac"]);
 const clients = new Set(["Unity", "Flash"]);
-const allCategories = new Set(config.categories.map(c => c.name));
-const frameworks = new Map(config.frameworks.map((f) => [f.name, {... f, languages: new Set(f.languages)}]));
+const allCategories = new Set(extension_configTest.categories.map(c => c.name));
+const frameworks = new Map(extension_configTest.frameworks.map((f) => [f.name, {... f, languages: new Set(f.languages)}]));
 
 
 
@@ -19,7 +20,7 @@ it('has unique extension titles', () => {
 
 for(const e of extensions) {
 
-    describe('extension config syntax & validity', () => {
+    describe('extension extension_configTest syntax & validity', () => {
         it('has a valid title', () => {
             expect(typeof e.title).toBe("string");
             expect(e.title.match("^[^ _.]+$") !== null).toBe(true);
@@ -110,13 +111,6 @@ for(const e of extensions) {
             const submission = moment(e.submissionDate, "DD-MM-YYYY hh:mm:ss");
             expect(update >= submission).toBe(true);
         });
-    });
-
-    it('exists in store', () => {
-        // validity of store stuff happens in store.test.js, only check existence here
-
-        expect(fs.existsSync(`./store/extensions/${e.title}/`)).toBe(true);
-        expect(fs.statSync(`./store/extensions/${e.title}/`).isDirectory()).toBe(true);
     });
 
 }
