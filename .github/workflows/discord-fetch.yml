@@ -1,0 +1,38 @@
+on:
+  schedule:
+    - cron: '0 1-23 * * *'
+
+jobs:
+  discord-fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - run: npm install
+
+      - name: fetch extension ratings from discord
+        run: npm run discord:fetch
+        env:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: re-generate auto-generated folder
+        run: npm run auto-generate
+
+      - run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com" &&
+          git config --local user.name "github-actions[bot]" &&
+          git add ./auto-generated/* ./store/ratings.json &&
+          OUTPUT=$(git commit -m "Generate ratings & update ./auto-generated/ folder" | tail -1) &&
+          echo "::set-output name=OUTPUT::$OUTPUT"
+
+      - name: Push changes  # push the output folder to your repo
+        if: steps.main.outputs.OUTPUT != "no changes added to commit"
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true

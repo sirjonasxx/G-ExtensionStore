@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "test": "jest",
-    "auto-generate": "node scripts/auto-generators/main.js"
+    "auto-generate": "node scripts/auto-generators/main.js",
+    "discord:fetch": "node scripts/discord/synchronize-reactions.js",
+    "discord:publish": "node scripts/discord/release-new-extensions.js"
   },
   "devDependencies": {
     "image-size": "^1.0.0",

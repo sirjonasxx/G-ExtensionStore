@@ -3,7 +3,7 @@ name: Tests
 on:
   push:
     branches:
-      - repo/*
+      - *
 
 jobs:
   test:

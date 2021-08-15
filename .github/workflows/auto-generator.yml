@@ -3,11 +3,26 @@ name: Auto-generator
 on:
   push:
     branches:
-      - repo/*
+      - *
     paths:
       - 'store/extensions/**/*.json'
 
 jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - run: npm install
+
+      - run: npm run test
+
   auto-generation:
     needs: test
     runs-on: ubuntu-latest
@@ -27,10 +42,26 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add ./auto-generated/*
-          git commit -m "Auto generate files in ./auto-generated/ folder"
+          git commit -m "Generate files in ./auto-generated/ folder"
       - name: Push changes  # push the output folder to your repo
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
 
+  discord-publish:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - run: npm install
+
+      - run: npm run discord:publish
+        env:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
