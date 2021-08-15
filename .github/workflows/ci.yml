@@ -22,7 +22,9 @@ jobs:
       - run: npm run test
 
   auto-generation:
+    needs: test
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v2
 
