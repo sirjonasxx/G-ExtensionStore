@@ -1,5 +1,5 @@
-const extensions = require('../extensions.json');
-const config = require('../config.json');
+const extensions = require('../store/extensions.json');
+const config = require('../store/config.json');
 const fs = require('fs');
 const moment = require("moment");
 const { exists, validURL, isVersion } = require('./test_utils');
@@ -20,19 +20,25 @@ it('has unique extension titles', () => {
 for(const e of extensions) {
 
     describe('extension config syntax & validity', () => {
-        it('has a title', () => {
+        it('has a valid title', () => {
             expect(typeof e.title).toBe("string");
+            expect(e.title.match("^[^ _.]+$") !== null).toBe(true);
+            expect(e.title.length).toBeGreaterThan(4);
         });
 
         it('has a description', () => {
             expect(typeof e.description).toBe("string");
         });
 
-        it('has a valid author', () => {
-            expect(typeof e.author.name).toBe("string");
-            expect(!exists(e.author.discord) || e.author.discord.match(".*#[0-9]{4}$")).not.toBe(null);
-            expect(!exists(e.author.hotel) || countryCodes.has(e.author.hotel)).toBe(true);
-            expect(!exists(e.author.username) || typeof e.author.username === "string").toBe(true);
+        it('has at least one author', () => {
+            expect(e.authors.length).toBeGreaterThanOrEqual(1);
+        })
+
+        it.each(e.authors)('has a valid author', (author) => {
+            expect(typeof author.name).toBe("string");
+            expect(!exists(author.discord) || author.discord.match(".*#[0-9]{4}$")).not.toBe(null);
+            expect(!exists(author.hotel) || countryCodes.has(author.hotel)).toBe(true);
+            expect(!exists(author.username) || typeof author.username === "string").toBe(true);
         });
 
         it('has a valid version', () => {
@@ -69,9 +75,18 @@ for(const e of extensions) {
         });
 
         it('uses the cookie, port and filename in the command', () => {
-            expect(e.command).toContain("{cookie}");
-            expect(e.command).toContain("{port}");
-            expect(e.command).toContain("{filename}");
+
+            const checkCommand = (command) => {
+                expect(command).toContain("{cookie}");
+                expect(command).toContain("{port}");
+                expect(command).toContain("{filename}");
+            }
+
+            checkCommand(e.commands.default);
+            [... OSes].map(OS => OS.toLowerCase())
+                .filter(OS => exists(e.commands[OS]))
+                .forEach(OS => checkCommand(e.commands[OS]));
+
         });
 
         it('has valid compatibilities', () => {
@@ -87,7 +102,7 @@ for(const e of extensions) {
             expect(submission < moment().add(1, 'days')).toBe(true);
         });
 
-        it('has valid submission date', () => {
+        it('has valid update date', () => {
             const update = moment(e.updateDate, "DD-MM-YYYY hh:mm:ss");
             expect(update.isValid()).toBe(true);
             expect(update < moment().add(1, 'days')).toBe(true);
@@ -100,7 +115,8 @@ for(const e of extensions) {
     it('exists in store', () => {
         // validity of store stuff happens in store.test.js, only check existence here
 
-        expect(fs.existsSync(`./store/${e.title}/`)).toBe(true);
+        expect(fs.existsSync(`./store/extensions/${e.title}/`)).toBe(true);
+        expect(fs.statSync(`./store/extensions/${e.title}/`).isDirectory()).toBe(true);
     });
 
 }

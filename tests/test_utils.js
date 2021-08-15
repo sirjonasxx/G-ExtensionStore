@@ -1,3 +1,4 @@
+const fs = require("fs");
 const exists = (x) => x !== null && x !== undefined;
 
 const validURL = (str) => { // https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
@@ -12,8 +13,20 @@ const validURL = (str) => { // https://stackoverflow.com/questions/5717093/check
 
 const isVersion = (str) => str.match("^([0-9]+\.)*[0-9]+$") != null && str.match("[1-9]") != null;
 
+const fileExists = (path) => {
+    try
+    {
+        return fs.statSync(path).isFile();
+    }
+    catch (err)
+    {
+        return false;
+    }
+};
+
 module.exports = {
     exists,
     validURL,
-    isVersion
+    isVersion,
+    fileExists
 }

@@ -22,7 +22,7 @@ In contrast to what the name suggests, all extensions are free
     * It must pass a `cookie` and `filename` (which can also be a folder name) to G-Earth on initialization *(CLI arguments)*
     * It must use the `port` *(CLI argument)* to connect with G-Earth
 * The process of the extension must end when the socket with G-Earth is closed
-* The framework must be included in `config.json` -> `frameworks`
+* The framework must be included in `store/config.json` -> `frameworks`
 
 ## Submitting an extension
 
@@ -30,12 +30,12 @@ In contrast to what the name suggests, all extensions are free
 
 You need to follow these steps:
 1. Fork the base branch of this repository. The base branch will always correspond to the latest G-Earth version.
-2. In the `store/` folder, add a new folder named with the title of your extension
+2. In the `store/extensions/` folder, add a new folder named with the title of your extension
 3. The folder you just created can contain 3 files: `extension.zip` *(required)*, `logo.png` & `screenshot.png`.
     1. `extension.zip` contains all files required to execute the extension
     2. `logo.png` is an optional 32x32 image for the extension store
     3. `screenshot.png` is an optional screenshot for the extension store
-4. In the root folder of this repository, edit `extensions.json` and add a json object containing information of your extension to the list. Its contents are described in the next section.
+4. In the `store/` folder of this repository, edit `extensions.json` and add a json object containing information of your extension to the list. Its contents are described in the next section.
 8. Open a Pull Request into this github repository with your newly added extension
 
 
@@ -45,12 +45,14 @@ The object containing your extension information must look like this *(fields th
 {
     "title": "G-Extension",
     "description": "Description of the extension.\n\nGives your *infinite coins* and much more...",
-    "author": {
-      "name": "sirjonasxx",
-      "discord": "(optional) sirjonasxx#2633",
-      "hotel": "(optional) .nl",
-      "username": "(optional) sirjonasxx-VII"
-    },
+    "authors": [
+      {
+        "name": "sirjonasxx",
+        "discord": "(optional) sirjonasxx#2633",
+        "hotel": "(optional) .nl",
+        "username": "(optional) sirjonasxx-VII"
+      }
+    ],
     "version": "0.1.0",
     "categories": ["Building", "Trading", "Others"],
     
@@ -65,7 +67,10 @@ The object containing your extension information must look like this *(fields th
     },
 
     "language": "Java",
-    "command": "java -jar G-Extension.jar -c {cookie} -p {port} -f {filename}",
+    "commands": {
+      "default": "java -jar GClick.jar -c {cookie} -p {port} -f {filename}",
+      "linux": "(optional) <some OS-specific command...>"
+    },
     
     "compatibility": {
         "systems": ["Linux", "Windows", "Mac"],
@@ -86,7 +91,7 @@ Most fields are self explaining, but some require extra attention:
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
 * `framework.name` must be available in `config.json` -> `frameworks`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
 * `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
-* `command` is the command to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}` and must work in all operating systems in `compatibility.OSes`
+* `commands` contains the commands to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}`. The command is under `commands.default` but you can also add platform-specific commands
 
 *Note: it's possible not all of the fields will be used, but they may be used in future G-Earth versions*
 
@@ -95,7 +100,7 @@ Most fields are self explaining, but some require extra attention:
 
 Create a new version of the extension and follow the steps from "Submitting an extension" again, do not forget to update `extensions.json` with the new version.
 
-It is also possible to update an extension without setting a new version, for example when updating the description or screenshot. As soon as you have any changes in `extension.json`, or if the `command` value in `extension.json` changes, you need to set a new version.
+It is also possible to update an extension without setting a new version, for example when updating the description or screenshot. As soon as you have any changes in `extension.zip`, or if the `commands` value in `extensions.json` changes, you need to set a new version.
 
 
 ## Other information
@@ -105,5 +110,4 @@ It is also possible to update an extension without setting a new version, for ex
 * In future versions of G-Earth (not directly), you will have to enable `Experimental mode` in the `Extra` tab to install extensions in the old way. This will come with a warning! This means the G-ExtensionStore will be the main way of installing and publishing extensions
 
 #### Todo
-* Github workflow to verify correctness of submissions
 * Create a tool to create the submission
