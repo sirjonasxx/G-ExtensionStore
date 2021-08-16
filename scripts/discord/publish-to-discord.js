@@ -3,9 +3,7 @@ const {Intents, MessageEmbed} = require("discord.js");
 const {extensionConfigs, fileExists} = require("../tests/test_utils");
 const compareVersions = require('compare-versions');
 
-const newReleasesChannelId = '876589495586275388';
-const updatedChannelId = '876589495586275388'; // same channel for now at least
-const gearthDiscord = '744927320871010404';
+const {serverInfo} = require("./serverInfo");
 
 
 const allExtensions = extensionConfigs();
@@ -60,9 +58,6 @@ const embedExtension = (ext) => {
 
 const writeCache = () => {
     const dir = __dirname + '/../../.auto-generated/discord';
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir);
-    }
     fs.writeFileSync(
         `${dir}/cache.json`,
         JSON.stringify(discordCache, null, 2)
@@ -96,9 +91,9 @@ const bumpChannels = async() => {
 
     client.on('ready', async () => {
 
-        const releasesChannel = await client.channels.fetch(newReleasesChannelId);
-        const updatedChannel = await client.channels.fetch(updatedChannelId);
-        const guild = await client.guilds.fetch(gearthDiscord);
+        const releasesChannel = await client.channels.fetch(serverInfo.releasesChannelId);
+        const updatedChannel = await client.channels.fetch(serverInfo.updatedChannelId);
+        const guild = await client.guilds.fetch(serverInfo.guildId);
         const members = await guild.members.fetch({cache : false});
 
 
@@ -115,19 +110,23 @@ const bumpChannels = async() => {
                 embeds: [embed]
             });
 
-            const messageId = message.data.id;
+            const messageId = message.id;
             discordCache.push({
                 title: ext.title,
                 version: ext.version,
                 _object: ext,
                 discordMessages: [{
-                    channelId: newReleasesChannelId,
+                    channelId: serverInfo.releasesChannelId,
+                    guildId: serverInfo.guildId,
                     messageId: messageId,
-                    extVersion: ext.version
+                    extVersion: ext.version,
+                    type: "publish"
                 }],
                 latestEmbed: Date.now()
             });
         }
+
+        writeCache();
 
         for(const ext of updatedExtensions) {
             const embed = embedExtension(ext);
@@ -137,20 +136,23 @@ const bumpChannels = async() => {
             const oldVersion = cachedNameToVersion.get(ext.title);
             const content = authorStr + ` updated \`${ext.title}\` from version \`${oldVersion}\` to \`${ext.version}\`!`;
 
-            const showEmbed = false; // do something to decide this... perhaps if enough time has passed since the previous time it was shown
+            const cacheExt = discordCache.find(obj => obj.title === ext.title);
+
+            const showEmbed = cacheExt.latestEmbed < Date.now() - 1000 * 60 * 60 * 24 * 3;
 
             let message;
-            if (showEmbed) message = await releasesChannel.send({content: content, embeds: [embed]});
-            else message = await releasesChannel.send({content: content});
+            if (showEmbed) message = await updatedChannel.send({content: content, embeds: [embed]});
+            else message = await updatedChannel.send({content: content});
 
-            const messageId = message.data.id;
-            const cacheExt = discordCache.find(obj => obj.title === ext.title);
+            const messageId = message.id;
             cacheExt.version = ext.version;
             cacheExt._object = ext;
             cacheExt.discordMessages.push({
-                channelId: updatedChannelId,
+                channelId: serverInfo.updatedChannelId,
+                guildId: serverInfo.guildId,
                 messageId: messageId,
-                extVersion: ext.version
+                extVersion: ext.version,
+                type: "update"
             });
             if (showEmbed) {
                 cacheExt.latestEmbed = Date.now();
