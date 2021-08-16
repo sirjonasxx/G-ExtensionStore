@@ -103,12 +103,13 @@ const bumpChannels = async() => {
 
             const authorStr = author === null ? ext.authors[0].name : author.toString();
             const content = authorStr + " just released a new extension, get it now in the extension store!\n" +
-                "Make sure to leave a :thumbsup: if you like it!";
+                "Make sure to leave a 👍 if you like it!";
 
             const message = await releasesChannel.send({
                 content: content,
                 embeds: [embed]
             });
+            await message.react("👍");
 
             const messageId = message.id;
             discordCache.push({
@@ -143,6 +144,7 @@ const bumpChannels = async() => {
             let message;
             if (showEmbed) message = await updatedChannel.send({content: content, embeds: [embed]});
             else message = await updatedChannel.send({content: content});
+            await message.react("👍");
 
             const messageId = message.id;
             cacheExt.version = ext.version;
