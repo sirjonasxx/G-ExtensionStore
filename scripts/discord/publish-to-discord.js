@@ -4,11 +4,11 @@ const {extensionConfigs, fileExists} = require("../tests/test_utils");
 const compareVersions = require('compare-versions');
 
 const {serverInfo} = require("./serverInfo");
+const fs = require("fs");
 
 
 const allExtensions = extensionConfigs();
 const discordCache = require(__dirname + "/../../.auto-generated/discord/cache.json");
-const fs = require("fs");
 const cachedNameToVersion = new Map(discordCache.map(ext => [ext.title, ext.version]));
 
 const newExtensions = allExtensions.filter((ext) => !cachedNameToVersion.has(ext.title));
@@ -121,7 +121,10 @@ const bumpChannels = async() => {
                     guildId: serverInfo.guildId,
                     messageId: messageId,
                     extVersion: ext.version,
-                    type: "publish"
+                    type: "publish",
+                    timestamp: Date.now(),
+                    locked: false,
+                    score: 0
                 }],
                 latestEmbed: Date.now()
             });
@@ -154,7 +157,10 @@ const bumpChannels = async() => {
                 guildId: serverInfo.guildId,
                 messageId: messageId,
                 extVersion: ext.version,
-                type: "update"
+                type: "update",
+                timestamp: Date.now(),
+                locked: false,
+                score: 0
             });
             if (showEmbed) {
                 cacheExt.latestEmbed = Date.now();
