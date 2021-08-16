@@ -1,3 +1,10 @@
 [
-
+  {
+    "extension": "G-BuildTools",
+    "rating": 30
+  },
+  {
+    "extension": "G-Click",
+    "rating": 50
+  }
 ]

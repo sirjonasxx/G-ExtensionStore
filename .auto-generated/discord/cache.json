@@ -49,7 +49,8 @@
         "guildId": "744927320871010404",
         "messageId": "876813568018894868",
         "extVersion": "1.1.1",
-        "type": "publish"
+        "type": "publish",
+        "score": 20
       }
     ],
     "latestEmbed": 1629119045199
@@ -103,7 +104,8 @@
         "guildId": "744927320871010404",
         "messageId": "876813568698355733",
         "extVersion": "0.1",
-        "type": "publish"
+        "type": "publish",
+        "score": 40
       }
     ],
     "latestEmbed": 1629119046037
