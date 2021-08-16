@@ -4,7 +4,7 @@ on:
 
 jobs:
   discord-fetch:
-    if: github.repository == ‘sirjonasxx/G-ExtensionStore’
+    if: github.repository == 'sirjonasxx/G-ExtensionStore'
     runs-on: ubuntu-latest
 
     steps:
