@@ -44,7 +44,7 @@ The object containing your extension information must look like this *(fields th
 ```json
 {
     "title": "G-Extension",
-    "description": "Description of the extension.\n\nGives your *infinite coins* and much more...",
+    "description": "Description of the extension.\n\nGives you *infinite coins* and much more...",
     "authors": [
       {
         "name": "sirjonasxx",
@@ -82,7 +82,7 @@ The object containing your extension information must look like this *(fields th
     "isOutdated": false
 }
 ```
-Most fields are self explaining, but some require extra attention:
+Most fields are self-explanatory, but some require extra attention:
 * `title` must be unique across G-ExtensionStore. Since it will also be a directory name, it can only contain characters that are valid directory names. Also don't include spaces, dots and underscores in the title.
 * `description` can be very long, and a limited form of styling can be applied to it
 * `version` can only contain dots and numbers
