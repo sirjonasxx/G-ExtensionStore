@@ -90,13 +90,31 @@ const bumpChannels = async() => {
         const members = await guild.members.fetch({cache : false});
 
 
-        for(const newExtension of newExtensions) {
-            const embed = releaseEmbed(newExtension);
-            const author = await getAuthorAsGuildMember(newExtension, members);
+        for(const ext of newExtensions) {
+            const embed = releaseEmbed(ext);
+            const author = await getAuthorAsGuildMember(ext, members);
 
-            const content = `${author === null ? newExtension.authors[0].name : author.toString()}` +
-                " just released a new extension in the extension store!\n" +
-                "Make sure to leave a :thumbsup: if you like this extension!";
+            const authorStr = author === null ? ext.authors[0].name : author.toString();
+
+            const content = authorStr + " just released a new extension, get it now in the extension store!\n" +
+                "Make sure to leave a :thumbsup: if you like it!";
+
+            const response = await releasesChannel.send({
+                content: content,
+                embeds: [embed]
+            });
+        }
+
+        for(const ext of updatedExtensions) {
+            const embed = releaseEmbed(ext);
+            const author = await getAuthorAsGuildMember(ext, members);
+
+            const authorStr = author === null ? ext.authors[0].name : author.toString();
+
+            const oldVersion = cachedNameToVersion.get(ext.title);
+
+            const content = authorStr + ` just updated \`${ext.title}\` from \`${oldVersion}\` to \`${ext.version}\`, ` +
+                "get it now in the extension store!\n";
 
             const response = await releasesChannel.send({
                 content: content,

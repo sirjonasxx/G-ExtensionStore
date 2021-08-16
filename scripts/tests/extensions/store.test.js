@@ -31,10 +31,10 @@ readdirSync('./store/extensions/', { withFileTypes: true }).forEach((extension) 
             const imgType = imageType(buffer);
             expect(imgType.ext).toBe('png');
             const dim = sizeOf(path);
-            expect(dim.width).toBeLessThanOrEqual(800);
-            expect(dim.height).toBeLessThanOrEqual(600);
-            expect(dim.width).toBeGreaterThanOrEqual(300);
-            expect(dim.height).toBeGreaterThanOrEqual(200);
+            expect(dim.width).toBeLessThanOrEqual(960);
+            expect(dim.height).toBeLessThanOrEqual(720);
+            expect(dim.width).toBeGreaterThanOrEqual(128);
+            expect(dim.height).toBeGreaterThanOrEqual(128);
         }
     });
 
