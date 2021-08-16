@@ -4,7 +4,7 @@ const {extensionConfigs, fileExists} = require("../tests/test_utils");
 const compareVersions = require('compare-versions');
 
 const newReleasesChannelId = '876589495586275388';
-const updatedChannelId = '876603027644116992';
+const updatedChannelId = '876589495586275388'; // same channel for now at least
 const gearthDiscord = '744927320871010404';
 
 
@@ -95,7 +95,6 @@ const bumpChannels = async() => {
             const author = await getAuthorAsGuildMember(ext, members);
 
             const authorStr = author === null ? ext.authors[0].name : author.toString();
-
             const content = authorStr + " just released a new extension, get it now in the extension store!\n" +
                 "Make sure to leave a :thumbsup: if you like it!";
 
@@ -110,16 +109,16 @@ const bumpChannels = async() => {
             const author = await getAuthorAsGuildMember(ext, members);
 
             const authorStr = author === null ? ext.authors[0].name : author.toString();
-
             const oldVersion = cachedNameToVersion.get(ext.title);
+            const content = authorStr + ` updated \`${ext.title}\` from version \`${oldVersion}\` to \`${ext.version}\`!`;
 
-            const content = authorStr + ` just updated \`${ext.title}\` from \`${oldVersion}\` to \`${ext.version}\`, ` +
-                "get it now in the extension store!\n";
+            const showEmbed = false; // do something to decide this... perhaps if enough time has passed since the previous time it was shown
 
-            const response = await releasesChannel.send({
-                content: content,
-                embeds: [embed]
-            });
+            let response;
+            if (showEmbed) response = await releasesChannel.send({content: content, embeds: [embed]});
+            else response = await releasesChannel.send({content: content});
+
+
         }
 
         client.destroy();
