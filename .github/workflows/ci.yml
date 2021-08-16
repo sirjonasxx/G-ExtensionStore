@@ -37,6 +37,10 @@ jobs:
 
       - run: npm run auto-generate
 
+      - run: npm run discord:publish
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+
       - run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -48,21 +52,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-
-  discord-publish:
-    if: github.repository == 'sirjonasxx/G-ExtensionStore'
-    needs: test
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16.6.1
-
-      - run: npm install
-
-      - run: npm run discord:publish
-        env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}

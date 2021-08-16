@@ -14,7 +14,7 @@ const frameworks = new Map(extension_configTest.frameworks.map((f) => [f.name, {
 
 
 it('has unique extension titles', () => {
-    const allNames = new Set(extensions.map(extension => extension.title));
+    const allNames = new Set(extensions.map(extension => extension.title.toLowerCase()));
     expect(allNames.size === extensions.length);
 })
 
@@ -110,6 +110,10 @@ for(const e of extensions) {
 
             const submission = moment(e.submissionDate, "DD-MM-YYYY hh:mm:ss");
             expect(update >= submission).toBe(true);
+        });
+
+        it('has the isOutdated field', () => {
+            expect(typeof e.isOutdated).toBe("boolean");
         });
     });
 
