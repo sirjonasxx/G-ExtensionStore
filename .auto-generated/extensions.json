@@ -7,7 +7,9 @@
         "name": "sirjonasxx",
         "discord": "sirjonasxx#2633",
         "hotel": ".nl",
-        "username": "sirjonasxx-VII"
+        "username": "sirjonasxx-VII",
+        "extensionsCount": 2,
+        "reputation": 60
       }
     ],
     "version": "1.1.1",
@@ -38,7 +40,8 @@
     },
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "15-08-2021 01:16:35",
-    "isOutdated": false
+    "isOutdated": false,
+    "rating": 30
   },
   {
     "title": "G-Click",
@@ -48,7 +51,9 @@
         "name": "sirjonasxx",
         "discord": "sirjonasxx#2633",
         "hotel": ".nl",
-        "username": "sirjonasxx-VII"
+        "username": "sirjonasxx-VII",
+        "extensionsCount": 2,
+        "reputation": 60
       }
     ],
     "version": "0.1",
@@ -78,6 +83,7 @@
     },
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "15-08-2021 22:21:35",
-    "isOutdated": false
+    "isOutdated": false,
+    "rating": 30
   }
 ]
