@@ -37,7 +37,8 @@
       ]
     },
     "submissionDate": "15-08-2021 01:16:35",
-    "updateDate": "15-08-2021 01:16:35"
+    "updateDate": "15-08-2021 01:16:35",
+    "isOutdated": false
   },
   {
     "title": "G-Click",
@@ -76,6 +77,7 @@
       ]
     },
     "submissionDate": "15-08-2021 01:16:35",
-    "updateDate": "15-08-2021 22:21:35"
+    "updateDate": "15-08-2021 22:21:35",
+    "isOutdated": false
   }
 ]
