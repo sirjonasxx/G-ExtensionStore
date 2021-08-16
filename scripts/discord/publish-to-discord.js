@@ -10,6 +10,7 @@ const gearthDiscord = '744927320871010404';
 
 const allExtensions = extensionConfigs();
 const discordCache = require(__dirname + "/../../.auto-generated/discord/cache.json");
+const fs = require("fs");
 const cachedNameToVersion = new Map(discordCache.map(ext => [ext.title, ext.version]));
 
 const newExtensions = allExtensions.filter((ext) => !cachedNameToVersion.has(ext.title));
@@ -17,7 +18,7 @@ const updatedExtensions = allExtensions.filter((ext) =>
     cachedNameToVersion.has(ext.title) && compareVersions(ext.version, cachedNameToVersion.get(ext.title)) > 0);
 
 
-const releaseEmbed = (ext) => {
+const embedExtension = (ext) => {
     const embed = new MessageEmbed();
 
     embed
@@ -57,6 +58,17 @@ const releaseEmbed = (ext) => {
     return embed;
 }
 
+const writeCache = () => {
+    const dir = __dirname + '/../../.auto-generated/discord';
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir);
+    }
+    fs.writeFileSync(
+        `${dir}/cache.json`,
+        JSON.stringify(discordCache, null, 2)
+    );
+}
+
 const getAuthorAsGuildMember = async (ext, members) => {
 
     for(const author of ext.authors) {
@@ -91,21 +103,34 @@ const bumpChannels = async() => {
 
 
         for(const ext of newExtensions) {
-            const embed = releaseEmbed(ext);
+            const embed = embedExtension(ext);
             const author = await getAuthorAsGuildMember(ext, members);
 
             const authorStr = author === null ? ext.authors[0].name : author.toString();
             const content = authorStr + " just released a new extension, get it now in the extension store!\n" +
                 "Make sure to leave a :thumbsup: if you like it!";
 
-            const response = await releasesChannel.send({
+            const message = await releasesChannel.send({
                 content: content,
                 embeds: [embed]
+            });
+
+            const messageId = message.data.id;
+            discordCache.push({
+                title: ext.title,
+                version: ext.version,
+                _object: ext,
+                discordMessages: [{
+                    channelId: newReleasesChannelId,
+                    messageId: messageId,
+                    extVersion: ext.version
+                }],
+                latestEmbed: Date.now()
             });
         }
 
         for(const ext of updatedExtensions) {
-            const embed = releaseEmbed(ext);
+            const embed = embedExtension(ext);
             const author = await getAuthorAsGuildMember(ext, members);
 
             const authorStr = author === null ? ext.authors[0].name : author.toString();
@@ -114,12 +139,25 @@ const bumpChannels = async() => {
 
             const showEmbed = false; // do something to decide this... perhaps if enough time has passed since the previous time it was shown
 
-            let response;
-            if (showEmbed) response = await releasesChannel.send({content: content, embeds: [embed]});
-            else response = await releasesChannel.send({content: content});
+            let message;
+            if (showEmbed) message = await releasesChannel.send({content: content, embeds: [embed]});
+            else message = await releasesChannel.send({content: content});
 
-
+            const messageId = message.data.id;
+            const cacheExt = discordCache.find(obj => obj.title === ext.title);
+            cacheExt.version = ext.version;
+            cacheExt._object = ext;
+            cacheExt.discordMessages.push({
+                channelId: updatedChannelId,
+                messageId: messageId,
+                extVersion: ext.version
+            });
+            if (showEmbed) {
+                cacheExt.latestEmbed = Date.now();
+            }
         }
+
+        writeCache();
 
         client.destroy();
     });
