@@ -4,7 +4,7 @@ const {extensionConfigs} = require("../tests/test_utils");
 const getDirName = require('path').dirname;
 
 const generateExtensionsList = () => {
-    const dir = __dirname + '/../../auto-generated';
+    const dir = __dirname + '/../../.auto-generated';
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir);
     }

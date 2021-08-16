@@ -4,6 +4,7 @@ on:
 
 jobs:
   discord-fetch:
+    if: github.repository == ‘sirjonasxx/G-ExtensionStore’
     runs-on: ubuntu-latest
 
     steps:
@@ -20,14 +21,14 @@ jobs:
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
-      - name: re-generate auto-generated folder
+      - name: re-generate .auto-generated folder
         run: npm run auto-generate
 
       - run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ./auto-generated/* ./store/ratings.json
-          git commit -m "Generate ratings & update ./auto-generated/ folder" || true
+          git add ./.auto-generated/* ./store/ratings.json
+          git commit -m "Generate ratings & update .auto-generated/ folder" || true
 
       - name: Push changes  # push the output folder to your repo
         uses: ad-m/github-push-action@master

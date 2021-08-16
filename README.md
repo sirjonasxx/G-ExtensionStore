@@ -22,7 +22,7 @@ In contrast to what the name suggests, all extensions are free
     * It must pass a `cookie` and `filename` (which can also be a folder name) to G-Earth on initialization *(CLI arguments)*
     * It must use the `port` *(CLI argument)* to connect with G-Earth
 * The process of the extension must end when the socket with G-Earth is closed
-* The framework must be included in `store/extension_configTest.json` -> `frameworks`
+* The framework must be included in `store/config.json` -> `frameworks`
 
 ## Submitting an extension
 
@@ -31,12 +31,12 @@ In contrast to what the name suggests, all extensions are free
 You need to follow these steps:
 1. Fork the base branch of this repository. The base branch will always correspond to the latest G-Earth version.
 2. In the `store/extensions/` folder, add a new folder named with the title of your extension
-3. The folder you just created can contain 3 files: `extension.zip` *(required)*, `logo.png` & `screenshot.png`.
-    1. `extension.zip` contains all files required to execute the extension
-    2. `logo.png` is an optional 40x40 image for the extension store
-    3. `screenshot.png` is an optional screenshot for the extension store
-4. In the `store/` folder of this repository, edit `extensions.json` and add a json object containing information of your extension to the list. Its contents are described in the next section.
-8. Open a Pull Request into this github repository with your newly added extension
+3. The folder you just created can contain 4 files:
+    1. `extension.zip` contains all files required to execute the extension *(required)*
+    2. `extension.json` contains information of your extension. Its contents are described in the next section. *(required)*
+    3. `logo.png` is an optional 40x40 image for the extension store 
+    4. `screenshot.png` is an optional screenshot for the extension store
+5. Open a Pull Request into this github repository with your newly added extension
 
 
 #### Extension information
@@ -78,14 +78,15 @@ The object containing your extension information must look like this *(fields th
     },
 
     "submissionDate": "15-08-2021 01:16:35",
-    "updateDate": "15-08-2021 01:16:35"
+    "updateDate": "15-08-2021 01:16:35",
+    "isOutdated": false
 }
 ```
 Most fields are self explaining, but some require extra attention:
 * `title` must be unique across G-ExtensionStore. Since it will also be a directory name, it can only contain characters that are valid directory names. Also don't include spaces, dots and underscores in the title.
 * `description` can be very long, and a limited form of styling can be applied to it
 * `version` can only contain dots and numbers
-* `categories` describe the type of extension, at least 1 type is required. List of possible categories is yet to be decided but "Others" will be one of them.
+* `categories` describe the type of extension, at least 1 type is required. List of possible categories are to be found in `store/config.json`.
 * `source` is a required field, it must link to your git repository
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty or null
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
@@ -98,10 +99,14 @@ Most fields are self explaining, but some require extra attention:
 
 ## Updating an extension
 
-Create a new version of the extension and follow the steps from "Submitting an extension" again, do not forget to update `extensions.json` with the new version.
+Create a new version of the extension and follow the steps from "Submitting an extension" again, do not forget to update `extension.json` with the new version.
 
-It is also possible to update an extension without setting a new version, for example when updating the description or screenshot. As soon as you have any changes in `extension.zip`, or if the `commands` value in `extensions.json` changes, you need to set a new version.
+It is also possible to update an extension without setting a new version, for example when updating the description or screenshot. As soon as you have any changes in `extension.zip`, or if the `commands` value in `extension.json` changes, you need to set a new version.
 
+
+## Removing an extension
+
+Open a PR and set `isOutdated` to `true` in the json file.
 
 ## Other information
 
