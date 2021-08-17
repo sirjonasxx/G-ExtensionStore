@@ -7,7 +7,6 @@ In contrast to what the name suggests, all extensions are free
 ## Requirements
 **Extension requirements**:
 
-* Your extension must be open-source
 * The extension must be compatible with the latest version of G-Earth (at time of submitting)
 * The files you submit may not be obfuscated
 * Your extension may not contain hardcoded header IDs
@@ -15,6 +14,7 @@ In contrast to what the name suggests, all extensions are free
    * You're also allowed to use techniques to detect headers IDs at runtime
    * Only if the above 2 are not applicable, you can require the user to enter header IDs manually
 * Your extension is not malicious & is not aimed at disturbing the game
+* Your extension must be open-source _(exceptions are possible, contact me for that)_
 
 **Framework requirements**:
 * The framework you use must implement the (latest) G-Earth extension API correctly
