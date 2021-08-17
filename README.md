@@ -84,7 +84,7 @@ The object containing your extension information must look like this *(fields th
 ```
 Most fields are self-explanatory, but some require extra attention:
 * `title` must be unique across G-ExtensionStore. Since it will also be a directory name, it can only contain characters that are valid directory names. Also don't include spaces, dots and underscores in the title.
-* `description` can be very long, and a limited form of styling can be applied to it
+* `description` can be a short description but may also be long, and a limited form of styling can be applied to it
 * `version` can only contain dots and numbers
 * `categories` describe the type of extension, at least 1 type is required. List of possible categories are to be found in `store/config.json`.
 * `source` is a required field, it must link to your git repository
