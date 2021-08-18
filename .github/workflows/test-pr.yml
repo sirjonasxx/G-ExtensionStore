@@ -1,4 +1,4 @@
-name: ci
+name: test PRs
 
 on:
   pull_request:
