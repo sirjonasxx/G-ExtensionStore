@@ -1,5 +1,5 @@
 # G-ExtensionStore
-test
+test2
 Github repository containing the extension archive used in the G-ExtensionStore extension (built-in in G-Earth 1.5+). It synchronizes with discord to publish extensions and collect feedback.
 
 In contrast to what the name suggests, all extensions are free
