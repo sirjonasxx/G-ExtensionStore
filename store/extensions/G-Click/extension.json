@@ -22,7 +22,7 @@
 
   "language": "Java",
   "commands": {
-    "default": "java -jar GClick.jar -c {cookie} -p {port} -f {filename}"
+    "default": ["java", "-jar", "GClick.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
 
   "compatibility": {

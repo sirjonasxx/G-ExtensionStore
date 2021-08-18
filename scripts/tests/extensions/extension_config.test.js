@@ -83,10 +83,10 @@ for(const e of extensions) {
                 expect(command).toContain("{filename}");
             }
 
-            checkCommand(e.commands.default);
+            checkCommand(e.commands.default.join(" "));
             [... OSes].map(OS => OS.toLowerCase())
                 .filter(OS => exists(e.commands[OS]))
-                .forEach(OS => checkCommand(e.commands[OS]));
+                .forEach(OS => checkCommand(e.commands[OS].join(" ")));
 
         });
 

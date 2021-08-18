@@ -68,8 +68,8 @@ The object containing your extension information must look like this *(fields th
 
     "language": "Java",
     "commands": {
-      "default": "java -jar GClick.jar -c {cookie} -p {port} -f {filename}",
-      "linux": "(optional) <some OS-specific command...>"
+      "default": ["java", "-jar", "GClick.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+      "linux": ["(optional) <some OS-specific command...>"]
     },
     
     "compatibility": {
