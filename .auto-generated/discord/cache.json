@@ -245,5 +245,73 @@
       }
     ],
     "latestEmbed": 1629415743590
+  },
+  {
+    "title": "Packet Info Explorer",
+    "version": "0.1",
+    "_object": {
+      "title": "Packet Info Explorer",
+      "description": "G-Earth utility extension for exploring packet information",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/sirjonasxx/PacketInfoExplorer",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "packetinfoexplorer.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash",
+          "Unity"
+        ]
+      },
+      "submissionDate": "20-08-2021 01:39:00",
+      "updateDate": "20-08-2021 01:39:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "876589495586275388",
+        "guildId": "744927320871010404",
+        "messageId": "878065042841567232",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629417420065,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629417420065
   }
 ]
