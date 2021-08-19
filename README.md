@@ -48,9 +48,10 @@ The object containing your extension information must look like this *(fields th
     "authors": [
       {
         "name": "sirjonasxx",
-        "discord": "(optional) sirjonasxx#2633",
         "hotel": "(optional) .nl",
-        "username": "(optional) sirjonasxx-VII"
+        "username": "(optional) sirjonasxx-VII",
+        "discord": "(optional) sirjonasxx#2633",
+        "twitter": "(optional) sirjonasxx"
       }
     ],
     "version": "0.1.0",

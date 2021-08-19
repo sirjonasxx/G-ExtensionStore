@@ -40,6 +40,7 @@ for(const e of extensions) {
             expect(!exists(author.discord) || author.discord.match(".*#[0-9]{4}$")).not.toBe(null);
             expect(!exists(author.hotel) || countryCodes.has(author.hotel)).toBe(true);
             expect(!exists(author.username) || typeof author.username === "string").toBe(true);
+            expect(!exists(author.twitter) || typeof author.twitter === "string").toBe(true);
         });
 
         it('has a valid version', () => {

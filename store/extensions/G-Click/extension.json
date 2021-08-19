@@ -3,9 +3,10 @@
   "description": "Advanced click recharger",
   "authors": [{
     "name": "sirjonasxx",
-    "discord": "sirjonasxx#2633",
     "hotel": ".nl",
-    "username": "sirjonasxx-VII"
+    "username": "sirjonasxx-VII",
+    "discord": "sirjonasxx#2633",
+    "twitter": "sirjonasxx"
   }],
   "version": "0.1",
   "categories": ["Games"],
