@@ -3,27 +3,27 @@
     {
       "name": "Fun",
       "description": "Enjoy scripting!",
-      "icon": "placeholder.png"
+      "icon": "fun2.png"
     },
     {
       "name": "Games",
       "description": "Bring gaming on Habbo to a new level",
-      "icon": "placeholder.png"
+      "icon": "games2.png"
     },
     {
       "name": "Trading",
       "description": "Improve your Habbo trading experience and efficiency",
-      "icon": "placeholder.png"
+      "icon": "trading2.png"
     },
     {
       "name": "Building",
       "description": "Tools that improve building",
-      "icon": "placeholder.png"
+      "icon": "builder1.png"
     },
     {
       "name": "Moderation",
       "description": "Useful tools for managing rooms in Habbo",
-      "icon": "placeholder.png"
+      "icon": "moderation3.png"
     },
     {
       "name": "Usability",
@@ -33,12 +33,12 @@
     {
       "name": "G-Earth utilities",
       "description": "Extensions that provide extra tools for scripting",
-      "icon": "placeholder.png"
+      "icon": "utilities2.png"
     },
     {
       "name": "Others",
       "description": "For all extensions with features that don't quite fit the other categories",
-      "icon": "placeholder.png"
+      "icon": "others3.png"
     }
   ],
   "frameworks": [
