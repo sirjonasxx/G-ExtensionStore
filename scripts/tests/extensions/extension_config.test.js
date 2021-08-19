@@ -23,7 +23,7 @@ for(const e of extensions) {
     describe('extension extension_configTest syntax & validity', () => {
         it('has a valid title', () => {
             expect(typeof e.title).toBe("string");
-            expect(e.title.match("^[^ _.]+$") !== null).toBe(true);
+            expect(e.title.match("^[^_.]+$") !== null).toBe(true);
             expect(e.title.length).toBeGreaterThan(4);
         });
 
