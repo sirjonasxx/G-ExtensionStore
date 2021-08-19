@@ -1,0 +1,37 @@
+{
+  "title": "G-Click",
+  "description": "G-Earth utility extension for blocking & replacing packets",
+  "authors": [{
+    "name": "sirjonasxx",
+    "hotel": ".nl",
+    "username": "sirjonasxx-VII",
+    "discord": "sirjonasxx#2633",
+    "twitter": "sirjonasxx"
+  }],
+  "version": "0.2",
+  "categories": ["G-Earth Utilities"],
+
+  "source": "https://github.com/sirjonasxx/G-Manipulate",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.4.1"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "gmanipulate.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "20-08-2021 01:09:00",
+  "updateDate": "20-08-2021 01:09:00",
+
+  "isOutdated": false
+}
