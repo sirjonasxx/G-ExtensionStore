@@ -27,11 +27,11 @@
     },
     {
       "name": "Usability",
-      "description": "General features that improve the Habbo user experience / features that are currently missing in Habbo",
+      "description": "General features that are missing in Habbo / improve the user experience",
       "icon": "usability1.png"
     },
     {
-      "name": "G-Earth utilities",
+      "name": "G-Earth Utilities",
       "description": "Extensions that provide extra tools for scripting",
       "icon": "utilities2.png"
     },
