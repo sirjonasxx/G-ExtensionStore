@@ -11,7 +11,11 @@ it.each(readdirSync('./assets/icons/'))('is a valid icon', (icon) => {
     const imgType = imageType(buffer);
     expect(imgType.ext).toBe('png');
     const dim = sizeOf(path);
-    expect(dim.width).toEqual(40);
-    expect(dim.height).toEqual(40);
+
+    // will be rescaled to 40x40
+    expect(dim.width).toBeLessThanOrEqual(80);
+    expect(dim.height).toBeLessThanOrEqual(80);
+    expect(dim.width).toBeGreaterThanOrEqual(20);
+    expect(dim.height).toBeGreaterThanOrEqual(20);
 
 });
