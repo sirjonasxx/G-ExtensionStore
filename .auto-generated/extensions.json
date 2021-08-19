@@ -105,5 +105,56 @@
     "updateDate": "15-08-2021 22:21:35",
     "isOutdated": false,
     "rating": 30
+  },
+  {
+    "title": "G-Plants",
+    "description": "G-Earth plant treatment module.",
+    "authors": [
+      {
+        "name": "at15four2020",
+        "extensionsCount": 1,
+        "reputation": 30
+      }
+    ],
+    "version": "1.2.0",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/at15four2020/GPlants",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.4.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "GPlants.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Unity",
+        "Flash"
+      ]
+    },
+    "submissionDate": "17-08-2021 18:28:15",
+    "updateDate": "17-08-2021 18:28:15",
+    "isOutdated": false,
+    "rating": 30
   }
 ]

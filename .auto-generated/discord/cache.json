@@ -113,5 +113,70 @@
       }
     ],
     "latestEmbed": 1629130523115
+  },
+  {
+    "title": "G-Plants",
+    "version": "1.2.0",
+    "_object": {
+      "title": "G-Plants",
+      "description": "G-Earth plant treatment module.",
+      "authors": [
+        {
+          "name": "at15four2020"
+        }
+      ],
+      "version": "1.2.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/at15four2020/GPlants",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GPlants.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "17-08-2021 18:28:15",
+      "updateDate": "17-08-2021 18:28:15",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "876589495586275388",
+        "guildId": "744927320871010404",
+        "messageId": "877902989099155467",
+        "extVersion": "1.2.0",
+        "type": "publish",
+        "timestamp": 1629378783555,
+        "locked": false,
+        "score": 20
+      }
+    ],
+    "latestEmbed": 1629378783555
   }
 ]
