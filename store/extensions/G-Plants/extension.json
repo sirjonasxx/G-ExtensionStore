@@ -3,26 +3,25 @@
     "description": "G-Earth plant treatment module.",
     "authors": [
       {
-        "name": "at15four2020",
+        "name": "at15four2020"
       }
     ],
     "version": "1.2.0",
     "categories": ["Usability", "Others"],
-    
+
     "source": "https://github.com/at15four2020/GPlants",
-    
+
     "stable": true,
-    
     "framework": {
       "name": "Native",
-      "version": "1.5"
+      "version": "1.4.1"
     },
 
     "language": "Java",
     "commands": {
-      "default": "java -jar GClick.jar -c {cookie} -p {port} -f {filename}"
+      "default": ["java", "-jar", "GPlants.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
-    
+
     "compatibility": {
         "systems": ["Linux", "Windows", "Mac"],
         "clients": ["Unity", "Flash"]
