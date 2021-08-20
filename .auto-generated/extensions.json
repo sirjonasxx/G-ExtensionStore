@@ -224,7 +224,7 @@
         "name": "Moch",
         "discord": "Moch#2477",
         "extensionsCount": 1,
-        "reputation": 30
+        "reputation": 70
       }
     ],
     "version": "1.0.0.0",
@@ -263,7 +263,7 @@
     "submissionDate": "19-08-2021 11:59:00",
     "updateDate": "19-08-2021 11:59:00",
     "isOutdated": true,
-    "rating": 30
+    "rating": 70
   },
   {
     "title": "G-Forum",
@@ -380,7 +380,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 330
+        "reputation": 350
       }
     ],
     "version": "1.2.0",
@@ -431,7 +431,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 330
+        "reputation": 350
       },
       {
         "name": "Alynva",
@@ -440,7 +440,7 @@
         "discord": "Alynva#1713",
         "twitter": "alynva",
         "extensionsCount": 1,
-        "reputation": 180
+        "reputation": 200
       }
     ],
     "version": "1.4.0",
@@ -481,7 +481,7 @@
     "submissionDate": "20-08-2021 15:18:00",
     "updateDate": "20-08-2021 15:18:01",
     "isOutdated": false,
-    "rating": 180
+    "rating": 200
   },
   {
     "title": "Giftpeeker",
