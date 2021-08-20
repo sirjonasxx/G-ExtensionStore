@@ -33,7 +33,7 @@ const embedExtension = (ext) => {
     }
 
     if (ext.authors.length > 1) {
-        embed.addField("Authors", ext.authors.join(", "));
+        embed.addField("Authors", ext.authors.map(a => a.name).join(", "));
     }
     if (ext.readme != null) {
         embed.addField("Readme", `[Click here!](${ext.readme})`, true);
