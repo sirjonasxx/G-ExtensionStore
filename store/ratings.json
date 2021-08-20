@@ -1,14 +1,26 @@
 [
   {
     "extension": "G-BuildTools",
-    "rating": 30
+    "rating": 50
   },
   {
     "extension": "G-Click",
+    "rating": 50
+  },
+  {
+    "extension": "G-Forum",
+    "rating": 30
+  },
+  {
+    "extension": "G-Manipulate",
     "rating": 30
   },
   {
     "extension": "G-Plants",
-    "rating": 30
+    "rating": 50
+  },
+  {
+    "extension": "Packet Info Explorer",
+    "rating": 50
   }
 ]
