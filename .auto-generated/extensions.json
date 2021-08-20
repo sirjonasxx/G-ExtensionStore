@@ -380,7 +380,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 350
+        "reputation": 370
       }
     ],
     "version": "1.2.0",
@@ -431,7 +431,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 350
+        "reputation": 370
       },
       {
         "name": "Alynva",
@@ -440,7 +440,7 @@
         "discord": "Alynva#1713",
         "twitter": "alynva",
         "extensionsCount": 1,
-        "reputation": 200
+        "reputation": 220
       }
     ],
     "version": "1.4.0",
@@ -481,7 +481,7 @@
     "submissionDate": "20-08-2021 15:18:00",
     "updateDate": "20-08-2021 15:18:01",
     "isOutdated": false,
-    "rating": 200
+    "rating": 220
   },
   {
     "title": "Giftpeeker",
