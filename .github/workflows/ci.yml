@@ -41,6 +41,13 @@ jobs:
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
+      - run: npm run twitter:publish
+        env:
+          TWITTER_APPKEY: ${{ secrets.TWITTER_APPKEY }}
+          TWITTER_APPSECRET: ${{ secrets.TWITTER_APPSECRET }}
+          TWITTER_ACCESSTOKEN: ${{ secrets.TWITTER_ACCESSTOKEN }}
+          TWITTER_ACCESSSECRET: ${{ secrets.TWITTER_ACCESSSECRET }}
+
       - run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"

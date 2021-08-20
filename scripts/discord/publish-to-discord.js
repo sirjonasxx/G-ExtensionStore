@@ -174,5 +174,5 @@ const bumpChannels = async() => {
 }
 
 if (newExtensions.length > 0 || updatedExtensions.length > 0) {
-    bumpChannels();
+    bumpChannels().then(r => console.log("finished"));
 }
