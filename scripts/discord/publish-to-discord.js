@@ -110,6 +110,13 @@ const bumpChannels = async() => {
                 embeds: [embed]
             });
             await message.react("👍");
+            try {
+                await releasesChannel.messages.crosspost(message);
+            }
+            catch (e) {
+                console.log(e);
+            }
+
 
             const messageId = message.id;
             discordCache.push({
@@ -148,6 +155,13 @@ const bumpChannels = async() => {
             if (showEmbed) message = await updatedChannel.send({content: content, embeds: [embed]});
             else message = await updatedChannel.send({content: content});
             await message.react("👍");
+            try {
+                await updatedChannel.messages.crosspost(message);
+            }
+            catch (e) {
+                console.log(e);
+            }
+
 
             const messageId = message.id;
             cacheExt.version = ext.version;
