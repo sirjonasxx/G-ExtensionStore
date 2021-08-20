@@ -10,7 +10,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 0
+        "reputation": 450
       }
     ],
     "version": "0.1",
@@ -51,7 +51,7 @@
     "submissionDate": "20-08-2021 14:23:13",
     "updateDate": "20-08-2021 14:23:13",
     "isOutdated": false,
-    "rating": 0
+    "rating": 90
   },
   {
     "title": "Custom walk",
@@ -64,7 +64,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 0
+        "reputation": 450
       }
     ],
     "version": "0.1",
@@ -105,7 +105,7 @@
     "submissionDate": "20-08-2021 14:32:18",
     "updateDate": "20-08-2021 14:32:18",
     "isOutdated": false,
-    "rating": 0
+    "rating": 90
   },
   {
     "title": "G-BuildTools",
@@ -386,7 +386,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 0
+        "reputation": 450
       }
     ],
     "version": "0.2",
@@ -427,7 +427,7 @@
     "submissionDate": "20-08-2021 12:33:23",
     "updateDate": "20-08-2021 12:33:23",
     "isOutdated": false,
-    "rating": 0
+    "rating": 90
   },
   {
     "title": "Outfit Randomizer",
@@ -440,7 +440,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 0
+        "reputation": 450
       }
     ],
     "version": "0.1",
@@ -481,7 +481,7 @@
     "submissionDate": "20-08-2021 15:17:23",
     "updateDate": "20-08-2021 15:17:23",
     "isOutdated": false,
-    "rating": 0
+    "rating": 90
   },
   {
     "title": "Packet Info Explorer",
@@ -548,7 +548,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 0
+        "reputation": 450
       }
     ],
     "version": "0.2",
@@ -590,6 +590,6 @@
     "submissionDate": "20-08-2021 14:16:41",
     "updateDate": "20-08-2021 14:16:41",
     "isOutdated": false,
-    "rating": 0
+    "rating": 90
   }
 ]

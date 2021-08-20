@@ -22,5 +22,25 @@
   {
     "extension": "Packet Info Explorer",
     "rating": 190
+  },
+  {
+    "extension": "Clientside Effect",
+    "rating": 90
+  },
+  {
+    "extension": "Custom walk",
+    "rating": 90
+  },
+  {
+    "extension": "Giftpeeker",
+    "rating": 90
+  },
+  {
+    "extension": "Outfit Randomizer",
+    "rating": 90
+  },
+  {
+    "extension": "Roomcropper",
+    "rating": 90
   }
 ]
