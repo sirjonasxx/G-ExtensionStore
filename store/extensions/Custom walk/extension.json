@@ -1,0 +1,38 @@
+{
+  "title": "Custom walk",
+  "description": "Continuously sit, perform actions and use signs while walking",
+  "authors": [{
+    "name": "WiredSpast",
+    "hotel": ".nl",
+    "username": "WiredSpast",
+    "discord": "Jonasss#6660",
+    "twitter": "WiredSpast"
+  }],
+  "version": "0.1",
+  "categories": ["Fun"],
+
+  "source": "https://github.com/WiredSpast/CustomWalk",
+  "readme": "https://github.com/WiredSpast/CustomWalk/blob/master/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.4.1"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "GiftPeeker.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "20-08-2021 14:32:18",
+  "updateDate": "20-08-2021 14:32:18",
+
+  "isOutdated": false
+}
