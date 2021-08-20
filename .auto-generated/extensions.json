@@ -10,7 +10,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 410
+        "reputation": 510
       }
     ],
     "version": "1.1.1",
@@ -52,7 +52,7 @@
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "15-08-2021 01:16:35",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "G-Click",
@@ -65,7 +65,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 410
+        "reputation": 510
       }
     ],
     "version": "0.1",
@@ -106,7 +106,7 @@
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "15-08-2021 22:21:35",
     "isOutdated": false,
-    "rating": 110
+    "rating": 130
   },
   {
     "title": "G-Forum",
@@ -119,7 +119,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 410
+        "reputation": 510
       }
     ],
     "version": "1.0",
@@ -160,7 +160,7 @@
     "submissionDate": "20-08-2021 02:05:00",
     "updateDate": "20-08-2021 02:05:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "G-Manipulate",
@@ -173,7 +173,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 410
+        "reputation": 510
       }
     ],
     "version": "0.2",
@@ -214,7 +214,7 @@
     "submissionDate": "20-08-2021 01:09:00",
     "updateDate": "20-08-2021 01:09:00",
     "isOutdated": false,
-    "rating": 50
+    "rating": 70
   },
   {
     "title": "G-Plants",
@@ -223,7 +223,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 1,
-        "reputation": 70
+        "reputation": 90
       }
     ],
     "version": "1.2.0",
@@ -265,7 +265,7 @@
     "submissionDate": "17-08-2021 18:28:15",
     "updateDate": "17-08-2021 18:28:15",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "Packet Info Explorer",
@@ -278,7 +278,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 410
+        "reputation": 510
       }
     ],
     "version": "0.1",
@@ -319,6 +319,6 @@
     "submissionDate": "20-08-2021 01:39:00",
     "updateDate": "20-08-2021 01:39:00",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   }
 ]
