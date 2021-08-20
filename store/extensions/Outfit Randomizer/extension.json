@@ -1,0 +1,38 @@
+{
+  "title": "Outfit Randomizer",
+  "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
+  "authors": [{
+    "name": "WiredSpast",
+    "hotel": ".nl",
+    "username": "WiredSpast",
+    "discord": "Jonasss#6660",
+    "twitter": "WiredSpast"
+  }],
+  "version": "0.2",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/WiredSpast/OutfitRandomizer",
+  "readme": "https://github.com/WiredSpast/OutfitRandomizer/blob/master/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.4.1"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "GiftPeeker.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "20-08-2021 15:17:23",
+  "updateDate": "20-08-2021 15:17:23",
+
+  "isOutdated": false
+}
