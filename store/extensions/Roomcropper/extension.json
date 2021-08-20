@@ -1,0 +1,38 @@
+{
+  "title": "Roomcropper",
+  "description": "Crop room to occupied tiles\n\nSay \":crop\" to instantly crop the floorplan (requires BC)\nSay \":crop export\" to copy the cropped floorplan to your clipboard",
+  "authors": [{
+    "name": "WiredSpast",
+    "hotel": ".nl",
+    "username": "WiredSpast",
+    "discord": "Jonasss#6660",
+    "twitter": "WiredSpast"
+  }],
+  "version": "0.2",
+  "categories": ["Building", "Usability"],
+
+  "source": "https://github.com/WiredSpast/RoomCropper",
+  "readme": "https://github.com/WiredSpast/RoomCropper/blob/master/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.4.1"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "RoomCropper.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "20-08-2021 14:16:41",
+  "updateDate": "20-08-2021 14:16:41",
+
+  "isOutdated": false
+}
