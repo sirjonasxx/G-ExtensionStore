@@ -217,6 +217,53 @@
     "rating": 190
   },
   {
+    "title": "G-CryptoChat",
+    "description": "Enjoy fast and fun encrypted conversation",
+    "authors": [
+      {
+        "name": "Moch",
+        "discord": "Moch#2477",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "1.0.0.0",
+    "categories": [
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/erikmoch/CryptoChat",
+    "stable": true,
+    "framework": {
+      "name": "Geode",
+      "version": "1.0.0"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "CryptoChat.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "19-08-2021 11:59:00",
+    "updateDate": "19-08-2021 11:59:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "G-Forum",
     "description": "Legacy forum browser for Unity",
     "authors": [
