@@ -29,7 +29,7 @@
       "default": [
         "java",
         "-jar",
-        "GiftPeeker.jar",
+        "ClientsideEffect.jar",
         "-c",
         "{cookie}",
         "-p",
