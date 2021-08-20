@@ -404,5 +404,346 @@
       }
     ],
     "latestEmbed": 1629424697108
+  },
+  {
+    "title": "Clientside Effect",
+    "version": "0.1",
+    "_object": {
+      "title": "Clientside Effect",
+      "description": "Apply any existing effect clientside",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/WiredSpast/ClientsideEffect",
+      "readme": "https://github.com/WiredSpast/ClientsideEffect/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GiftPeeker.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 14:23:13",
+      "updateDate": "20-08-2021 14:23:13",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "878292028692258896",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629471537885,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629471537885
+  },
+  {
+    "title": "Custom walk",
+    "version": "0.1",
+    "_object": {
+      "title": "Custom walk",
+      "description": "Continuously sit, perform actions and use signs while walking",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/WiredSpast/CustomWalk",
+      "readme": "https://github.com/WiredSpast/CustomWalk/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "CustomWalk.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 14:32:18",
+      "updateDate": "20-08-2021 14:32:18",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "878292030470631434",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629471538750,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629471538750
+  },
+  {
+    "title": "Giftpeeker",
+    "version": "0.2",
+    "_object": {
+      "title": "Giftpeeker",
+      "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/GiftPeeker",
+      "readme": "https://github.com/WiredSpast/GiftPeeker/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GiftPeeker.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 12:33:23",
+      "updateDate": "20-08-2021 12:33:23",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "878292034237116416",
+        "extVersion": "0.2",
+        "type": "publish",
+        "timestamp": 1629471539130,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629471539130
+  },
+  {
+    "title": "Outfit Randomizer",
+    "version": "0.1",
+    "_object": {
+      "title": "Outfit Randomizer",
+      "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/WiredSpast/OutfitRandomizer",
+      "readme": "https://github.com/WiredSpast/OutfitRandomizer/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "OutfitRandomizer.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 15:17:23",
+      "updateDate": "20-08-2021 15:17:23",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "878292035721891900",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629471540039,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629471540039
+  },
+  {
+    "title": "Roomcropper",
+    "version": "0.2",
+    "_object": {
+      "title": "Roomcropper",
+      "description": "Crop room to occupied tiles\n\nSay \":crop\" to instantly crop the floorplan (requires BC)\nSay \":crop export\" to copy the cropped floorplan to your clipboard",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "Building",
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/RoomCropper",
+      "readme": "https://github.com/WiredSpast/RoomCropper/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RoomCropper.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 14:16:41",
+      "updateDate": "20-08-2021 14:16:41",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "878292039148666921",
+        "extVersion": "0.2",
+        "type": "publish",
+        "timestamp": 1629471540858,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629471540858
   }
 ]

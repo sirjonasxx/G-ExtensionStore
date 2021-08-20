@@ -1,5 +1,113 @@
 [
   {
+    "title": "Clientside Effect",
+    "description": "Apply any existing effect clientside",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "Jonasss#6660",
+        "twitter": "WiredSpast",
+        "extensionsCount": 5,
+        "reputation": 0
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/WiredSpast/ClientsideEffect",
+    "readme": "https://github.com/WiredSpast/ClientsideEffect/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.4.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "GiftPeeker.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "20-08-2021 14:23:13",
+    "updateDate": "20-08-2021 14:23:13",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
+    "title": "Custom walk",
+    "description": "Continuously sit, perform actions and use signs while walking",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "Jonasss#6660",
+        "twitter": "WiredSpast",
+        "extensionsCount": 5,
+        "reputation": 0
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/WiredSpast/CustomWalk",
+    "readme": "https://github.com/WiredSpast/CustomWalk/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.4.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "CustomWalk.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "20-08-2021 14:32:18",
+    "updateDate": "20-08-2021 14:32:18",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "G-BuildTools",
     "description": "A habbo builders' dream",
     "authors": [
@@ -268,6 +376,114 @@
     "rating": 150
   },
   {
+    "title": "Giftpeeker",
+    "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "Jonasss#6660",
+        "twitter": "WiredSpast",
+        "extensionsCount": 5,
+        "reputation": 0
+      }
+    ],
+    "version": "0.2",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/WiredSpast/GiftPeeker",
+    "readme": "https://github.com/WiredSpast/GiftPeeker/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.4.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "GiftPeeker.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "20-08-2021 12:33:23",
+    "updateDate": "20-08-2021 12:33:23",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
+    "title": "Outfit Randomizer",
+    "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "Jonasss#6660",
+        "twitter": "WiredSpast",
+        "extensionsCount": 5,
+        "reputation": 0
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/WiredSpast/OutfitRandomizer",
+    "readme": "https://github.com/WiredSpast/OutfitRandomizer/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.4.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "OutfitRandomizer.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "20-08-2021 15:17:23",
+    "updateDate": "20-08-2021 15:17:23",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Packet Info Explorer",
     "description": "G-Earth utility extension for exploring packet information",
     "authors": [
@@ -320,5 +536,60 @@
     "updateDate": "20-08-2021 01:39:00",
     "isOutdated": false,
     "rating": 190
+  },
+  {
+    "title": "Roomcropper",
+    "description": "Crop room to occupied tiles\n\nSay \":crop\" to instantly crop the floorplan (requires BC)\nSay \":crop export\" to copy the cropped floorplan to your clipboard",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "Jonasss#6660",
+        "twitter": "WiredSpast",
+        "extensionsCount": 5,
+        "reputation": 0
+      }
+    ],
+    "version": "0.2",
+    "categories": [
+      "Building",
+      "Usability"
+    ],
+    "source": "https://github.com/WiredSpast/RoomCropper",
+    "readme": "https://github.com/WiredSpast/RoomCropper/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.4.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "RoomCropper.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "20-08-2021 14:16:41",
+    "updateDate": "20-08-2021 14:16:41",
+    "isOutdated": false,
+    "rating": 0
   }
 ]
