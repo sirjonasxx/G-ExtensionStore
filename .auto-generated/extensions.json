@@ -233,7 +233,7 @@
       "Others"
     ],
     "source": "https://github.com/erikmoch/CryptoChat",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "Geode",
       "version": "1.0.0"
@@ -241,6 +241,8 @@
     "language": "C#",
     "commands": {
       "default": [
+        "cmd",
+        "/c",
         "CryptoChat.exe",
         "-c",
         "{cookie}",
