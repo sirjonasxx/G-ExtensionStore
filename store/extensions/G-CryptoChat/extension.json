@@ -4,7 +4,7 @@
   "authors": [
     {
       "name": "Moch",
-      "discord": "Moch#2477"	
+      "discord": "Moch#2477"
     }
   ],
   "version": "1.0.0.0",
@@ -12,7 +12,7 @@
 
   "source": "https://github.com/erikmoch/CryptoChat",
 
-  "stable": true,
+  "stable": false,
   "framework": {
     "name": "Geode",
     "version": "1.0.0"
@@ -20,7 +20,7 @@
 
   "language": "C#",
   "commands": {
-    "default": [ "CryptoChat.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}" ]
+    "default": [ "cmd", "/c", "CryptoChat.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}" ]
   },
 
   "compatibility": {
