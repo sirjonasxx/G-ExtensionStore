@@ -10,7 +10,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 450
+        "reputation": 610
       }
     ],
     "version": "0.1",
@@ -51,7 +51,7 @@
     "submissionDate": "20-08-2021 14:23:13",
     "updateDate": "20-08-2021 14:23:13",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "Custom walk",
@@ -64,7 +64,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 450
+        "reputation": 610
       }
     ],
     "version": "0.1",
@@ -105,7 +105,7 @@
     "submissionDate": "20-08-2021 14:32:18",
     "updateDate": "20-08-2021 14:32:18",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "G-BuildTools",
@@ -224,7 +224,7 @@
         "name": "Moch",
         "discord": "Moch#2477",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 30
       }
     ],
     "version": "1.0.0.0",
@@ -261,7 +261,7 @@
     "submissionDate": "19-08-2021 11:59:00",
     "updateDate": "19-08-2021 11:59:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 30
   },
   {
     "title": "G-Forum",
@@ -378,7 +378,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 150
+        "reputation": 330
       }
     ],
     "version": "1.2.0",
@@ -429,7 +429,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 150
+        "reputation": 330
       },
       {
         "name": "Alynva",
@@ -438,7 +438,7 @@
         "discord": "Alynva#1713",
         "twitter": "alynva",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 180
       }
     ],
     "version": "1.4.0",
@@ -479,7 +479,7 @@
     "submissionDate": "20-08-2021 15:18:00",
     "updateDate": "20-08-2021 15:18:01",
     "isOutdated": false,
-    "rating": 0
+    "rating": 180
   },
   {
     "title": "Giftpeeker",
@@ -492,7 +492,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 450
+        "reputation": 610
       }
     ],
     "version": "0.2",
@@ -533,7 +533,7 @@
     "submissionDate": "20-08-2021 12:33:23",
     "updateDate": "20-08-2021 12:33:23",
     "isOutdated": false,
-    "rating": 90
+    "rating": 130
   },
   {
     "title": "Outfit Randomizer",
@@ -546,7 +546,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 450
+        "reputation": 610
       }
     ],
     "version": "0.1",
@@ -587,7 +587,7 @@
     "submissionDate": "20-08-2021 15:17:23",
     "updateDate": "20-08-2021 15:17:23",
     "isOutdated": false,
-    "rating": 90
+    "rating": 130
   },
   {
     "title": "Packet Info Explorer",
@@ -654,7 +654,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 450
+        "reputation": 610
       }
     ],
     "version": "0.2",
@@ -696,6 +696,6 @@
     "submissionDate": "20-08-2021 14:16:41",
     "updateDate": "20-08-2021 14:16:41",
     "isOutdated": false,
-    "rating": 90
+    "rating": 130
   }
 ]

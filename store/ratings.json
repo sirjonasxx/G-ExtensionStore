@@ -25,22 +25,30 @@
   },
   {
     "extension": "Clientside Effect",
-    "rating": 90
+    "rating": 110
   },
   {
     "extension": "Custom walk",
-    "rating": 90
+    "rating": 110
   },
   {
     "extension": "Giftpeeker",
-    "rating": 90
+    "rating": 130
   },
   {
     "extension": "Outfit Randomizer",
-    "rating": 90
+    "rating": 130
   },
   {
     "extension": "Roomcropper",
-    "rating": 90
+    "rating": 130
+  },
+  {
+    "extension": "G-Programmer",
+    "rating": 180
+  },
+  {
+    "extension": "G-CryptoChat",
+    "rating": 30
   }
 ]
