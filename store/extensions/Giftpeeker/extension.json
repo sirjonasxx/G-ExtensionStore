@@ -1,6 +1,6 @@
 {
   "title": "Giftpeeker",
-  "description": "See what's inside gifts",
+  "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
   "authors": [{
     "name": "WiredSpast",
     "hotel": ".nl",
