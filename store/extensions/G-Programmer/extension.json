@@ -1,0 +1,41 @@
+{
+  "title": "G-Programmer",
+  "description": "Simple extension to let you create scripts with JavaScript.",
+  "authors": [
+    {
+      "name": "at15four2020"
+    },
+    {
+      "name": "Alynva",
+      "hotel": ".com.br",
+      "username": "alynva",
+      "discord": "Alynva#1713",
+      "twitter": "alynva"
+    }
+  ],
+  "version": "1.4.0",
+  "categories": ["G-Earth Utilities"],
+  
+  "source": "https://github.com/at15four2020/GProgrammer",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "Native",
+    "version": "1.5"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "GProgrammer.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Linux", "Windows", "Mac"],
+      "clients": ["Unity", "Flash"]
+  },
+
+  "submissionDate": "20-08-2021 15:08:00",
+  "updateDate": "03-07-2021 17:05:00",
+  "isOutdated": false
+}
