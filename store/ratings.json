@@ -1,19 +1,19 @@
 [
   {
     "extension": "G-BuildTools",
-    "rating": 130
-  },
-  {
-    "extension": "G-Click",
     "rating": 150
   },
   {
+    "extension": "G-Click",
+    "rating": 170
+  },
+  {
     "extension": "G-Forum",
-    "rating": 110
+    "rating": 130
   },
   {
     "extension": "G-Manipulate",
-    "rating": 110
+    "rating": 130
   },
   {
     "extension": "G-Plants",
