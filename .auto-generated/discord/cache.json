@@ -313,5 +313,73 @@
       }
     ],
     "latestEmbed": 1629417420065
+  },
+  {
+    "title": "G-Forum",
+    "version": "1.0",
+    "_object": {
+      "title": "G-Forum",
+      "description": "Legacy forum browser for Unity",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Forum",
+      "readme": "https://github.com/sirjonasxx/G-Forum/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "gforum.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity"
+        ]
+      },
+      "submissionDate": "20-08-2021 02:05:00",
+      "updateDate": "20-08-2021 02:05:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "876589495586275388",
+        "guildId": "744927320871010404",
+        "messageId": "878067846146572350",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629418088421,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629418088421
   }
 ]
