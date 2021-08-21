@@ -38,23 +38,22 @@ readdirSync('./store/extensions/', { withFileTypes: true }).forEach((extension) 
         }
     });
 
-    it('may have an icon', () => {
+    it('has an icon', () => {
         const path = `./store/extensions/${extension.name}/icon.png`;
-        if (fileExists(path)) {
+        expect(fileExists(path)).toBe(true);
 
-            const buffer = readFileSync(path);
-            const imgType = imageType(buffer);
-            expect(imgType.ext).toBe('png');
-            const dim = sizeOf(path);
-            // expect(dim.width).toEqual(40);
-            // expect(dim.height).toEqual(40);
+        const buffer = readFileSync(path);
+        const imgType = imageType(buffer);
+        expect(imgType.ext).toBe('png');
+        const dim = sizeOf(path);
+        // expect(dim.width).toEqual(40);
+        // expect(dim.height).toEqual(40);
 
-            // will be rescaled to 40x40
-            expect(dim.width).toBeLessThanOrEqual(80);
-            expect(dim.height).toBeLessThanOrEqual(80);
-            expect(dim.width).toBeGreaterThanOrEqual(20);
-            expect(dim.height).toBeGreaterThanOrEqual(20);
-        }
+        // will be rescaled to 40x40
+        expect(dim.width).toBeLessThanOrEqual(80);
+        expect(dim.height).toBeLessThanOrEqual(80);
+        expect(dim.width).toBeGreaterThanOrEqual(20);
+        expect(dim.height).toBeGreaterThanOrEqual(20);
     });
 
     it('has an extensions.json file', () => {
