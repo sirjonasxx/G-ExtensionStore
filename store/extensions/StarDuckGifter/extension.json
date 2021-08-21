@@ -1,5 +1,5 @@
 {
-  "title": "Starduck Gifter",
+  "title": "StarDuckGifter",
   "description": "Give an amount of stardust to selected habbo",
   "authors": [
     {
@@ -24,7 +24,7 @@
 
   "language": "Java",
   "commands": {
-    "default": ["java", "-jar", "GClick.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "StarDuckGifter.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   
   "compatibility": {
