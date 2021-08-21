@@ -73,7 +73,7 @@ const bumpTwitter = async (newExtensions, updatedExtensions) => {
     writeCache();
 
     for (const ext of updatedExtensions) {
-        const oldVersion = cachedNameToVersion(ext.title);
+        const oldVersion = cachedNameToVersion.get(ext.title);
         const actualTweet = await updateExtensionTweet(client, oldVersion, ext);
 
         const cacheObj = twitterCache.find(obj => obj.title === ext.title);
