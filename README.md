@@ -34,7 +34,7 @@ You need to follow these steps:
 3. The folder you just created can contain 4 files:
     1. `extension.zip` contains all files required to execute the extension *(required)*
     2. `extension.json` contains information of your extension. Its contents are described in the next section. *(required)*
-    3. `icon.png` is an optional 40x40 image for the extension store 
+    3. `icon.png` is a 40x40 image for the extension store *(required)*
     4. `screenshot.png` is an optional screenshot for the extension store
 5. Open a Pull Request into this github repository with your newly added extension
 
