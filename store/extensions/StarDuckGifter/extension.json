@@ -6,13 +6,13 @@
       "name": "schweppes0x",
       "hotel": ".nl",
       "username": "-MrTn-",
-      "discord": "schweppes0x"
+      "discord": "Itstonyownss#0683"
     }
   ],
   "version": "1.0",
   "categories": ["Usability", "Trading", "Others"],
   
-  "source": "Uhttps://github.com/schweppes-0x/StarDuckGifter",
+  "source": "https://github.com/schweppes-0x/StarDuckGifter",
 
   
   "stable": true,
@@ -32,7 +32,7 @@
       "clients": ["Unity", "Flash"]
   },
 
-  "submissionDate": "20-08-2021 00:00:00",
-  "updateDate": "20-00-2021 00:00:00",
+  "submissionDate": "21-08-2021 00:00:00",
+  "updateDate": "21-08-2021 00:00:00",
   "isOutdated": false
 }
