@@ -118,7 +118,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 980
       }
     ],
     "version": "1.1.2",
@@ -160,7 +160,7 @@
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "21-08-2021 22:56:35",
     "isOutdated": false,
-    "rating": 210
+    "rating": 220
   },
   {
     "title": "G-Click",
@@ -173,7 +173,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 980
       }
     ],
     "version": "0.1",
@@ -276,7 +276,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 980
       }
     ],
     "version": "1.0",
@@ -330,7 +330,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 980
       }
     ],
     "version": "0.2",
@@ -602,7 +602,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 980
       }
     ],
     "version": "0.1",
@@ -710,7 +710,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 2,
-        "reputation": 0
+        "reputation": 100
       }
     ],
     "version": "1.0",
@@ -753,7 +753,7 @@
     "submissionDate": "21-08-2021 00:00:00",
     "updateDate": "21-08-2021 00:00:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 50
   },
   {
     "title": "TradeBlocker",
@@ -765,7 +765,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 2,
-        "reputation": 0
+        "reputation": 100
       }
     ],
     "version": "1.0",
@@ -808,6 +808,6 @@
     "submissionDate": "20-08-2021 00:00:00",
     "updateDate": "20-08-2021 00:00:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 50
   }
 ]
