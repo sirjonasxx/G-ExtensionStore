@@ -8,7 +8,7 @@
     "discord": "sirjonasxx#2633",
     "twitter": "sirjonasxx"
   }],
-  "version": "1.1.1",
+  "version": "1.1.2",
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/sirjonasxx/G-BuildTools",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "15-08-2021 01:16:35",
-  "updateDate": "15-08-2021 01:16:35",
+  "updateDate": "21-08-2021 22:56:35",
 
   "isOutdated": false
 }
