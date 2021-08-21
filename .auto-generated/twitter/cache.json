@@ -840,5 +840,137 @@
         "score": 0
       }
     ]
+  },
+  {
+    "title": "StarDuckGifter",
+    "version": "1.0",
+    "_object": {
+      "title": "StarDuckGifter",
+      "description": "Give an amount of stardust to selected habbo",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Trading",
+        "Others"
+      ],
+      "source": "https://github.com/schweppes-0x/StarDuckGifter",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "StarDuckGifter.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "21-08-2021 00:00:00",
+      "updateDate": "21-08-2021 00:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1429183331212668934",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629578833956,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "TradeBlocker",
+    "version": "1.0",
+    "_object": {
+      "title": "TradeBlocker",
+      "description": "Stop those annoying trade spammers!",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Trading",
+        "Others"
+      ],
+      "source": "https://github.com/schweppes-0x/TradeBlocker",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "TradeBlocker.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 00:00:00",
+      "updateDate": "20-08-2021 00:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1429183355300556811",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629578839646,
+        "locked": false,
+        "score": 0
+      }
+    ]
   }
 ]
