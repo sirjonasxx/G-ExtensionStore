@@ -32,7 +32,7 @@ readdirSync('./store/extensions/', { withFileTypes: true }).forEach((extension) 
             expect(imgType.ext).toBe('png');
             const dim = sizeOf(path);
             expect(dim.width).toBeLessThanOrEqual(960);
-            expect(dim.height).toBeLessThanOrEqual(720);
+            expect(dim.height).toBeLessThanOrEqual(1200);
             expect(dim.width).toBeGreaterThanOrEqual(128);
             expect(dim.height).toBeGreaterThanOrEqual(128);
         }
