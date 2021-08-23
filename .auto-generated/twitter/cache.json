@@ -205,7 +205,7 @@
   },
   {
     "title": "G-Click",
-    "version": "0.1",
+    "version": "0.2.1",
     "_object": {
       "title": "G-Click",
       "description": "Advanced click recharger & clickthrough extension",
@@ -218,7 +218,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1",
+      "version": "0.2.1",
       "categories": [
         "Games"
       ],
@@ -254,7 +254,7 @@
         ]
       },
       "submissionDate": "15-08-2021 01:16:35",
-      "updateDate": "15-08-2021 22:21:35",
+      "updateDate": "23-08-2021 02:49:35",
       "isOutdated": false
     },
     "tweets": [
@@ -263,6 +263,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1629478266244,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1429607863484354565",
+        "extVersion": "0.2.1",
+        "type": "update",
+        "timestamp": 1629680050254,
         "locked": false,
         "score": 0
       }
