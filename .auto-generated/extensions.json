@@ -10,7 +10,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 790
+        "reputation": 830
       }
     ],
     "version": "0.1",
@@ -51,7 +51,7 @@
     "submissionDate": "20-08-2021 14:23:13",
     "updateDate": "20-08-2021 14:23:13",
     "isOutdated": false,
-    "rating": 170
+    "rating": 190
   },
   {
     "title": "Custom walk",
@@ -64,7 +64,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 790
+        "reputation": 830
       }
     ],
     "version": "0.1",
@@ -118,10 +118,10 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 1000
       }
     ],
-    "version": "1.1.1",
+    "version": "1.1.2",
     "categories": [
       "Building",
       "Usability"
@@ -158,9 +158,9 @@
       ]
     },
     "submissionDate": "15-08-2021 01:16:35",
-    "updateDate": "15-08-2021 01:16:35",
+    "updateDate": "21-08-2021 22:56:35",
     "isOutdated": false,
-    "rating": 210
+    "rating": 240
   },
   {
     "title": "G-Click",
@@ -173,7 +173,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 1000
       }
     ],
     "version": "0.1",
@@ -276,7 +276,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 1000
       }
     ],
     "version": "1.0",
@@ -330,7 +330,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 1000
       }
     ],
     "version": "0.2",
@@ -380,7 +380,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 430
+        "reputation": 450
       }
     ],
     "version": "1.2.0",
@@ -422,7 +422,7 @@
     "submissionDate": "17-08-2021 18:28:15",
     "updateDate": "17-08-2021 18:28:15",
     "isOutdated": false,
-    "rating": 170
+    "rating": 190
   },
   {
     "title": "G-Programmer",
@@ -431,7 +431,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 430
+        "reputation": 450
       },
       {
         "name": "Alynva",
@@ -494,7 +494,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 790
+        "reputation": 830
       }
     ],
     "version": "0.2",
@@ -535,7 +535,7 @@
     "submissionDate": "20-08-2021 12:33:23",
     "updateDate": "20-08-2021 12:33:23",
     "isOutdated": false,
-    "rating": 170
+    "rating": 190
   },
   {
     "title": "Outfit Randomizer",
@@ -548,7 +548,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 790
+        "reputation": 830
       }
     ],
     "version": "0.1",
@@ -602,7 +602,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 5,
-        "reputation": 970
+        "reputation": 1000
       }
     ],
     "version": "0.1",
@@ -656,7 +656,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 790
+        "reputation": 830
       }
     ],
     "version": "0.2",
@@ -710,7 +710,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 2,
-        "reputation": 0
+        "reputation": 140
       }
     ],
     "version": "1.0",
@@ -753,7 +753,7 @@
     "submissionDate": "21-08-2021 00:00:00",
     "updateDate": "21-08-2021 00:00:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 70
   },
   {
     "title": "TradeBlocker",
@@ -765,7 +765,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 2,
-        "reputation": 0
+        "reputation": 140
       }
     ],
     "version": "1.0",
@@ -808,6 +808,6 @@
     "submissionDate": "20-08-2021 00:00:00",
     "updateDate": "20-08-2021 00:00:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 70
   }
 ]
