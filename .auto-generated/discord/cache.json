@@ -1035,5 +1035,73 @@
       }
     ],
     "latestEmbed": 1629578832525
+  },
+  {
+    "title": "MackleEverywhere",
+    "version": "1.0",
+    "_object": {
+      "title": "MackleEverywhere",
+      "description": "With this extension, Mackle will bee everywhere (template extension)",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Earth-template-extensions/tree/master/MackleEverywhere",
+      "readme": "https://github.com/sirjonasxx/G-Earth-template-extensions/blob/master/MackleEverywhere/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "mackleeverywhere.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "23-08-2021 03:56:35",
+      "updateDate": "23-08-2021 03:56:35",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "879183710208032879",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629684131448,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629684131448
   }
 ]
