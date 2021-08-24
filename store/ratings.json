@@ -62,5 +62,13 @@
   {
     "extension": "MackleEverywhere",
     "rating": 150
+  },
+  {
+    "extension": "3 Days Free HC",
+    "rating": 50
+  },
+  {
+    "extension": "RandomRoomVisitor",
+    "rating": 10
   }
 ]
