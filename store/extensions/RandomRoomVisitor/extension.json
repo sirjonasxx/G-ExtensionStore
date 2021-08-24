@@ -24,7 +24,7 @@
 
   "language": "Java",
   "commands": {
-    "default": ["java", "-jar", "StarDuckGifter.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "RandomRoomVisitor.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   
   "compatibility": {
@@ -32,7 +32,7 @@
       "clients": ["Unity", "Flash"]
   },
 
-  "submissionDate": "21-08-2021 00:00:00",
-  "updateDate": "21-08-2021 00:00:00",
+  "submissionDate": "24-08-2021 10:00:00",
+  "updateDate": "24-08-2021 10:00:00",
   "isOutdated": false
 }
