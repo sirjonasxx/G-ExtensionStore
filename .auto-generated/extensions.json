@@ -10,7 +10,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 830
+        "reputation": 1010
       }
     ],
     "version": "0.1",
@@ -51,7 +51,7 @@
     "submissionDate": "20-08-2021 14:23:13",
     "updateDate": "20-08-2021 14:23:13",
     "isOutdated": false,
-    "rating": 190
+    "rating": 230
   },
   {
     "title": "Custom walk",
@@ -64,7 +64,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 830
+        "reputation": 1010
       }
     ],
     "version": "0.1",
@@ -105,7 +105,7 @@
     "submissionDate": "20-08-2021 14:32:18",
     "updateDate": "20-08-2021 14:32:18",
     "isOutdated": false,
-    "rating": 130
+    "rating": 170
   },
   {
     "title": "G-BuildTools",
@@ -117,8 +117,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 5,
-        "reputation": 1010
+        "extensionsCount": 6,
+        "reputation": 1300
       }
     ],
     "version": "1.1.2",
@@ -160,7 +160,7 @@
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "21-08-2021 22:56:35",
     "isOutdated": false,
-    "rating": 240
+    "rating": 280
   },
   {
     "title": "G-Click",
@@ -172,8 +172,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 5,
-        "reputation": 1010
+        "extensionsCount": 6,
+        "reputation": 1300
       }
     ],
     "version": "0.2.1",
@@ -214,7 +214,7 @@
     "submissionDate": "15-08-2021 01:16:35",
     "updateDate": "23-08-2021 02:49:35",
     "isOutdated": false,
-    "rating": 240
+    "rating": 260
   },
   {
     "title": "G-CryptoChat",
@@ -224,7 +224,7 @@
         "name": "Moch",
         "discord": "Moch#2477",
         "extensionsCount": 1,
-        "reputation": 130
+        "reputation": 170
       }
     ],
     "version": "1.0.0.0",
@@ -263,7 +263,7 @@
     "submissionDate": "19-08-2021 11:59:00",
     "updateDate": "19-08-2021 11:59:00",
     "isOutdated": true,
-    "rating": 130
+    "rating": 170
   },
   {
     "title": "G-Forum",
@@ -275,8 +275,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 5,
-        "reputation": 1010
+        "extensionsCount": 6,
+        "reputation": 1300
       }
     ],
     "version": "1.0",
@@ -317,7 +317,7 @@
     "submissionDate": "20-08-2021 02:05:00",
     "updateDate": "20-08-2021 02:05:00",
     "isOutdated": false,
-    "rating": 150
+    "rating": 190
   },
   {
     "title": "G-Manipulate",
@@ -329,8 +329,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 5,
-        "reputation": 1010
+        "extensionsCount": 6,
+        "reputation": 1300
       }
     ],
     "version": "0.2",
@@ -371,7 +371,7 @@
     "submissionDate": "20-08-2021 01:09:00",
     "updateDate": "20-08-2021 01:09:00",
     "isOutdated": false,
-    "rating": 170
+    "rating": 190
   },
   {
     "title": "G-Plants",
@@ -380,7 +380,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 450
+        "reputation": 510
       }
     ],
     "version": "1.2.0",
@@ -422,7 +422,7 @@
     "submissionDate": "17-08-2021 18:28:15",
     "updateDate": "17-08-2021 18:28:15",
     "isOutdated": false,
-    "rating": 190
+    "rating": 230
   },
   {
     "title": "G-Programmer",
@@ -431,7 +431,7 @@
       {
         "name": "at15four2020",
         "extensionsCount": 2,
-        "reputation": 450
+        "reputation": 510
       },
       {
         "name": "Alynva",
@@ -440,7 +440,7 @@
         "discord": "Alynva#1713",
         "twitter": "alynva",
         "extensionsCount": 1,
-        "reputation": 260
+        "reputation": 280
       }
     ],
     "version": "1.4.0",
@@ -481,7 +481,7 @@
     "submissionDate": "20-08-2021 15:18:00",
     "updateDate": "20-08-2021 15:18:01",
     "isOutdated": false,
-    "rating": 260
+    "rating": 280
   },
   {
     "title": "Giftpeeker",
@@ -494,7 +494,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 830
+        "reputation": 1010
       }
     ],
     "version": "0.2",
@@ -535,7 +535,61 @@
     "submissionDate": "20-08-2021 12:33:23",
     "updateDate": "20-08-2021 12:33:23",
     "isOutdated": false,
-    "rating": 190
+    "rating": 230
+  },
+  {
+    "title": "MackleEverywhere",
+    "description": "With this extension, Mackle will bee everywhere (template extension)",
+    "authors": [
+      {
+        "name": "sirjonasxx",
+        "hotel": ".nl",
+        "username": "sirjonasxx-VII",
+        "discord": "sirjonasxx#2633",
+        "twitter": "sirjonasxx",
+        "extensionsCount": 6,
+        "reputation": 1300
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/sirjonasxx/G-Earth-template-extensions/tree/master/MackleEverywhere",
+    "readme": "https://github.com/sirjonasxx/G-Earth-template-extensions/blob/master/MackleEverywhere/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "mackleeverywhere.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "23-08-2021 03:56:35",
+    "updateDate": "23-08-2021 03:56:35",
+    "isOutdated": false,
+    "rating": 150
   },
   {
     "title": "Outfit Randomizer",
@@ -548,7 +602,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 830
+        "reputation": 1010
       }
     ],
     "version": "0.1",
@@ -589,7 +643,7 @@
     "submissionDate": "20-08-2021 15:17:23",
     "updateDate": "20-08-2021 15:17:23",
     "isOutdated": false,
-    "rating": 150
+    "rating": 190
   },
   {
     "title": "Packet Info Explorer",
@@ -601,8 +655,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 5,
-        "reputation": 1010
+        "extensionsCount": 6,
+        "reputation": 1300
       }
     ],
     "version": "0.1",
@@ -643,7 +697,62 @@
     "submissionDate": "20-08-2021 01:39:00",
     "updateDate": "20-08-2021 01:39:00",
     "isOutdated": false,
-    "rating": 210
+    "rating": 230
+  },
+  {
+    "title": "RandomRoomVisitor",
+    "description": "Searches for random rooms throughout the hotel and visits them",
+    "authors": [
+      {
+        "name": "schweppes0x",
+        "hotel": ".nl",
+        "username": "-MrTn-",
+        "discord": "Itstonyownss#0683",
+        "extensionsCount": 3,
+        "reputation": 180
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability",
+      "Trading",
+      "Others"
+    ],
+    "source": "https://github.com/schweppes-0x/RandomRoomVisitor",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "RandomRoomVisitor.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Unity",
+        "Flash"
+      ]
+    },
+    "submissionDate": "24-08-2021 10:00:00",
+    "updateDate": "24-08-2021 10:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Roomcropper",
@@ -656,7 +765,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 5,
-        "reputation": 830
+        "reputation": 1010
       }
     ],
     "version": "0.2",
@@ -698,7 +807,7 @@
     "submissionDate": "20-08-2021 14:16:41",
     "updateDate": "20-08-2021 14:16:41",
     "isOutdated": false,
-    "rating": 170
+    "rating": 190
   },
   {
     "title": "StarDuckGifter",
@@ -709,8 +818,8 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 2,
-        "reputation": 140
+        "extensionsCount": 3,
+        "reputation": 180
       }
     ],
     "version": "1.0",
@@ -753,7 +862,7 @@
     "submissionDate": "21-08-2021 00:00:00",
     "updateDate": "21-08-2021 00:00:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "TradeBlocker",
@@ -764,8 +873,8 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 2,
-        "reputation": 140
+        "extensionsCount": 3,
+        "reputation": 180
       }
     ],
     "version": "1.0",
@@ -808,6 +917,6 @@
     "submissionDate": "20-08-2021 00:00:00",
     "updateDate": "20-08-2021 00:00:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   }
 ]

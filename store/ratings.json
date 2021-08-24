@@ -1,62 +1,66 @@
 [
   {
     "extension": "G-BuildTools",
-    "rating": 240
+    "rating": 280
   },
   {
     "extension": "G-Click",
-    "rating": 240
-  },
-  {
-    "extension": "G-Forum",
-    "rating": 150
-  },
-  {
-    "extension": "G-Manipulate",
-    "rating": 170
-  },
-  {
-    "extension": "G-Plants",
-    "rating": 190
-  },
-  {
-    "extension": "Packet Info Explorer",
-    "rating": 210
-  },
-  {
-    "extension": "Clientside Effect",
-    "rating": 190
-  },
-  {
-    "extension": "Custom walk",
-    "rating": 130
-  },
-  {
-    "extension": "Giftpeeker",
-    "rating": 190
-  },
-  {
-    "extension": "Outfit Randomizer",
-    "rating": 150
-  },
-  {
-    "extension": "Roomcropper",
-    "rating": 170
-  },
-  {
-    "extension": "G-Programmer",
     "rating": 260
   },
   {
+    "extension": "G-Forum",
+    "rating": 190
+  },
+  {
+    "extension": "G-Manipulate",
+    "rating": 190
+  },
+  {
+    "extension": "G-Plants",
+    "rating": 230
+  },
+  {
+    "extension": "Packet Info Explorer",
+    "rating": 230
+  },
+  {
+    "extension": "Clientside Effect",
+    "rating": 230
+  },
+  {
+    "extension": "Custom walk",
+    "rating": 170
+  },
+  {
+    "extension": "Giftpeeker",
+    "rating": 230
+  },
+  {
+    "extension": "Outfit Randomizer",
+    "rating": 190
+  },
+  {
+    "extension": "Roomcropper",
+    "rating": 190
+  },
+  {
+    "extension": "G-Programmer",
+    "rating": 280
+  },
+  {
     "extension": "G-CryptoChat",
-    "rating": 130
+    "rating": 170
   },
   {
     "extension": "StarDuckGifter",
-    "rating": 70
+    "rating": 90
   },
   {
     "extension": "TradeBlocker",
-    "rating": 70
+    "rating": 90
+  },
+  {
+    "extension": "MackleEverywhere",
+    "rating": 150
   }
 ]
