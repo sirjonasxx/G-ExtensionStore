@@ -1,0 +1,38 @@
+{
+  "title": "RandomRoomVisitor",
+  "description": "Searches for random rooms throughout the hotel and visits them",
+  "authors": [
+    {
+      "name": "schweppes0x",
+      "hotel": ".nl",
+      "username": "-MrTn-",
+      "discord": "Itstonyownss#0683"
+    }
+  ],
+  "version": "1.0",
+  "categories": ["Usability", "Trading", "Others"],
+  
+  "source": "https://github.com/schweppes-0x/RandomRoomVisitor",
+
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "Native",
+    "version": "1.5"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "RandomRoomVisitor.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Linux", "Windows", "Mac"],
+      "clients": ["Unity", "Flash"]
+  },
+
+  "submissionDate": "24-08-2021 10:00:00",
+  "updateDate": "24-08-2021 10:00:00",
+  "isOutdated": false
+}
