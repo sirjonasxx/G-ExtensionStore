@@ -1,5 +1,59 @@
 [
   {
+    "title": "3 Days Free HC",
+    "description": "Gives you free HC (can only be done once per account)",
+    "authors": [
+      {
+        "name": "sirjonasxx",
+        "hotel": ".nl",
+        "username": "sirjonasxx-VII",
+        "discord": "sirjonasxx#2633",
+        "twitter": "sirjonasxx",
+        "extensionsCount": 7,
+        "reputation": 1300
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Others"
+    ],
+    "source": "https://github.com/sirjonasxx/G-Earth-template-extensions/tree/master/3%20Days%20Free%20HC",
+    "readme": "https://github.com/sirjonasxx/G-Earth-template-extensions/blob/master/3%20Days%20Free%20HC/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "freehc.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "24-08-2021 17:27:00",
+    "updateDate": "24-08-2021 17:27:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Clientside Effect",
     "description": "Apply any existing effect clientside",
     "authors": [
@@ -117,7 +171,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1300
       }
     ],
@@ -172,7 +226,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1300
       }
     ],
@@ -275,7 +329,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1300
       }
     ],
@@ -329,7 +383,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1300
       }
     ],
@@ -547,7 +601,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1300
       }
     ],
@@ -655,7 +709,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1300
       }
     ],

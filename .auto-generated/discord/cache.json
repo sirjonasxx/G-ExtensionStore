@@ -1103,5 +1103,142 @@
       }
     ],
     "latestEmbed": 1629684131448
+  },
+  {
+    "title": "3 Days Free HC",
+    "version": "1.0",
+    "_object": {
+      "title": "3 Days Free HC",
+      "description": "Gives you free HC (can only be done once per account)",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Others"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Earth-template-extensions/tree/master/3%20Days%20Free%20HC",
+      "readme": "https://github.com/sirjonasxx/G-Earth-template-extensions/blob/master/3%20Days%20Free%20HC/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "freehc.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "24-08-2021 17:27:00",
+      "updateDate": "24-08-2021 17:27:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "879756242699059232",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629820634125,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629820634125
+  },
+  {
+    "title": "RandomRoomVisitor",
+    "version": "1.0",
+    "_object": {
+      "title": "RandomRoomVisitor",
+      "description": "Searches for random rooms throughout the hotel and visits them",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Trading",
+        "Others"
+      ],
+      "source": "https://github.com/schweppes-0x/RandomRoomVisitor",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RandomRoomVisitor.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "24-08-2021 10:00:00",
+      "updateDate": "24-08-2021 10:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "879756246062886955",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629820634732,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1629820634732
   }
 ]
