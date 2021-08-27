@@ -1,0 +1,38 @@
+{
+  "title": "Private Profile Fixer",
+  "description": "Make private profiles openable in the Air/Flash client",
+  "authors": [{
+    "name": "WiredSpast",
+    "hotel": ".nl",
+    "username": "WiredSpast",
+    "discord": "Jonasss#6660",
+    "twitter": "WiredSpast"
+  }],
+  "version": "0.1",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/WiredSpast/ClientsideEffect",
+  "readme": "https://github.com/WiredSpast/ClientsideEffect/blob/master/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "G-Node",
+    "version": "0.0.1-beta.21"
+  },
+
+  "language": "Node.js",
+  "commands": {
+    "default": ["java", "-jar", "NodeExtensionSetup.jar", "-e", "index.js", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "27-08-2021 14:29:40",
+  "updateDate": "27-08-2021 14:29:40",
+
+  "isOutdated": false
+}
