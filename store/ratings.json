@@ -70,5 +70,9 @@
   {
     "extension": "RandomRoomVisitor",
     "rating": 250
+  },
+  {
+    "extension": "Private Profile Fixer",
+    "rating": 90
   }
 ]
