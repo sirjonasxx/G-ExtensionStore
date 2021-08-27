@@ -771,8 +771,7 @@
     "categories": [
       "Usability"
     ],
-    "source": "https://github.com/WiredSpast/ClientsideEffect",
-    "readme": "https://github.com/WiredSpast/ClientsideEffect/blob/master/README.md",
+    "source": "https://github.com/WiredSpast/PrivateProfileFixer",
     "stable": true,
     "framework": {
       "name": "G-Node",
