@@ -63,7 +63,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 1010
       }
     ],
@@ -117,7 +117,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 1010
       }
     ],
@@ -547,7 +547,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 1010
       }
     ],
@@ -655,7 +655,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 1010
       }
     ],
@@ -754,6 +754,64 @@
     "rating": 230
   },
   {
+    "title": "Private Profile Fixer",
+    "description": "Make private profiles openable in the Air/Flash client",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "Jonasss#6660",
+        "twitter": "WiredSpast",
+        "extensionsCount": 6,
+        "reputation": 1010
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/WiredSpast/ClientsideEffect",
+    "readme": "https://github.com/WiredSpast/ClientsideEffect/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "G-Node",
+      "version": "0.0.1-beta.21"
+    },
+    "language": "Node.js",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-e",
+        "index.js",
+        "-v",
+        "15.0.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "27-08-2021 14:29:40",
+    "updateDate": "27-08-2021 14:29:40",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "RandomRoomVisitor",
     "description": "Searches for random rooms throughout the hotel and visits them",
     "authors": [
@@ -818,7 +876,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 1010
       }
     ],
