@@ -1,6 +1,6 @@
 {
   "title": "Full Wardrobe",
-  "description": "Make private profiles openable in the Air/Flash client",
+  "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
   "authors": [{
     "name": "WiredSpast",
     "hotel": ".nl",
