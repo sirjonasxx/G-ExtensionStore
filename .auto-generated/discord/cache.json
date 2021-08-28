@@ -83,7 +83,7 @@
         "type": "update",
         "timestamp": 1629844915801,
         "locked": false,
-        "score": 50
+        "score": 75
       }
     ],
     "latestEmbed": 1629844915801
@@ -1317,7 +1317,7 @@
         "type": "publish",
         "timestamp": 1630100998851,
         "locked": false,
-        "score": 160
+        "score": 180
       },
       {
         "channelId": "878094299403788330",
