@@ -1403,5 +1403,70 @@
         "score": 0
       }
     ]
+  },
+  {
+    "title": "Block Users",
+    "version": "1.0",
+    "_object": {
+      "title": "Block Users",
+      "description": "Extends the \"Ignore\" feature in Habbo, to completely neglect the existence of some users. \n\n Ideal for sending trollers to the shadow realm...",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/sirjonasxx/BlockUsers",
+      "readme": "https://github.com/sirjonasxx/BlockUsers/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "BlockUsers.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "29-08-2021 23:03:00",
+      "updateDate": "29-08-2021 23:03:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1432090265985028098",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630271901193,
+        "locked": false,
+        "score": 0
+      }
+    ]
   }
 ]
