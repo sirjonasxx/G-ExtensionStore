@@ -1271,7 +1271,7 @@
   },
   {
     "title": "G-Friends",
-    "version": "1.0",
+    "version": "1.0.1",
     "_object": {
       "title": "G-Friends",
       "description": "A tool to add all the people on a room, also includes an automatic console tool!",
@@ -1284,7 +1284,7 @@
           "twitter": "Denio_HB"
         }
       ],
-      "version": "1.0",
+      "version": "1.0.1",
       "categories": [
         "Fun",
         "Usability",
@@ -1330,6 +1330,14 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1630196325345,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432091866602815488",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1630272282775,
         "locked": false,
         "score": 0
       }

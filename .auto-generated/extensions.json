@@ -499,7 +499,7 @@
         "reputation": 190
       }
     ],
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": [
       "Fun",
       "Usability",
@@ -537,7 +537,7 @@
     },
     "submissionDate": "27-08-2021 18:00:00",
     "updateDate": "27-08-2021 18:00:00",
-    "isOutdated": true,
+    "isOutdated": false,
     "rating": 190
   },
   {
