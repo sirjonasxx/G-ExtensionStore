@@ -1317,7 +1317,7 @@
         "type": "publish",
         "timestamp": 1630100998851,
         "locked": false,
-        "score": 220
+        "score": 260
       },
       {
         "channelId": "878094299403788330",
@@ -1327,7 +1327,7 @@
         "type": "update",
         "timestamp": 1630102185572,
         "locked": false,
-        "score": 100
+        "score": 150
       }
     ],
     "latestEmbed": 1630100998851
@@ -1396,7 +1396,7 @@
         "type": "publish",
         "timestamp": 1630196324191,
         "locked": false,
-        "score": 0
+        "score": 100
       }
     ],
     "latestEmbed": 1630196324191
@@ -1468,7 +1468,7 @@
         "type": "publish",
         "timestamp": 1630196607499,
         "locked": false,
-        "score": 0
+        "score": 80
       }
     ],
     "latestEmbed": 1630196607499
