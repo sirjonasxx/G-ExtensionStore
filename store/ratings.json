@@ -77,10 +77,14 @@
   },
   {
     "extension": "G-Friends",
-    "rating": 190
+    "rating": 200
   },
   {
     "extension": "Full Wardrobe",
     "rating": 190
+  },
+  {
+    "extension": "Block Users",
+    "rating": 70
   }
 ]
