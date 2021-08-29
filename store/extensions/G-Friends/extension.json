@@ -1,0 +1,39 @@
+{
+    "title": "G-Friends",
+    "description": "A tool to add all the people on a room, also includes an automatic console tool!",
+    "authors": [
+      {
+        "name": "denio4321",
+        "hotel": ".es",
+        "username": "denio4321",
+        "discord": "denitos#9999",
+        "twitter": "Denio_HB"
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Fun", "Usability", "Others"],
+
+    "source": "https://github.com/denio4321/G-Friends",
+    "readme": "https://github.com/denio4321/G-Friends/blob/main/README.md",
+
+    "stable": true,
+
+    "framework": {
+      "name": "G-Python",
+      "version": "1.5"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "main.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "27-08-2021 18:00:00",
+    "updateDate": "27-08-2021 18:00:00",
+    "isOutdated": false
+}
