@@ -7,14 +7,14 @@
         "hotel": ".es",
         "username": "denio4321",
         "discord": "denitos#9999",
-        "twitter": "Denio_HB"
+        "twitter": "@Denio_HB"
       }
     ],
     "version": "1.0",
     "categories": ["Fun", "Usability", "Others"],
 
     "source": "https://github.com/denio4321/G-Friends",
-    "readme": "https://github.com/denio4321/G-Friends/blob/main/README.md",
+    "readme": "(optional) readme file",
 
     "stable": true,
 
@@ -25,7 +25,8 @@
 
     "language": "Python",
     "commands": {
-      "default": ["python", "main.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["pythpn", "main.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+      "linux": ["(optional) <some OS-specific command...>"]
     },
 
     "compatibility": {
