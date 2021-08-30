@@ -1406,7 +1406,7 @@
         "type": "update",
         "timestamp": 1630272282013,
         "locked": false,
-        "score": 50
+        "score": 75
       }
     ],
     "latestEmbed": 1630196324191
@@ -1546,7 +1546,7 @@
         "type": "publish",
         "timestamp": 1630271899410,
         "locked": false,
-        "score": 140
+        "score": 160
       },
       {
         "channelId": "878094299403788330",
@@ -1623,7 +1623,7 @@
         "type": "publish",
         "timestamp": 1630283434771,
         "locked": false,
-        "score": 120
+        "score": 140
       },
       {
         "channelId": "878094299403788330",
