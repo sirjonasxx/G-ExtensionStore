@@ -8,7 +8,7 @@
     "discord": "sirjonasxx#2633",
     "twitter": "sirjonasxx"
   }],
-  "version": "0.1",
+  "version": "0.2.1",
   "categories": ["Games"],
 
   "source": "https://github.com/sirjonasxx/G-Click",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "15-08-2021 01:16:35",
-  "updateDate": "15-08-2021 22:21:35",
+  "updateDate": "23-08-2021 02:49:35",
 
   "isOutdated": false
 }

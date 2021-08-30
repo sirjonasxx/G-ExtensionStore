@@ -1,0 +1,1480 @@
+[
+  {
+    "title": "Clientside Effect",
+    "version": "0.1",
+    "_object": {
+      "title": "Clientside Effect",
+      "description": "Apply any existing effect clientside",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/WiredSpast/ClientsideEffect",
+      "readme": "https://github.com/WiredSpast/ClientsideEffect/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "ClientsideEffect.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 14:23:13",
+      "updateDate": "20-08-2021 14:23:13",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761442107465734",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629478232715,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Custom walk",
+    "version": "0.1",
+    "_object": {
+      "title": "Custom walk",
+      "description": "Continuously sit, perform actions and use signs while walking",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/WiredSpast/CustomWalk",
+      "readme": "https://github.com/WiredSpast/CustomWalk/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "CustomWalk.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 14:32:18",
+      "updateDate": "20-08-2021 14:32:18",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761489415024640",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629478243981,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-BuildTools",
+    "version": "1.2",
+    "_object": {
+      "title": "G-BuildTools",
+      "description": "A habbo builders' dream",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.2",
+      "categories": [
+        "Building",
+        "Usability"
+      ],
+      "source": "https://github.com/sirjonasxx/G-BuildTools",
+      "readme": "https://github.com/sirjonasxx/G-BuildTools/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GBuildTools.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "15-08-2021 01:16:35",
+      "updateDate": "25-08-2021 00:38:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761536076656640",
+        "extVersion": "1.1.1",
+        "type": "publish",
+        "timestamp": 1629478255120,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1429187816286785537",
+        "extVersion": "1.1.2",
+        "type": "update",
+        "timestamp": 1629579903217,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1430299363172048900",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1629844916603,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Click",
+    "version": "0.2.1",
+    "_object": {
+      "title": "G-Click",
+      "description": "Advanced click recharger & clickthrough extension",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "0.2.1",
+      "categories": [
+        "Games"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Click",
+      "readme": "https://github.com/sirjonasxx/G-Click/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GClick.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "15-08-2021 01:16:35",
+      "updateDate": "23-08-2021 02:49:35",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761582687997954",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629478266244,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1429607863484354565",
+        "extVersion": "0.2.1",
+        "type": "update",
+        "timestamp": 1629680050254,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-CryptoChat",
+    "version": "1.0.0.0",
+    "_object": {
+      "title": "G-CryptoChat",
+      "description": "Enjoy fast and fun encrypted conversation",
+      "authors": [
+        {
+          "name": "Moch",
+          "discord": "Moch#2477"
+        }
+      ],
+      "version": "1.0.0.0",
+      "categories": [
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/erikmoch/CryptoChat",
+      "stable": false,
+      "framework": {
+        "name": "Geode",
+        "version": "1.0.0"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/c",
+          "CryptoChat.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "19-08-2021 11:59:00",
+      "updateDate": "19-08-2021 11:59:00",
+      "isOutdated": true
+    },
+    "tweets": [
+      {
+        "id_str": "1428761626208096256",
+        "extVersion": "1.0.0.0",
+        "type": "publish",
+        "timestamp": 1629478276497,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Forum",
+    "version": "1.0",
+    "_object": {
+      "title": "G-Forum",
+      "description": "Legacy forum browser for Unity",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Forum",
+      "readme": "https://github.com/sirjonasxx/G-Forum/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "gforum.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity"
+        ]
+      },
+      "submissionDate": "20-08-2021 02:05:00",
+      "updateDate": "20-08-2021 02:05:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761672513171464",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629478287615,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Manipulate",
+    "version": "0.2",
+    "_object": {
+      "title": "G-Manipulate",
+      "description": "G-Earth utility extension for blocking & replacing packets",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Manipulate",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "gmanipulate.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash",
+          "Unity"
+        ]
+      },
+      "submissionDate": "20-08-2021 01:09:00",
+      "updateDate": "20-08-2021 01:09:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761719057305604",
+        "extVersion": "0.2",
+        "type": "publish",
+        "timestamp": 1629478298723,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Plants",
+    "version": "1.2.0",
+    "_object": {
+      "title": "G-Plants",
+      "description": "G-Earth plant treatment module.",
+      "authors": [
+        {
+          "name": "at15four2020"
+        }
+      ],
+      "version": "1.2.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/at15four2020/GPlants",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GPlants.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "17-08-2021 18:28:15",
+      "updateDate": "17-08-2021 18:28:15",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761765542772738",
+        "extVersion": "1.2.0",
+        "type": "publish",
+        "timestamp": 1629478309786,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Programmer",
+    "version": "1.4.0",
+    "_object": {
+      "title": "G-Programmer",
+      "description": "Simple extension to let you create scripts with JavaScript.",
+      "authors": [
+        {
+          "name": "at15four2020"
+        },
+        {
+          "name": "Alynva",
+          "hotel": ".com.br",
+          "username": "alynva",
+          "discord": "Alynva#1713",
+          "twitter": "alynva"
+        }
+      ],
+      "version": "1.4.0",
+      "categories": [
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/at15four2020/GProgrammer",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GProgrammer.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 15:18:00",
+      "updateDate": "20-08-2021 15:18:01",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761812367990792",
+        "extVersion": "1.4.0",
+        "type": "publish",
+        "timestamp": 1629478320921,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Giftpeeker",
+    "version": "0.2",
+    "_object": {
+      "title": "Giftpeeker",
+      "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/GiftPeeker",
+      "readme": "https://github.com/WiredSpast/GiftPeeker/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GiftPeeker.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 12:33:23",
+      "updateDate": "20-08-2021 12:33:23",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761858778009605",
+        "extVersion": "0.2",
+        "type": "publish",
+        "timestamp": 1629478332048,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Outfit Randomizer",
+    "version": "0.1",
+    "_object": {
+      "title": "Outfit Randomizer",
+      "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/WiredSpast/OutfitRandomizer",
+      "readme": "https://github.com/WiredSpast/OutfitRandomizer/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "OutfitRandomizer.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 15:17:23",
+      "updateDate": "20-08-2021 15:17:23",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761902193287170",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629478342340,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Packet Info Explorer",
+    "version": "0.1",
+    "_object": {
+      "title": "Packet Info Explorer",
+      "description": "G-Earth utility extension for exploring packet information",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/sirjonasxx/PacketInfoExplorer",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "packetinfoexplorer.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash",
+          "Unity"
+        ]
+      },
+      "submissionDate": "20-08-2021 01:39:00",
+      "updateDate": "20-08-2021 01:39:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761948485824520",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1629478353401,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Roomcropper",
+    "version": "0.2",
+    "_object": {
+      "title": "Roomcropper",
+      "description": "Crop room to occupied tiles\n\nSay \":crop\" to instantly crop the floorplan (requires BC)\nSay \":crop export\" to copy the cropped floorplan to your clipboard",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "Building",
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/RoomCropper",
+      "readme": "https://github.com/WiredSpast/RoomCropper/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RoomCropper.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 14:16:41",
+      "updateDate": "20-08-2021 14:16:41",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1428761991750037507",
+        "extVersion": "0.2",
+        "type": "publish",
+        "timestamp": 1629478363700,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "StarDuckGifter",
+    "version": "1.0",
+    "_object": {
+      "title": "StarDuckGifter",
+      "description": "Give an amount of stardust to selected habbo",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Trading",
+        "Others"
+      ],
+      "source": "https://github.com/schweppes-0x/StarDuckGifter",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "StarDuckGifter.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "21-08-2021 00:00:00",
+      "updateDate": "21-08-2021 00:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1429183331212668934",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629578833956,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "TradeBlocker",
+    "version": "1.0",
+    "_object": {
+      "title": "TradeBlocker",
+      "description": "Stop those annoying trade spammers!",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Trading",
+        "Others"
+      ],
+      "source": "https://github.com/schweppes-0x/TradeBlocker",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.4.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "TradeBlocker.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "20-08-2021 00:00:00",
+      "updateDate": "20-08-2021 00:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1429183355300556811",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629578839646,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "MackleEverywhere",
+    "version": "1.0",
+    "_object": {
+      "title": "MackleEverywhere",
+      "description": "With this extension, Mackle will bee everywhere (template extension)",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Earth-template-extensions/tree/master/MackleEverywhere",
+      "readme": "https://github.com/sirjonasxx/G-Earth-template-extensions/blob/master/MackleEverywhere/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "mackleeverywhere.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "23-08-2021 03:56:35",
+      "updateDate": "23-08-2021 03:56:35",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1429624988223647744",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629684133247,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "3 Days Free HC",
+    "version": "1.0",
+    "_object": {
+      "title": "3 Days Free HC",
+      "description": "Gives you free HC (can only be done once per account)",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Others"
+      ],
+      "source": "https://github.com/sirjonasxx/G-Earth-template-extensions/tree/master/3%20Days%20Free%20HC",
+      "readme": "https://github.com/sirjonasxx/G-Earth-template-extensions/blob/master/3%20Days%20Free%20HC/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "freehc.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "24-08-2021 17:27:00",
+      "updateDate": "24-08-2021 17:27:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1430197523990282241",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629820636348,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "RandomRoomVisitor",
+    "version": "1.0",
+    "_object": {
+      "title": "RandomRoomVisitor",
+      "description": "Searches for random rooms throughout the hotel and visits them",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Trading",
+        "Others"
+      ],
+      "source": "https://github.com/schweppes-0x/RandomRoomVisitor",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RandomRoomVisitor.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "24-08-2021 10:00:00",
+      "updateDate": "24-08-2021 10:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1430197549344825345",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1629820642345,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Private Profile Fixer",
+    "version": "0.2",
+    "_object": {
+      "title": "Private Profile Fixer",
+      "description": "Make private profiles openable in the Air/Flash client",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/PrivateProfileFixer",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.0.1-beta.21"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-e",
+          "index.js",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "27-08-2021 14:29:40",
+      "updateDate": "27-08-2021 14:29:40",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1431373453710413826",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1630100999782,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1431378430357123072",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630102186277,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Friends",
+    "version": "1.0.1",
+    "_object": {
+      "title": "G-Friends",
+      "description": "A tool to add all the people on a room, also includes an automatic console tool!",
+      "authors": [
+        {
+          "name": "denio4321",
+          "hotel": ".es",
+          "username": "denio4321",
+          "discord": "denitos#9999",
+          "twitter": "Denio_HB"
+        }
+      ],
+      "version": "1.0.1",
+      "categories": [
+        "Fun",
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/denio4321/G-Friends",
+      "readme": "https://github.com/denio4321/G-Friends/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "1.5"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "main.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "27-08-2021 18:00:00",
+      "updateDate": "27-08-2021 18:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1431773277844819971",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630196325345,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432091866602815488",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1630272282775,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Full Wardrobe",
+    "version": "0.1",
+    "_object": {
+      "title": "Full Wardrobe",
+      "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Usability",
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/WiredSpast/FullWardrobe",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.0.1-beta.21"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "29-08-2021 01:19:19",
+      "updateDate": "29-08-2021 01:19:19",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1431774479257153536",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1630196611771,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Block Users",
+    "version": "1.0",
+    "_object": {
+      "title": "Block Users",
+      "description": "Extends the \"Ignore\" feature in Habbo, to completely neglect the existence of some users. \n\n Ideal for sending trollers to the shadow realm...",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/sirjonasxx/BlockUsers",
+      "readme": "https://github.com/sirjonasxx/BlockUsers/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "BlockUsers.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "29-08-2021 23:03:00",
+      "updateDate": "29-08-2021 23:03:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1432090265985028098",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630271901193,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  }
+]

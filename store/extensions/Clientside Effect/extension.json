@@ -23,7 +23,7 @@
 
   "language": "Java",
   "commands": {
-    "default": ["java", "-jar", "GiftPeeker.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "ClientsideEffect.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
 
   "compatibility": {

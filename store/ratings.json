@@ -1,26 +1,90 @@
 [
   {
     "extension": "G-BuildTools",
-    "rating": 170
+    "rating": 365
   },
   {
     "extension": "G-Click",
-    "rating": 190
+    "rating": 260
   },
   {
     "extension": "G-Forum",
-    "rating": 130
+    "rating": 190
   },
   {
     "extension": "G-Manipulate",
-    "rating": 150
+    "rating": 190
   },
   {
     "extension": "G-Plants",
-    "rating": 150
+    "rating": 230
   },
   {
     "extension": "Packet Info Explorer",
+    "rating": 230
+  },
+  {
+    "extension": "Clientside Effect",
+    "rating": 230
+  },
+  {
+    "extension": "Custom walk",
+    "rating": 170
+  },
+  {
+    "extension": "Giftpeeker",
+    "rating": 230
+  },
+  {
+    "extension": "Outfit Randomizer",
     "rating": 190
+  },
+  {
+    "extension": "Roomcropper",
+    "rating": 190
+  },
+  {
+    "extension": "G-Programmer",
+    "rating": 280
+  },
+  {
+    "extension": "G-CryptoChat",
+    "rating": 170
+  },
+  {
+    "extension": "StarDuckGifter",
+    "rating": 90
+  },
+  {
+    "extension": "TradeBlocker",
+    "rating": 90
+  },
+  {
+    "extension": "MackleEverywhere",
+    "rating": 170
+  },
+  {
+    "extension": "3 Days Free HC",
+    "rating": 110
+  },
+  {
+    "extension": "RandomRoomVisitor",
+    "rating": 250
+  },
+  {
+    "extension": "Private Profile Fixer",
+    "rating": 430
+  },
+  {
+    "extension": "G-Friends",
+    "rating": 225
+  },
+  {
+    "extension": "Full Wardrobe",
+    "rating": 190
+  },
+  {
+    "extension": "Block Users",
+    "rating": 110
   }
 ]

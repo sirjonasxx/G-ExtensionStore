@@ -4,7 +4,7 @@
   "authors": [
     {
       "name": "Moch",
-      "discord": "Moch#2477"	
+      "discord": "Moch#2477"
     }
   ],
   "version": "1.0.0.0",
@@ -12,7 +12,7 @@
 
   "source": "https://github.com/erikmoch/CryptoChat",
 
-  "stable": true,
+  "stable": false,
   "framework": {
     "name": "Geode",
     "version": "1.0.0"
@@ -29,6 +29,6 @@
   },
 
   "submissionDate": "19-08-2021 11:59:00",
-  "updateDate": "19-08-2021 11:59:00",
+  "updateDate": "29-08-2021 21:11:00",
   "isOutdated": false
 }

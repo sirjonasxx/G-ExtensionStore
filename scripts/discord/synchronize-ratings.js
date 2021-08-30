@@ -100,4 +100,4 @@ const fetchRatings = async () => {
 
 }
 
-fetchRatings();
+fetchRatings().then(r => console.log("finished"));
