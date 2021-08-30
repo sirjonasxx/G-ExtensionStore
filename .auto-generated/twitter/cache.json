@@ -1487,7 +1487,7 @@
   },
   {
     "title": "BensaFect",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "BensaFect",
       "description": "Automatically gets Bensalem effects",
@@ -1499,7 +1499,7 @@
           "discord": "Itstonyownss#0683"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Usability"
       ],
@@ -1535,7 +1535,7 @@
         ]
       },
       "submissionDate": "30-08-2021 02:00:00",
-      "updateDate": "30-08-2021 02:00:00",
+      "updateDate": "30-08-2021 02:44:00",
       "isOutdated": false
     },
     "tweets": [
@@ -1544,6 +1544,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1630283436313,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432143697664151556",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630284640212,
         "locked": false,
         "score": 0
       }
