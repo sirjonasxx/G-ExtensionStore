@@ -1485,7 +1485,7 @@
   },
   {
     "title": "Block Users",
-    "version": "1.0",
+    "version": "1.0.1",
     "_object": {
       "title": "Block Users",
       "description": "Extends the \"Ignore\" feature in Habbo, to completely neglect the existence of some users. \n\n Ideal for sending trollers to the shadow realm...",
@@ -1498,7 +1498,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.0",
+      "version": "1.0.1",
       "categories": [
         "Usability"
       ],
@@ -1534,7 +1534,7 @@
         ]
       },
       "submissionDate": "29-08-2021 23:03:00",
-      "updateDate": "29-08-2021 23:03:00",
+      "updateDate": "30-08-2021 02:40:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1547,6 +1547,16 @@
         "timestamp": 1630271899410,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "881700192167026688",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1630284107574,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1630271899410
