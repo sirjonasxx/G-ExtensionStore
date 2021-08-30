@@ -1563,7 +1563,7 @@
   },
   {
     "title": "BensaFect",
-    "version": "0.2",
+    "version": "0.3",
     "_object": {
       "title": "BensaFect",
       "description": "Automatically gets Bensalem effects",
@@ -1575,7 +1575,7 @@
           "discord": "Itstonyownss#0683"
         }
       ],
-      "version": "0.2",
+      "version": "0.3",
       "categories": [
         "Usability"
       ],
@@ -1611,7 +1611,7 @@
         ]
       },
       "submissionDate": "30-08-2021 02:00:00",
-      "updateDate": "30-08-2021 02:44:00",
+      "updateDate": "30-08-2021 16:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1634,6 +1634,16 @@
         "timestamp": 1630284639525,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "881910790955888641",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1630334318192,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1630283434771
