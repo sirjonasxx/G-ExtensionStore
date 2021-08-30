@@ -1476,5 +1476,69 @@
         "score": 0
       }
     ]
+  },
+  {
+    "title": "BensaFect",
+    "version": "0.1",
+    "_object": {
+      "title": "BensaFect",
+      "description": "Automatically gets Bensalem effects",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/schweppes-0x/BensaFect",
+      "readme": "https://github.com/schweppes-0x/BensaFect/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "BensaFect.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "30-08-2021 02:00:00",
+      "updateDate": "30-08-2021 02:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1432138647852179462",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1630283436313,
+        "locked": false,
+        "score": 0
+      }
+    ]
   }
 ]

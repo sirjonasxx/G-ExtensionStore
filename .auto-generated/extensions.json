@@ -54,6 +54,59 @@
     "rating": 110
   },
   {
+    "title": "BensaFect",
+    "description": "Automatically gets Bensalem effects",
+    "authors": [
+      {
+        "name": "schweppes0x",
+        "hotel": ".nl",
+        "username": "-MrTn-",
+        "discord": "Itstonyownss#0683",
+        "extensionsCount": 4,
+        "reputation": 430
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/schweppes-0x/BensaFect",
+    "readme": "https://github.com/schweppes-0x/BensaFect/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "BensaFect.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "30-08-2021 02:00:00",
+    "updateDate": "30-08-2021 02:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Block Users",
     "description": "Extends the \"Ignore\" feature in Habbo, to completely neglect the existence of some users. \n\n Ideal for sending trollers to the shadow realm...",
     "authors": [
@@ -986,14 +1039,13 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 3,
+        "extensionsCount": 4,
         "reputation": 430
       }
     ],
     "version": "1.0",
     "categories": [
       "Usability",
-      "Trading",
       "Others"
     ],
     "source": "https://github.com/schweppes-0x/RandomRoomVisitor",
@@ -1096,7 +1148,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 3,
+        "extensionsCount": 4,
         "reputation": 430
       }
     ],
@@ -1151,7 +1203,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 3,
+        "extensionsCount": 4,
         "reputation": 430
       }
     ],
