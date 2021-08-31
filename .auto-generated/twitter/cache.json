@@ -131,7 +131,7 @@
   },
   {
     "title": "G-BuildTools",
-    "version": "1.2",
+    "version": "1.2.1",
     "_object": {
       "title": "G-BuildTools",
       "description": "A habbo builders' dream",
@@ -144,7 +144,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.2",
+      "version": "1.2.1",
       "categories": [
         "Building",
         "Usability"
@@ -181,7 +181,7 @@
         ]
       },
       "submissionDate": "15-08-2021 01:16:35",
-      "updateDate": "25-08-2021 00:38:00",
+      "updateDate": "31-08-2021 23:14:00",
       "isOutdated": false
     },
     "tweets": [
@@ -206,6 +206,14 @@
         "extVersion": "1.2",
         "type": "update",
         "timestamp": 1629844916603,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432814457856544772",
+        "extVersion": "1.2.1",
+        "type": "update",
+        "timestamp": 1630444561956,
         "locked": false,
         "score": 0
       }
