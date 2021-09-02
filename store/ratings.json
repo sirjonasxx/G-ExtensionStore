@@ -90,5 +90,9 @@
   {
     "extension": "BensaFect",
     "rating": 300
+  },
+  {
+    "extension": "Room Duplicator",
+    "rating": 130
   }
 ]
