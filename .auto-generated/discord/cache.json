@@ -1657,5 +1657,78 @@
       }
     ],
     "latestEmbed": 1630283434771
+  },
+  {
+    "title": "Room Duplicator",
+    "version": "1.0",
+    "_object": {
+      "title": "Room Duplicator",
+      "description": "Copy flooritems, wallitems, floorplans and/or roomsettings from one room to another",
+      "authors": [
+        {
+          "name": "kouris-h",
+          "hotel": ".nl",
+          "username": "Kouris",
+          "discord": "Remco#3719"
+        },
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Building"
+      ],
+      "source": "https://github.com/kouris-h/RoomDuplicator",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.0"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RoomDuplicator.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "02-09-2021 18:08:10",
+      "updateDate": "02-09-2021 18:08:10",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "883024040971874314",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630599737545,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1630599737545
   }
 ]
