@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.1",
+  "version": "0.2",
   "categories": ["Fun"],
 
   "source": "https://github.com/WiredSpast/ClientsideEffect",
@@ -18,7 +18,7 @@
 
   "framework": {
     "name": "Native",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
 
   "language": "Java",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "20-08-2021 14:23:13",
-  "updateDate": "20-08-2021 14:23:13",
+  "updateDate": "04-09-2021 05:17:52",
 
   "isOutdated": false
 }
