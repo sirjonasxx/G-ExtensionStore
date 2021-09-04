@@ -1750,5 +1750,69 @@
       }
     ],
     "latestEmbed": 1630599737545
+  },
+  {
+    "title": "xabbo",
+    "version": "1.0.0",
+    "_object": {
+      "title": "xabbo",
+      "description": "enhanced habbo",
+      "authors": [
+        {
+          "name": "b7",
+          "hotel": ".com",
+          "username": "1b7",
+          "discord": "b7#8571"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/b7c/b7.Xabbo",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "0.1.0"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "b7.Xabbo.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "04-09-2021 07:23:00",
+      "updateDate": "04-09-2021 07:23:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "883628549666381854",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1630743863785,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1630743863785
   }
 ]
