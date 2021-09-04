@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.2",
+  "version": "0.3",
   "categories": ["Usability"],
 
   "source": "https://github.com/WiredSpast/GiftPeeker",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "20-08-2021 12:33:23",
-  "updateDate": "20-08-2021 12:33:23",
+  "updateDate": "04-09-2021 04:46:25",
 
   "isOutdated": false
 }
