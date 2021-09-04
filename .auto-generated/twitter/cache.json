@@ -1,7 +1,7 @@
 [
   {
     "title": "Clientside Effect",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Clientside Effect",
       "description": "Apply any existing effect clientside",
@@ -14,7 +14,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Fun"
       ],
@@ -23,7 +23,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -50,7 +50,7 @@
         ]
       },
       "submissionDate": "20-08-2021 14:23:13",
-      "updateDate": "20-08-2021 14:23:13",
+      "updateDate": "04-09-2021 05:17:52",
       "isOutdated": false
     },
     "tweets": [
@@ -59,6 +59,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1629478232715,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1434048949044797440",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630738887528,
         "locked": false,
         "score": 0
       }
@@ -614,7 +622,7 @@
   },
   {
     "title": "Giftpeeker",
-    "version": "0.2",
+    "version": "0.3",
     "_object": {
       "title": "Giftpeeker",
       "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
@@ -627,7 +635,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2",
+      "version": "0.3",
       "categories": [
         "Usability"
       ],
@@ -636,7 +644,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -663,7 +671,7 @@
         ]
       },
       "submissionDate": "20-08-2021 12:33:23",
-      "updateDate": "20-08-2021 12:33:23",
+      "updateDate": "04-09-2021 04:46:25",
       "isOutdated": false
     },
     "tweets": [
@@ -672,6 +680,14 @@
         "extVersion": "0.2",
         "type": "publish",
         "timestamp": 1629478332048,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1434048970725240836",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1630738892696,
         "locked": false,
         "score": 0
       }

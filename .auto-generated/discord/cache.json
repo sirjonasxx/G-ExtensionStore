@@ -447,7 +447,7 @@
   },
   {
     "title": "Clientside Effect",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Clientside Effect",
       "description": "Apply any existing effect clientside",
@@ -460,7 +460,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Fun"
       ],
@@ -469,14 +469,14 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
         "default": [
           "java",
           "-jar",
-          "GiftPeeker.jar",
+          "ClientsideEffect.jar",
           "-c",
           "{cookie}",
           "-p",
@@ -496,7 +496,7 @@
         ]
       },
       "submissionDate": "20-08-2021 14:23:13",
-      "updateDate": "20-08-2021 14:23:13",
+      "updateDate": "04-09-2021 05:17:52",
       "isOutdated": false
     },
     "discordMessages": [
@@ -509,9 +509,19 @@
         "timestamp": 1629471537885,
         "locked": false,
         "score": 220
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "883607669053730826",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630738886503,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629471537885
+    "latestEmbed": 1630738886503
   },
   {
     "title": "Custom walk",
@@ -583,7 +593,7 @@
   },
   {
     "title": "Giftpeeker",
-    "version": "0.2",
+    "version": "0.3",
     "_object": {
       "title": "Giftpeeker",
       "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
@@ -596,7 +606,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2",
+      "version": "0.3",
       "categories": [
         "Usability"
       ],
@@ -605,7 +615,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -632,7 +642,7 @@
         ]
       },
       "submissionDate": "20-08-2021 12:33:23",
-      "updateDate": "20-08-2021 12:33:23",
+      "updateDate": "04-09-2021 04:46:25",
       "isOutdated": false
     },
     "discordMessages": [
@@ -645,9 +655,19 @@
         "timestamp": 1629471539130,
         "locked": false,
         "score": 220
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "883607675848511539",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1630738886958,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629471539130
+    "latestEmbed": 1630738886958
   },
   {
     "title": "Outfit Randomizer",
