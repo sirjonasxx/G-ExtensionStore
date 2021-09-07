@@ -446,13 +446,13 @@
         "reputation": 170
       }
     ],
-    "version": "1.0.0.0",
+    "version": "1.2.0.0",
     "categories": [
       "Fun",
       "Others"
     ],
     "source": "https://github.com/erikmoch/CryptoChat",
-    "stable": false,
+    "stable": true,
     "framework": {
       "name": "Geode",
       "version": "1.0.0"
@@ -480,8 +480,8 @@
       ]
     },
     "submissionDate": "19-08-2021 11:59:00",
-    "updateDate": "19-08-2021 11:59:00",
-    "isOutdated": true,
+    "updateDate": "04-09-2021 23:54:00",
+    "isOutdated": false,
     "rating": 170
   },
   {

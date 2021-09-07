@@ -879,7 +879,7 @@
   },
   {
     "title": "G-CryptoChat",
-    "version": "1.0.0.0",
+    "version": "1.2.0.0",
     "_object": {
       "title": "G-CryptoChat",
       "description": "Enjoy fast and fun encrypted conversation",
@@ -889,7 +889,7 @@
           "discord": "Moch#2477"
         }
       ],
-      "version": "1.0.0.0",
+      "version": "1.2.0.0",
       "categories": [
         "Fun",
         "Others"
@@ -903,6 +903,8 @@
       "language": "C#",
       "commands": {
         "default": [
+          "cmd",
+          "/c",
           "CryptoChat.exe",
           "-c",
           "{cookie}",
@@ -921,7 +923,7 @@
         ]
       },
       "submissionDate": "19-08-2021 11:59:00",
-      "updateDate": "19-08-2021 11:59:00",
+      "updateDate": "04-09-2021 23:54:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -934,9 +936,19 @@
         "timestamp": 1629475598561,
         "locked": false,
         "score": 160
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "884887874279989269",
+        "extVersion": "1.2.0.0",
+        "type": "update",
+        "timestamp": 1631044110161,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629475598561
+    "latestEmbed": 1631044110161
   },
   {
     "title": "StarDuckGifter",

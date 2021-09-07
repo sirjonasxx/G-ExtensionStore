@@ -302,7 +302,7 @@
   },
   {
     "title": "G-CryptoChat",
-    "version": "1.0.0.0",
+    "version": "1.2.0.0",
     "_object": {
       "title": "G-CryptoChat",
       "description": "Enjoy fast and fun encrypted conversation",
@@ -312,13 +312,13 @@
           "discord": "Moch#2477"
         }
       ],
-      "version": "1.0.0.0",
+      "version": "1.2.0.0",
       "categories": [
         "Fun",
         "Others"
       ],
       "source": "https://github.com/erikmoch/CryptoChat",
-      "stable": false,
+      "stable": true,
       "framework": {
         "name": "Geode",
         "version": "1.0.0"
@@ -346,8 +346,8 @@
         ]
       },
       "submissionDate": "19-08-2021 11:59:00",
-      "updateDate": "19-08-2021 11:59:00",
-      "isOutdated": true
+      "updateDate": "04-09-2021 23:54:00",
+      "isOutdated": false
     },
     "tweets": [
       {
@@ -355,6 +355,14 @@
         "extVersion": "1.0.0.0",
         "type": "publish",
         "timestamp": 1629478276497,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1435329148566659073",
+        "extVersion": "1.2.0.0",
+        "type": "update",
+        "timestamp": 1631044110900,
         "locked": false,
         "score": 0
       }
