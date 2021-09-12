@@ -1376,7 +1376,7 @@
   },
   {
     "title": "G-Friends",
-    "version": "1.0.1",
+    "version": "1.1",
     "_object": {
       "title": "G-Friends",
       "description": "A tool to add all the people on a room, also includes an automatic console tool!",
@@ -1389,7 +1389,7 @@
           "twitter": "Denio_HB"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.1",
       "categories": [
         "Fun",
         "Usability",
@@ -1449,9 +1449,19 @@
         "timestamp": 1630272282013,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "886762513587376199",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1631491059358,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1630196324191
+    "latestEmbed": 1631491059358
   },
   {
     "title": "Full Wardrobe",
