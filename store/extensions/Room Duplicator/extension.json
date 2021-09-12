@@ -1,0 +1,42 @@
+{
+  "title": "Room Duplicator",
+  "description": "Copy flooritems, wallitems, floorplans and/or roomsettings from one room to another",
+  "authors": [{
+    "name": "kouris-h",
+    "hotel": ".nl",
+    "username": "Kouris",
+    "discord": "Remco#3719"
+  }, {
+    "name": "WiredSpast",
+    "hotel": ".nl",
+    "username": "WiredSpast",
+    "discord": "Jonasss#6660",
+    "twitter": "WiredSpast"
+  }],
+  "version": "1.0",
+  "categories": ["Building"],
+
+  "source": "https://github.com/kouris-h/RoomDuplicator",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5.0"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "RoomDuplicator.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "02-09-2021 18:08:10",
+  "updateDate": "02-09-2021 18:08:10",
+
+  "isOutdated": false
+}
