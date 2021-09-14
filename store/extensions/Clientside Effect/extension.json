@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.2",
+  "version": "0.3",
   "categories": ["Fun"],
 
   "source": "https://github.com/WiredSpast/ClientsideEffect",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "20-08-2021 14:23:13",
-  "updateDate": "04-09-2021 05:17:52",
+  "updateDate": "14-09-2021 20:24:06",
 
   "isOutdated": false
 }
