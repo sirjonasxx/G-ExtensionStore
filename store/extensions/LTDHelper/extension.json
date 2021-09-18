@@ -6,7 +6,7 @@
         "name": "LilithRainbows"
       }
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "categories": ["Usability", "Others"],
     
     "source": "https://github.com/LilithRainbows/Geode/tree/main/Examples/LTDHelper",
@@ -29,6 +29,6 @@
     },
 
     "submissionDate": "16-09-2021 00:00:00",
-    "updateDate": "16-09-2021 00:00:00",
+    "updateDate": "18-09-2021 00:00:00",
     "isOutdated": false
 }
