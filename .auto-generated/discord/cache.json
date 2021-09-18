@@ -1849,7 +1849,7 @@
   },
   {
     "title": "LTDHelper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "LTDHelper",
       "description": "Automatically purchase an LTD unit.\n\nWarning: to avoid tool abuse, only a single instance of the extension is allowed.",
@@ -1858,7 +1858,7 @@
           "name": "LilithRainbows"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Usability",
         "Others"
@@ -1872,6 +1872,8 @@
       "language": "Visual Basic",
       "commands": {
         "default": [
+          "cmd",
+          "/C",
           "LTDHelper.exe",
           "-c",
           "{cookie}",
@@ -1890,7 +1892,7 @@
         ]
       },
       "submissionDate": "16-09-2021 00:00:00",
-      "updateDate": "16-09-2021 00:00:00",
+      "updateDate": "18-09-2021 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1903,6 +1905,16 @@
         "timestamp": 1631924518942,
         "locked": false,
         "score": 160
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "888700966780678184",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1631953223467,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1631924518942
