@@ -98,5 +98,9 @@
   {
     "extension": "xabbo",
     "rating": 550
+  },
+  {
+    "extension": "LTDHelper",
+    "rating": 130
   }
 ]
