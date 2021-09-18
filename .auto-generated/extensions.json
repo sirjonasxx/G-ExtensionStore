@@ -812,6 +812,52 @@
     "rating": 240
   },
   {
+    "title": "LTDHelper",
+    "description": "Automatically purchase an LTD unit.\n\nWarning: to avoid tool abuse, only a single instance of the extension is allowed.",
+    "authors": [
+      {
+        "name": "LilithRainbows",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/LilithRainbows/Geode/tree/main/Examples/LTDHelper",
+    "stable": true,
+    "framework": {
+      "name": "Geode",
+      "version": "1.0.0"
+    },
+    "language": "Visual Basic",
+    "commands": {
+      "default": [
+        "LTDHelper.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "16-09-2021 00:00:00",
+    "updateDate": "16-09-2021 00:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "MackleEverywhere",
     "description": "With this extension, Mackle will bee everywhere (template extension)",
     "authors": [
