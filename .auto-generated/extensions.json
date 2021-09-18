@@ -835,6 +835,8 @@
     "language": "Visual Basic",
     "commands": {
       "default": [
+        "cmd",
+        "/C",
         "LTDHelper.exe",
         "-c",
         "{cookie}",
