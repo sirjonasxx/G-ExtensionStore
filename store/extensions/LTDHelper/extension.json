@@ -8,11 +8,11 @@
     ],
     "version": "1.0.0",
     "categories": ["Usability", "Others"],
-    
+
     "source": "https://github.com/LilithRainbows/Geode/tree/main/Examples/LTDHelper",
-    
+
     "stable": true,
-    
+
     "framework": {
       "name": "Geode",
       "version": "1.0.0"
@@ -20,9 +20,9 @@
 
     "language": "Visual Basic",
     "commands": {
-      "default": ["LTDHelper.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["cmd", "/C", "LTDHelper.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
-    
+
     "compatibility": {
         "systems": ["Windows"],
         "clients": ["Flash"]
