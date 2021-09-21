@@ -1983,7 +1983,7 @@
         "type": "publish",
         "timestamp": 1632087720465,
         "locked": false,
-        "score": 300
+        "score": 320
       },
       {
         "channelId": "878094299403788330",
@@ -1993,7 +1993,7 @@
         "type": "update",
         "timestamp": 1632142138301,
         "locked": false,
-        "score": 25
+        "score": 50
       }
     ],
     "latestEmbed": 1632087720465
