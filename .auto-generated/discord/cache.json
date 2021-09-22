@@ -1997,5 +1997,73 @@
       }
     ],
     "latestEmbed": 1632087720465
+  },
+  {
+    "title": "Rainbow BackGround",
+    "version": "2.0",
+    "_object": {
+      "title": "Rainbow BackGround",
+      "description": "Change the color of the BackGround.\n\n- `/r set` to set the ID of the furni\n- Use `/r on` to start the animation\n- `/r off` to stop it\n- `/r 0.5` change the delay between color (0.2 by default)",
+      "authors": [
+        {
+          "name": "Lande",
+          "hotel": ".fr",
+          "username": "Lande",
+          "discord": "Lande#2081",
+          "twitter": "Lande_int"
+        }
+      ],
+      "version": "2.0",
+      "categories": [
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/Laande/extensions/blob/master/Rainbow_BG/Rainbow_BG.py",
+      "readme": "https://github.com/Laande/extensions/blob/master/Rainbow_BG/README.MD",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "0.1.5"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "Rainbow_BG.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "22-09-2021 17:00:00",
+      "updateDate": "22-09-2021 17:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "890267283040141383",
+        "extVersion": "2.0",
+        "type": "publish",
+        "timestamp": 1632326661258,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1632326661258
   }
 ]
