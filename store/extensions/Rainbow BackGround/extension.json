@@ -23,9 +23,9 @@
       "version": "0.1.5"
     },
 
-    "language": "Java",
+    "language": "Python",
     "commands": {
-      "default": ["java", "-jar", "GClick.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["python", "Rainbow_BG.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
