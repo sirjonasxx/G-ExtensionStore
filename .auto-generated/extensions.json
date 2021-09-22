@@ -1089,7 +1089,7 @@
         "discord": "Lande#2081",
         "twitter": "Lande_int",
         "extensionsCount": 1,
-        "reputation": 130
+        "reputation": 150
       }
     ],
     "version": "2.0",
@@ -1130,7 +1130,7 @@
     "submissionDate": "22-09-2021 17:00:00",
     "updateDate": "22-09-2021 17:00:00",
     "isOutdated": false,
-    "rating": 130
+    "rating": 150
   },
   {
     "title": "RandomRoomVisitor",
