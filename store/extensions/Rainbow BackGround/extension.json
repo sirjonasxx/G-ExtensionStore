@@ -1,0 +1,40 @@
+{
+    "title": "Rainbow BackGround",
+    "description": "Description of the extension.\n\nGives you *infinite coins* and much more...",
+    "authors": [
+      {
+        "name": "sirjonasxx",
+        "hotel": "(optional) .nl",
+        "username": "(optional) sirjonasxx-VII",
+        "discord": "(optional) sirjonasxx#2633",
+        "twitter": "(optional) sirjonasxx"
+      }
+    ],
+    "version": "0.1.0",
+    "categories": ["Building", "Trading", "Others"],
+    
+    "source": "Url to the source code",
+    "readme": "(optional) readme file",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+
+    "language": "Java",
+    "commands": {
+      "default": ["java", "-jar", "GClick.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+      "linux": ["(optional) <some OS-specific command...>"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Unity", "Flash"]
+    },
+
+    "submissionDate": "15-08-2021 01:16:35",
+    "updateDate": "15-08-2021 01:16:35",
+    "isOutdated": false
+}
