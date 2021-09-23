@@ -62,7 +62,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 750
       }
     ],
@@ -758,6 +758,59 @@
     "rating": 280
   },
   {
+    "title": "GWardrobe",
+    "description": "Save and load your habbo outfits",
+    "authors": [
+      {
+        "name": "schweppes0x",
+        "hotel": ".nl",
+        "username": "-MrTn-",
+        "discord": "Itstonyownss#0683",
+        "extensionsCount": 5,
+        "reputation": 750
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/schweppes-0x/GWardrobe",
+    "readme": "https://github.com/schweppes-0x/GWardrobe/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "GWardrobe.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "22-09-2021 21:00:00",
+    "updateDate": "22-09-2021 21:01:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Giftpeeker",
     "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
     "authors": [
@@ -1141,7 +1194,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 750
       }
     ],
@@ -1311,7 +1364,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 750
       }
     ],
@@ -1366,7 +1419,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 750
       }
     ],

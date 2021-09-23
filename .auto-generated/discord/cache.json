@@ -2065,5 +2065,72 @@
       }
     ],
     "latestEmbed": 1632326661258
+  },
+  {
+    "title": "GWardrobe",
+    "version": "1.0",
+    "_object": {
+      "title": "GWardrobe",
+      "description": "Save and load your habbo outfits",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/schweppes-0x/GWardrobe",
+      "readme": "https://github.com/schweppes-0x/GWardrobe/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "GWardrobe.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "22-09-2021 21:00:00",
+      "updateDate": "22-09-2021 21:01:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "890600464742219837",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1632406098875,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1632406098875
   }
 ]
