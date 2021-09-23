@@ -71,8 +71,8 @@
     "categories": [
       "Usability"
     ],
-    "source": "https://github.com/DarkStar851/AlwaysHC",
-    "readme": "https://github.com/DarkStar851/AlwaysHC/blob/master/README.md",
+    "source": "https://github.com/scottstamp/AlwaysHC",
+    "readme": "https://github.com/scottstamp/AlwaysHC/blob/master/README.md",
     "stable": true,
     "framework": {
       "name": "Native",
