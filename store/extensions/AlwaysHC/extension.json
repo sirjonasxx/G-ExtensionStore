@@ -1,0 +1,37 @@
+{
+  "title": "AlwaysHC",
+  "description": "Keep HC clothes after it expires",
+  "authors": [{
+    "name": "DarkStar851",
+    "hotel": ".com",
+    "username": "Fellower",
+    "discord": "DarkStar851#9959",
+    "twitter": "DarkStar851"
+  }],
+  "version": "1.0",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/DarkStar851/AlwaysHC",
+  "readme": "https://github.com/DarkStar851/AlwaysHC/blob/master/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5.0"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "AlwaysHC.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "23-09-2021 12:00:00",
+  "updateDate": "23-09-2021 12:00:00",
+  "isOutdated": false
+}
