@@ -1952,7 +1952,7 @@
   },
   {
     "title": "GWardrobe",
-    "version": "1.0",
+    "version": "1.2",
     "_object": {
       "title": "GWardrobe",
       "description": "Save and load your habbo outfits",
@@ -1964,7 +1964,7 @@
           "discord": "Itstonyownss#0683"
         }
       ],
-      "version": "1.0",
+      "version": "1.2",
       "categories": [
         "Usability"
       ],
@@ -2000,7 +2000,7 @@
         ]
       },
       "submissionDate": "22-09-2021 21:00:00",
-      "updateDate": "22-09-2021 21:01:00",
+      "updateDate": "23-09-2021 23:41:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2009,6 +2009,14 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1632406100275,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1441483241794408451",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1632511361133,
         "locked": false,
         "score": 0
       }
