@@ -11,8 +11,8 @@ const allExtensions = extensionConfigs();
 const discordCache = require(__dirname + "/../../.auto-generated/discord/cache.json");
 const cachedNameToVersion = new Map(discordCache.map(ext => [ext.title, ext.version]));
 
-const newExtensions = allExtensions.filter((ext) => !cachedNameToVersion.has(ext.title));
-const updatedExtensions = allExtensions.filter((ext) =>
+const newExtensions = allExtensions.filter((ext) => !ext.isOutdated && !cachedNameToVersion.has(ext.title));
+const updatedExtensions = allExtensions.filter((ext) => !ext.isOutdated && 
     cachedNameToVersion.has(ext.title) && compareVersions(ext.version, cachedNameToVersion.get(ext.title)) > 0);
 
 
