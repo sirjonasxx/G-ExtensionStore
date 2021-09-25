@@ -1,12 +1,12 @@
 {
     "title": "LTDHelper",
-    "description": "Automatically purchase an LTD unit.\n\nWarning: to avoid tool abuse, only a single instance of the extension is allowed.",
+    "description": "Automatically purchase an LTD unit.\n\nWarning: use at your own risk!\nTo avoid tool abuse, only a single instance of the extension is allowed.",
     "authors": [
       {
         "name": "LilithRainbows"
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": ["Usability", "Others"],
     
     "source": "https://github.com/LilithRainbows/Geode/tree/main/Examples/LTDHelper",
@@ -20,7 +20,7 @@
 
     "language": "Visual Basic",
     "commands": {
-      "default": ["LTDHelper.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["cmd", "/C", "LTDHelper.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
@@ -29,6 +29,6 @@
     },
 
     "submissionDate": "16-09-2021 00:00:00",
-    "updateDate": "18-09-2021 00:00:00",
+    "updateDate": "25-09-2021 00:00:00",
     "isOutdated": false
 }
