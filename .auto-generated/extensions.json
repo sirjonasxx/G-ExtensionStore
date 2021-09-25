@@ -920,7 +920,7 @@
   },
   {
     "title": "LTDHelper",
-    "description": "Automatically purchase an LTD unit.\n\nWarning: to avoid tool abuse, only a single instance of the extension is allowed.",
+    "description": "Automatically purchase an LTD unit.\n\nWarning: use at your own risk!\nTo avoid tool abuse, only a single instance of the extension is allowed.",
     "authors": [
       {
         "name": "LilithRainbows",
@@ -928,7 +928,7 @@
         "reputation": 340
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.3",
     "categories": [
       "Usability",
       "Others"
@@ -962,8 +962,8 @@
       ]
     },
     "submissionDate": "16-09-2021 00:00:00",
-    "updateDate": "18-09-2021 00:00:00",
-    "isOutdated": false,
+    "updateDate": "25-09-2021 20:00:00",
+    "isOutdated": true,
     "rating": 340
   },
   {

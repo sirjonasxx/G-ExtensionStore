@@ -1746,16 +1746,16 @@
   },
   {
     "title": "LTDHelper",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "_object": {
       "title": "LTDHelper",
-      "description": "Automatically purchase an LTD unit.\n\nWarning: to avoid tool abuse, only a single instance of the extension is allowed.",
+      "description": "Automatically purchase an LTD unit.\n\nWarning: use at your own risk!\nTo avoid tool abuse, only a single instance of the extension is allowed.",
       "authors": [
         {
           "name": "LilithRainbows"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.3",
       "categories": [
         "Usability",
         "Others"
@@ -1789,8 +1789,8 @@
         ]
       },
       "submissionDate": "16-09-2021 00:00:00",
-      "updateDate": "18-09-2021 00:00:00",
-      "isOutdated": false
+      "updateDate": "25-09-2021 20:00:00",
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -1808,8 +1808,17 @@
         "timestamp": 1631953224021,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1441891178086125571",
+        "extVersion": "1.0.3",
+        "type": "remove",
+        "timestamp": 1632608620645,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": true
   },
   {
     "title": "Wired Presets",
