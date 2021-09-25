@@ -64,15 +64,15 @@
         "discord": "DarkStar851#9959",
         "twitter": "DarkStar851",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 310
       }
     ],
     "version": "1.0",
     "categories": [
       "Usability"
     ],
-    "source": "https://github.com/DarkStar851/AlwaysHC",
-    "readme": "https://github.com/DarkStar851/AlwaysHC/blob/master/README.md",
+    "source": "https://github.com/scottstamp/AlwaysHC",
+    "readme": "https://github.com/scottstamp/AlwaysHC/blob/master/README.md",
     "stable": true,
     "framework": {
       "name": "Native",
@@ -105,7 +105,7 @@
     "submissionDate": "23-09-2021 12:00:00",
     "updateDate": "23-09-2021 12:00:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 310
   },
   {
     "title": "BensaFect",
@@ -117,7 +117,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 5,
-        "reputation": 750
+        "reputation": 915
       }
     ],
     "version": "0.3",
@@ -821,10 +821,10 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 5,
-        "reputation": 750
+        "reputation": 915
       }
     ],
-    "version": "1.0",
+    "version": "1.2",
     "categories": [
       "Usability"
     ],
@@ -860,9 +860,9 @@
       ]
     },
     "submissionDate": "22-09-2021 21:00:00",
-    "updateDate": "22-09-2021 21:01:00",
+    "updateDate": "23-09-2021 23:41:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 165
   },
   {
     "title": "Giftpeeker",
@@ -1196,7 +1196,7 @@
         "discord": "Lande#2081",
         "twitter": "Lande_int",
         "extensionsCount": 1,
-        "reputation": 150
+        "reputation": 170
       }
     ],
     "version": "2.0",
@@ -1237,7 +1237,7 @@
     "submissionDate": "22-09-2021 17:00:00",
     "updateDate": "22-09-2021 17:00:00",
     "isOutdated": false,
-    "rating": 150
+    "rating": 170
   },
   {
     "title": "RandomRoomVisitor",
@@ -1249,7 +1249,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 5,
-        "reputation": 750
+        "reputation": 915
       }
     ],
     "version": "1.0",
@@ -1419,7 +1419,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 5,
-        "reputation": 750
+        "reputation": 915
       }
     ],
     "version": "1.0",
@@ -1474,7 +1474,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 5,
-        "reputation": 750
+        "reputation": 915
       }
     ],
     "version": "1.0",
