@@ -118,5 +118,9 @@
   {
     "extension": "AlwaysHC",
     "rating": 350
+  },
+  {
+    "extension": "Handitem Chooser",
+    "rating": 70
   }
 ]
