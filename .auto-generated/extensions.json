@@ -602,7 +602,7 @@
         "username": "denio4321",
         "discord": "denitos#9999",
         "twitter": "Denio_HB",
-        "extensionsCount": 1,
+        "extensionsCount": 2,
         "reputation": 350
       }
     ],
@@ -917,6 +917,61 @@
     "updateDate": "04-09-2021 04:46:25",
     "isOutdated": false,
     "rating": 240
+  },
+  {
+    "title": "Handitem Chooser",
+    "description": "A tool to automatically pick the desired handitems from furnis. ",
+    "authors": [
+      {
+        "name": "denio4321",
+        "hotel": ".es",
+        "username": "denio4321",
+        "discord": "denitos#3299",
+        "twitter": "Denio_HB",
+        "extensionsCount": 2,
+        "reputation": 350
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Fun",
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/denio4321/Handitem-Chooser",
+    "readme": "https://github.com/denio4321/Handitem-Chooser/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "1.5"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "main.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "26-09-2021 18:22:00",
+    "updateDate": "26-09-2021 18:22:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "LTDHelper",
