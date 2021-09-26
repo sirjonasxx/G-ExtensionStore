@@ -1,11 +1,11 @@
 [
   {
     "extension": "G-BuildTools",
-    "rating": 340
+    "rating": 550
   },
   {
     "extension": "G-Click",
-    "rating": 260
+    "rating": 300
   },
   {
     "extension": "G-Forum",
@@ -17,15 +17,15 @@
   },
   {
     "extension": "G-Plants",
-    "rating": 230
+    "rating": 250
   },
   {
     "extension": "Packet Info Explorer",
-    "rating": 230
+    "rating": 250
   },
   {
     "extension": "Clientside Effect",
-    "rating": 230
+    "rating": 285
   },
   {
     "extension": "Custom walk",
@@ -33,7 +33,7 @@
   },
   {
     "extension": "Giftpeeker",
-    "rating": 230
+    "rating": 240
   },
   {
     "extension": "Outfit Randomizer",
@@ -49,7 +49,7 @@
   },
   {
     "extension": "G-CryptoChat",
-    "rating": 170
+    "rating": 305
   },
   {
     "extension": "StarDuckGifter",
@@ -61,7 +61,7 @@
   },
   {
     "extension": "MackleEverywhere",
-    "rating": 170
+    "rating": 190
   },
   {
     "extension": "3 Days Free HC",
@@ -70,5 +70,33 @@
   {
     "extension": "RandomRoomVisitor",
     "rating": 250
+  },
+  {
+    "extension": "Private Profile Fixer",
+    "rating": 430
+  },
+  {
+    "extension": "G-Friends",
+    "rating": 315
+  },
+  {
+    "extension": "Full Wardrobe",
+    "rating": 210
+  },
+  {
+    "extension": "Block Users",
+    "rating": 230
+  },
+  {
+    "extension": "BensaFect",
+    "rating": 320
+  },
+  {
+    "extension": "Room Duplicator",
+    "rating": 290
+  },
+  {
+    "extension": "xabbo",
+    "rating": 550
   }
 ]

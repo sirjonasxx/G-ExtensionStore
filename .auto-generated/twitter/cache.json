@@ -1,7 +1,7 @@
 [
   {
     "title": "Clientside Effect",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Clientside Effect",
       "description": "Apply any existing effect clientside",
@@ -14,7 +14,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Fun"
       ],
@@ -23,7 +23,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -50,7 +50,7 @@
         ]
       },
       "submissionDate": "20-08-2021 14:23:13",
-      "updateDate": "20-08-2021 14:23:13",
+      "updateDate": "04-09-2021 05:17:52",
       "isOutdated": false
     },
     "tweets": [
@@ -59,6 +59,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1629478232715,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1434048949044797440",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630738887528,
         "locked": false,
         "score": 0
       }
@@ -131,7 +139,7 @@
   },
   {
     "title": "G-BuildTools",
-    "version": "1.2",
+    "version": "1.2.1",
     "_object": {
       "title": "G-BuildTools",
       "description": "A habbo builders' dream",
@@ -144,7 +152,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.2",
+      "version": "1.2.1",
       "categories": [
         "Building",
         "Usability"
@@ -181,7 +189,7 @@
         ]
       },
       "submissionDate": "15-08-2021 01:16:35",
-      "updateDate": "25-08-2021 00:38:00",
+      "updateDate": "31-08-2021 23:14:00",
       "isOutdated": false
     },
     "tweets": [
@@ -206,6 +214,14 @@
         "extVersion": "1.2",
         "type": "update",
         "timestamp": 1629844916603,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432814457856544772",
+        "extVersion": "1.2.1",
+        "type": "update",
+        "timestamp": 1630444561956,
         "locked": false,
         "score": 0
       }
@@ -286,7 +302,7 @@
   },
   {
     "title": "G-CryptoChat",
-    "version": "1.0.0.0",
+    "version": "1.2.0.0",
     "_object": {
       "title": "G-CryptoChat",
       "description": "Enjoy fast and fun encrypted conversation",
@@ -296,13 +312,13 @@
           "discord": "Moch#2477"
         }
       ],
-      "version": "1.0.0.0",
+      "version": "1.2.0.0",
       "categories": [
         "Fun",
         "Others"
       ],
       "source": "https://github.com/erikmoch/CryptoChat",
-      "stable": false,
+      "stable": true,
       "framework": {
         "name": "Geode",
         "version": "1.0.0"
@@ -330,8 +346,8 @@
         ]
       },
       "submissionDate": "19-08-2021 11:59:00",
-      "updateDate": "19-08-2021 11:59:00",
-      "isOutdated": true
+      "updateDate": "04-09-2021 23:54:00",
+      "isOutdated": false
     },
     "tweets": [
       {
@@ -339,6 +355,14 @@
         "extVersion": "1.0.0.0",
         "type": "publish",
         "timestamp": 1629478276497,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1435329148566659073",
+        "extVersion": "1.2.0.0",
+        "type": "update",
+        "timestamp": 1631044110900,
         "locked": false,
         "score": 0
       }
@@ -606,7 +630,7 @@
   },
   {
     "title": "Giftpeeker",
-    "version": "0.2",
+    "version": "0.3",
     "_object": {
       "title": "Giftpeeker",
       "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
@@ -619,7 +643,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2",
+      "version": "0.3",
       "categories": [
         "Usability"
       ],
@@ -628,7 +652,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -655,7 +679,7 @@
         ]
       },
       "submissionDate": "20-08-2021 12:33:23",
-      "updateDate": "20-08-2021 12:33:23",
+      "updateDate": "04-09-2021 04:46:25",
       "isOutdated": false
     },
     "tweets": [
@@ -664,6 +688,14 @@
         "extVersion": "0.2",
         "type": "publish",
         "timestamp": 1629478332048,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1434048970725240836",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1630738892696,
         "locked": false,
         "score": 0
       }
@@ -1188,6 +1220,509 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1629820642345,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Private Profile Fixer",
+    "version": "0.2",
+    "_object": {
+      "title": "Private Profile Fixer",
+      "description": "Make private profiles openable in the Air/Flash client",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.2",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/PrivateProfileFixer",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.0.1-beta.21"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-e",
+          "index.js",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "27-08-2021 14:29:40",
+      "updateDate": "27-08-2021 14:29:40",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1431373453710413826",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1630100999782,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1431378430357123072",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630102186277,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "G-Friends",
+    "version": "1.0.1",
+    "_object": {
+      "title": "G-Friends",
+      "description": "A tool to add all the people on a room, also includes an automatic console tool!",
+      "authors": [
+        {
+          "name": "denio4321",
+          "hotel": ".es",
+          "username": "denio4321",
+          "discord": "denitos#9999",
+          "twitter": "Denio_HB"
+        }
+      ],
+      "version": "1.0.1",
+      "categories": [
+        "Fun",
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/denio4321/G-Friends",
+      "readme": "https://github.com/denio4321/G-Friends/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "1.5"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "main.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "27-08-2021 18:00:00",
+      "updateDate": "27-08-2021 18:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1431773277844819971",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630196325345,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432091866602815488",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1630272282775,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Full Wardrobe",
+    "version": "0.1",
+    "_object": {
+      "title": "Full Wardrobe",
+      "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Usability",
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/WiredSpast/FullWardrobe",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.0.1-beta.21"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "29-08-2021 01:19:19",
+      "updateDate": "29-08-2021 01:19:19",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1431774479257153536",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1630196611771,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Block Users",
+    "version": "1.0.1",
+    "_object": {
+      "title": "Block Users",
+      "description": "Extends the \"Ignore\" feature in Habbo, to completely neglect the existence of some users. \n\n Ideal for sending trollers to the shadow realm...",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "1.0.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/sirjonasxx/BlockUsers",
+      "readme": "https://github.com/sirjonasxx/BlockUsers/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "BlockUsers.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "29-08-2021 23:03:00",
+      "updateDate": "30-08-2021 02:40:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1432090265985028098",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630271901193,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432141466466390017",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1630284108280,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "BensaFect",
+    "version": "0.3",
+    "_object": {
+      "title": "BensaFect",
+      "description": "Automatically gets Bensalem effects",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "0.3",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/schweppes-0x/BensaFect",
+      "readme": "https://github.com/schweppes-0x/BensaFect/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "BensaFect.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "30-08-2021 02:00:00",
+      "updateDate": "30-08-2021 16:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1432138647852179462",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1630283436313,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432143697664151556",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1630284640212,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1432352064777211909",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1630334318796,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Room Duplicator",
+    "version": "1.0",
+    "_object": {
+      "title": "Room Duplicator",
+      "description": "Copy flooritems, wallitems, floorplans and/or roomsettings from one room to another",
+      "authors": [
+        {
+          "name": "kouris-h",
+          "hotel": ".nl",
+          "username": "Kouris",
+          "discord": "Remco#3719"
+        },
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Building"
+      ],
+      "source": "https://github.com/kouris-h/RoomDuplicator",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.0"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RoomDuplicator.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "02-09-2021 18:08:10",
+      "updateDate": "02-09-2021 18:08:10",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1433465318064721930",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1630599739214,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "xabbo",
+    "version": "1.0.0",
+    "_object": {
+      "title": "xabbo",
+      "description": "enhanced habbo",
+      "authors": [
+        {
+          "name": "b7",
+          "hotel": ".com",
+          "username": "1b7",
+          "discord": "b7#8571"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/b7c/b7.Xabbo",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "0.1.0"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "b7.Xabbo.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "04-09-2021 07:23:00",
+      "updateDate": "04-09-2021 07:23:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1434069826952179714",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1630743865265,
         "locked": false,
         "score": 0
       }

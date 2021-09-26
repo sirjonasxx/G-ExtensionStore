@@ -1,20 +1,21 @@
 {
-    "title": "HandItem Chooser",
-    "description": "A tool to automatically pick the desired handitems from furnis. ",
+    "title": "G-Friends",
+    "description": "A tool to add all the people on a room, also includes an automatic console tool!",
     "authors": [
       {
         "name": "denio4321",
         "hotel": ".es",
         "username": "denio4321",
-        "discord": "denitos#3299",
+        "discord": "denitos#9999",
         "twitter": "Denio_HB"
       }
     ],
-    "version": "1.0",
+
+    "version": "1.1",
     "categories": ["Fun", "Usability", "Others"],
 
-    "source": "https://github.com/denio4321/Handitem-Chooser",
-    "readme": "https://github.com/denio4321/Handitem-Chooser/blob/master/README.md",
+    "source": "https://github.com/denio4321/G-Friends",
+    "readme": "https://github.com/denio4321/G-Friends/blob/main/README.md",
 
     "stable": true,
 
@@ -33,7 +34,7 @@
         "clients": ["Flash"]
     },
 
-    "submissionDate": "26-09-2021 18:22:00",
-    "updateDate": "26-09-2021 18:22:00",
+    "submissionDate": "27-08-2021 18:00:00",
+    "updateDate": "27-08-2021 18:00:00",
     "isOutdated": false
 }
