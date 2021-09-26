@@ -2099,7 +2099,7 @@
   {
     "title": "Handitem Chooser",
     "version": "1.0",
-    "isOutdated": false,
+    "isOutdated": true,
     "_object": {
       "title": "Handitem Chooser",
       "description": "A tool to automatically pick the desired handitems from furnis. ",
@@ -2150,7 +2150,7 @@
       },
       "submissionDate": "26-09-2021 18:22:00",
       "updateDate": "26-09-2021 18:22:00",
-      "isOutdated": false
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -2158,6 +2158,14 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1632674772574,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1442202269974413313",
+        "extVersion": "1.0",
+        "type": "remove",
+        "timestamp": 1632682790722,
         "locked": false,
         "score": 0
       }
