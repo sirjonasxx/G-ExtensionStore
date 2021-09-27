@@ -1,6 +1,6 @@
 {
   "title": "UserAdder",
-  "description": "Automatically gets Bensalem effects",
+  "description": "It will add all users upon entering a room.",
   "authors": [
     {
       "name": "schweppes0x",
