@@ -1,0 +1,34 @@
+{
+    "title": "Listening Mission",
+    "description": "Display current spotify music you listening in your mission.",
+    "authors": [{
+      "name": "Lx",
+      "discord": "Lx#8368"
+    }],
+    "version": "0.1",
+    "categories": ["Funny"],
+  
+    "source": "https://github.com/WiredSpast/FullWardrobe",
+  
+    "stable": true,
+  
+    "framework": {
+      "name": "G-Node",
+      "version": "0.0.1-beta.21"
+    },
+  
+    "language": "Node.js",
+    "commands": {
+      "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+  
+    "compatibility": {
+      "systems": ["Linux", "Windows", "Mac"],
+      "clients": ["Flash"]
+    },
+  
+    "submissionDate": "27-09-2021 00:57:37",
+    "updateDate": "27-09-2021 00:57:37",
+  
+    "isOutdated": false
+  }
