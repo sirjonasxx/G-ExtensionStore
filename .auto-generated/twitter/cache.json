@@ -2238,7 +2238,7 @@
   },
   {
     "title": "ListeningMotto",
-    "version": "0.1",
+    "version": "0.1.1",
     "isOutdated": false,
     "_object": {
       "title": "ListeningMotto",
@@ -2249,7 +2249,7 @@
           "discord": "Lx#8368"
         }
       ],
-      "version": "0.1",
+      "version": "0.1.1",
       "categories": [
         "Fun"
       ],
@@ -2288,7 +2288,7 @@
         ]
       },
       "submissionDate": "27-09-2021 02:01:24",
-      "updateDate": "27-09-2021 12:10:49",
+      "updateDate": "27-09-2021 19:41:49",
       "isOutdated": false
     },
     "tweets": [
@@ -2297,6 +2297,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1632768172766,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1442624037633593355",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1632783347971,
         "locked": false,
         "score": 0
       }
