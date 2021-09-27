@@ -121,6 +121,14 @@
   },
   {
     "extension": "Handitem Chooser",
-    "rating": 290
+    "rating": 330
+  },
+  {
+    "extension": "UserAdder",
+    "rating": 110
+  },
+  {
+    "extension": "ListeningMotto",
+    "rating": 130
   }
 ]
