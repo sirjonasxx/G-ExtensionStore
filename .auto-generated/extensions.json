@@ -116,7 +116,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 915
       }
     ],
@@ -820,7 +820,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 915
       }
     ],
@@ -1303,7 +1303,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 915
       }
     ],
@@ -1473,7 +1473,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 915
       }
     ],
@@ -1528,7 +1528,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 915
       }
     ],
@@ -1573,6 +1573,59 @@
     "updateDate": "20-08-2021 00:00:00",
     "isOutdated": false,
     "rating": 90
+  },
+  {
+    "title": "UserAdder",
+    "description": "It will add all users upon entering a room.",
+    "authors": [
+      {
+        "name": "schweppes0x",
+        "hotel": ".nl",
+        "username": "-MrTn-",
+        "discord": "Itstonyownss#0683",
+        "extensionsCount": 6,
+        "reputation": 915
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/schweppes-0x/UserAdder",
+    "readme": "https://github.com/schweppes-0x/UserAdder/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "UserAdder.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "27-09-2021 18:30:00",
+    "updateDate": "27-09-2021 18:30:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Wired Presets",

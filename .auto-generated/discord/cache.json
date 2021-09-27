@@ -2279,5 +2279,72 @@
       }
     ],
     "latestEmbed": 1632674771041
+  },
+  {
+    "title": "UserAdder",
+    "version": "1.0",
+    "_object": {
+      "title": "UserAdder",
+      "description": "It will add all users upon entering a room.",
+      "authors": [
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/schweppes-0x/UserAdder",
+      "readme": "https://github.com/schweppes-0x/UserAdder/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "UserAdder.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "27-09-2021 18:30:00",
+      "updateDate": "27-09-2021 18:30:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "892116233288306708",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1632767485065,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1632767485065
   }
 ]
