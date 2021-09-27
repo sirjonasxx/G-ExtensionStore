@@ -1,0 +1,39 @@
+{
+  "title": "BensaFect",
+  "description": "Automatically gets Bensalem effects",
+  "authors": [
+    {
+      "name": "schweppes0x",
+      "hotel": ".nl",
+      "username": "-MrTn-",
+      "discord": "Itstonyownss#0683"
+    }
+  ],
+  "version": "0.3",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/schweppes-0x/UserAdder",
+  "readme": "https://github.com/schweppes-0x/UserAdder/blob/main/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "UserAdder.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "30-08-2021 02:00:00",
+  "updateDate": "30-08-2021 16:00:00",
+
+  "isOutdated": false
+}
