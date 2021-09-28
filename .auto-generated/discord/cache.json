@@ -2349,7 +2349,7 @@
   },
   {
     "title": "ListeningMotto",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "_object": {
       "title": "ListeningMotto",
       "description": "Display current spotify music you listening in your motto.",
@@ -2359,7 +2359,7 @@
           "discord": "Lx#8368"
         }
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "categories": [
         "Fun"
       ],
@@ -2398,7 +2398,7 @@
         ]
       },
       "submissionDate": "27-09-2021 02:01:24",
-      "updateDate": "27-09-2021 19:41:49",
+      "updateDate": "27-09-2021 21:10:30",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2419,6 +2419,16 @@
         "extVersion": "0.1.1",
         "type": "update",
         "timestamp": 1632783347359,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "892207099692613652",
+        "extVersion": "0.1.2",
+        "type": "update",
+        "timestamp": 1632789149241,
         "locked": false,
         "score": 0
       }
