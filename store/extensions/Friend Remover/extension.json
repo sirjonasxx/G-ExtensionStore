@@ -22,7 +22,7 @@
       "version": "0.1.5"
     },
 
-    "language": "Java",
+    "language": "Python",
     "commands": {
       "default": ["python", "friendremover.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     },
