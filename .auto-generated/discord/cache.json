@@ -1236,7 +1236,7 @@
   },
   {
     "title": "RandomRoomVisitor",
-    "version": "1.0",
+    "version": "1.1",
     "_object": {
       "title": "RandomRoomVisitor",
       "description": "Searches for random rooms throughout the hotel and visits them",
@@ -1248,10 +1248,9 @@
           "discord": "Itstonyownss#0683"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability",
-        "Trading",
         "Others"
       ],
       "source": "https://github.com/schweppes-0x/RandomRoomVisitor",
@@ -1286,7 +1285,7 @@
         ]
       },
       "submissionDate": "24-08-2021 10:00:00",
-      "updateDate": "24-08-2021 10:00:00",
+      "updateDate": "28-09-2021 10:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1299,9 +1298,19 @@
         "timestamp": 1629820634732,
         "locked": false,
         "score": 240
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "892762115012702290",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1632921475475,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629820634732
+    "latestEmbed": 1632921475475
   },
   {
     "title": "Private Profile Fixer",
