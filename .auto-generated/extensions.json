@@ -323,6 +323,59 @@
     "rating": 170
   },
   {
+    "title": "Friend Remover",
+    "description": "Remove unwanted friends easier with this simple command: '!remove' ",
+    "authors": [
+      {
+        "name": "Tragic7432",
+        "hotel": ".com.tr",
+        "username": "Toxicwave",
+        "discord": "Tragic#7432",
+        "twitter": "",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "0.1.0",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/Tragic7432/Friend-Remover",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "0.1.5"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "friendremover.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "29-09-2021 19:00:00",
+    "updateDate": "29-09-2021 19:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Full Wardrobe",
     "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
     "authors": [

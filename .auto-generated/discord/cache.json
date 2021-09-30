@@ -2453,5 +2453,72 @@
       }
     ],
     "latestEmbed": 1632768168253
+  },
+  {
+    "title": "Friend Remover",
+    "version": "0.1.0",
+    "_object": {
+      "title": "Friend Remover",
+      "description": "Remove unwanted friends easier with this simple command: '!remove' ",
+      "authors": [
+        {
+          "name": "Tragic7432",
+          "hotel": ".com.tr",
+          "username": "Toxicwave",
+          "discord": "Tragic#7432",
+          "twitter": ""
+        }
+      ],
+      "version": "0.1.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/Tragic7432/Friend-Remover",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "0.1.5"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "friendremover.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "29-09-2021 19:00:00",
+      "updateDate": "29-09-2021 19:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "893187664960978964",
+        "extVersion": "0.1.0",
+        "type": "publish",
+        "timestamp": 1633022934595,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1633022934595
   }
 ]
