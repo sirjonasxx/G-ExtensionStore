@@ -2291,7 +2291,7 @@
   },
   {
     "title": "UserAdder",
-    "version": "1.0",
+    "version": "1.1",
     "_object": {
       "title": "UserAdder",
       "description": "It will add all users upon entering a room.",
@@ -2303,7 +2303,7 @@
           "discord": "Itstonyownss#0683"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability"
       ],
@@ -2339,7 +2339,7 @@
         ]
       },
       "submissionDate": "27-09-2021 18:30:00",
-      "updateDate": "27-09-2021 18:30:00",
+      "updateDate": "29-09-2021 18:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2352,6 +2352,16 @@
         "timestamp": 1632767485065,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "893183288376700948",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1633021891130,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1632767485065

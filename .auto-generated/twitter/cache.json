@@ -2181,7 +2181,7 @@
   },
   {
     "title": "UserAdder",
-    "version": "1.0",
+    "version": "1.1",
     "isOutdated": false,
     "_object": {
       "title": "UserAdder",
@@ -2194,7 +2194,7 @@
           "discord": "Itstonyownss#0683"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability"
       ],
@@ -2230,7 +2230,7 @@
         ]
       },
       "submissionDate": "27-09-2021 18:30:00",
-      "updateDate": "27-09-2021 18:30:00",
+      "updateDate": "29-09-2021 18:00:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2239,6 +2239,14 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1632767486440,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1443624563397455873",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1633021891928,
         "locked": false,
         "score": 0
       }
