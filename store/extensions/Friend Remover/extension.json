@@ -24,7 +24,7 @@
 
     "language": "Python",
     "commands": {
-      "default": ["python", "friendremover.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+      "default": ["python", "friendremover.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
