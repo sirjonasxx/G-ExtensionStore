@@ -1,0 +1,38 @@
+{
+    "title": "Friend Remover",
+    "description": "Remove unwanted friends easier with this simple command: '!remove' ",
+    "authors": [
+      {
+        "name": "Tragic7432",
+        "hotel": ".com.tr",
+        "username": "Toxicwave",
+        "discord": "Tragic#7432",
+        "twitter": ""
+      }
+    ],
+    "version": "0.1.0",
+    "categories": ["Usability", "Others"],
+    
+    "source": "https://github.com/Tragic7432/Friend-Remover",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "0.1.5"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "friendremover.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "29-09-2021 19:00:00",
+    "updateDate": "29-09-2021 19:00:00",
+    "isOutdated": false
+}
