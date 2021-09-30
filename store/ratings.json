@@ -130,5 +130,9 @@
   {
     "extension": "ListeningMotto",
     "rating": 340
+  },
+  {
+    "extension": "Friend Remover",
+    "rating": 150
   }
 ]
