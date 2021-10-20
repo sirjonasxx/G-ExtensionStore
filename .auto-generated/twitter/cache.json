@@ -2418,7 +2418,7 @@
   },
   {
     "title": "G-Translator",
-    "version": "1.0",
+    "version": "1.0.1",
     "isOutdated": false,
     "_object": {
       "title": "G-Translator",
@@ -2436,7 +2436,7 @@
           "discord": "Andyy#3780"
         }
       ],
-      "version": "1.0",
+      "version": "1.0.1",
       "categories": [
         "Usability",
         "Others"
@@ -2482,6 +2482,14 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1634762302082,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1450926880832507908",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1634762900068,
         "locked": false,
         "score": 0
       }

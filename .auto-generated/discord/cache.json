@@ -2543,7 +2543,7 @@
   },
   {
     "title": "G-Translator",
-    "version": "1.0",
+    "version": "1.0.1",
     "_object": {
       "title": "G-Translator",
       "description": "Visit every hotel you want!",
@@ -2560,7 +2560,7 @@
           "discord": "Andyy#3780"
         }
       ],
-      "version": "1.0",
+      "version": "1.0.1",
       "categories": [
         "Usability",
         "Others"
@@ -2608,6 +2608,16 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1634762300655,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "900485607241945098",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1634762899387,
         "locked": false,
         "score": 0
       }
