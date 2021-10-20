@@ -9,7 +9,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -170,7 +170,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -443,7 +443,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -498,7 +498,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -601,7 +601,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -710,7 +710,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -863,6 +863,67 @@
     "updateDate": "20-08-2021 15:18:01",
     "isOutdated": false,
     "rating": 280
+  },
+  {
+    "title": "G-Translator",
+    "description": "Visit every hotel you want!",
+    "authors": [
+      {
+        "name": "sirjonasxx",
+        "hotel": ".nl",
+        "username": "sirjonasxx-VII",
+        "discord": "sirjonasxx#2633",
+        "twitter": "sirjonasxx",
+        "extensionsCount": 10,
+        "reputation": 2445
+      },
+      {
+        "name": "Tripical",
+        "discord": "Andyy#3780",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/sirjonasxx/G-Translator",
+    "readme": "https://github.com/sirjonasxx/G-Translator/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "translator.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "20-10-2021 22:26:00",
+    "updateDate": "20-10-2021 22:26:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "GWardrobe",
@@ -1138,7 +1199,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -1246,7 +1307,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
@@ -1744,7 +1805,7 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 9,
+        "extensionsCount": 10,
         "reputation": 2445
       }
     ],
