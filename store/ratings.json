@@ -97,7 +97,7 @@
   },
   {
     "extension": "xabbo",
-    "rating": 590
+    "rating": 610
   },
   {
     "extension": "LTDHelper",
@@ -113,7 +113,7 @@
   },
   {
     "extension": "GWardrobe",
-    "rating": 295
+    "rating": 405
   },
   {
     "extension": "AlwaysHC",
@@ -121,7 +121,7 @@
   },
   {
     "extension": "Handitem Chooser",
-    "rating": 390
+    "rating": 410
   },
   {
     "extension": "UserAdder",
@@ -129,10 +129,18 @@
   },
   {
     "extension": "ListeningMotto",
-    "rating": 360
+    "rating": 380
   },
   {
     "extension": "Friend Remover",
     "rating": 210
+  },
+  {
+    "extension": "G-Translator",
+    "rating": 270
+  },
+  {
+    "extension": "Sanbovir Photo Inspector",
+    "rating": 90
   }
 ]
