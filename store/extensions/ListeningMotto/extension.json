@@ -2,10 +2,10 @@
     "title": "ListeningMotto",
     "description": "Display current spotify music you listening in your motto.",
     "authors": [{
-      "name": "Lxx",
-      "discord": "Lx#2000"
+      "name": "Lx",
+      "discord": "Lx#8368"
     }],
-    "version": "1.0",
+    "version": "0.1.2",
     "categories": ["Fun"],
   
     "source": "https://github.com/iIlusion/ListeningMission",
@@ -28,7 +28,7 @@
     },
   
     "submissionDate": "27-09-2021 02:01:24",
-    "updateDate": "27-11-2021 20:08:00",
+    "updateDate": "27-09-2021 21:10:30",
   
     "isOutdated": false
   }
