@@ -2388,17 +2388,17 @@
   },
   {
     "title": "ListeningMotto",
-    "version": "0.1.2",
+    "version": "1.0",
     "_object": {
       "title": "ListeningMotto",
       "description": "Display current spotify music you listening in your motto.",
       "authors": [
         {
-          "name": "Lx",
-          "discord": "Lx#8368"
+          "name": "Lxx",
+          "discord": "Lx#2000"
         }
       ],
-      "version": "0.1.2",
+      "version": "1.0",
       "categories": [
         "Fun"
       ],
@@ -2437,7 +2437,7 @@
         ]
       },
       "submissionDate": "27-09-2021 02:01:24",
-      "updateDate": "27-09-2021 21:10:30",
+      "updateDate": "27-11-2021 21:36:30",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2470,9 +2470,19 @@
         "timestamp": 1632789149241,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "914314761821384774",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1638060026808,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1632768168253
+    "latestEmbed": 1638060026808
   },
   {
     "title": "Friend Remover",

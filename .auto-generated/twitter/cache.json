@@ -2271,18 +2271,18 @@
   },
   {
     "title": "ListeningMotto",
-    "version": "0.1.2",
+    "version": "1.0",
     "isOutdated": false,
     "_object": {
       "title": "ListeningMotto",
       "description": "Display current spotify music you listening in your motto.",
       "authors": [
         {
-          "name": "Lx",
-          "discord": "Lx#8368"
+          "name": "Lxx",
+          "discord": "Lx#2000"
         }
       ],
-      "version": "0.1.2",
+      "version": "1.0",
       "categories": [
         "Fun"
       ],
@@ -2321,7 +2321,7 @@
         ]
       },
       "submissionDate": "27-09-2021 02:01:24",
-      "updateDate": "27-09-2021 21:10:30",
+      "updateDate": "27-11-2021 21:36:30",
       "isOutdated": false
     },
     "tweets": [
@@ -2346,6 +2346,14 @@
         "extVersion": "0.1.2",
         "type": "update",
         "timestamp": 1632789149979,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1464756035697057792",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1638060027511,
         "locked": false,
         "score": 0
       }
