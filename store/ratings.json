@@ -142,5 +142,9 @@
   {
     "extension": "Sanbovir Photo Inspector",
     "rating": 270
+  },
+  {
+    "extension": "LinkShortener",
+    "rating": 50
   }
 ]
