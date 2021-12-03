@@ -1143,7 +1143,7 @@
         "name": "Lxx",
         "discord": "Lx#2000",
         "extensionsCount": 2,
-        "reputation": 530
+        "reputation": 550
       }
     ],
     "version": "0.1",
@@ -1188,7 +1188,7 @@
     "submissionDate": "30-11-2021 20:32:30",
     "updateDate": "30-11-2021 20:32:30",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "ListeningMotto",
@@ -1198,7 +1198,7 @@
         "name": "Lxx",
         "discord": "Lx#2000",
         "extensionsCount": 2,
-        "reputation": 530
+        "reputation": 550
       }
     ],
     "version": "1.0",
