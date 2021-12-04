@@ -1,7 +1,7 @@
 [
   {
     "title": "G-BuildTools",
-    "version": "1.2.1",
+    "version": "2.0",
     "_object": {
       "title": "G-BuildTools",
       "description": "A habbo builders' dream",
@@ -14,7 +14,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.2.1",
+      "version": "2.0",
       "categories": [
         "Building",
         "Usability"
@@ -24,7 +24,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.1"
       },
       "language": "Java",
       "commands": {
@@ -51,7 +51,7 @@
         ]
       },
       "submissionDate": "15-08-2021 01:16:35",
-      "updateDate": "31-08-2021 23:14:00",
+      "updateDate": "4-12-2021 01:13:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -94,9 +94,19 @@
         "timestamp": 1630444561140,
         "locked": false,
         "score": 175
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "916483585148616755",
+        "extVersion": "2.0",
+        "type": "update",
+        "timestamp": 1638577115434,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1630444561140
+    "latestEmbed": 1638577115434
   },
   {
     "title": "G-Click",
