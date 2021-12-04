@@ -12,7 +12,7 @@ const discordCache = require(__dirname + "/../../.auto-generated/discord/cache.j
 const cachedNameToVersion = new Map(discordCache.map(ext => [ext.title, ext.version]));
 
 const newExtensions = allExtensions.filter((ext) => !ext.isOutdated && !cachedNameToVersion.has(ext.title));
-const updatedExtensions = allExtensions.filter((ext) => !ext.isOutdated && 
+const updatedExtensions = allExtensions.filter((ext) => !ext.isOutdated &&
     cachedNameToVersion.has(ext.title) && compareVersions(ext.version, cachedNameToVersion.get(ext.title)) > 0);
 
 
@@ -26,7 +26,7 @@ const embedExtension = (ext) => {
         .setAuthor(ext.authors[0].name)
         .setDescription(ext.description);
 
-    const iconPath = `./store/extensions/${ext.title}/icon.png`;
+    const iconPath = `./store/extensions/${ext.title}/icon.png?version=`+ext.version;
     if (fileExists(iconPath)) {
         const url = `https://raw.githubusercontent.com/sirjonasxx/G-ExtensionStore/HEAD/store/extensions/${encodeURIComponent(ext.title)}/icon.png`;
         embed.setThumbnail(url);
