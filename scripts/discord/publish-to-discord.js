@@ -26,7 +26,7 @@ const embedExtension = (ext) => {
         .setAuthor(ext.authors[0].name)
         .setDescription(ext.description);
 
-    const iconPath = `./store/extensions/${ext.title}/icon.png?version=`+ext.version;
+    const iconPath = `./store/extensions/${ext.title}/icon.png`;
     if (fileExists(iconPath)) {
         const url = `https://raw.githubusercontent.com/sirjonasxx/G-ExtensionStore/HEAD/store/extensions/${encodeURIComponent(ext.title)}/icon.png`;
         embed.setThumbnail(url);
