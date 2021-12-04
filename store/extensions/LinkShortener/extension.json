@@ -1,14 +1,15 @@
 {
-    "title": "ListeningMotto",
-    "description": "Display current spotify music you listening in your motto.",
+    "title": "LinkShortener",
+    "description": "shortens your chat links using abre.ai",
     "authors": [{
       "name": "Lxx",
       "discord": "Lx#2000"
     }],
-    "version": "1.0",
-    "categories": ["Fun"],
+    "version": "0.1",
+    "categories": ["Usability"],
   
-    "source": "https://github.com/iIlusion/ListeningMission",
+    "source": "https://github.com/iIlusion/Link-Shortener",
+    "readme": "https://github.com/iIlusion/Link-Shortener/blob/main/README.md",
   
     "stable": true,
   
@@ -27,8 +28,8 @@
       "clients": ["Flash"]
     },
   
-    "submissionDate": "27-09-2021 02:01:24",
-    "updateDate": "27-11-2021 21:36:30",
+    "submissionDate": "30-11-2021 20:32:30",
+    "updateDate": "30-11-2021 20:32:30",
   
     "isOutdated": false
   }

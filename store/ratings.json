@@ -65,11 +65,11 @@
   },
   {
     "extension": "3 Days Free HC",
-    "rating": 110
+    "rating": 130
   },
   {
     "extension": "RandomRoomVisitor",
-    "rating": 260
+    "rating": 285
   },
   {
     "extension": "Private Profile Fixer",
@@ -97,7 +97,7 @@
   },
   {
     "extension": "xabbo",
-    "rating": 590
+    "rating": 610
   },
   {
     "extension": "LTDHelper",
@@ -113,7 +113,7 @@
   },
   {
     "extension": "GWardrobe",
-    "rating": 295
+    "rating": 405
   },
   {
     "extension": "AlwaysHC",
@@ -121,18 +121,30 @@
   },
   {
     "extension": "Handitem Chooser",
-    "rating": 390
+    "rating": 430
   },
   {
     "extension": "UserAdder",
-    "rating": 120
+    "rating": 140
   },
   {
     "extension": "ListeningMotto",
-    "rating": 360
+    "rating": 440
   },
   {
     "extension": "Friend Remover",
     "rating": 210
+  },
+  {
+    "extension": "G-Translator",
+    "rating": 290
+  },
+  {
+    "extension": "Sanbovir Photo Inspector",
+    "rating": 270
+  },
+  {
+    "extension": "LinkShortener",
+    "rating": 110
   }
 ]

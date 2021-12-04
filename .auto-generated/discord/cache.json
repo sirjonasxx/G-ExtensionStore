@@ -1229,7 +1229,7 @@
         "type": "publish",
         "timestamp": 1629820634125,
         "locked": false,
-        "score": 100
+        "score": 120
       }
     ],
     "latestEmbed": 1629820634125
@@ -1307,7 +1307,7 @@
         "type": "update",
         "timestamp": 1632921475475,
         "locked": false,
-        "score": 0
+        "score": 25
       }
     ],
     "latestEmbed": 1632921475475
@@ -1851,7 +1851,7 @@
         "type": "publish",
         "timestamp": 1630743863785,
         "locked": false,
-        "score": 580
+        "score": 600
       }
     ],
     "latestEmbed": 1630743863785
@@ -2157,7 +2157,7 @@
         "type": "update",
         "timestamp": 1633190575953,
         "locked": false,
-        "score": 100
+        "score": 200
       },
       {
         "channelId": "878094299403788330",
@@ -2304,7 +2304,7 @@
         "type": "publish",
         "timestamp": 1632674771041,
         "locked": false,
-        "score": 380
+        "score": 420
       }
     ],
     "latestEmbed": 1632674771041
@@ -2371,7 +2371,7 @@
         "type": "publish",
         "timestamp": 1632767485065,
         "locked": false,
-        "score": 100
+        "score": 120
       },
       {
         "channelId": "878094299403788330",
@@ -2388,17 +2388,17 @@
   },
   {
     "title": "ListeningMotto",
-    "version": "0.1.2",
+    "version": "1.0",
     "_object": {
       "title": "ListeningMotto",
       "description": "Display current spotify music you listening in your motto.",
       "authors": [
         {
-          "name": "Lx",
-          "discord": "Lx#8368"
+          "name": "Lxx",
+          "discord": "Lx#2000"
         }
       ],
-      "version": "0.1.2",
+      "version": "1.0",
       "categories": [
         "Fun"
       ],
@@ -2437,7 +2437,7 @@
         ]
       },
       "submissionDate": "27-09-2021 02:01:24",
-      "updateDate": "27-09-2021 21:10:30",
+      "updateDate": "27-11-2021 21:36:30",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2449,7 +2449,7 @@
         "type": "publish",
         "timestamp": 1632768168253,
         "locked": false,
-        "score": 280
+        "score": 300
       },
       {
         "channelId": "878094299403788330",
@@ -2470,9 +2470,19 @@
         "timestamp": 1632789149241,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "914314761821384774",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1638060026808,
+        "locked": false,
+        "score": 50
       }
     ],
-    "latestEmbed": 1632768168253
+    "latestEmbed": 1638060026808
   },
   {
     "title": "Friend Remover",
@@ -2609,7 +2619,7 @@
         "type": "publish",
         "timestamp": 1634762300655,
         "locked": false,
-        "score": 0
+        "score": 220
       },
       {
         "channelId": "878094299403788330",
@@ -2619,9 +2629,146 @@
         "type": "update",
         "timestamp": 1634762899387,
         "locked": false,
-        "score": 0
+        "score": 50
       }
     ],
     "latestEmbed": 1634762300655
+  },
+  {
+    "title": "Sanbovir Photo Inspector",
+    "version": "2.0",
+    "_object": {
+      "title": "Sanbovir Photo Inspector",
+      "description": "Textual photo manipulator with fun tools",
+      "authors": [
+        {
+          "name": "sirjonasxx",
+          "hotel": ".nl",
+          "username": "sirjonasxx-VII",
+          "discord": "sirjonasxx#2633",
+          "twitter": "sirjonasxx"
+        }
+      ],
+      "version": "2.0",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/sirjonasxx/Project-Sanbovir",
+      "readme": "https://github.com/sirjonasxx/Project-Sanbovir/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.1"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "photofix.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "22-10-2021 00:17:00",
+      "updateDate": "22-10-2021 00:17:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "900902082196938753",
+        "extVersion": "2.0",
+        "type": "publish",
+        "timestamp": 1634862195021,
+        "locked": false,
+        "score": 260
+      }
+    ],
+    "latestEmbed": 1634862195021
+  },
+  {
+    "title": "LinkShortener",
+    "version": "0.1",
+    "_object": {
+      "title": "LinkShortener",
+      "description": "shortens your chat links using abre.ai",
+      "authors": [
+        {
+          "name": "Lxx",
+          "discord": "Lx#2000"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/iIlusion/Link-Shortener",
+      "readme": "https://github.com/iIlusion/Link-Shortener/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.0.1-beta.24"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "30-11-2021 20:32:30",
+      "updateDate": "30-11-2021 20:32:30",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "916282449007362069",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1638529160357,
+        "locked": false,
+        "score": 100
+      }
+    ],
+    "latestEmbed": 1638529160357
   }
 ]

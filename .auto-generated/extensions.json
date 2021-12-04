@@ -9,8 +9,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "1.0",
@@ -51,7 +51,7 @@
     "submissionDate": "24-08-2021 17:27:00",
     "updateDate": "24-08-2021 17:27:00",
     "isOutdated": false,
-    "rating": 110
+    "rating": 130
   },
   {
     "title": "AlwaysHC",
@@ -117,7 +117,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 6,
-        "reputation": 1175
+        "reputation": 1330
       }
     ],
     "version": "0.3",
@@ -170,8 +170,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "1.0.1",
@@ -443,8 +443,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "1.2.1",
@@ -498,8 +498,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "0.2.1",
@@ -601,8 +601,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "1.0",
@@ -656,7 +656,7 @@
         "discord": "denitos#9999",
         "twitter": "Denio_HB",
         "extensionsCount": 2,
-        "reputation": 740
+        "reputation": 780
       }
     ],
     "version": "1.1",
@@ -710,8 +710,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "0.2",
@@ -874,14 +874,14 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       },
       {
         "name": "Tripical",
         "discord": "Andyy#3780",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 290
       }
     ],
     "version": "1.0.1",
@@ -923,7 +923,7 @@
     "submissionDate": "20-10-2021 22:26:00",
     "updateDate": "20-10-2021 22:26:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 290
   },
   {
     "title": "GWardrobe",
@@ -935,7 +935,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 6,
-        "reputation": 1175
+        "reputation": 1330
       }
     ],
     "version": "1.4",
@@ -976,7 +976,7 @@
     "submissionDate": "22-09-2021 21:00:00",
     "updateDate": "03-10-2021 00:45:00",
     "isOutdated": false,
-    "rating": 295
+    "rating": 405
   },
   {
     "title": "Giftpeeker",
@@ -1043,7 +1043,7 @@
         "discord": "denitos#3299",
         "twitter": "Denio_HB",
         "extensionsCount": 2,
-        "reputation": 740
+        "reputation": 780
       }
     ],
     "version": "1.0",
@@ -1085,7 +1085,7 @@
     "submissionDate": "26-09-2021 18:22:00",
     "updateDate": "26-09-2021 18:22:00",
     "isOutdated": true,
-    "rating": 390
+    "rating": 430
   },
   {
     "title": "LTDHelper",
@@ -1136,17 +1136,72 @@
     "rating": 360
   },
   {
+    "title": "LinkShortener",
+    "description": "shortens your chat links using abre.ai",
+    "authors": [
+      {
+        "name": "Lxx",
+        "discord": "Lx#2000",
+        "extensionsCount": 2,
+        "reputation": 550
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/iIlusion/Link-Shortener",
+    "readme": "https://github.com/iIlusion/Link-Shortener/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "G-Node",
+      "version": "0.0.1-beta.24"
+    },
+    "language": "Node.js",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-npm",
+        "start",
+        "-v",
+        "15.0.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "30-11-2021 20:32:30",
+    "updateDate": "30-11-2021 20:32:30",
+    "isOutdated": false,
+    "rating": 110
+  },
+  {
     "title": "ListeningMotto",
     "description": "Display current spotify music you listening in your motto.",
     "authors": [
       {
-        "name": "Lx",
-        "discord": "Lx#8368",
-        "extensionsCount": 1,
-        "reputation": 360
+        "name": "Lxx",
+        "discord": "Lx#2000",
+        "extensionsCount": 2,
+        "reputation": 550
       }
     ],
-    "version": "0.1.2",
+    "version": "1.0",
     "categories": [
       "Fun"
     ],
@@ -1185,9 +1240,9 @@
       ]
     },
     "submissionDate": "27-09-2021 02:01:24",
-    "updateDate": "27-09-2021 21:10:30",
+    "updateDate": "27-11-2021 21:36:30",
     "isOutdated": false,
-    "rating": 360
+    "rating": 440
   },
   {
     "title": "MackleEverywhere",
@@ -1199,8 +1254,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "1.0",
@@ -1307,8 +1362,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "0.1",
@@ -1472,7 +1527,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 6,
-        "reputation": 1175
+        "reputation": 1330
       }
     ],
     "version": "1.1",
@@ -1514,7 +1569,7 @@
     "submissionDate": "24-08-2021 10:00:00",
     "updateDate": "28-09-2021 10:00:00",
     "isOutdated": false,
-    "rating": 260
+    "rating": 285
   },
   {
     "title": "Room Duplicator",
@@ -1633,6 +1688,60 @@
     "rating": 190
   },
   {
+    "title": "Sanbovir Photo Inspector",
+    "description": "Textual photo manipulator with fun tools",
+    "authors": [
+      {
+        "name": "sirjonasxx",
+        "hotel": ".nl",
+        "username": "sirjonasxx-VII",
+        "discord": "sirjonasxx#2633",
+        "twitter": "sirjonasxx",
+        "extensionsCount": 11,
+        "reputation": 3025
+      }
+    ],
+    "version": "2.0",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/sirjonasxx/Project-Sanbovir",
+    "readme": "https://github.com/sirjonasxx/Project-Sanbovir/blob/master/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.1"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "photofix.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "22-10-2021 00:17:00",
+    "updateDate": "22-10-2021 00:17:00",
+    "isOutdated": false,
+    "rating": 270
+  },
+  {
     "title": "StarDuckGifter",
     "description": "Give an amount of stardust to selected habbo",
     "authors": [
@@ -1642,7 +1751,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 6,
-        "reputation": 1175
+        "reputation": 1330
       }
     ],
     "version": "1.0",
@@ -1697,7 +1806,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 6,
-        "reputation": 1175
+        "reputation": 1330
       }
     ],
     "version": "1.0",
@@ -1752,7 +1861,7 @@
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
         "extensionsCount": 6,
-        "reputation": 1175
+        "reputation": 1330
       }
     ],
     "version": "1.1",
@@ -1793,7 +1902,7 @@
     "submissionDate": "27-09-2021 18:30:00",
     "updateDate": "29-09-2021 18:00:00",
     "isOutdated": false,
-    "rating": 120
+    "rating": 140
   },
   {
     "title": "Wired Presets",
@@ -1805,8 +1914,8 @@
         "username": "sirjonasxx-VII",
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
-        "extensionsCount": 10,
-        "reputation": 2445
+        "extensionsCount": 11,
+        "reputation": 3025
       }
     ],
     "version": "0.2",
@@ -1860,7 +1969,7 @@
         "username": "1b7",
         "discord": "b7#8571",
         "extensionsCount": 1,
-        "reputation": 590
+        "reputation": 610
       }
     ],
     "version": "1.0.0",
@@ -1898,6 +2007,6 @@
     "submissionDate": "04-09-2021 07:23:00",
     "updateDate": "04-09-2021 07:23:00",
     "isOutdated": false,
-    "rating": 590
+    "rating": 610
   }
 ]
