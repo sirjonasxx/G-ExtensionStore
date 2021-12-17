@@ -935,7 +935,7 @@
         "username": ".carol",
         "discord": "Carol#0002",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 130
       },
       {
         "name": "Lx",
@@ -943,7 +943,7 @@
         "username": "Lxx",
         "discord": "Lx#2000",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 130
       }
     ],
     "version": "1.0",
@@ -988,7 +988,7 @@
     "submissionDate": "16-12-2021 21:08:24",
     "updateDate": "16-12-2021 21:08:24",
     "isOutdated": false,
-    "rating": 90
+    "rating": 130
   },
   {
     "title": "GWardrobe",
