@@ -1324,7 +1324,7 @@
   },
   {
     "title": "Private Profile Fixer",
-    "version": "0.2",
+    "version": "0.3",
     "_object": {
       "title": "Private Profile Fixer",
       "description": "Make private profiles openable in the Air/Flash client",
@@ -1337,7 +1337,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2",
+      "version": "0.3",
       "categories": [
         "Usability"
       ],
@@ -1345,7 +1345,7 @@
       "stable": true,
       "framework": {
         "name": "G-Node",
-        "version": "0.0.1-beta.21"
+        "version": "0.0.1-beta.24"
       },
       "language": "Node.js",
       "commands": {
@@ -1376,7 +1376,7 @@
         ]
       },
       "submissionDate": "27-08-2021 14:29:40",
-      "updateDate": "27-08-2021 14:29:40",
+      "updateDate": "17-12-2021 14:24:10",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1399,9 +1399,19 @@
         "timestamp": 1630102185572,
         "locked": false,
         "score": 150
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "921488151107747861",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1639770296282,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1630100998851
+    "latestEmbed": 1639770296282
   },
   {
     "title": "G-Friends",
