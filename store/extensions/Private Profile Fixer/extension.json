@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.2",
+  "version": "0.3",
   "categories": ["Usability"],
 
   "source": "https://github.com/WiredSpast/PrivateProfileFixer",
@@ -17,7 +17,7 @@
 
   "framework": {
     "name": "G-Node",
-    "version": "0.0.1-beta.21"
+    "version": "0.0.1-beta.24"
   },
 
   "language": "Node.js",
@@ -31,7 +31,7 @@
   },
 
   "submissionDate": "27-08-2021 14:29:40",
-  "updateDate": "27-08-2021 14:29:40",
+  "updateDate": "17-12-2021 14:24:10",
 
   "isOutdated": false
 }
