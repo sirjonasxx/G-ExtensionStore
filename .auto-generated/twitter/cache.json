@@ -296,7 +296,7 @@
       },
       "submissionDate": "15-08-2021 01:16:35",
       "updateDate": "23-08-2021 02:49:35",
-      "isOutdated": false
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -314,8 +314,17 @@
         "timestamp": 1629680050254,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1472944158558019593",
+        "extVersion": "0.2.1",
+        "type": "remove",
+        "timestamp": 1640012228115,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": true
   },
   {
     "title": "G-CryptoChat",
