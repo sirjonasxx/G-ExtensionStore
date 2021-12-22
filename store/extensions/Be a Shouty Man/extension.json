@@ -1,0 +1,38 @@
+{
+    "title": "Be a Shouty Man",
+    "description": "A simple extension to shout all the time. And yes, the name is a joke with Horrible Histories.",
+    "authors": [
+      {
+        "name": "BrunoBonamigo",
+        "hotel": ".com.br",
+        "username": "BrunoBonamigo",
+        "discord": "Bonavigo#8353",
+        "twitter": ""
+      }
+    ],
+    "version": "1.0.0",
+    "categories": ["Fun", "Others"],
+    
+    "source": "https://github.com/Bonavigo/BeAShoutyMan",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "0.1.5"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "BeAShoutyMan.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "22-12-2021 14:25:00",
+    "updateDate": "22-12-2021 14:25:00",
+    "isOutdated": false
+}
