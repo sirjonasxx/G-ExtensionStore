@@ -1814,7 +1814,7 @@
   },
   {
     "title": "xabbo",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "xabbo",
       "description": "enhanced habbo",
@@ -1826,11 +1826,12 @@
           "discord": "b7#8571"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Usability"
       ],
       "source": "https://github.com/b7c/b7.Xabbo",
+      "readme": "https://github.com/b7c/b7.Xabbo/blob/master/README.md",
       "stable": true,
       "framework": {
         "name": "Xabbo",
@@ -1859,7 +1860,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "06-01-2022 14:47:00",
+      "updateDate": "07-01-2022 01:33:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1880,6 +1881,16 @@
         "extVersion": "1.0.1",
         "type": "update",
         "timestamp": 1641517421533,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "928840606275485777",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1641523258341,
         "locked": false,
         "score": 0
       }

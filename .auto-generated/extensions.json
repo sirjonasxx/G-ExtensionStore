@@ -2091,11 +2091,12 @@
         "reputation": 640
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": [
       "Usability"
     ],
     "source": "https://github.com/b7c/b7.Xabbo",
+    "readme": "https://github.com/b7c/b7.Xabbo/blob/master/README.md",
     "stable": true,
     "framework": {
       "name": "Xabbo",
@@ -2124,7 +2125,7 @@
       ]
     },
     "submissionDate": "04-09-2021 07:23:00",
-    "updateDate": "06-01-2022 14:47:00",
+    "updateDate": "07-01-2022 01:33:00",
     "isOutdated": false,
     "rating": 640
   }
