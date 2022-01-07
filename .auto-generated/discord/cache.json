@@ -1814,7 +1814,7 @@
   },
   {
     "title": "xabbo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "xabbo",
       "description": "enhanced habbo",
@@ -1826,7 +1826,7 @@
           "discord": "b7#8571"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Usability"
       ],
@@ -1834,7 +1834,7 @@
       "stable": true,
       "framework": {
         "name": "Xabbo",
-        "version": "0.1.0"
+        "version": "1.0.0-beta.2"
       },
       "language": "C#",
       "commands": {
@@ -1859,7 +1859,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "04-09-2021 07:23:00",
+      "updateDate": "06-01-2022 14:47:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1872,9 +1872,19 @@
         "timestamp": 1630743863785,
         "locked": false,
         "score": 620
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "928816124949311518",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1641517421533,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1630743863785
+    "latestEmbed": 1641517421533
   },
   {
     "title": "LTDHelper",
