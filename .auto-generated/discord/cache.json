@@ -2976,5 +2976,73 @@
       }
     ],
     "latestEmbed": 1640040608172
+  },
+  {
+    "title": "Stack Dropper",
+    "version": "0.3",
+    "_object": {
+      "title": "Stack Dropper",
+      "description": "Drop any item from your inventory into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.3",
+      "categories": [
+        "Building",
+        "Usability"
+      ],
+      "source": "https://github.com/WiredSpast/StackDropper",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.0"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "StackDropper.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "10-01-2022 01:55:34",
+      "updateDate": "10-01-2022 01:55:34",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "930517057613746266",
+        "extVersion": "0.3",
+        "type": "publish",
+        "timestamp": 1641922955137,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1641922955137
   }
 ]
