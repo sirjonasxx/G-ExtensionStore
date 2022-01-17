@@ -729,7 +729,7 @@
   },
   {
     "title": "Outfit Randomizer",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Outfit Randomizer",
       "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
@@ -742,7 +742,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Fun"
       ],
@@ -751,7 +751,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -778,7 +778,7 @@
         ]
       },
       "submissionDate": "20-08-2021 15:17:23",
-      "updateDate": "20-08-2021 15:17:23",
+      "updateDate": "18-01-2022 00:25:09",
       "isOutdated": false
     },
     "tweets": [
@@ -789,8 +789,17 @@
         "timestamp": 1629478342340,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1483220942784536584",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1642462404414,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": false
   },
   {
     "title": "Packet Info Explorer",

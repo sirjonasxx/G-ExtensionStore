@@ -691,7 +691,7 @@
   },
   {
     "title": "Outfit Randomizer",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Outfit Randomizer",
       "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
@@ -704,7 +704,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Fun"
       ],
@@ -713,7 +713,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.0"
       },
       "language": "Java",
       "commands": {
@@ -740,7 +740,7 @@
         ]
       },
       "submissionDate": "20-08-2021 15:17:23",
-      "updateDate": "20-08-2021 15:17:23",
+      "updateDate": "18-01-2022 00:25:09",
       "isOutdated": false
     },
     "discordMessages": [
@@ -753,9 +753,19 @@
         "timestamp": 1629471540039,
         "locked": false,
         "score": 180
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "932779669311340615",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1642462403858,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629471540039
+    "latestEmbed": 1642462403858
   },
   {
     "title": "Roomcropper",
