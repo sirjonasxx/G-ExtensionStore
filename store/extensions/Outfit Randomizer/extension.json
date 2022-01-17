@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.1",
+  "version": "0.2",
   "categories": ["Fun"],
 
   "source": "https://github.com/WiredSpast/OutfitRandomizer",
@@ -18,7 +18,7 @@
 
   "framework": {
     "name": "Native",
-    "version": "1.4.1"
+    "version": "1.5.0"
   },
 
   "language": "Java",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "20-08-2021 15:17:23",
-  "updateDate": "20-08-2021 15:17:23",
+  "updateDate": "18-01-2022 00:25:09",
 
   "isOutdated": false
 }
