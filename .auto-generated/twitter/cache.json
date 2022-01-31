@@ -1437,7 +1437,7 @@
   },
   {
     "title": "Full Wardrobe",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Full Wardrobe",
       "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
@@ -1450,7 +1450,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Usability",
         "G-Earth Utilities"
@@ -1490,7 +1490,7 @@
         ]
       },
       "submissionDate": "29-08-2021 01:19:19",
-      "updateDate": "29-08-2021 01:19:19",
+      "updateDate": "31-01-2022 07:40:00",
       "isOutdated": false
     },
     "tweets": [
@@ -1501,8 +1501,17 @@
         "timestamp": 1630196611771,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1488040613840928768",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1643611503525,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": false
   },
   {
     "title": "Block Users",
