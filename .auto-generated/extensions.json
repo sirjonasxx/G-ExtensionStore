@@ -613,7 +613,7 @@
       "Others"
     ],
     "source": "https://github.com/erikmoch/CryptoChat",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "Geode",
       "version": "1.0.0"
