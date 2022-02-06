@@ -62,6 +62,10 @@ for(const e of extensions) {
         it('may have a readme which is an URL', () => {
             expect(!exists(e.readme) || validURL(e.readme)).toBe(true);
         });
+        
+        it('may have a releases which is an URL', () => {
+            expect(!exists(e.releases) || validURL(e.releases)).toBe(true);
+        });
 
         it('is stable or unstable', () => {
             expect(typeof e.stable).toBe("boolean");

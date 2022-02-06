@@ -18,11 +18,12 @@ const writeCache = () => {
 
 const publishExtensionTweet = async (client, ext) => {
     const readMore = ext.readme !== undefined ? ` \n\nRead more: ${ext.readme}` : ""
+    const releaseNotes = ext.releases !== undefined ? ` \n\nRelease Notes: ${ext.releases}` : ""
     const author = ext.authors[0];
     const authorInTweet = author.twitter !== undefined ? "@" + author.twitter : author.name;
 
     const tweetContents = `A new extension "${ext.title}" was published to the G-ExtensionStore!` +
-        ` Created by ${authorInTweet}.${readMore}`;
+        ` Created by ${authorInTweet}.${readMore}${releaseNotes}`;
     // const mediaId = await client.v1.uploadMedia('image.png');
 
     const screenshotPath = `./store/extensions/${ext.title}/screenshot.png`;
@@ -38,11 +39,12 @@ const publishExtensionTweet = async (client, ext) => {
 }
 const updateExtensionTweet = async (client, oldVersion, ext) => {
     const readMore = ext.readme !== undefined ? ` \n\nRead more: ${ext.readme}` : ""
+    const releaseNotes = ext.releases !== undefined ? ` \n\nRelease Notes: ${ext.releases}` : ""
     const author = ext.authors[0];
     const authorInTweet = author.twitter !== undefined ? "@" + author.twitter : author.name;
 
     const tweetContents = `"${ext.title}" was updated from ${oldVersion} to ${ext.version}!` +
-        ` Created by ${authorInTweet}.${readMore}`;
+        ` Created by ${authorInTweet}.${readMore}${releaseNotes}`;
 
     console.log(`Updating ${ext.title} on twitter...`)
     return await client.v1.tweet(tweetContents);
