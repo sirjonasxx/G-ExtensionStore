@@ -38,6 +38,9 @@ const embedExtension = (ext) => {
     if (ext.readme != null) {
         embed.addField("Readme", `[Click here!](${ext.readme})`, true);
     }
+    if (ext.releases != null) {
+        embed.addField("Release notes", `[Click here!](${ext.releases})`, true);
+    }
     embed
         .addField("Version", ext.version, true)
         .addField("Client", ext.compatibility.clients.join(", "), true)
