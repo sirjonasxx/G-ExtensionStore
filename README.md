@@ -59,6 +59,7 @@ The object containing your extension information must look like this *(fields th
     
     "source": "Url to the source code",
     "readme": "(optional) readme file",
+    "releases": "(optional) releases page to share release notes"
     
     "stable": true,
     
@@ -90,6 +91,7 @@ Most fields are self-explanatory, but some require extra attention:
 * `categories` describe the type of extension, at least 1 type is required. List of possible categories are to be found in `store/config.json`.
 * `source` is a required field, it must link to your git repository
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty or null
+* `releases` can point to any URL containing release notes for your extension, typically it would point to the Releases page of your repository. It can also be empty or null
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
 * `framework.name` must be available in `extension_configTest.json` -> `frameworks`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
 * `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
