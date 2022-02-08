@@ -103,12 +103,14 @@ for(const e of extensions) {
         });
 
         it('has valid submission date', () => {
+            expect(/[0-9]{2}-[0-9]{2}-[0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2}/g.test(e.submissionDate)).toBe(true);
             const submission = moment(e.submissionDate, "DD-MM-YYYY hh:mm:ss");
             expect(submission.isValid()).toBe(true);
             expect(submission < moment().add(1, 'days')).toBe(true);
         });
 
         it('has valid update date', () => {
+            expect(/[0-9]{2}-[0-9]{2}-[0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2}/g.test(e.updateDate)).toBe(true);
             const update = moment(e.updateDate, "DD-MM-YYYY hh:mm:ss");
             expect(update.isValid()).toBe(true);
             expect(update < moment().add(1, 'days')).toBe(true);
