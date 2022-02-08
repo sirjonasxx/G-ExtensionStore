@@ -1446,7 +1446,7 @@
   },
   {
     "title": "Full Wardrobe",
-    "version": "0.2",
+    "version": "0.3",
     "_object": {
       "title": "Full Wardrobe",
       "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
@@ -1459,16 +1459,17 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2",
+      "version": "0.3",
       "categories": [
         "Usability",
         "G-Earth Utilities"
       ],
       "source": "https://github.com/WiredSpast/FullWardrobe",
+      "releases": "https://github.com/WiredSpast/FullWardrobe/releases",
       "stable": true,
       "framework": {
         "name": "G-Node",
-        "version": "0.0.1-beta.21"
+        "version": "0.1.3"
       },
       "language": "Node.js",
       "commands": {
@@ -1499,7 +1500,7 @@
         ]
       },
       "submissionDate": "29-08-2021 01:19:19",
-      "updateDate": "31-01-2022 07:40:00",
+      "updateDate": "08-02-2022",
       "isOutdated": false
     },
     "tweets": [
@@ -1516,6 +1517,14 @@
         "extVersion": "0.2",
         "type": "update",
         "timestamp": 1643611503525,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1490880393683390468",
+        "extVersion": "0.3",
+        "type": "update",
+        "timestamp": 1644288559825,
         "locked": false,
         "score": 0
       }
