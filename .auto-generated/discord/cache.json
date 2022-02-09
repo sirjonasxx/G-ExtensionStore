@@ -3086,5 +3086,73 @@
       }
     ],
     "latestEmbed": 1641922955137
+  },
+  {
+    "title": "G-Trigger",
+    "version": "0.1",
+    "_object": {
+      "title": "G-Trigger",
+      "description": "Setup triggers on which a reaction will happen.\n\nTrigger options:\n - Key pressed\n - Packet send to server\n - Packet send to client\n - You say command\n - Anyone says command\n\nReaction options:\n - Send packet to server\n - Send packet to client",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/WiredSpast/G-Trigger",
+      "releases": "https://github.com/WiredSpast/G-Trigger/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.0"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "G-Trigger.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "09-02-2021 01:26:00",
+      "updateDate": "09-02-2021 01:26:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "940768207776673834",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1644367020001,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1644367020002
   }
 ]
