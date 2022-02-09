@@ -9,8 +9,8 @@ it("has unique category names", () => {
 it.each(config.categories)("is a valid category", category => {
     expect(typeof category.name).toBe("string");
     expect(typeof category.description).toBe("string");
-    expect(typeof category.name).not.toBe("");
-    expect(typeof category.description).not.toBe("");
+    expect(category.name).not.toBe("");
+    expect(category.description).not.toBe("");
     expect(fileExists(`./assets/icons/${category.icon}`)).toBe(true);
 });
 
@@ -35,9 +35,4 @@ it.each(config.frameworks)("is a valid framework", category => {
             validURL(category.installation.instructions)).toBe(true);
     }
 
-});
-
-
-test('adds 2 + 3 to equal 5', () => {
-    expect(2 + 3).toBe(5);
 });

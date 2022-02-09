@@ -20,7 +20,7 @@ it('has unique extension titles', () => {
 
 for(const e of extensions) {
 
-    describe('extension extension_configTest syntax & validity', () => {
+    describe('extension syntax & validity', () => {
         it('has a valid title', () => {
             expect(typeof e.title).toBe("string");
             expect(e.title.match("^[^_.]+$") !== null).toBe(true);
@@ -62,7 +62,7 @@ for(const e of extensions) {
         it('may have a readme which is an URL', () => {
             expect(!exists(e.readme) || validURL(e.readme)).toBe(true);
         });
-        
+
         it('may have a releases which is an URL', () => {
             expect(!exists(e.releases) || validURL(e.releases)).toBe(true);
         });
