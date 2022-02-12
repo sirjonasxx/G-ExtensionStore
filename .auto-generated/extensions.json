@@ -1917,6 +1917,60 @@
     "rating": 270
   },
   {
+    "title": "SpotifyMotto",
+    "description": "Show the world what you listening!",
+    "authors": [
+      {
+        "name": "SACR3D",
+        "hotel": ".com.br",
+        "username": "xX..Jonny..Xx",
+        "discord": "SACR3D#2599",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "0.1.2",
+    "categories": [
+      "Fun",
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/jonnymariani/SpotifyMotto",
+    "readme": "https://github.com/jonnymariani/SpotifyMotto/blob/main/README.md",
+    "releases": "https://github.com/jonnymariani/SpotifyMotto/releases",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.0-beta.2"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "SpotifyMotto.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "12-02-2022 00:00:00",
+    "updateDate": "12-02-2022 00:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Stack Dropper",
     "description": "Drop any item from your inventory into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
     "authors": [
