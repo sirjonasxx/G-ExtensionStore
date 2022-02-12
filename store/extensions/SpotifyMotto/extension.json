@@ -1,0 +1,39 @@
+{
+    "title": "SpotifyMotto",
+    "description": "Show the world what you listening!",
+    "authors": [
+      {
+        "name": "SACR3D",
+        "hotel": ".com.br",
+        "username": "xX..Jonny..Xx",
+        "discord": "SACR3D#2599"        
+      }
+    ],
+    "version": "0.1.2",
+    "categories": ["Fun", "Usability", "Others"],
+    
+    "source": "https://github.com/jonnymariani/SpotifyMotto",
+    "readme": "https://github.com/jonnymariani/SpotifyMotto/blob/main/README.md",
+    "releases": "https://github.com/jonnymariani/SpotifyMotto/releases",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.0-beta.2"
+    },
+
+    "language": "C#",
+    "commands": {
+        "default": ["cmd", "/C", "SpotifyMotto.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Windows"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "12-02-2022 00:00:00",
+    "updateDate": "12-02-2022 00:00:00",
+    "isOutdated": false
+}
