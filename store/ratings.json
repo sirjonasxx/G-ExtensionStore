@@ -162,5 +162,9 @@
   {
     "extension": "G-Trigger",
     "rating": 370
+  },
+  {
+    "extension": "SpotifyMotto",
+    "rating": 30
   }
 ]
