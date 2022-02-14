@@ -2951,11 +2951,11 @@
   },
   {
     "title": "G-Trigger",
-    "version": "0.1",
+    "version": "0.2",
     "isOutdated": false,
     "_object": {
       "title": "G-Trigger",
-      "description": "Setup triggers on which a reaction will happen.\n\nTrigger options:\n - Key pressed\n - Packet send to server\n - Packet send to client\n - You say command\n - Anyone says command\n\nReaction options:\n - Send packet to server\n - Send packet to client",
+      "description": "Setup triggers on which a reaction will happen.\n\nTrigger options:\n - Key pressed\n - Packet send to server\n - Packet send to client\n - You say command\n - Anyone says command\n\nReaction options:\n - Send packet to server\n - Send packet to client\n\nNOTE: Read the release notes page for a list of all functionalities",
       "authors": [
         {
           "name": "WiredSpast",
@@ -2965,7 +2965,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "G-Earth Utilities"
       ],
@@ -3000,8 +3000,8 @@
           "Flash"
         ]
       },
-      "submissionDate": "09-02-2021 01:26:00",
-      "updateDate": "09-02-2021 01:26:00",
+      "submissionDate": "09-02-2022 01:26:00",
+      "updateDate": "14-02-2022 06:05:00",
       "isOutdated": false
     },
     "tweets": [
@@ -3010,6 +3010,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1644367021356,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1493089945086402560",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1644815357937,
         "locked": false,
         "score": 0
       }

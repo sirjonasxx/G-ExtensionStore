@@ -982,7 +982,7 @@
   },
   {
     "title": "G-Trigger",
-    "description": "Setup triggers on which a reaction will happen.\n\nTrigger options:\n - Key pressed\n - Packet send to server\n - Packet send to client\n - You say command\n - Anyone says command\n\nReaction options:\n - Send packet to server\n - Send packet to client",
+    "description": "Setup triggers on which a reaction will happen.\n\nTrigger options:\n - Key pressed\n - Packet send to server\n - Packet send to client\n - You say command\n - Anyone says command\n\nReaction options:\n - Send packet to server\n - Send packet to client\n\nNOTE: Read the release notes page for a list of all functionalities",
     "authors": [
       {
         "name": "WiredSpast",
@@ -994,7 +994,7 @@
         "reputation": 3035
       }
     ],
-    "version": "0.1",
+    "version": "0.2",
     "categories": [
       "G-Earth Utilities"
     ],
@@ -1030,7 +1030,7 @@
       ]
     },
     "submissionDate": "09-02-2022 01:26:00",
-    "updateDate": "09-02-2022 01:26:00",
+    "updateDate": "14-02-2022 06:05:00",
     "isOutdated": false,
     "rating": 390
   },
