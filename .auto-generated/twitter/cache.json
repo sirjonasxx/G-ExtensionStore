@@ -2827,7 +2827,7 @@
   },
   {
     "title": "G-Click Ultimate",
-    "version": "0.1",
+    "version": "0.1.1",
     "isOutdated": false,
     "_object": {
       "title": "G-Click Ultimate",
@@ -2841,7 +2841,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1",
+      "version": "0.1.1",
       "categories": [
         "Games"
       ],
@@ -2850,7 +2850,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -2877,7 +2877,7 @@
         ]
       },
       "submissionDate": "20-12-2021 23:48:35",
-      "updateDate": "20-12-2021 23:48:35",
+      "updateDate": "17-02-2022 02:12:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2886,6 +2886,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1640040609546,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1494118855597244424",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1645060669298,
         "locked": false,
         "score": 0
       }

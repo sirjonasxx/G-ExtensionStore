@@ -2973,7 +2973,7 @@
   },
   {
     "title": "G-Click Ultimate",
-    "version": "0.1",
+    "version": "0.1.1",
     "_object": {
       "title": "G-Click Ultimate",
       "description": "Ultimate clicking tools",
@@ -2986,7 +2986,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1",
+      "version": "0.1.1",
       "categories": [
         "Games"
       ],
@@ -2995,7 +2995,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -3022,7 +3022,7 @@
         ]
       },
       "submissionDate": "20-12-2021 23:48:35",
-      "updateDate": "20-12-2021 23:48:35",
+      "updateDate": "17-02-2022 02:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3035,9 +3035,19 @@
         "timestamp": 1640040608172,
         "locked": false,
         "score": 440
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "943677579603345428",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1645060668418,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1640040608172
+    "latestEmbed": 1645060668418
   },
   {
     "title": "Stack Dropper",
