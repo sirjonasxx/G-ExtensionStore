@@ -389,7 +389,7 @@
         "reputation": 3140
       }
     ],
-    "version": "0.3",
+    "version": "0.4",
     "categories": [
       "Usability",
       "G-Earth Utilities"
@@ -399,7 +399,7 @@
     "stable": true,
     "framework": {
       "name": "G-Node",
-      "version": "0.1.3"
+      "version": "0.1.5"
     },
     "language": "Node.js",
     "commands": {
@@ -430,7 +430,7 @@
       ]
     },
     "submissionDate": "29-08-2021 01:19:19",
-    "updateDate": "08-02-2022 03:51:00",
+    "updateDate": "17-02-2022 07:23:00",
     "isOutdated": false,
     "rating": 305
   },
