@@ -2201,7 +2201,7 @@
         "reputation": 3790
       }
     ],
-    "version": "0.2.1",
+    "version": "0.2.2",
     "categories": [
       "Building",
       "Usability"
@@ -2211,7 +2211,7 @@
     "stable": true,
     "framework": {
       "name": "Native",
-      "version": "1.5"
+      "version": "1.5.2"
     },
     "language": "Java",
     "commands": {
@@ -2238,7 +2238,7 @@
       ]
     },
     "submissionDate": "19-09-2021 23:54:00",
-    "updateDate": "09-01-2022 13:49:00",
+    "updateDate": "17-02-2022 02:07:00",
     "isOutdated": false,
     "rating": 495
   },

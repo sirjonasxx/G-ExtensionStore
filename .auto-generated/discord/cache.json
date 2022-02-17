@@ -2023,7 +2023,7 @@
   },
   {
     "title": "Wired Presets",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "_object": {
       "title": "Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2036,7 +2036,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2.1",
+      "version": "0.2.2",
       "categories": [
         "Building",
         "Usability"
@@ -2046,7 +2046,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -2073,7 +2073,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "09-01-2022 13:49:00",
+      "updateDate": "17-02-2022 02:07:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2106,9 +2106,19 @@
         "timestamp": 1641732695176,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "943676487561781258",
+        "extVersion": "0.2.2",
+        "type": "update",
+        "timestamp": 1645060408554,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1641732695176
+    "latestEmbed": 1645060408554
   },
   {
     "title": "Rainbow BackGround",
