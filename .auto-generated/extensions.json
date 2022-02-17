@@ -557,7 +557,7 @@
         "reputation": 3790
       }
     ],
-    "version": "0.1",
+    "version": "0.1.1",
     "categories": [
       "Games"
     ],
@@ -566,7 +566,7 @@
     "stable": true,
     "framework": {
       "name": "Native",
-      "version": "1.5.1"
+      "version": "1.5.2"
     },
     "language": "Java",
     "commands": {
@@ -593,7 +593,7 @@
       ]
     },
     "submissionDate": "20-12-2021 23:48:35",
-    "updateDate": "20-12-2021 23:48:35",
+    "updateDate": "17-02-2022 02:12:00",
     "isOutdated": false,
     "rating": 450
   },
