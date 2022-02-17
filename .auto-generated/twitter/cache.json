@@ -1919,7 +1919,7 @@
   },
   {
     "title": "Wired Presets",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "_object": {
       "title": "Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -1932,7 +1932,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2.1",
+      "version": "0.2.2",
       "categories": [
         "Building",
         "Usability"
@@ -1942,7 +1942,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -1969,7 +1969,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "09-01-2022 13:49:00",
+      "updateDate": "17-02-2022 02:07:00",
       "isOutdated": false
     },
     "tweets": [
@@ -1994,6 +1994,14 @@
         "extVersion": "0.2.1",
         "type": "update",
         "timestamp": 1641732695983,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1494117764264603652",
+        "extVersion": "0.2.2",
+        "type": "update",
+        "timestamp": 1645060409121,
         "locked": false,
         "score": 0
       }
