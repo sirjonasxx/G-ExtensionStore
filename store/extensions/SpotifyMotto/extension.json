@@ -3,13 +3,13 @@
     "description": "Show the world what you listening!",
     "authors": [
       {
-        "name": "sourcat",
+        "name": "SACR3D",
         "hotel": ".com.br",
-        "username": "sourcat",
+        "username": "xX..Jonny..Xx",
         "discord": "SACR3D#2599"        
       }
     ],
-    "version": "1.1.4",
+    "version": "1.1.3",
     "categories": ["Fun", "Usability", "Others"],
     
     "source": "https://github.com/jonnymariani/SpotifyMotto",
@@ -34,6 +34,6 @@
     },
 
     "submissionDate": "12-02-2022 00:00:00",
-    "updateDate": "20-02-2022 21:30:00",
+    "updateDate": "18-02-2022 21:30:00",
     "isOutdated": false
 }
