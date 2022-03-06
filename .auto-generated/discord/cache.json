@@ -1535,7 +1535,7 @@
   },
   {
     "title": "Full Wardrobe",
-    "version": "0.3",
+    "version": "0.4",
     "_object": {
       "title": "Full Wardrobe",
       "description": "Get access to any clothing in the wardrobe and copy the figure string\n\n(The server will filter out any unowned clothing items on save)",
@@ -1548,7 +1548,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.3",
+      "version": "0.4",
       "categories": [
         "Usability",
         "G-Earth Utilities"
@@ -1558,7 +1558,7 @@
       "stable": true,
       "framework": {
         "name": "G-Node",
-        "version": "0.1.3"
+        "version": "0.1.5"
       },
       "language": "Node.js",
       "commands": {
@@ -1589,7 +1589,7 @@
         ]
       },
       "submissionDate": "29-08-2021 01:19:19",
-      "updateDate": "08-02-2022",
+      "updateDate": "17-02-2022 07:23:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -1622,9 +1622,19 @@
         "timestamp": 1644288559178,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "949960884736913458",
+        "extVersion": "0.4",
+        "type": "update",
+        "timestamp": 1646558727762,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1644288559178
+    "latestEmbed": 1646558727762
   },
   {
     "title": "Block Users",
@@ -3207,19 +3217,19 @@
   },
   {
     "title": "SpotifyMotto",
-    "version": "0.1.3",
+    "version": "1.1.4",
     "_object": {
       "title": "SpotifyMotto",
       "description": "Show the world what you listening!",
       "authors": [
         {
-          "name": "SACR3D",
+          "name": "sourcat",
           "hotel": ".com.br",
-          "username": "xX..Jonny..Xx",
+          "username": "sourcat",
           "discord": "SACR3D#2599"
         }
       ],
-      "version": "0.1.3",
+      "version": "1.1.4",
       "categories": [
         "Fun",
         "Usability",
@@ -3256,7 +3266,7 @@
         ]
       },
       "submissionDate": "12-02-2022 00:00:00",
-      "updateDate": "16-02-2022 01:30:00",
+      "updateDate": "20-02-2022 01:30:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3279,8 +3289,18 @@
         "timestamp": 1645051025541,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "949960899538616340",
+        "extVersion": "1.1.4",
+        "type": "update",
+        "timestamp": 1646558728356,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1645051025541
+    "latestEmbed": 1646558728356
   }
 ]
