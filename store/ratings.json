@@ -166,5 +166,9 @@
   {
     "extension": "SpotifyMotto",
     "rating": 110
+  },
+  {
+    "extension": "G-Clothes",
+    "rating": 30
   }
 ]
