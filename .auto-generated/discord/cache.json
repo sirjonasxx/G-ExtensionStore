@@ -3376,7 +3376,7 @@
   },
   {
     "title": "Mod Tools",
-    "version": "2.0",
+    "version": "2.1",
     "_object": {
       "title": "Mod Tools",
       "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
@@ -3388,7 +3388,7 @@
           "discord": "26#7305"
         }
       ],
-      "version": "2.0",
+      "version": "2.1",
       "categories": [
         "Moderation",
         "Others",
@@ -3423,8 +3423,8 @@
           "Flash"
         ]
       },
-      "submissionDate": "03-04-2022 13:38:00",
-      "updateDate": "03-04-2022 13:38:00",
+      "submissionDate": "04-04-2022 21:15:00",
+      "updateDate": "04-04-2022 21:15:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3437,6 +3437,16 @@
         "timestamp": 1649094826828,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "960614050641870878",
+        "extVersion": "2.1",
+        "type": "update",
+        "timestamp": 1649098637910,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1649094826828
