@@ -1530,6 +1530,59 @@
     "rating": 210
   },
   {
+    "title": "Mod Tools",
+    "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
+    "authors": [
+      {
+        "name": "26",
+        "hotel": ".com.tr",
+        "username": "funkydemir66",
+        "discord": "26#7305",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "2.0",
+    "categories": [
+      "Moderation",
+      "Others",
+      "Fun"
+    ],
+    "source": "https://github.com/funkydemir66/ModTools",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "1.6"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "ModTools.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "03-04-2022 13:38:00",
+    "updateDate": "03-04-2022 13:38:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Outfit Randomizer",
     "description": "Randomize your outfit or copy the outfit from someone in the same room\n\n:outfit [m/f/u] -> Get random outfit specified gender (optional)\n:outfit copy [name] -> Copy outfit of user with specified name or last clicked if no name specified",
     "authors": [
