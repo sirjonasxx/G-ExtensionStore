@@ -9,7 +9,7 @@
         "discord": "26#7305"
       }
     ],
-    "version": "2.0",
+    "version": "2.1",
     "categories": ["Moderation", "Others", "Fun"],
     
     "source": "https://github.com/funkydemir66/ModTools",
@@ -31,7 +31,7 @@
         "clients": ["Flash"]
     },
 
-    "submissionDate": "03-04-2022 13:38:00",
-    "updateDate": "03-04-2022 13:38:00",
+    "submissionDate": "04-04-2022 21:15:00",
+    "updateDate": "04-04-2022 21:15:00",
     "isOutdated": false
 }
