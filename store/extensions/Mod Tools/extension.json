@@ -1,4 +1,3 @@
-@@ -1,12 +1,13 @@
 {
     "title": "Mod Tools",
     "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
@@ -10,9 +9,13 @@
         "discord": "26#7305"
       }
     ],
-    "version": "2.2",
-	@@ -18,11 +19,11 @@
-
+    "version": "2.1",
+    "categories": ["Moderation", "Others", "Fun"],
+    
+    "source": "https://github.com/funkydemir66/ModTools",
+    
+    "stable": true,
+    
     "framework": {
       "name": "G-Python",
       "version": "1.6"
@@ -22,11 +25,13 @@
     "commands": {
       "default": ["python", "ModTools.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
-
-	@@ -31,7 +32,7 @@
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
         "clients": ["Flash"]
     },
 
-    "submissionDate": "04-04-2022 22:15:00",
-    "updateDate": "04-04-2022 22:15:00",
+    "submissionDate": "04-04-2022 21:15:00",
+    "updateDate": "04-04-2022 21:15:00",
     "isOutdated": false
+}
