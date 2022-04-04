@@ -2,7 +2,6 @@
     "title": "Mod Tools",
     "description": "can be used to mute or remove commands: :mt pla/:mt mute (minute)/:mt rmute. 
     User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute
-    "
     "authors": [
       {
         "name": "26",
