@@ -1,13 +1,12 @@
 {
     "title": "Mod Tools",
-    "description": "can be used to mute or remove commands: :mt pla/:mt mute (minute)/:mt rmute ",
+    "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
     "authors": [
       {
         "name": "26",
         "hotel": ".com.tr",
         "username": "funkydemir66",
-        "discord": "26#7305",
-        "twitter": ""
+        "discord": "26#7305"
       }
     ],
     "version": "2.0",
@@ -19,11 +18,11 @@
     
     "framework": {
       "name": "G-Python",
-      "version": "2.0"
+      "version": "1.6"
     },
 
     "language": "Python",
-    "commands": :mt pla/:mt mute (minute)/:mt rmute {
+    "commands": {
       "default": ["python", "ModTools.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
@@ -32,7 +31,7 @@
         "clients": ["Flash"]
     },
 
-    "submissionDate": "03-04-2002 13:38:00",
-    "updateDate": "03-04-2002 13:38:00",
+    "submissionDate": "03-04-2022 13:38:00",
+    "updateDate": "03-04-2022 13:38:00",
     "isOutdated": false
 }
