@@ -606,7 +606,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 1,
-        "reputation": 70
+        "reputation": 50
       }
     ],
     "version": "0.1",
@@ -652,7 +652,7 @@
     "submissionDate": "17-02-2022 18:00:00",
     "updateDate": "02-04-2022 20:00:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 50
   },
   {
     "title": "G-CryptoChat",
@@ -1539,7 +1539,7 @@
         "username": "funkydemir66",
         "discord": "26#7305",
         "extensionsCount": 1,
-        "reputation": 160
+        "reputation": 170
       }
     ],
     "version": "2.2",
@@ -1580,7 +1580,7 @@
     "submissionDate": "04-04-2022 21:15:00",
     "updateDate": "05-04-2022 17:31:00",
     "isOutdated": false,
-    "rating": 160
+    "rating": 170
   },
   {
     "title": "Outfit Randomizer",
