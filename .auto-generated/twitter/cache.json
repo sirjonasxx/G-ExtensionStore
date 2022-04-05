@@ -3208,7 +3208,7 @@
   },
   {
     "title": "Mod Tools",
-    "version": "2.1",
+    "version": "2.2",
     "isOutdated": false,
     "_object": {
       "title": "Mod Tools",
@@ -3221,7 +3221,7 @@
           "discord": "26#7305"
         }
       ],
-      "version": "2.1",
+      "version": "2.2",
       "categories": [
         "Moderation",
         "Others",
@@ -3257,7 +3257,7 @@
         ]
       },
       "submissionDate": "04-04-2022 21:15:00",
-      "updateDate": "04-04-2022 21:15:00",
+      "updateDate": "05-04-2022 17:31:00",
       "isOutdated": false
     },
     "tweets": [
@@ -3274,6 +3274,14 @@
         "extVersion": "2.1",
         "type": "update",
         "timestamp": 1649098638445,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1511373009851981829",
+        "extVersion": "2.2",
+        "type": "update",
+        "timestamp": 1649174380229,
         "locked": false,
         "score": 0
       }
