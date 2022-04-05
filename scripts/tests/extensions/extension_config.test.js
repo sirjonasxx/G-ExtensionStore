@@ -109,7 +109,7 @@ for(const e of extensions) {
             expect(submission.isValid()).toBe(true);
             expect(submission < moment().add(1, 'days')).toBe(true);
             
-            let cur_e = cur_extensions.find(ext -> ext.title === e.title);
+            let cur_e = cur_extensions.find((ext) => ext.title === e.title);
             if (cur_e) {
                 expect(e.submissionDate === cur_e.submissionDate).toBe(true);
             }
