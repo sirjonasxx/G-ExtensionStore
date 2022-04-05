@@ -1,6 +1,6 @@
 {
     "title": "Mod Tools",
-    "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
+    "description": "User guide: Select the contacts you want with :mw pla(1&2&3), whisper with :mwc (line) ",
     "authors": [
       {
         "name": "26",
@@ -9,8 +9,8 @@
         "discord": "26#7305"
       }
     ],
-    "version": "2.2",
-    "categories": ["Moderation", "Others", "Fun"],
+    "version": "1.0",
+    "categories": ["Others", "Fun"],
     
     "source": "https://github.com/funkydemir66/ModTools",
     
@@ -31,7 +31,7 @@
         "clients": ["Flash"]
     },
 
-    "submissionDate": "04-04-2022 21:15:00",
-    "updateDate": "05-04-2022 17:31:00",
+    "submissionDate": "06-04-2022 00:28:00",
+    "updateDate": "06-04-2022 00:28:00",
     "isOutdated": false
 }
