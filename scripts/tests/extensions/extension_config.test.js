@@ -1,4 +1,5 @@
 const extension_configTest = require('../../../store/config.json');
+const cur_extensions = require('../../../.auto-generated/extensions.json');
 const fs = require('fs');
 const moment = require("moment");
 const { exists, validURL, isVersion, extensionConfigs} = require('../test_utils');
@@ -107,6 +108,11 @@ for(const e of extensions) {
             const submission = moment(e.submissionDate, "DD-MM-YYYY hh:mm:ss");
             expect(submission.isValid()).toBe(true);
             expect(submission < moment().add(1, 'days')).toBe(true);
+            
+            let cur_e = cur_extensions.find(ext -> ext.title === e.title);
+            if (cur_e) {
+                expect(e.submissionDate === cur_e.submissionDate).toBe(true);
+            }
         });
 
         it('has valid update date', () => {
