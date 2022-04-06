@@ -23,7 +23,7 @@
 
     "language": "Python",
     "commands": {
-      "default": ["python", "ModTools.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["python", "MultiWhisper.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
