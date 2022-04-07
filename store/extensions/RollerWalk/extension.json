@@ -1,6 +1,6 @@
 {
-    "title": "Multi Whisper",
-    "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
+    "title": "RollerWalk",
+    "description": "Roles make you go to your destination when you swipe. User guide: type :rw on, By pressing the alt key, click where you want to go thanks to the script. You'll get there when the roles slide you
     "authors": [
       {
         "name": "26",
@@ -9,10 +9,10 @@
         "discord": "26#7305"
       }
     ],
-    "version": "2.2",
-    "categories": ["Moderation", "Others", "Fun"],
+    "version": "1.0",
+    "categories": ["Others", "Games"],
     
-    "source": "https://github.com/funkydemir66/ModTools",
+    "source": "https://github.com/funkydemir66/RollerWalk",
     
     "stable": true,
     
@@ -23,7 +23,7 @@
 
     "language": "Python",
     "commands": {
-      "default": ["python", "ModTools.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["python", "RollerWalk.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
@@ -31,7 +31,7 @@
         "clients": ["Flash"]
     },
 
-    "submissionDate": "04-04-2022 21:15:00",
-    "updateDate": "05-04-2022 17:31:00",
+    "submissionDate": "07-04-2022 19:57:00",
+    "updateDate": "07-04-2022 19:57:00",
     "isOutdated": false
 }
