@@ -174,5 +174,13 @@
   {
     "extension": "Mod Tools",
     "rating": 190
+  },
+  {
+    "extension": "MultiWhisper",
+    "rating": 30
+  },
+  {
+    "extension": "RollerWalk",
+    "rating": 30
   }
 ]
