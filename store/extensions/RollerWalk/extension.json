@@ -1,0 +1,37 @@
+{
+    "title": "RollerWalk",
+    "description": "Roles make you go to your destination when you swipe. User guide: type :rw on, By pressing the alt key,",
+    "authors": [
+      {
+        "name": "26",
+        "hotel": ".com.tr",
+        "username": "funkydemir66",
+        "discord": "26#7305"
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Others", "Games"],
+    
+    "source": "https://github.com/funkydemir66/RollerWalk",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "1.6"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "RollerWalk.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "07-04-2022 19:57:00",
+    "updateDate": "07-04-2022 19:57:00",
+    "isOutdated": false
+}

@@ -3136,5 +3136,283 @@
         "score": 0
       }
     ]
+  },
+  {
+    "title": "G-Clothes",
+    "version": "0.1",
+    "isOutdated": false,
+    "_object": {
+      "title": "G-Clothes",
+      "description": "Habbo Hotel clientside clothing changer (all habbo clothes & nft)",
+      "authors": [
+        {
+          "name": "rocawear",
+          "hotel": ".fi",
+          "username": "rocawear"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Usability",
+        "G-Earth Utilities"
+      ],
+      "source": "https://github.com/rocawear-public/clientside-clothes",
+      "releases": "https://github.com/rocawear-public/clientside-clothes/releases/",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.1.5"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "17-02-2022 18:00:00",
+      "updateDate": "02-04-2022 20:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1510315760807477248",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1648922312608,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "Mod Tools",
+    "version": "2.2",
+    "isOutdated": false,
+    "_object": {
+      "title": "Mod Tools",
+      "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
+      "authors": [
+        {
+          "name": "26",
+          "hotel": ".com.tr",
+          "username": "funkydemir66",
+          "discord": "26#7305"
+        }
+      ],
+      "version": "2.2",
+      "categories": [
+        "Moderation",
+        "Others",
+        "Fun"
+      ],
+      "source": "https://github.com/funkydemir66/ModTools",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "1.6"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "ModTools.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "04-04-2022 21:15:00",
+      "updateDate": "05-04-2022 17:31:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1511039346081554442",
+        "extVersion": "2.0",
+        "type": "publish",
+        "timestamp": 1649094829048,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1511055325755027457",
+        "extVersion": "2.1",
+        "type": "update",
+        "timestamp": 1649098638445,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1511373009851981829",
+        "extVersion": "2.2",
+        "type": "update",
+        "timestamp": 1649174380229,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "MultiWhisper",
+    "version": "1.0",
+    "isOutdated": false,
+    "_object": {
+      "title": "MultiWhisper",
+      "description": "User guide: Select the contacts you want with :mw pla(1&2&3) (nick) , whisper with :mwc (line) ",
+      "authors": [
+        {
+          "name": "26",
+          "hotel": ".com.tr",
+          "username": "funkydemir66",
+          "discord": "26#7305"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Others",
+        "Fun"
+      ],
+      "source": "https://github.com/funkydemir66/MultiWhisper",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "1.6"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "MultiWhisper.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "06-04-2022 00:28:00",
+      "updateDate": "06-04-2022 00:28:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1513140542460342276",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1649595792890,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "RollerWalk",
+    "version": "1.0",
+    "isOutdated": false,
+    "_object": {
+      "title": "RollerWalk",
+      "description": "Roles make you go to your destination when you swipe. User guide: type :rw on, By pressing the alt key,",
+      "authors": [
+        {
+          "name": "26",
+          "hotel": ".com.tr",
+          "username": "funkydemir66",
+          "discord": "26#7305"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Others",
+        "Games"
+      ],
+      "source": "https://github.com/funkydemir66/RollerWalk",
+      "stable": true,
+      "framework": {
+        "name": "G-Python",
+        "version": "1.6"
+      },
+      "language": "Python",
+      "commands": {
+        "default": [
+          "python",
+          "RollerWalk.py",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "07-04-2022 19:57:00",
+      "updateDate": "07-04-2022 19:57:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1513140566917320711",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1649595798727,
+        "locked": false,
+        "score": 0
+      }
+    ]
   }
 ]

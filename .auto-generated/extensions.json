@@ -10,7 +10,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "1.0",
@@ -171,7 +171,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "1.0.1",
@@ -445,7 +445,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "2.0.1",
@@ -500,7 +500,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "0.2.1",
@@ -554,7 +554,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "0.1.1",
@@ -606,7 +606,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 70
       }
     ],
     "version": "0.1",
@@ -650,9 +650,9 @@
       ]
     },
     "submissionDate": "17-02-2022 18:00:00",
-    "updateDate": "05-03-2022 18:00:00",
-    "isOutdated": true,
-    "rating": 0
+    "updateDate": "02-04-2022 20:00:00",
+    "isOutdated": false,
+    "rating": 70
   },
   {
     "title": "G-CryptoChat",
@@ -714,7 +714,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "1.0",
@@ -823,7 +823,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "0.2",
@@ -987,13 +987,13 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       },
       {
         "name": "Tripical",
         "discord": "Andyy#3780",
         "extensionsCount": 1,
-        "reputation": 290
+        "reputation": 310
       }
     ],
     "version": "1.0.1",
@@ -1035,7 +1035,7 @@
     "submissionDate": "20-10-2021 22:26:00",
     "updateDate": "20-10-2021 22:26:00",
     "isOutdated": false,
-    "rating": 290
+    "rating": 310
   },
   {
     "title": "G-Trigger",
@@ -1486,7 +1486,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "1.0",
@@ -1528,6 +1528,111 @@
     "updateDate": "23-08-2021 03:56:35",
     "isOutdated": false,
     "rating": 210
+  },
+  {
+    "title": "Mod Tools",
+    "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
+    "authors": [
+      {
+        "name": "26",
+        "hotel": ".com.tr",
+        "username": "funkydemir66",
+        "discord": "26#7305",
+        "extensionsCount": 3,
+        "reputation": 310
+      }
+    ],
+    "version": "2.2",
+    "categories": [
+      "Moderation",
+      "Others",
+      "Fun"
+    ],
+    "source": "https://github.com/funkydemir66/ModTools",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "1.6"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "ModTools.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "04-04-2022 21:15:00",
+    "updateDate": "05-04-2022 17:31:00",
+    "isOutdated": false,
+    "rating": 190
+  },
+  {
+    "title": "MultiWhisper",
+    "description": "User guide: Select the contacts you want with :mw pla(1&2&3) (nick) , whisper with :mwc (line) ",
+    "authors": [
+      {
+        "name": "26",
+        "hotel": ".com.tr",
+        "username": "funkydemir66",
+        "discord": "26#7305",
+        "extensionsCount": 3,
+        "reputation": 310
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Others",
+      "Fun"
+    ],
+    "source": "https://github.com/funkydemir66/MultiWhisper",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "1.6"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "MultiWhisper.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "06-04-2022 00:28:00",
+    "updateDate": "06-04-2022 00:28:00",
+    "isOutdated": false,
+    "rating": 30
   },
   {
     "title": "Outfit Randomizer",
@@ -1594,7 +1699,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "0.1",
@@ -1804,6 +1909,58 @@
     "rating": 285
   },
   {
+    "title": "RollerWalk",
+    "description": "Roles make you go to your destination when you swipe. User guide: type :rw on, By pressing the alt key,",
+    "authors": [
+      {
+        "name": "26",
+        "hotel": ".com.tr",
+        "username": "funkydemir66",
+        "discord": "26#7305",
+        "extensionsCount": 3,
+        "reputation": 310
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Others",
+      "Games"
+    ],
+    "source": "https://github.com/funkydemir66/RollerWalk",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "1.6"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "RollerWalk.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "07-04-2022 19:57:00",
+    "updateDate": "07-04-2022 19:57:00",
+    "isOutdated": false,
+    "rating": 90
+  },
+  {
     "title": "Room Duplicator",
     "description": "Copy flooritems, wallitems, floorplans and/or roomsettings from one room to another",
     "authors": [
@@ -1930,7 +2087,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "2.0",
@@ -2255,7 +2412,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 3870
+        "reputation": 3890
       }
     ],
     "version": "0.2.2",

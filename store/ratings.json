@@ -137,7 +137,7 @@
   },
   {
     "extension": "G-Translator",
-    "rating": 290
+    "rating": 310
   },
   {
     "extension": "Sanbovir Photo Inspector",
@@ -166,5 +166,21 @@
   {
     "extension": "SpotifyMotto",
     "rating": 110
+  },
+  {
+    "extension": "G-Clothes",
+    "rating": 70
+  },
+  {
+    "extension": "Mod Tools",
+    "rating": 190
+  },
+  {
+    "extension": "MultiWhisper",
+    "rating": 30
+  },
+  {
+    "extension": "RollerWalk",
+    "rating": 90
   }
 ]
