@@ -1,6 +1,6 @@
 {
   "title": "G-Shopper",
-  "description": "Double click furniture on room to see marketplace avarage for it.",
+  "description": "Double click furniture on room to see marketplace avarage for it. !average to toggle ON/OFF",
   "authors": [
     {
       "name": "rocawear",
@@ -8,11 +8,11 @@
       "username": "rocawear"
     }
   ],
-  "version": "0.1",
+  "version": "0.2",
   "categories": ["Usability", "G-Earth Utilities"],
 
-  "source": "https://github.com/rocawear-public/habbo-avarage",
-  "releases": "https://github.com/rocawear-public/habbo-avarage/releases/",
+  "source": "https://github.com/rocawear-public/habbo-average",
+  "releases": "https://github.com/rocawear-public/habbo-average/releases/",
 
   "stable": true,
 
@@ -46,7 +46,7 @@
   },
 
   "submissionDate": "12-04-2022 16:00:00",
-  "updateDate": "12-04-2022 16:00:00",
+  "updateDate": "12-04-2022 18:00:00",
 
   "isOutdated": false
 }
