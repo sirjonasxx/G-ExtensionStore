@@ -182,5 +182,9 @@
   {
     "extension": "RollerWalk",
     "rating": 90
+  },
+  {
+    "extension": "G-Shopper",
+    "rating": 90
   }
 ]
