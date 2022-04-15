@@ -1,6 +1,6 @@
 {
   "title": "Stack Dropper",
-  "description": "Drop any item from your inventory into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
+  "description": "Drop any item from your inventory or the BC catalog into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
   "authors": [{
     "name": "WiredSpast",
     "hotel": ".nl",
@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.3",
+  "version": "1.1",
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/WiredSpast/StackDropper",
@@ -17,7 +17,7 @@
 
   "framework": {
     "name": "Native",
-    "version": "1.5.0"
+    "version": "1.5.2"
   },
 
   "language": "Java",
@@ -27,11 +27,11 @@
 
   "compatibility": {
     "systems": ["Linux", "Windows", "Mac"],
-    "clients": ["Flash"]
+    "clients": ["Flash", "Nitro"]
   },
 
   "submissionDate": "10-01-2022 01:55:34",
-  "updateDate": "10-01-2022 01:55:34",
+  "updateDate": "15-04-2022 07:21:00",
 
   "isOutdated": false
 }
