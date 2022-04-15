@@ -12,7 +12,7 @@
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/WiredSpast/StackDropper",
-  "releases": "https://github.com/WiredSpast/StackDropper/releases"
+  "releases": "https://github.com/WiredSpast/StackDropper/releases",
 
   "stable": true,
 
