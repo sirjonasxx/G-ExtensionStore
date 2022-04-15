@@ -2917,11 +2917,11 @@
   },
   {
     "title": "Stack Dropper",
-    "version": "0.3",
+    "version": "1.1",
     "isOutdated": false,
     "_object": {
       "title": "Stack Dropper",
-      "description": "Drop any item from your inventory into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
+      "description": "Drop any item from your inventory or the BC catalog into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
       "authors": [
         {
           "name": "WiredSpast",
@@ -2931,16 +2931,17 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.3",
+      "version": "1.1",
       "categories": [
         "Building",
         "Usability"
       ],
       "source": "https://github.com/WiredSpast/StackDropper",
+      "releases": "https://github.com/WiredSpast/StackDropper/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.0"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -2967,7 +2968,7 @@
         ]
       },
       "submissionDate": "10-01-2022 01:55:34",
-      "updateDate": "10-01-2022 01:55:34",
+      "updateDate": "15-04-2022 07:21:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2976,6 +2977,14 @@
         "extVersion": "0.3",
         "type": "publish",
         "timestamp": 1641922956934,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1515020051493048320",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1650043902735,
         "locked": false,
         "score": 0
       }
