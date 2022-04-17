@@ -2917,7 +2917,7 @@
   },
   {
     "title": "Stack Dropper",
-    "version": "1.1",
+    "version": "1.2",
     "isOutdated": false,
     "_object": {
       "title": "Stack Dropper",
@@ -2931,7 +2931,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "1.1",
+      "version": "1.2",
       "categories": [
         "Building",
         "Usability"
@@ -2968,7 +2968,7 @@
         ]
       },
       "submissionDate": "10-01-2022 01:55:34",
-      "updateDate": "15-04-2022 07:21:00",
+      "updateDate": "17-04-2022 18:58:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2985,6 +2985,14 @@
         "extVersion": "1.1",
         "type": "update",
         "timestamp": 1650043902735,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1515737206417235978",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1650214885790,
         "locked": false,
         "score": 0
       }
