@@ -606,7 +606,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 2,
-        "reputation": 280
+        "reputation": 300
       }
     ],
     "version": "0.1",
@@ -652,7 +652,7 @@
     "submissionDate": "17-02-2022 18:00:00",
     "updateDate": "02-04-2022 20:00:00",
     "isOutdated": false,
-    "rating": 110
+    "rating": 130
   },
   {
     "title": "G-CryptoChat",
@@ -985,7 +985,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 2,
-        "reputation": 280
+        "reputation": 300
       }
     ],
     "version": "0.2",
