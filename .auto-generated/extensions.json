@@ -606,7 +606,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 2,
-        "reputation": 555
+        "reputation": 600
       }
     ],
     "version": "0.1",
@@ -985,7 +985,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 2,
-        "reputation": 555
+        "reputation": 600
       }
     ],
     "version": "0.2.2",
@@ -1031,7 +1031,7 @@
     "submissionDate": "12-04-2022 16:00:00",
     "updateDate": "19-04-2022 18:00:00",
     "isOutdated": false,
-    "rating": 425
+    "rating": 470
   },
   {
     "title": "G-Translator",
