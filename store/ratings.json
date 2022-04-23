@@ -177,14 +177,14 @@
   },
   {
     "extension": "MultiWhisper",
-    "rating": 30
+    "rating": 50
   },
   {
     "extension": "RollerWalk",
-    "rating": 90
+    "rating": 110
   },
   {
     "extension": "G-Shopper",
-    "rating": 520
+    "rating": 565
   }
 ]
