@@ -3000,7 +3000,7 @@
   },
   {
     "title": "G-Trigger",
-    "version": "0.2",
+    "version": "0.2.1",
     "isOutdated": false,
     "_object": {
       "title": "G-Trigger",
@@ -3014,7 +3014,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2",
+      "version": "0.2.1",
       "categories": [
         "G-Earth Utilities"
       ],
@@ -3023,7 +3023,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.0"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -3046,11 +3046,13 @@
           "Mac"
         ],
         "clients": [
-          "Flash"
+          "Flash",
+          "Unity",
+          "Nitro"
         ]
       },
       "submissionDate": "09-02-2022 01:26:00",
-      "updateDate": "14-02-2022 06:05:00",
+      "updateDate": "02-05-2022 21:25:00",
       "isOutdated": false
     },
     "tweets": [
@@ -3067,6 +3069,14 @@
         "extVersion": "0.2",
         "type": "update",
         "timestamp": 1644815357937,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1521210150530465792",
+        "extVersion": "0.2.1",
+        "type": "update",
+        "timestamp": 1651519737344,
         "locked": false,
         "score": 0
       }
