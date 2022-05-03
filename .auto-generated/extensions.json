@@ -1037,7 +1037,7 @@
   },
   {
     "title": "G-Translator",
-    "description": "Visit every hotel you want!",
+    "description": "Visit any hotel you want!",
     "authors": [
       {
         "name": "sirjonasxx",
@@ -1055,17 +1055,18 @@
         "reputation": 310
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": [
       "Usability",
       "Others"
     ],
     "source": "https://github.com/sirjonasxx/G-Translator",
     "readme": "https://github.com/sirjonasxx/G-Translator/blob/master/README.md",
+    "releases": "https://github.com/sirjonasxx/G-Translator/releases",
     "stable": true,
     "framework": {
       "name": "Native",
-      "version": "1.5.1"
+      "version": "1.5.2"
     },
     "language": "Java",
     "commands": {
@@ -1092,7 +1093,7 @@
       ]
     },
     "submissionDate": "20-10-2021 22:26:00",
-    "updateDate": "20-10-2021 22:26:00",
+    "updateDate": "03-05-2022 06:19:00",
     "isOutdated": false,
     "rating": 310
   },

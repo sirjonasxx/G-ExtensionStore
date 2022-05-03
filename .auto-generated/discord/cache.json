@@ -2708,10 +2708,10 @@
   },
   {
     "title": "G-Translator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "G-Translator",
-      "description": "Visit every hotel you want!",
+      "description": "Visit any hotel you want!",
       "authors": [
         {
           "name": "sirjonasxx",
@@ -2725,17 +2725,18 @@
           "discord": "Andyy#3780"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Usability",
         "Others"
       ],
       "source": "https://github.com/sirjonasxx/G-Translator",
       "readme": "https://github.com/sirjonasxx/G-Translator/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/G-Translator/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -2762,7 +2763,7 @@
         ]
       },
       "submissionDate": "20-10-2021 22:26:00",
-      "updateDate": "20-10-2021 22:26:00",
+      "updateDate": "03-05-2022 06:19:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2785,9 +2786,19 @@
         "timestamp": 1634762899387,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "970902814840746064",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1651551670418,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1634762300655
+    "latestEmbed": 1651551670418
   },
   {
     "title": "Sanbovir Photo Inspector",
