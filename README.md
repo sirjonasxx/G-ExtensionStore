@@ -93,7 +93,7 @@ Most fields are self-explanatory, but some require extra attention:
 * `readme` can point to any URL containing extra information (such as instructions) for your extension, typically it would point to the README file of your repository. It can also be empty or null
 * `releases` can point to any URL containing release notes for your extension, typically it would point to the Releases page of your repository. It can also be empty or null
 * `stable` must be set to `false` if this extension doesn't always show correct behavior. You're required to have this set to `true` in the initial PR. You can change it to `false` later on if it turns out to be unstable and aren't deploying a fix anytime soon
-* `framework.name` must be available in `extension_configTest.json` -> `frameworks`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
+* `framework.name` must be available in `store/config.json` -> `frameworks`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
 * `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
 * `commands` contains the commands to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}`. The command is under `commands.default` but you can also add platform-specific commands
 
