@@ -266,7 +266,7 @@
   },
   {
     "title": "G-Manipulate",
-    "version": "0.2",
+    "version": "0.2.1",
     "_object": {
       "title": "G-Manipulate",
       "description": "G-Earth utility extension for blocking & replacing packets",
@@ -279,15 +279,16 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2",
+      "version": "0.2.1",
       "categories": [
         "G-Earth Utilities"
       ],
       "source": "https://github.com/sirjonasxx/G-Manipulate",
+      "releases": "https://github.com/sirjonasxx/G-Manipulate/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -311,11 +312,12 @@
         ],
         "clients": [
           "Flash",
-          "Unity"
+          "Unity",
+          "Nitro"
         ]
       },
       "submissionDate": "20-08-2021 01:09:00",
-      "updateDate": "20-08-2021 01:09:00",
+      "updateDate": "03-05-2022 06:15:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -328,9 +330,19 @@
         "timestamp": 1629424694047,
         "locked": false,
         "score": 180
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "970901977179521024",
+        "extVersion": "0.2.1",
+        "type": "update",
+        "timestamp": 1651551470562,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629424694047
+    "latestEmbed": 1651551470562
   },
   {
     "title": "G-Plants",
