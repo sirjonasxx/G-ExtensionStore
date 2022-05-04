@@ -411,7 +411,7 @@
   },
   {
     "title": "Packet Info Explorer",
-    "version": "0.1",
+    "version": "0.1.1",
     "_object": {
       "title": "Packet Info Explorer",
       "description": "G-Earth utility extension for exploring packet information",
@@ -424,15 +424,16 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1",
+      "version": "0.1.1",
       "categories": [
         "G-Earth Utilities"
       ],
       "source": "https://github.com/sirjonasxx/PacketInfoExplorer",
+      "releases": "https://github.com/sirjonasxx/PacketInfoExplorer/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -456,11 +457,12 @@
         ],
         "clients": [
           "Flash",
-          "Unity"
+          "Unity",
+          "Nitro"
         ]
       },
       "submissionDate": "20-08-2021 01:39:00",
-      "updateDate": "20-08-2021 01:39:00",
+      "updateDate": "04-05-2022 07:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -473,9 +475,19 @@
         "timestamp": 1629424697108,
         "locked": false,
         "score": 240
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "971280290343419914",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1651641667207,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1629424697108
+    "latestEmbed": 1651641667207
   },
   {
     "title": "Clientside Effect",
@@ -2055,7 +2067,7 @@
   },
   {
     "title": "Wired Presets",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "_object": {
       "title": "Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2068,13 +2080,14 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2.2",
+      "version": "0.2.3",
       "categories": [
         "Building",
         "Usability"
       ],
       "source": "https://github.com/sirjonasxx/Wired-Presets",
       "readme": "https://github.com/sirjonasxx/Wired-Presets/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/Wired-Presets/releases",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -2105,7 +2118,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "17-02-2022 02:07:00",
+      "updateDate": "04-05-2022 07:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2148,9 +2161,19 @@
         "timestamp": 1645060408554,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "971280294248333353",
+        "extVersion": "0.2.3",
+        "type": "update",
+        "timestamp": 1651641668138,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1645060408554
+    "latestEmbed": 1651641668138
   },
   {
     "title": "Rainbow BackGround",
@@ -2802,7 +2825,7 @@
   },
   {
     "title": "Sanbovir Photo Inspector",
-    "version": "2.0",
+    "version": "2.1",
     "_object": {
       "title": "Sanbovir Photo Inspector",
       "description": "Textual photo manipulator with fun tools",
@@ -2815,16 +2838,18 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "2.0",
+      "version": "2.1",
       "categories": [
-        "Fun"
+        "Fun",
+        "G-Earth Utilities"
       ],
       "source": "https://github.com/sirjonasxx/Project-Sanbovir",
       "readme": "https://github.com/sirjonasxx/Project-Sanbovir/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/Project-Sanbovir/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -2851,7 +2876,7 @@
         ]
       },
       "submissionDate": "22-10-2021 00:17:00",
-      "updateDate": "22-10-2021 00:17:00",
+      "updateDate": "04-05-2022 07:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2864,9 +2889,19 @@
         "timestamp": 1634862195021,
         "locked": false,
         "score": 260
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "971280292599988255",
+        "extVersion": "2.1",
+        "type": "update",
+        "timestamp": 1651641667683,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1634862195021
+    "latestEmbed": 1651641667683
   },
   {
     "title": "LinkShortener",

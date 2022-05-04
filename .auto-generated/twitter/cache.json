@@ -822,7 +822,7 @@
   },
   {
     "title": "Packet Info Explorer",
-    "version": "0.1",
+    "version": "0.1.1",
     "_object": {
       "title": "Packet Info Explorer",
       "description": "G-Earth utility extension for exploring packet information",
@@ -835,15 +835,16 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1",
+      "version": "0.1.1",
       "categories": [
         "G-Earth Utilities"
       ],
       "source": "https://github.com/sirjonasxx/PacketInfoExplorer",
+      "releases": "https://github.com/sirjonasxx/PacketInfoExplorer/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.4.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -867,11 +868,12 @@
         ],
         "clients": [
           "Flash",
-          "Unity"
+          "Unity",
+          "Nitro"
         ]
       },
       "submissionDate": "20-08-2021 01:39:00",
-      "updateDate": "20-08-2021 01:39:00",
+      "updateDate": "04-05-2022 07:12:00",
       "isOutdated": false
     },
     "tweets": [
@@ -882,8 +884,17 @@
         "timestamp": 1629478353401,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1521721568539422720",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1651641668908,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": false
   },
   {
     "title": "Roomcropper",
@@ -1946,7 +1957,7 @@
   },
   {
     "title": "Wired Presets",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "_object": {
       "title": "Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -1959,13 +1970,14 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2.2",
+      "version": "0.2.3",
       "categories": [
         "Building",
         "Usability"
       ],
       "source": "https://github.com/sirjonasxx/Wired-Presets",
       "readme": "https://github.com/sirjonasxx/Wired-Presets/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/Wired-Presets/releases",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -1996,7 +2008,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "17-02-2022 02:07:00",
+      "updateDate": "04-05-2022 07:12:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2029,6 +2041,14 @@
         "extVersion": "0.2.2",
         "type": "update",
         "timestamp": 1645060409121,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1521721611874967552",
+        "extVersion": "0.2.3",
+        "type": "update",
+        "timestamp": 1651641679258,
         "locked": false,
         "score": 0
       }
@@ -2655,7 +2675,7 @@
   },
   {
     "title": "Sanbovir Photo Inspector",
-    "version": "2.0",
+    "version": "2.1",
     "isOutdated": false,
     "_object": {
       "title": "Sanbovir Photo Inspector",
@@ -2669,16 +2689,18 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "2.0",
+      "version": "2.1",
       "categories": [
-        "Fun"
+        "Fun",
+        "G-Earth Utilities"
       ],
       "source": "https://github.com/sirjonasxx/Project-Sanbovir",
       "readme": "https://github.com/sirjonasxx/Project-Sanbovir/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/Project-Sanbovir/releases",
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
       "language": "Java",
       "commands": {
@@ -2705,7 +2727,7 @@
         ]
       },
       "submissionDate": "22-10-2021 00:17:00",
-      "updateDate": "22-10-2021 00:17:00",
+      "updateDate": "04-05-2022 07:12:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2714,6 +2736,14 @@
         "extVersion": "2.0",
         "type": "publish",
         "timestamp": 1634862199634,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1521721590165221377",
+        "extVersion": "2.1",
+        "type": "update",
+        "timestamp": 1651641674095,
         "locked": false,
         "score": 0
       }

@@ -1764,15 +1764,16 @@
         "reputation": 3960
       }
     ],
-    "version": "0.1",
+    "version": "0.1.1",
     "categories": [
       "G-Earth Utilities"
     ],
     "source": "https://github.com/sirjonasxx/PacketInfoExplorer",
+    "releases": "https://github.com/sirjonasxx/PacketInfoExplorer/releases",
     "stable": true,
     "framework": {
       "name": "Native",
-      "version": "1.4.1"
+      "version": "1.5.2"
     },
     "language": "Java",
     "commands": {
@@ -1796,11 +1797,12 @@
       ],
       "clients": [
         "Flash",
-        "Unity"
+        "Unity",
+        "Nitro"
       ]
     },
     "submissionDate": "20-08-2021 01:39:00",
-    "updateDate": "20-08-2021 01:39:00",
+    "updateDate": "04-05-2022 07:12:00",
     "isOutdated": false,
     "rating": 250
   },
@@ -2152,16 +2154,18 @@
         "reputation": 3960
       }
     ],
-    "version": "2.0",
+    "version": "2.1",
     "categories": [
-      "Fun"
+      "Fun",
+      "G-Earth Utilities"
     ],
     "source": "https://github.com/sirjonasxx/Project-Sanbovir",
     "readme": "https://github.com/sirjonasxx/Project-Sanbovir/blob/master/README.md",
+    "releases": "https://github.com/sirjonasxx/Project-Sanbovir/releases",
     "stable": true,
     "framework": {
       "name": "Native",
-      "version": "1.5.1"
+      "version": "1.5.2"
     },
     "language": "Java",
     "commands": {
@@ -2188,7 +2192,7 @@
       ]
     },
     "submissionDate": "22-10-2021 00:17:00",
-    "updateDate": "22-10-2021 00:17:00",
+    "updateDate": "04-05-2022 07:12:00",
     "isOutdated": false,
     "rating": 270
   },
@@ -2478,13 +2482,14 @@
         "reputation": 3960
       }
     ],
-    "version": "0.2.2",
+    "version": "0.2.3",
     "categories": [
       "Building",
       "Usability"
     ],
     "source": "https://github.com/sirjonasxx/Wired-Presets",
     "readme": "https://github.com/sirjonasxx/Wired-Presets/blob/master/README.md",
+    "releases": "https://github.com/sirjonasxx/Wired-Presets/releases",
     "stable": true,
     "framework": {
       "name": "Native",
@@ -2515,7 +2520,7 @@
       ]
     },
     "submissionDate": "19-09-2021 23:54:00",
-    "updateDate": "17-02-2022 02:07:00",
+    "updateDate": "04-05-2022 07:12:00",
     "isOutdated": false,
     "rating": 505
   },
