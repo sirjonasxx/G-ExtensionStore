@@ -8,16 +8,17 @@
     "discord": "sirjonasxx#2633",
     "twitter": "sirjonasxx"
   }],
-  "version": "0.1",
+  "version": "0.1.1",
   "categories": ["G-Earth Utilities"],
 
   "source": "https://github.com/sirjonasxx/PacketInfoExplorer",
+  "releases": "https://github.com/sirjonasxx/PacketInfoExplorer/releases",
 
   "stable": true,
 
   "framework": {
     "name": "Native",
-    "version": "1.4.1"
+    "version": "1.5.2"
   },
 
   "language": "Java",
@@ -27,11 +28,11 @@
 
   "compatibility": {
     "systems": ["Linux", "Windows", "Mac"],
-    "clients": ["Flash", "Unity"]
+    "clients": ["Flash", "Unity", "Nitro"]
   },
 
   "submissionDate": "20-08-2021 01:39:00",
-  "updateDate": "20-08-2021 01:39:00",
+  "updateDate": "04-05-2022 07:12:00",
 
   "isOutdated": false
 }
