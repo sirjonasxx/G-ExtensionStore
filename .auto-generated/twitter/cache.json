@@ -3050,7 +3050,7 @@
   },
   {
     "title": "G-Trigger",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "isOutdated": false,
     "_object": {
       "title": "G-Trigger",
@@ -3064,7 +3064,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2.1",
+      "version": "0.2.2",
       "categories": [
         "G-Earth Utilities"
       ],
@@ -3102,7 +3102,7 @@
         ]
       },
       "submissionDate": "09-02-2022 01:26:00",
-      "updateDate": "02-05-2022 21:25:00",
+      "updateDate": "05-05-2022 20:54:00",
       "isOutdated": false
     },
     "tweets": [
@@ -3127,6 +3127,14 @@
         "extVersion": "0.2.1",
         "type": "update",
         "timestamp": 1651519737344,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1522289797032779776",
+        "extVersion": "0.2.2",
+        "type": "update",
+        "timestamp": 1651777145141,
         "locked": false,
         "score": 0
       }
