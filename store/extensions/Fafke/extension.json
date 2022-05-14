@@ -1,38 +1,37 @@
 {
-  "title": "Custom walk",
-  "description": "Continuously sit, perform actions and use signs while walking",
-  "authors": [{
-    "name": "WiredSpast",
-    "hotel": ".nl",
-    "username": "WiredSpast",
-    "discord": "Jonasss#6660",
-    "twitter": "WiredSpast"
-  }],
-  "version": "0.1",
-  "categories": ["Fun"],
+    "title": "Fafke",
+    "description": "if typing :fafke on prevents you from moving, popping a message bubble, and turning to any side, typing :fafke off for close the script ",
+    "authors": [
+      {
+        "name": "26",
+        "hotel": ".com.tr",
+        "username": "funkydemir66",
+        "discord": "26#7305"
+      }
+    ],
+    "version": "0.1",
+    "categories": ["Usability", "Fun"],
+    
+    "source": "https://github.com/funkydemir66/Fafke",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "1.6"
+    },
 
-  "source": "https://github.com/WiredSpast/CustomWalk",
-  "readme": "https://github.com/WiredSpast/CustomWalk/blob/master/README.md",
+    "language": "Python",
+    "commands": {
+      "default": ["python", "Fafke.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
 
-  "stable": true,
-
-  "framework": {
-    "name": "Native",
-    "version": "1.4.1"
-  },
-
-  "language": "Java",
-  "commands": {
-    "default": ["java", "-jar", "CustomWalk.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
-  },
-
-  "compatibility": {
-    "systems": ["Linux", "Windows", "Mac"],
-    "clients": ["Flash"]
-  },
-
-  "submissionDate": "20-08-2021 14:32:18",
-  "updateDate": "20-08-2021 14:32:18",
-
-  "isOutdated": false
+    "submissionDate": "14-05-2022 16:11:00",
+    "updateDate": "14-05-2022 16:11:00",
+    "isOutdated": false
 }
