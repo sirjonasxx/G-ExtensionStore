@@ -2261,7 +2261,7 @@
       },
       "submissionDate": "23-09-2021 12:00:00",
       "updateDate": "23-09-2021 12:00:00",
-      "isOutdated": false
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -2271,8 +2271,17 @@
         "timestamp": 1632406750141,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1526722350963621888",
+        "extVersion": "1.0",
+        "type": "remove",
+        "timestamp": 1652833948336,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": true
   },
   {
     "title": "Handitem Chooser",
