@@ -1,5 +1,5 @@
 {
-  "title": "Wired Presets",
+  "title": "G-Presets - Building & Wired Presets",
   "description": "Save and reuse wired and non-wired setups",
   "authors": [{
     "name": "sirjonasxx",
@@ -8,12 +8,12 @@
     "discord": "sirjonasxx#2633",
     "twitter": "sirjonasxx"
   }],
-  "version": "0.2.3",
+  "version": "1.0",
   "categories": ["Building", "Usability"],
 
-  "source": "https://github.com/sirjonasxx/Wired-Presets",
-  "readme": "https://github.com/sirjonasxx/Wired-Presets/blob/master/README.md",
-  "releases": "https://github.com/sirjonasxx/Wired-Presets/releases",
+  "source": "https://github.com/sirjonasxx/G-Presets",
+  "readme": "https://github.com/sirjonasxx/G-Presets/blob/master/README.md",
+  "releases": "https://github.com/sirjonasxx/G-Presets/releases",
 
   "stable": true,
 
@@ -24,7 +24,7 @@
 
   "language": "Java",
   "commands": {
-    "default": ["java", "-jar", "WiredPresets.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "GPresets.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
 
   "compatibility": {
@@ -33,7 +33,7 @@
   },
 
   "submissionDate": "19-09-2021 23:54:00",
-  "updateDate": "04-05-2022 07:12:00",
+  "updateDate": "29-05-2022 03:23:00",
 
   "isOutdated": false
 }
