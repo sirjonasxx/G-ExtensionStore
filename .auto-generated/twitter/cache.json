@@ -3242,7 +3242,7 @@
   {
     "title": "G-Clothes",
     "version": "0.1",
-    "isOutdated": false,
+    "isOutdated": true,
     "_object": {
       "title": "G-Clothes",
       "description": "Habbo Hotel clientside clothing changer (all habbo clothes & nft)",
@@ -3294,8 +3294,8 @@
         ]
       },
       "submissionDate": "17-02-2022 18:00:00",
-      "updateDate": "02-04-2022 20:00:00",
-      "isOutdated": false
+      "updateDate": "05-06-2022 14:00:00",
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -3303,6 +3303,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1648922312608,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1533425464857055234",
+        "extVersion": "0.1",
+        "type": "remove",
+        "timestamp": 1654432095219,
         "locked": false,
         "score": 0
       }
@@ -3520,7 +3528,7 @@
   {
     "title": "G-Shopper",
     "version": "0.2.2",
-    "isOutdated": false,
+    "isOutdated": true,
     "_object": {
       "title": "G-Shopper",
       "description": "Shopper tools, check marketplace average by double clicking furniture or setup alertlist for items that are on room. Open from 'Extensions' tab or !avg & !finder",
@@ -3572,8 +3580,8 @@
         ]
       },
       "submissionDate": "12-04-2022 16:00:00",
-      "updateDate": "19-04-2022 18:00:00",
-      "isOutdated": false
+      "updateDate": "05-06-2022 14:00:00",
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -3589,6 +3597,14 @@
         "extVersion": "0.2.2",
         "type": "update",
         "timestamp": 1650396192609,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1533425486390611970",
+        "extVersion": "0.2.2",
+        "type": "remove",
+        "timestamp": 1654432100345,
         "locked": false,
         "score": 0
       }
