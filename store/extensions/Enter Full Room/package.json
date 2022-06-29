@@ -1,0 +1,16 @@
+{
+  "name": "Enter Full Room",
+  "version": "0.1",
+  "description": "cr: roca | Automatically entering a full room",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [habbo, enter full room, room, navi, navigator, automatically, automatic, HappyBoyx3, roca],
+  "author": "HappyBoyx3",
+  "license": "ISC",
+  "dependencies": {
+    "gnode-api": "0.2.1"
+  }
+}
