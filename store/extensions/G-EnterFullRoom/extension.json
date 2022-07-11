@@ -1,21 +1,27 @@
 {
     "title": "G-EnterFullRoom",
-    "description": "Enter full room automatically when someone leaves.",
-    "authors": [HappyBoyx3 & JustProDylan
+    "description": "Enter full room automatically when someone leave.",
+    "authors": [
       {
         "name": "HappyBoyx3",
         "hotel": ".de",
         "username": "HappyBoyx3",
-        "discord": "",
+        "discord": "MAIK#5094",
         "twitter": "HabboMaik"
+		
+		"name": "JustProDylan",
+        "hotel": ".",
+        "username": "",
+        "discord": "",
+        "twitter": ""
       }
     ],
     "version": "1.0",
     "categories": ["Usability", "Others"],
     
-    "source": "Url to the source code",
-    "readme": "(optional) readme file",
-    "releases": "("
+    "source": "https://github.com/HabboMaik/G-ExtensionStore/blob/repo/1.5.2/store/extensions/G-EnterFullRoom/",
+    "readme": "https://github.com/HabboMaik/G-ExtensionStore/blob/repo/1.5.2/store/extensions/G-EnterFullRoom/README.md",
+    "releases": ""
     
     "stable": true,
     
@@ -35,7 +41,7 @@
         "clients": ["Unity", "Flash"]
     },
 
-    "submissionDate": "15-08-2021 01:16:35",
-    "updateDate": "15-08-2021 01:16:35",
+    "submissionDate": "11-07-2022 00:00:00",
+    "updateDate": "11-07-2022 00:00:00",
     "isOutdated": false
 }
