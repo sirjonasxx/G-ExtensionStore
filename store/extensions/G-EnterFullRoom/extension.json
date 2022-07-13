@@ -17,9 +17,9 @@
     "version": "1.0",
     "categories": ["Usability", "Others"],
     
-    "source": "https://github.com/HabboMaik/G-ExtensionStore/blob/repo/1.5.2/store/extensions/G-EnterFullRoom/",
-    "readme": "https://github.com/HabboMaik/G-ExtensionStore/blob/repo/1.5.2/store/extensions/G-EnterFullRoom/README.md",
-    "releases": ""
+    "source": "https://github.com/HabboMaik/G-EnterFullRoom",
+    "readme": "https://github.com/HabboMaik/G-EnterFullRoom/blob/main/README.md",
+    "releases": "https://github.com/HabboMaik/G-EnterFullRoom/releases/tag/v1.0"
     
     "stable": true,
     
@@ -28,10 +28,9 @@
       "version": "1.5"
     },
 
-    "language": "Java",
+    "language": "C#",
     "commands": {
-      "default": ["java", "-jar", "GClick.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-      "linux": ["(optional) <some OS-specific command...>"]
+      "default": [".exe", "-exe", "G-EnterFullRoom.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     },
     
     "compatibility": {
