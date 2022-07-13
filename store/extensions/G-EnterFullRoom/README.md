@@ -14,4 +14,4 @@ You will get automatically in, when someone leave the room.
 </p>
 
 ## Credits/Thanks
-**JustProDylan** (*for developing this extension*)
+- **JustProDylan** (*for developing this extension*)
