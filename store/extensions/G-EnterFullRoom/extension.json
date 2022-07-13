@@ -30,7 +30,7 @@
 
     "language": "C#",
     "commands": {
-      "default": [".exe", "-exe", "G-EnterFullRoom.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+      "default": ["cmd", "/c", "G-EnterFullRoom.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     },
     
     "compatibility": {
