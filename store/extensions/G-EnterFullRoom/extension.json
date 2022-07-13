@@ -25,7 +25,7 @@
     
     "framework": {
       "name": "Geode",
-      "version": "1.5"
+      "version": "1.4.1.0"
     },
 
     "language": "C#",
@@ -34,11 +34,11 @@
     },
     
     "compatibility": {
-        "systems": ["Linux", "Windows", "Mac"],
-        "clients": ["Unity", "Flash"]
+        "systems": ["Windows"],
+        "clients": ["Flash"]
     },
 
-    "submissionDate": "11-07-2022 00:00:00",
-    "updateDate": "11-07-2022 00:00:00",
+    "submissionDate": "13-07-2022 00:00:00",
+    "updateDate": "13-07-2022 00:00:00",
     "isOutdated": false
 }
