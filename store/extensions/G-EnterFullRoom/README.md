@@ -12,3 +12,6 @@ You will get automatically in, when someone leave the room.
 <p align="center">
   <img src="https://i.imgur.com/Ynpub62.png" />
 </p>
+
+## Credits/Thanks
+**JustProDylan** (*for developing this extension*)
