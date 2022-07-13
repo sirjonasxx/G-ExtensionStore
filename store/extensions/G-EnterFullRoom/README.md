@@ -12,6 +12,8 @@ You will get automatically in, when someone leave the room.
 <p align="center">
   <img src="https://i.imgur.com/Ynpub62.png" />
 </p>
+
 ## Contact
-<img src="https://i.imgur.com/P5yBofM.png" alt="drawing" width="40"/> **MAIK#5094**<br>
+<img src="https://i.imgur.com/P5yBofM.png" alt="drawing" width="40"/> **MAIK#5094**
+<br>
 <img src="https://i.imgur.com/hn6i3KO.png" alt="drawing" width="40"/> [**@HabboMaik**](http://www.twitter.com/HabboMaik "@HabboMaik")
