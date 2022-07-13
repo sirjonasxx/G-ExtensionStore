@@ -8,11 +8,12 @@
     "discord": "sirjonasxx#2633",
     "twitter": "sirjonasxx"
   }],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "categories": ["Games"],
 
   "source": "https://github.com/sirjonasxx/G-Click-Ultimate",
   "readme": "https://github.com/sirjonasxx/G-Click-Ultimate/blob/master/README.md",
+  "releases": "https://github.com/sirjonasxx/G-Click-Ultimate/releases",
 
   "stable": true,
 
@@ -32,7 +33,7 @@
   },
 
   "submissionDate": "20-12-2021 23:48:35",
-  "updateDate": "17-02-2022 02:12:00",
+  "updateDate": "13-07-2022 18:48:00",
 
   "isOutdated": false
 }
