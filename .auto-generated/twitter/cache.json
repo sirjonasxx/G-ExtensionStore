@@ -2910,7 +2910,7 @@
   },
   {
     "title": "G-Click Ultimate",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "isOutdated": false,
     "_object": {
       "title": "G-Click Ultimate",
@@ -2924,12 +2924,13 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "categories": [
         "Games"
       ],
       "source": "https://github.com/sirjonasxx/G-Click-Ultimate",
       "readme": "https://github.com/sirjonasxx/G-Click-Ultimate/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/G-Click-Ultimate/releases",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -2960,7 +2961,7 @@
         ]
       },
       "submissionDate": "20-12-2021 23:48:35",
-      "updateDate": "17-02-2022 02:12:00",
+      "updateDate": "13-07-2022 18:48:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2977,6 +2978,14 @@
         "extVersion": "0.1.1",
         "type": "update",
         "timestamp": 1645060669298,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1547262826883981314",
+        "extVersion": "0.1.2",
+        "type": "update",
+        "timestamp": 1657731179466,
         "locked": false,
         "score": 0
       }
