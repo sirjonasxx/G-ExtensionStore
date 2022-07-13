@@ -352,7 +352,7 @@
         "Others"
       ],
       "source": "https://github.com/erikmoch/CryptoChat",
-      "stable": true,
+      "stable": false,
       "framework": {
         "name": "Geode",
         "version": "1.0.0"
@@ -381,7 +381,7 @@
       },
       "submissionDate": "19-08-2021 11:59:00",
       "updateDate": "04-09-2021 23:54:00",
-      "isOutdated": false
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -399,8 +399,17 @@
         "timestamp": 1631044110900,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1547289676289015809",
+        "extVersion": "1.2.0.0",
+        "type": "remove",
+        "timestamp": 1657737580819,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": true
   },
   {
     "title": "G-Forum",
