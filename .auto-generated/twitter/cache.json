@@ -1957,7 +1957,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "0.2.3",
+    "version": "1.0",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -1970,14 +1970,14 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2.3",
+      "version": "1.0",
       "categories": [
         "Building",
         "Usability"
       ],
-      "source": "https://github.com/sirjonasxx/Wired-Presets",
-      "readme": "https://github.com/sirjonasxx/Wired-Presets/blob/master/README.md",
-      "releases": "https://github.com/sirjonasxx/Wired-Presets/releases",
+      "source": "https://github.com/sirjonasxx/G-Presets",
+      "readme": "https://github.com/sirjonasxx/G-Presets/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/G-Presets/releases",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -1988,7 +1988,7 @@
         "default": [
           "java",
           "-jar",
-          "WiredPresets.jar",
+          "GPresets.jar",
           "-c",
           "{cookie}",
           "-p",
@@ -2008,7 +2008,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "04-05-2022 07:12:00",
+      "updateDate": "29-05-2022 03:23:00",
       "isOutdated": false
     },
     "tweets": [
@@ -2049,6 +2049,14 @@
         "extVersion": "0.2.3",
         "type": "update",
         "timestamp": 1651641679258,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1530722573608026112",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1653787675768,
         "locked": false,
         "score": 0
       }
@@ -3234,7 +3242,7 @@
   {
     "title": "G-Clothes",
     "version": "0.1",
-    "isOutdated": false,
+    "isOutdated": true,
     "_object": {
       "title": "G-Clothes",
       "description": "Habbo Hotel clientside clothing changer (all habbo clothes & nft)",
@@ -3286,8 +3294,8 @@
         ]
       },
       "submissionDate": "17-02-2022 18:00:00",
-      "updateDate": "02-04-2022 20:00:00",
-      "isOutdated": false
+      "updateDate": "05-06-2022 14:00:00",
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -3295,6 +3303,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1648922312608,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1533425464857055234",
+        "extVersion": "0.1",
+        "type": "remove",
+        "timestamp": 1654432095219,
         "locked": false,
         "score": 0
       }
@@ -3512,7 +3528,7 @@
   {
     "title": "G-Shopper",
     "version": "0.2.2",
-    "isOutdated": false,
+    "isOutdated": true,
     "_object": {
       "title": "G-Shopper",
       "description": "Shopper tools, check marketplace average by double clicking furniture or setup alertlist for items that are on room. Open from 'Extensions' tab or !avg & !finder",
@@ -3564,8 +3580,8 @@
         ]
       },
       "submissionDate": "12-04-2022 16:00:00",
-      "updateDate": "19-04-2022 18:00:00",
-      "isOutdated": false
+      "updateDate": "05-06-2022 14:00:00",
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -3581,6 +3597,14 @@
         "extVersion": "0.2.2",
         "type": "update",
         "timestamp": 1650396192609,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1533425486390611970",
+        "extVersion": "0.2.2",
+        "type": "remove",
+        "timestamp": 1654432100345,
         "locked": false,
         "score": 0
       }

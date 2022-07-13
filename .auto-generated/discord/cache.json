@@ -2067,7 +2067,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "0.2.3",
+    "version": "1.0",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2080,14 +2080,14 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.2.3",
+      "version": "1.0",
       "categories": [
         "Building",
         "Usability"
       ],
-      "source": "https://github.com/sirjonasxx/Wired-Presets",
-      "readme": "https://github.com/sirjonasxx/Wired-Presets/blob/master/README.md",
-      "releases": "https://github.com/sirjonasxx/Wired-Presets/releases",
+      "source": "https://github.com/sirjonasxx/G-Presets",
+      "readme": "https://github.com/sirjonasxx/G-Presets/blob/master/README.md",
+      "releases": "https://github.com/sirjonasxx/G-Presets/releases",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -2098,7 +2098,7 @@
         "default": [
           "java",
           "-jar",
-          "WiredPresets.jar",
+          "GPresets.jar",
           "-c",
           "{cookie}",
           "-p",
@@ -2118,7 +2118,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "04-05-2022 07:12:00",
+      "updateDate": "29-05-2022 03:23:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2171,9 +2171,19 @@
         "timestamp": 1651641668138,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "980281291264098365",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1653787674751,
+        "locked": false,
+        "score": 150
       }
     ],
-    "latestEmbed": 1651641668138
+    "latestEmbed": 1653787674751
   },
   {
     "title": "Rainbow BackGround",
@@ -2818,7 +2828,7 @@
         "type": "update",
         "timestamp": 1651551670418,
         "locked": false,
-        "score": 75
+        "score": 100
       }
     ],
     "latestEmbed": 1651551670418
@@ -3760,7 +3770,7 @@
         "type": "publish",
         "timestamp": 1649777939126,
         "locked": false,
-        "score": 220
+        "score": 260
       },
       {
         "channelId": "878094299403788330",
@@ -3770,7 +3780,7 @@
         "type": "update",
         "timestamp": 1650396192010,
         "locked": false,
-        "score": 425
+        "score": 450
       }
     ],
     "latestEmbed": 1650396192010
