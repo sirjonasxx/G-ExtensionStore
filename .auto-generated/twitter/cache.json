@@ -3627,5 +3627,77 @@
         "score": 0
       }
     ]
+  },
+  {
+    "title": "Wired Overview",
+    "version": "0.1",
+    "isOutdated": false,
+    "_object": {
+      "title": "Wired Overview",
+      "description": "Get an overview of all wired stacks in a room.\n\nAdditional features:\n - Copy an image representation of all the wired to your clipboard\n - Room **admin**'s can open wired by clicking them from within the extension\n\nNOTE: This extension uses a Chrome application window for its UI, you need to have Chrome installed!",
+      "authors": [
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "Jonasss#6660",
+          "twitter": "WiredSpast"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Usability",
+        "Building"
+      ],
+      "source": "https://github.com/WiredSpast/WiredOverview",
+      "readme": "https://github.com/WiredSpast/WiredOverview/blob/main/README.md",
+      "releases": "https://github.com/WiredSpast/WiredOverview/releases",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.9"
+      },
+      "language": "ts-node",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "18-08-2022 19:07:00",
+      "updateDate": "18-08-2022 19:07:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1560315159050178561",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1660843098039,
+        "locked": false,
+        "score": 0
+      }
+    ]
   }
 ]
