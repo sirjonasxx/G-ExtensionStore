@@ -1,5 +1,5 @@
 {
-  "title": "Full Wardrobe",
+  "title": "Wired Overview",
   "description": "Get an overview of all wired stacks in a room.\n\nAdditional features:\n - Copy an image representation of all the wired to your clipboard\n - Room **admin**'s can open wired by clicking them from within the extension\n\nNOTE: This extension uses a Chrome application window for its UI, you need to have Chrome installed!",
   "authors": [{
     "name": "WiredSpast",
