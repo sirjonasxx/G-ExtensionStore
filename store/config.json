@@ -79,7 +79,7 @@
       "name": "G-Node",
       "description": "Node.js G-Earth extension API",
       "developers": ["WiredSpast"],
-      "languages": ["Node.js"],
+      "languages": ["Node.js", "ts-node"],
       "source": "https://github.com/WiredSpast/G-Node",
       "installation": {
         "required": true,
