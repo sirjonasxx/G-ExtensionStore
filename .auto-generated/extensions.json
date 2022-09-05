@@ -2309,6 +2309,60 @@
     "rating": 110
   },
   {
+    "title": "SpyFriends",
+    "description": "Find out where your friends are without leaving your room",
+    "authors": [
+      {
+        "name": "Jalebi",
+        "hotel": ".nl",
+        "username": "Jalebi",
+        "discord": "Jalebi#2734",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/JalebiHabbo/SpyFriends",
+    "readme": "https://github.com/JalebiHabbo/SpyFriends/blob/master/README.md",
+    "releases": "https://github.com/JalebiHabbo/SpyFriends/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.2"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "SpyFriends.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "05-09-2022 20:00:00",
+    "updateDate": "05-09-2022 20:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Stack Dropper",
     "description": "Drop any item from your inventory or the BC catalog into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
     "authors": [
