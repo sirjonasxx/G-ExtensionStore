@@ -684,7 +684,7 @@
   },
   {
     "title": "Giftpeeker",
-    "version": "0.3",
+    "version": "0.4",
     "_object": {
       "title": "Giftpeeker",
       "description": "See what's inside gifts\n\nSay :peek in a room to toggle it on/off",
@@ -697,12 +697,13 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.3",
+      "version": "0.4",
       "categories": [
         "Usability"
       ],
       "source": "https://github.com/WiredSpast/GiftPeeker",
       "readme": "https://github.com/WiredSpast/GiftPeeker/blob/master/README.md",
+      "releases": "https://github.com/WiredSpast/GiftPeeker/releases",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -733,7 +734,7 @@
         ]
       },
       "submissionDate": "20-08-2021 12:33:23",
-      "updateDate": "04-09-2021 04:46:25",
+      "updateDate": "26-08-2022 01:03:00",
       "isOutdated": false
     },
     "tweets": [
@@ -752,8 +753,17 @@
         "timestamp": 1630738892696,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1566855630639472645",
+        "extVersion": "0.4",
+        "type": "update",
+        "timestamp": 1662402467892,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": false
   },
   {
     "title": "Outfit Randomizer",
@@ -3695,6 +3705,72 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1660843098039,
+        "locked": false,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "title": "SpyFriends",
+    "version": "1.0",
+    "isOutdated": false,
+    "_object": {
+      "title": "SpyFriends",
+      "description": "Find out where your friends are without leaving your room",
+      "authors": [
+        {
+          "name": "Jalebi",
+          "hotel": ".nl",
+          "username": "Jalebi",
+          "discord": "Jalebi#2734"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/JalebiHabbo/SpyFriends",
+      "readme": "https://github.com/JalebiHabbo/SpyFriends/blob/master/README.md",
+      "releases": "https://github.com/JalebiHabbo/SpyFriends/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.2"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "SpyFriends.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "05-09-2022 20:00:00",
+      "updateDate": "05-09-2022 20:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1566855608523001858",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1662402462700,
         "locked": false,
         "score": 0
       }
