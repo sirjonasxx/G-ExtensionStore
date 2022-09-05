@@ -33,7 +33,7 @@
   },
   {
     "extension": "Giftpeeker",
-    "rating": 240
+    "rating": 250
   },
   {
     "extension": "Outfit Randomizer",
@@ -190,5 +190,9 @@
   {
     "extension": "Wired Overview",
     "rating": 290
+  },
+  {
+    "extension": "SpyFriends",
+    "rating": 50
   }
 ]
