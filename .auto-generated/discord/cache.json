@@ -3883,7 +3883,7 @@
   },
   {
     "title": "SpyFriends",
-    "version": "1.0",
+    "version": "1.1",
     "_object": {
       "title": "SpyFriends",
       "description": "Find out where your friends are without leaving your room",
@@ -3895,7 +3895,7 @@
           "discord": "Jalebi#2734"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability"
       ],
@@ -3932,7 +3932,7 @@
         ]
       },
       "submissionDate": "05-09-2022 20:00:00",
-      "updateDate": "05-09-2022 20:00:00",
+      "updateDate": "06-09-2022 16:36:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3945,6 +3945,16 @@
         "timestamp": 1662402460113,
         "locked": false,
         "score": 160
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1016719622076117032",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1662475248348,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1662402460113
