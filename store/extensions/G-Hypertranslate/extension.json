@@ -22,7 +22,7 @@
     "version": "0.2.9"
   },
 
-  "language": "node",
+  "language": "Node.js",
   "commands": {
     "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "16.17.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
