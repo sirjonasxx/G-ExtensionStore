@@ -24,7 +24,7 @@
 
   "language": "node",
   "commands": {
-    "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "18.8.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "16.17.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
 
   "compatibility": {
