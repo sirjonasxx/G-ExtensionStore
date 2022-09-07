@@ -194,5 +194,9 @@
   {
     "extension": "SpyFriends",
     "rating": 225
+  },
+  {
+    "extension": "G-Hypertranslate",
+    "rating": 50
   }
 ]
