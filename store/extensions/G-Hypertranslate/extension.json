@@ -1,0 +1,39 @@
+{
+  "title": "G-Hypertranslate",
+  "description": "Play translation telephone using Google Translate - https://www.ravbug.com/hypertranslate/",
+  "authors": [{
+    "name": "Alynva",
+    "hotel": ".com.br",
+    "username": "Alynva",
+    "discord": "Alynva#0001",
+    "twitter": "Alynva"
+  }],
+  "version": "0.1",
+  "categories": ["Fun"],
+
+  "source": "https://github.com/Alynva/G-Hypertranslate",
+  "readme": "https://github.com/Alynva/G-Hypertranslate#readme",
+  "releases": "https://github.com/Alynva/G-Hypertranslate/releases",
+
+  "stable": true,
+
+  "framework": {
+    "name": "G-Node",
+    "version": "0.2.9"
+  },
+
+  "language": "node",
+  "commands": {
+    "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "18.8.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "07-09-2022 02:37:00",
+  "updateDate": "07-09-2022 02:37:00",
+
+  "isOutdated": false
+}
