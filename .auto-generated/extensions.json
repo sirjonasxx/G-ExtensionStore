@@ -824,7 +824,7 @@
         "discord": "Alynva#0001",
         "twitter": "Alynva",
         "extensionsCount": 2,
-        "reputation": 350
+        "reputation": 370
       }
     ],
     "version": "0.1",
@@ -870,7 +870,7 @@
     "submissionDate": "07-09-2022 02:37:00",
     "updateDate": "07-09-2022 02:37:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "G-Manipulate",
@@ -1051,7 +1051,7 @@
         "discord": "Alynva#1713",
         "twitter": "alynva",
         "extensionsCount": 2,
-        "reputation": 350
+        "reputation": 370
       }
     ],
     "version": "1.4.0",
