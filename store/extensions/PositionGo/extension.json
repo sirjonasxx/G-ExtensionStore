@@ -11,6 +11,8 @@
     ],
     "version": "1.0.0",
     "categories": ["Usability", "Others"],
+
+    "stable": true,
     
     "source": "https://github.com/iUseYahoo/PositionGo",
     
