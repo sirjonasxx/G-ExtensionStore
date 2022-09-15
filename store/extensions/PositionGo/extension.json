@@ -1,0 +1,33 @@
+{
+    "title": "PositionGo",
+    "description": "Save/Load positions for certain rooms. Move to a position with a single command.",
+    "authors": [
+      {
+        "name": "iUseYahoo",
+        "hotel": ".com",
+        "username": "floppidity",
+        "discord": "Wh1z#6363"
+      }
+    ],
+    "version": "1.0.0",
+    "categories": ["Usability", "Others"],
+    
+    "source": "https://github.com/iUseYahoo/PositionGo",
+    
+    "framework": {
+      "name": "G-Node",
+      "version": "0.20."
+    },
+
+    "language": "NodeJS",
+    "commands": {
+        "default": ["java", "-jar", "NodeExtensionSetup.jar", "-e", "posgo.js", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Unity", "Flash"]
+    },
+
+    "isOutdated": false
+}
