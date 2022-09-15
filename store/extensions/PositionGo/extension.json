@@ -16,7 +16,7 @@
     
     "framework": {
       "name": "G-Node",
-      "version": "0.20."
+      "version": "0.2.0"
     },
 
     "language": "NodeJS",
