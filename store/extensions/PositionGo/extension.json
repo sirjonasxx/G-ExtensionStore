@@ -21,7 +21,7 @@
       "version": "0.2.9"
     },
 
-    "language": "NodeJS",
+    "language": "Node.js",
     "commands": {
         "default": ["java", "-jar", "NodeExtensionSetup.jar", "-e", "posgo.js", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
