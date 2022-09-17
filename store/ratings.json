@@ -198,5 +198,9 @@
   {
     "extension": "G-Hypertranslate",
     "rating": 190
+  },
+  {
+    "extension": "PositionGo",
+    "rating": 130
   }
 ]

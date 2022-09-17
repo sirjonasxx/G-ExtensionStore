@@ -4031,5 +4031,77 @@
       }
     ],
     "latestEmbed": 1662580575208
+  },
+  {
+    "title": "PositionGo",
+    "version": "1.0.0",
+    "_object": {
+      "title": "PositionGo",
+      "description": "Save/Load positions for certain rooms. Move to a position with a single command.",
+      "authors": [
+        {
+          "name": "iUseYahoo",
+          "hotel": ".com",
+          "username": "floppidity",
+          "discord": "Wh1z#6363"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "stable": true,
+      "source": "https://github.com/iUseYahoo/PositionGo",
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.9"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-e",
+          "posgo.js",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "15-09-2022 21:00:00",
+      "updateDate": "15-09-2022 21:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1020064056746446919",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1663272623566,
+        "locked": false,
+        "score": 120
+      }
+    ],
+    "latestEmbed": 1663272623566
   }
 ]
