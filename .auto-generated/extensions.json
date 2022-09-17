@@ -1925,10 +1925,10 @@
   },
   {
     "title": "PositionGo",
-    "description": "Save/Load positions for certain rooms. Move to a position with a single command.",
+    "description": "Save/Load positions for certain rooms. Move to a position with a single command.\nFxied a coding mistake that caused the extension to only allow you to save 1 postion and would overwrite to save a new one.",
     "authors": [
       {
-        "name": "iUseYahoo",
+        "name": "floppidity",
         "hotel": ".com",
         "username": "floppidity",
         "discord": "Wh1z#6363",
@@ -1936,7 +1936,7 @@
         "reputation": 130
       }
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "categories": [
       "Usability",
       "Others"
@@ -1972,6 +1972,7 @@
         "Mac"
       ],
       "clients": [
+        "Unity",
         "Flash"
       ]
     },

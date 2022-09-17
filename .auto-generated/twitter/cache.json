@@ -3857,20 +3857,20 @@
   },
   {
     "title": "PositionGo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "isOutdated": false,
     "_object": {
       "title": "PositionGo",
-      "description": "Save/Load positions for certain rooms. Move to a position with a single command.",
+      "description": "Save/Load positions for certain rooms. Move to a position with a single command.\nFxied a coding mistake that caused the extension to only allow you to save 1 postion and would overwrite to save a new one.",
       "authors": [
         {
-          "name": "iUseYahoo",
+          "name": "floppidity",
           "hotel": ".com",
           "username": "floppidity",
           "discord": "Wh1z#6363"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Usability",
         "Others"
@@ -3920,6 +3920,14 @@
         "extVersion": "1.0.0",
         "type": "publish",
         "timestamp": 1663272624352,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1571140282145538048",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1663424008386,
         "locked": false,
         "score": 0
       }
