@@ -10,7 +10,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "1.0",
@@ -171,7 +171,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "1.0.1",
@@ -225,7 +225,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.3",
@@ -279,7 +279,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.1",
@@ -386,7 +386,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.4",
@@ -445,7 +445,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "2.0.1",
@@ -500,7 +500,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "0.2.1",
@@ -554,7 +554,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "0.1.2",
@@ -596,7 +596,7 @@
     "submissionDate": "20-12-2021 23:48:35",
     "updateDate": "13-07-2022 18:48:00",
     "isOutdated": false,
-    "rating": 720
+    "rating": 745
   },
   {
     "title": "G-Clothes",
@@ -715,7 +715,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "1.0",
@@ -814,6 +814,65 @@
     "rating": 350
   },
   {
+    "title": "G-Hypertranslate",
+    "description": "Play translation telephone using Google Translate - https://www.ravbug.com/hypertranslate/",
+    "authors": [
+      {
+        "name": "Alynva",
+        "hotel": ".com.br",
+        "username": "Alynva",
+        "discord": "Alynva#0001",
+        "twitter": "Alynva",
+        "extensionsCount": 2,
+        "reputation": 470
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/Alynva/G-Hypertranslate",
+    "readme": "https://github.com/Alynva/G-Hypertranslate#readme",
+    "releases": "https://github.com/Alynva/G-Hypertranslate/releases",
+    "stable": true,
+    "framework": {
+      "name": "G-Node",
+      "version": "0.2.9"
+    },
+    "language": "Node.js",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-npm",
+        "start",
+        "-v",
+        "16.17.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "07-09-2022 02:37:00",
+    "updateDate": "07-09-2022 02:37:00",
+    "isOutdated": false,
+    "rating": 190
+  },
+  {
     "title": "G-Manipulate",
     "description": "G-Earth utility extension for blocking & replacing packets",
     "authors": [
@@ -824,7 +883,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "0.2.1",
@@ -931,7 +990,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "1.0",
@@ -991,8 +1050,8 @@
         "username": "alynva",
         "discord": "Alynva#1713",
         "twitter": "alynva",
-        "extensionsCount": 1,
-        "reputation": 280
+        "extensionsCount": 2,
+        "reputation": 470
       }
     ],
     "version": "1.4.0",
@@ -1103,7 +1162,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       },
       {
         "name": "Tripical",
@@ -1165,7 +1224,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.2.2",
@@ -1339,7 +1398,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.4",
@@ -1606,7 +1665,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "1.0",
@@ -1765,7 +1824,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.2",
@@ -1819,7 +1878,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "0.1.1",
@@ -1865,6 +1924,64 @@
     "rating": 310
   },
   {
+    "title": "PositionGo",
+    "description": "Save/Load positions for certain rooms. Move to a position with a single command.\nFxied a coding mistake that caused the extension to only allow you to save 1 postion and would overwrite to save a new one.",
+    "authors": [
+      {
+        "name": "floppidity",
+        "hotel": ".com",
+        "username": "floppidity",
+        "discord": "Wh1z#6363",
+        "extensionsCount": 1,
+        "reputation": 185
+      }
+    ],
+    "version": "1.0.1",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "stable": true,
+    "source": "https://github.com/iUseYahoo/PositionGo",
+    "framework": {
+      "name": "G-Node",
+      "version": "0.2.9"
+    },
+    "language": "Node.js",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-e",
+        "posgo.js",
+        "-v",
+        "15.0.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Unity",
+        "Flash"
+      ]
+    },
+    "submissionDate": "15-09-2022 21:00:00",
+    "updateDate": "15-09-2022 21:00:00",
+    "isOutdated": false,
+    "rating": 185
+  },
+  {
     "title": "Private Profile Fixer",
     "description": "Make private profiles openable in the Air/Flash client",
     "authors": [
@@ -1875,7 +1992,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.4",
@@ -2101,7 +2218,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "1.0",
@@ -2154,7 +2271,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.2",
@@ -2209,7 +2326,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4610
+        "reputation": 4635
       }
     ],
     "version": "2.1",
@@ -2318,10 +2435,10 @@
         "username": "Jalebi",
         "discord": "Jalebi#2734",
         "extensionsCount": 1,
-        "reputation": 170
+        "reputation": 245
       }
     ],
-    "version": "1.0",
+    "version": "1.1",
     "categories": [
       "Usability"
     ],
@@ -2358,9 +2475,9 @@
       ]
     },
     "submissionDate": "05-09-2022 20:00:00",
-    "updateDate": "05-09-2022 20:00:00",
+    "updateDate": "06-09-2022 16:36:00",
     "isOutdated": false,
-    "rating": 170
+    "rating": 245
   },
   {
     "title": "Stack Dropper",
@@ -2373,7 +2490,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "1.2",
@@ -2591,7 +2708,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 11,
-        "reputation": 3755
+        "reputation": 3775
       }
     ],
     "version": "0.1",
@@ -2638,7 +2755,7 @@
     "submissionDate": "18-08-2022 19:07:00",
     "updateDate": "18-08-2022 19:07:00",
     "isOutdated": false,
-    "rating": 290
+    "rating": 310
   },
   {
     "title": "xabbo",

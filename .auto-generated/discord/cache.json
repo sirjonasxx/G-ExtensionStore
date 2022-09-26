@@ -3154,7 +3154,7 @@
         "type": "update",
         "timestamp": 1657731178557,
         "locked": false,
-        "score": 225
+        "score": 250
       }
     ],
     "latestEmbed": 1657731178557
@@ -3876,14 +3876,14 @@
         "type": "publish",
         "timestamp": 1660843096799,
         "locked": false,
-        "score": 280
+        "score": 300
       }
     ],
     "latestEmbed": 1660843096799
   },
   {
     "title": "SpyFriends",
-    "version": "1.0",
+    "version": "1.1",
     "_object": {
       "title": "SpyFriends",
       "description": "Find out where your friends are without leaving your room",
@@ -3895,7 +3895,7 @@
           "discord": "Jalebi#2734"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability"
       ],
@@ -3932,7 +3932,7 @@
         ]
       },
       "submissionDate": "05-09-2022 20:00:00",
-      "updateDate": "05-09-2022 20:00:00",
+      "updateDate": "06-09-2022 16:36:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3944,9 +3944,174 @@
         "type": "publish",
         "timestamp": 1662402460113,
         "locked": false,
-        "score": 160
+        "score": 200
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1016719622076117032",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1662475248348,
+        "locked": false,
+        "score": 25
       }
     ],
     "latestEmbed": 1662402460113
+  },
+  {
+    "title": "G-Hypertranslate",
+    "version": "0.1",
+    "_object": {
+      "title": "G-Hypertranslate",
+      "description": "Play translation telephone using Google Translate - https://www.ravbug.com/hypertranslate/",
+      "authors": [
+        {
+          "name": "Alynva",
+          "hotel": ".com.br",
+          "username": "Alynva",
+          "discord": "Alynva#0001",
+          "twitter": "Alynva"
+        }
+      ],
+      "version": "0.1",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/Alynva/G-Hypertranslate",
+      "readme": "https://github.com/Alynva/G-Hypertranslate#readme",
+      "releases": "https://github.com/Alynva/G-Hypertranslate/releases",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.9"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "16.17.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "07-09-2022 02:37:00",
+      "updateDate": "07-09-2022 02:37:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1017161395030212658",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1662580575208,
+        "locked": false,
+        "score": 180
+      }
+    ],
+    "latestEmbed": 1662580575208
+  },
+  {
+    "title": "PositionGo",
+    "version": "1.0.1",
+    "_object": {
+      "title": "PositionGo",
+      "description": "Save/Load positions for certain rooms. Move to a position with a single command.\nFxied a coding mistake that caused the extension to only allow you to save 1 postion and would overwrite to save a new one.",
+      "authors": [
+        {
+          "name": "floppidity",
+          "hotel": ".com",
+          "username": "floppidity",
+          "discord": "Wh1z#6363"
+        }
+      ],
+      "version": "1.0.1",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "stable": true,
+      "source": "https://github.com/iUseYahoo/PositionGo",
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.9"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-e",
+          "posgo.js",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash"
+        ]
+      },
+      "submissionDate": "15-09-2022 21:00:00",
+      "updateDate": "15-09-2022 21:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1020064056746446919",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1663272623566,
+        "locked": false,
+        "score": 140
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1020699008039133274",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1663424007838,
+        "locked": false,
+        "score": 25
+      }
+    ],
+    "latestEmbed": 1663272623566
   }
 ]
