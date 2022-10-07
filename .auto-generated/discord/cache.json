@@ -3883,7 +3883,7 @@
   },
   {
     "title": "SpyFriends",
-    "version": "1.1",
+    "version": "1.2",
     "_object": {
       "title": "SpyFriends",
       "description": "Find out where your friends are without leaving your room",
@@ -3895,7 +3895,7 @@
           "discord": "Jalebi#2734"
         }
       ],
-      "version": "1.1",
+      "version": "1.2",
       "categories": [
         "Usability"
       ],
@@ -3932,7 +3932,7 @@
         ]
       },
       "submissionDate": "05-09-2022 20:00:00",
-      "updateDate": "06-09-2022 16:36:00",
+      "updateDate": "04-10-2022 19:56:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3955,9 +3955,19 @@
         "timestamp": 1662475248348,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1028059133397704724",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1665178800532,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1662402460113
+    "latestEmbed": 1665178800532
   },
   {
     "title": "G-Hypertranslate",

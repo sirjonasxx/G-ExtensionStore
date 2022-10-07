@@ -3712,7 +3712,7 @@
   },
   {
     "title": "SpyFriends",
-    "version": "1.1",
+    "version": "1.2",
     "isOutdated": false,
     "_object": {
       "title": "SpyFriends",
@@ -3725,7 +3725,7 @@
           "discord": "Jalebi#2734"
         }
       ],
-      "version": "1.1",
+      "version": "1.2",
       "categories": [
         "Usability"
       ],
@@ -3762,7 +3762,7 @@
         ]
       },
       "submissionDate": "05-09-2022 20:00:00",
-      "updateDate": "06-09-2022 16:36:00",
+      "updateDate": "04-10-2022 19:56:00",
       "isOutdated": false
     },
     "tweets": [
@@ -3779,6 +3779,14 @@
         "extVersion": "1.1",
         "type": "update",
         "timestamp": 1662475249068,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1578500418128162817",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1665178801560,
         "locked": false,
         "score": 0
       }
