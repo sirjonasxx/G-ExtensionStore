@@ -28,7 +28,7 @@ const embedExtension = (ext) => {
 
     const iconPath = `./store/extensions/${ext.title}/icon.png`;
     if (fileExists(iconPath)) {
-        const url = `https://raw.githubusercontent.com/sirjonasxx/G-ExtensionStore/HEAD/store/extensions/${encodeURIComponent(ext.title)}/icon.png`;
+        const url = `https://raw.githubusercontent.com/sirjonasxx/G-ExtensionStore/HEAD/store/extensions/${encodeURIComponent(ext.title)}/icon.png?${ Math.floor(Math.random() * Number.MAX_VALUE).toString(16) }`;
         embed.setThumbnail(url);
     }
 
@@ -48,7 +48,7 @@ const embedExtension = (ext) => {
 
     const screenshotPath = `./store/extensions/${ext.title}/screenshot.png`;
     if (fileExists(screenshotPath)) {
-        const url = `https://raw.githubusercontent.com/sirjonasxx/G-ExtensionStore/HEAD/store/extensions/${encodeURIComponent(ext.title)}/screenshot.png`;
+        const url = `https://raw.githubusercontent.com/sirjonasxx/G-ExtensionStore/HEAD/store/extensions/${encodeURIComponent(ext.title)}/screenshot.png?${ Math.floor(Math.random() * Number.MAX_VALUE).toString(16) }`;
         embed.setImage(url);
     }
 
