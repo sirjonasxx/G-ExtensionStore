@@ -1,0 +1,38 @@
+{
+  "title": "Leaderboard Exporter",
+  "description": "Exports leaderboards to CSV files! \n\nYou can also copy the table directly from the UI. (Ctrl+A -> Ctrl+C)\n\nNOTE: This extension uses a Chrome application window for its UI, you need to have Chrome installed!",
+  "authors": [{
+    "name": "WiredSpast",
+    "hotel": ".nl",
+    "username": "WiredSpast",
+    "discord": "Jonasss#6660",
+    "twitter": "WiredSpast"
+  }],
+  "version": "0.1",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/WiredSpast/LeaderboardExporter",
+  "releases": "https://github.com/WiredSpast/LeaderboardExporter/releases",
+
+  "stable": true,
+
+  "framework": {
+    "name": "G-Node",
+    "version": "0.2.12"
+  },
+
+  "language": "ts-node",
+  "commands": {
+    "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "09-10-2022 15:33:00",
+  "updateDate": "09-10-2022 15:33:00",
+
+  "isOutdated": false
+}
