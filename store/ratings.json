@@ -202,5 +202,9 @@
   {
     "extension": "PositionGo",
     "rating": 205
+  },
+  {
+    "extension": "Leaderboard Exporter",
+    "rating": 50
   }
 ]
