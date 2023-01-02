@@ -1901,7 +1901,7 @@
       "default": [
         "java",
         "-jar",
-        "OutfitRandomizer.jar",
+        "GOutfitRandomizer.jar",
         "-c",
         "{cookie}",
         "-p",
