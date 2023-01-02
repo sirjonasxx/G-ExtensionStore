@@ -23,7 +23,7 @@
 
   "language": "Java",
   "commands": {
-    "default": ["java", "-jar", "OutfitRandomizer.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "GOutfitRandomizer.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
 
   "compatibility": {
