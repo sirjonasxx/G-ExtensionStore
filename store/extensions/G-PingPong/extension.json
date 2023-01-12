@@ -1,0 +1,38 @@
+{
+    "title": "G-PingPong",
+    "description": "Play PingPong automatically.\n\n- :phelp - to see all commands\n- :psetup - Starts the chair, tile, and ball setup\n- :rstart - Starts the G-PingPong\n- :pstop - Stops the G-PingPong\n- :pleft - Use this if you are playing on the left side\n- :pright - Use this if you are playing on the right side",
+    "authors": [
+      {
+        "name": "kaan36875",
+        "hotel": ".com.tr",
+        "username": "kaan36875",
+        "discord": "kaan36875#0001",
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Games"],
+    
+    "source": "https://github.com/kaan36875/G-Earth-Extensions/blob/main/G-PingPong/G-PingPong.py",
+	"readme": "https://github.com/kaan36875/G-Earth-Extensions/blob/main/G-PingPong/README.md",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "0.1.5"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "G-PingPong.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "12-01-2023 19:19:00",
+    "updateDate": "12-01-2023 19:19:00",
+    "isOutdated": false
+}
