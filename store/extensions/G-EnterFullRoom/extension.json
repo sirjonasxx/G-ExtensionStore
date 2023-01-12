@@ -1,0 +1,44 @@
+{
+    "title": "G-EnterFullRoom",
+    "description": "Enter a full room automatically when someone leave.",
+    "authors": [
+      {
+        "name": "HappyBoyx3",
+        "hotel": ".de",
+        "username": "HappyBoyx3",
+        "discord": "MAIK#5094",
+        "twitter": "HabboMaik"
+      },
+	    
+	{		
+	"name": "JustProDylan",
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Usability", "Others"],
+    
+    "source": "https://github.com/HabboMaik/G-EnterFullRoom",
+    "readme": "https://github.com/HabboMaik/G-EnterFullRoom/blob/main/README.md",
+    "releases": "https://github.com/HabboMaik/G-EnterFullRoom/releases"
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "Geode",
+      "version": "1.4.1.0"
+    },
+
+    "language": "C#",
+    "commands": {
+      "default": ["cmd", "/c", "G-EnterFullRoom.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    },
+    
+    "compatibility": {
+        "systems": ["Windows"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "13-07-2022 00:00:00",
+    "updateDate": "13-07-2022 00:00:00",
+    "isOutdated": false
+}
