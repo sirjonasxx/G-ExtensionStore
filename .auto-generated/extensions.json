@@ -2769,7 +2769,7 @@
         "reputation": 4235
       }
     ],
-    "version": "0.1",
+    "version": "0.1.1",
     "categories": [
       "Usability",
       "Building"
@@ -2780,7 +2780,7 @@
     "stable": true,
     "framework": {
       "name": "G-Node",
-      "version": "0.2.9"
+      "version": "0.2.14"
     },
     "language": "ts-node",
     "commands": {
@@ -2811,7 +2811,7 @@
       ]
     },
     "submissionDate": "18-08-2022 19:07:00",
-    "updateDate": "18-08-2022 19:07:00",
+    "updateDate": "18-01-2023 09:48:00",
     "isOutdated": false,
     "rating": 330
   },

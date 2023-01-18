@@ -3648,7 +3648,7 @@
   },
   {
     "title": "Wired Overview",
-    "version": "0.1",
+    "version": "0.1.1",
     "isOutdated": false,
     "_object": {
       "title": "Wired Overview",
@@ -3662,7 +3662,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.1.1",
       "categories": [
         "Usability",
         "Building"
@@ -3673,7 +3673,7 @@
       "stable": true,
       "framework": {
         "name": "G-Node",
-        "version": "0.2.9"
+        "version": "0.2.14"
       },
       "language": "ts-node",
       "commands": {
@@ -3704,7 +3704,7 @@
         ]
       },
       "submissionDate": "18-08-2022 19:07:00",
-      "updateDate": "18-08-2022 19:07:00",
+      "updateDate": "18-01-2023 09:48:00",
       "isOutdated": false
     },
     "tweets": [
@@ -3713,6 +3713,14 @@
         "extVersion": "0.1",
         "type": "publish",
         "timestamp": 1660843098039,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1615635411849674753",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1674032474046,
         "locked": false,
         "score": 0
       }
