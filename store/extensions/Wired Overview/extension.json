@@ -19,7 +19,7 @@
 
   "framework": {
     "name": "G-Node",
-    "version": "0.2.9"
+    "version": "0.2.14"
   },
 
   "language": "ts-node",
