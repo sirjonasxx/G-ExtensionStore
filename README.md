@@ -115,7 +115,7 @@ Open a PR and set `isOutdated` to `true` in the json file.
 
 #### Notes
 * All extensions will be reviewed to not contain malicious code
-* In future versions of G-Earth (not directly), you will have to enable `Experimental mode` in the `Extra` tab to install extensions in the old way. This will come with a warning! This means the G-ExtensionStore will be the main way of installing and publishing extensions
+* The G-ExtensionStore is the main way of installing and publishing G-Earth extensions. In G-Earth 1.5.3+, you have to enable `Experimental mode` in the `Extra` tab to install extensions in the old way. This comes with a warning!
 
 #### Todo
 * Create a tool to create the submission
