@@ -20,12 +20,11 @@
     "framework": {
       "name": "G-Python",
       "version": "0.1.6"
-
     },
 
     "language": "Python",
     "commands": {
-      "default": ["python", "__main__.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["java", "-jar", "PyExtensionSetup.jar", "-e", "__main__.py", "-v", "3.2.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
 
     "compatibility": {
