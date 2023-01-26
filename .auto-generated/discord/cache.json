@@ -3819,7 +3819,7 @@
   },
   {
     "title": "Wired Overview",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "_object": {
       "title": "Wired Overview",
       "description": "Get an overview of all wired stacks in a room.\n\nAdditional features:\n - Copy an image representation of all the wired to your clipboard\n - Room **admin**'s can open wired by clicking them from within the extension\n\nNOTE: This extension uses a Chrome application window for its UI, you need to have Chrome installed!",
@@ -3832,7 +3832,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "categories": [
         "Usability",
         "Building"
@@ -3874,7 +3874,7 @@
         ]
       },
       "submissionDate": "18-08-2022 19:07:00",
-      "updateDate": "18-01-2023 09:48:00",
+      "updateDate": "26-01-2023 06:49:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3897,9 +3897,19 @@
         "timestamp": 1674032473084,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1068045739059589252",
+        "extVersion": "0.1.2",
+        "type": "update",
+        "timestamp": 1674712348254,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1674032473084
+    "latestEmbed": 1674712348254
   },
   {
     "title": "SpyFriends",
