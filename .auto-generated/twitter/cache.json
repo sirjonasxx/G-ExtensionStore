@@ -1230,7 +1230,7 @@
       },
       "submissionDate": "24-08-2021 17:27:00",
       "updateDate": "24-08-2021 17:27:00",
-      "isOutdated": false
+      "isOutdated": true
     },
     "tweets": [
       {
@@ -1240,8 +1240,17 @@
         "timestamp": 1629820636348,
         "locked": false,
         "score": 0
+      },
+      {
+        "id_str": "1620583822055333889",
+        "extVersion": "1.0",
+        "type": "remove",
+        "timestamp": 1675212266905,
+        "locked": false,
+        "score": 0
       }
-    ]
+    ],
+    "isOutdated": true
   },
   {
     "title": "RandomRoomVisitor",
