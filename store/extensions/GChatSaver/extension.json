@@ -1,0 +1,37 @@
+{
+    "title": "GChat-Saver",
+    "description": "Save your incoming chats and the rooms you visit",
+    "authors": [
+      {
+        "name": "Yarkin",
+        "hotel": ".com",
+        "username": "Yarkin",
+        "discord": "y1#1737"
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Fun", "Others"],
+    
+    "source": "https://github.com/iamyarkin/GChat-Saver",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "1.0"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "GChat-Saver.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "12-02-2023 20:08:00",
+    "updateDate": "12-02-2023 20:08:00",
+    "isOutdated": false
+}
