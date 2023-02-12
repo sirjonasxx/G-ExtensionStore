@@ -1,6 +1,6 @@
 {
     "title": "GChatSaver",
-    "description": "GChatSaver is an extension for saving all user chats and room information\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room title)\nSaves chat logs in G-Earth folder as a txt file",
+    "description": "GChatSaver is an extension for saving all user chats and room information\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room title)\nSaves chat logs in G-Earth folder in a txt file",
     "authors": [
       {
         "name": "Yarkin",
