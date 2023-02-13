@@ -1335,6 +1335,58 @@
     "rating": 250
   },
   {
+    "title": "GChatSaver",
+    "description": "GChatSaver is an extension for saving all user chats and room information\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in G-Earth folder in a txt file",
+    "authors": [
+      {
+        "name": "Yarkin",
+        "hotel": ".com",
+        "username": "Yarkin",
+        "discord": "y1#1737",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/iamyarkin/GChat-Saver",
+    "stable": true,
+    "framework": {
+      "name": "G-Python",
+      "version": "0.1.6"
+    },
+    "language": "Python",
+    "commands": {
+      "default": [
+        "python",
+        "GChatSaver.py",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "12-02-2023 20:08:00",
+    "updateDate": "12-02-2023 20:08:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "GWardrobe",
     "description": "Save and load your habbo outfits",
     "authors": [
