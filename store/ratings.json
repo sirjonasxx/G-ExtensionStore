@@ -206,5 +206,9 @@
   {
     "extension": "Leaderboard Exporter",
     "rating": 330
+  },
+  {
+    "extension": "GChatSaver",
+    "rating": 70
   }
 ]
