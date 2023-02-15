@@ -23,7 +23,7 @@
 
     "language": "Python",
     "commands": {
-      "default": ["python", "GChat-Saver.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["python", "GChatSaver.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
