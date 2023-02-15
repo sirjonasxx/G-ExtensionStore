@@ -1,6 +1,6 @@
 {
-    "title": "GChatSaver",
-    "description": "GChatSaver is an extension for saving all user chats and room information\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in G-Earth folder in a txt file",
+    "title": "GChat-Saver",
+    "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat",
     "authors": [
       {
         "name": "Yarkin",
@@ -9,7 +9,7 @@
         "discord": "y1#1737"
       }
     ],
-    "version": "1.0",
+    "version": "1.1",
     "categories": ["Fun", "Others"],
     
     "source": "https://github.com/iamyarkin/GChat-Saver",
@@ -18,12 +18,12 @@
     
     "framework": {
       "name": "G-Python",
-      "version": "0.1.6"
+      "version": "1.0.6"
     },
 
     "language": "Python",
     "commands": {
-      "default": ["python", "GChatSaver.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["python", "GChat-Saver.py", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
@@ -31,7 +31,7 @@
         "clients": ["Flash"]
     },
 
-    "submissionDate": "12-02-2023 20:08:00",
-    "updateDate": "12-02-2023 20:08:00",
+    "submissionDate": "15-02-2023 13:25:00",
+    "updateDate": "15-02-2023 13:25:00",
     "isOutdated": false
 }
