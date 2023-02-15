@@ -1,5 +1,5 @@
 {
-    "title": "GChat-Saver",
+    "title": "GChatSaver",
     "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat",
     "authors": [
       {
