@@ -1336,7 +1336,7 @@
   },
   {
     "title": "GChatSaver",
-    "description": "GChatSaver is an extension for saving all user chats and room information\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in G-Earth folder in a txt file",
+    "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat",
     "authors": [
       {
         "name": "Yarkin",
@@ -1347,7 +1347,7 @@
         "reputation": 210
       }
     ],
-    "version": "1.0",
+    "version": "1.1",
     "categories": [
       "Fun",
       "Others"
@@ -1382,7 +1382,7 @@
       ]
     },
     "submissionDate": "12-02-2023 20:08:00",
-    "updateDate": "12-02-2023 20:08:00",
+    "updateDate": "15-02-2023 13:25:00",
     "isOutdated": false,
     "rating": 210
   },
