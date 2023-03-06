@@ -4228,10 +4228,10 @@
   },
   {
     "title": "GChatSaver",
-    "version": "1.1",
+    "version": "1.2",
     "_object": {
       "title": "GChatSaver",
-      "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat",
+      "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat\nYou can see all the filtering options by typing :gchatfilters which will show you a list on how to add, remove or clean filters.",
       "authors": [
         {
           "name": "Yarkin",
@@ -4240,7 +4240,7 @@
           "discord": "y1#1737"
         }
       ],
-      "version": "1.1",
+      "version": "1.2",
       "categories": [
         "Fun",
         "Others"
@@ -4275,7 +4275,7 @@
         ]
       },
       "submissionDate": "12-02-2023 20:08:00",
-      "updateDate": "15-02-2023 13:25:00",
+      "updateDate": "04-03-2023 21:08:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4298,8 +4298,18 @@
         "timestamp": 1676562691895,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1082268886931603546",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1678103414014,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1676304001468
+    "latestEmbed": 1678103414014
   }
 ]
