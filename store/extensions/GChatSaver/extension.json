@@ -1,6 +1,6 @@
 {
     "title": "GChatSaver",
-    "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat",
+    "description": "GChatSaver is an extension for saving all user chats and room information\n\nSaves all user chats (whispers included)\nSaves Room infos (room name, room owner, room description)\nSaves chat logs in the Extension folder\nYou can easily access your chat log by typing :gchat\nYou can see all the filtering options by typing :gchatfilters which will show you a list on how to add, remove or clean filters.",
     "authors": [
       {
         "name": "Yarkin",
@@ -9,7 +9,7 @@
         "discord": "y1#1737"
       }
     ],
-    "version": "1.1",
+    "version": "1.2",
     "categories": ["Fun", "Others"],
     
     "source": "https://github.com/iamyarkin/GChat-Saver",
@@ -32,6 +32,6 @@
     },
 
     "submissionDate": "12-02-2023 20:08:00",
-    "updateDate": "15-02-2023 13:25:00",
+    "updateDate": "04-03-2023 21:08:00",
     "isOutdated": false
 }
