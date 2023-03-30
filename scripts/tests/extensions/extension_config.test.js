@@ -109,7 +109,7 @@ for(const e of extensions) {
             expect(submission.isValid()).toBe(true);
             expect(submission < moment().add(1, 'days')).toBe(true);
             
-            let cur_e = cur_extensions.find((ext) => ext.title === e.title);
+            const cur_e = cur_extensions.find((ext) => ext.title === e.title);
             if (cur_e) {
                 expect(e.submissionDate === cur_e.submissionDate).toBe(true);
             }
@@ -123,6 +123,12 @@ for(const e of extensions) {
 
             const submission = moment(e.submissionDate, "DD-MM-YYYY hh:mm:ss");
             expect(update >= submission).toBe(true);
+            
+            const cur_e = cur_extensions.find((ext) => ext.title === e.title);
+            if (cur_e) {
+                const cur_update = moment(cur_e.submissionDate, "DD-MM-YYYY hh:mm:ss");
+                expect(update > cur_update).toBe(true);
+            }
         });
 
         it('has the isOutdated field', () => {
