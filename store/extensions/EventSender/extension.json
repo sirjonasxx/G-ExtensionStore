@@ -1,13 +1,13 @@
 {
   "title": "EventSender",
-  "description": "Just like built in Habbo Event Messages, but is a normal message!",
+  "description": "Just like built in Habbo Event Messages, but is a normal message!\nChangelog v1.2:\n- Improved UI;\n- Killed a few bugs here and there;",
   "authors": [{
     "name": "Thauan",
     "hotel": ".com.br",
     "username": "Erotico",
     "discord": "thauan#7604"
   }],
-  "version": "1.1",
+  "version": "1.2",
   "categories": ["Usability"],
 
   "source": "https://github.com/thauanvargas/EventSender",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "28-03-2023 23:00:00",
-  "updateDate": "30-03-2023 14:30:00",
+  "updateDate": "30-03-2023 18:30:00",
 
   "isOutdated": false
 }
