@@ -126,7 +126,7 @@ for(const e of extensions) {
             
             const cur_e = cur_extensions.find((ext) => ext.title === e.title);
             if (cur_e) {
-                const cur_update = moment(cur_e.submissionDate, "DD-MM-YYYY hh:mm:ss");
+                const cur_update = moment(cur_e.updateDate, "DD-MM-YYYY hh:mm:ss");
                 expect(update > cur_update).toBe(true);
             }
         });
