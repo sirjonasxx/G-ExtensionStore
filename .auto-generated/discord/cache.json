@@ -4314,7 +4314,7 @@
   },
   {
     "title": "EventSender",
-    "version": "1.0",
+    "version": "1.1",
     "_object": {
       "title": "EventSender",
       "description": "Just like built in Habbo Event Messages, but is a normal message!",
@@ -4326,7 +4326,7 @@
           "discord": "thauan#7604"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability"
       ],
@@ -4363,7 +4363,7 @@
         ]
       },
       "submissionDate": "28-03-2023 23:00:00",
-      "updateDate": "28-03-2023 23:00:00",
+      "updateDate": "30-03-2023 14:30:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4376,6 +4376,16 @@
         "timestamp": 1680160983501,
         "locked": false,
         "score": 40
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1091002188584726528",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1680185594578,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1680160983501
