@@ -4123,5 +4123,71 @@
         "score": 0
       }
     ]
+  },
+  {
+    "title": "EventSender",
+    "version": "1.0",
+    "isOutdated": false,
+    "_object": {
+      "title": "EventSender",
+      "description": "Just like built in Habbo Event Messages, but is a normal message!",
+      "authors": [
+        {
+          "name": "Thauan",
+          "hotel": ".com.br",
+          "username": "Erotico",
+          "discord": "thauan#7604"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/thauanvargas/EventSender",
+      "readme": "https://github.com/thauanvargas/EventSender/blob/master/README.md",
+      "releases": "https://github.com/thauanvargas/EventSender/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "EventSender.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "28-03-2023 23:00:00",
+      "updateDate": "28-03-2023 23:00:00",
+      "isOutdated": false
+    },
+    "tweets": [
+      {
+        "id_str": "1641340250512404481",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1680160985178,
+        "locked": false,
+        "score": 0
+      }
+    ]
   }
 ]
