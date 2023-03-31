@@ -4126,7 +4126,7 @@
   },
   {
     "title": "EventSender",
-    "version": "1.1",
+    "version": "1.2",
     "isOutdated": false,
     "_object": {
       "title": "EventSender",
@@ -4139,7 +4139,7 @@
           "discord": "thauan#7604"
         }
       ],
-      "version": "1.1",
+      "version": "1.2",
       "categories": [
         "Usability"
       ],
@@ -4176,7 +4176,7 @@
         ]
       },
       "submissionDate": "28-03-2023 23:00:00",
-      "updateDate": "30-03-2023 14:30:00",
+      "updateDate": "30-03-2023 18:30:00",
       "isOutdated": false
     },
     "tweets": [
@@ -4193,6 +4193,14 @@
         "extVersion": "1.1",
         "type": "update",
         "timestamp": 1680185595727,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "id_str": "1641846702490415104",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1680281732696,
         "locked": false,
         "score": 0
       }
