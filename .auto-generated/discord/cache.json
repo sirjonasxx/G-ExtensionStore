@@ -4375,7 +4375,7 @@
         "type": "publish",
         "timestamp": 1680160983501,
         "locked": false,
-        "score": 40
+        "score": 60
       },
       {
         "channelId": "878094299403788330",
@@ -4385,7 +4385,7 @@
         "type": "update",
         "timestamp": 1680185594578,
         "locked": false,
-        "score": 0
+        "score": 25
       }
     ],
     "latestEmbed": 1680160983501
