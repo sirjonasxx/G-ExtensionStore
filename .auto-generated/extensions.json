@@ -661,7 +661,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 3,
-        "reputation": 905
+        "reputation": 995
       }
     ],
     "version": "0.1",
@@ -1157,7 +1157,7 @@
         "hotel": ".fi",
         "username": "rocawear",
         "extensionsCount": 3,
-        "reputation": 905
+        "reputation": 995
       }
     ],
     "version": "0.2.2",
@@ -2967,14 +2967,14 @@
       {
         "name": "rocawear",
         "extensionsCount": 3,
-        "reputation": 905
+        "reputation": 995
       }
     ],
     "framework": {
       "name": "G-Node",
       "version": "0.2.15"
     },
-    "rating": 0
+    "rating": 90
   },
   {
     "title": "xabbo",
