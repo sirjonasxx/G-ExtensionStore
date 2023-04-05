@@ -3,10 +3,7 @@
   "description": "Click item to see marketplace average! USAGE: !avg to toggle it ON/OFF",
   "version": "1.0.3",
   "categories": ["Usability", "G-Earth Utilities"],
-  "source": {
-    "source": "https://github.com/rocawear-public/average-checker",
-    "readme": "https://github.com/rocawear-public/average-checker/blob/master/README.md"
-  },
+  "source": "https://github.com/rocawear-public/average-checker",
   "readme": "https://github.com/rocawear-public/average-checker/blob/master/README.md",
   "stable": true,
   "language": "Node.js",
