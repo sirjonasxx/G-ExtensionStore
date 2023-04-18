@@ -2924,7 +2924,7 @@
   {
     "title": "average-checker",
     "description": "Click item to see marketplace average! USAGE: !avg to toggle it ON/OFF",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "categories": [
       "Usability",
       "G-Earth Utilities"
@@ -2961,7 +2961,7 @@
       ]
     },
     "submissionDate": "05-04-2023 18:00:00",
-    "updateDate": "05-04-2023 18:00:00",
+    "updateDate": "18-04-2023 21:00:00",
     "isOutdated": false,
     "authors": [
       {
