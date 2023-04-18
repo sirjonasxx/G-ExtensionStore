@@ -213,6 +213,10 @@
   },
   {
     "extension": "EventSender",
-    "rating": 155
+    "rating": 175
+  },
+  {
+    "extension": "average-checker",
+    "rating": 150
   }
 ]
