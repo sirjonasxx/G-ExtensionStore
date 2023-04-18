@@ -25,7 +25,7 @@
 
   "compatibility": {
     "systems": ["Linux", "Windows", "Mac"],
-    "clients": ["Flash"]
+    "clients": ["Flash", "Nitro"]
   },
 
   "submissionDate": "19-04-2023 12:44:40",
