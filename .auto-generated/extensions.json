@@ -331,7 +331,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 1,
+        "extensionsCount": 2,
         "reputation": 175
       }
     ],
@@ -1871,6 +1871,60 @@
     "updateDate": "23-08-2021 03:56:35",
     "isOutdated": false,
     "rating": 210
+  },
+  {
+    "title": "Market Utils",
+    "description": "This extension helps you with market place values and other stuff (soon)!",
+    "authors": [
+      {
+        "name": "Thauan",
+        "hotel": ".com.br",
+        "username": "Erotico",
+        "discord": "thauan#7604",
+        "extensionsCount": 2,
+        "reputation": 175
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Trading"
+    ],
+    "source": "https://github.com/thauanvargas/MarketUtils",
+    "readme": "https://github.com/thauanvargas/MarketUtils/blob/master/README.md",
+    "releases": "https://github.com/thauanvargas/MarketUtils/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "MarketUtils.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "19-04-2023 20:00:00",
+    "updateDate": "19-04-2023 20:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Mod Tools",
