@@ -1885,9 +1885,10 @@
         "reputation": 185
       }
     ],
-    "version": "1.0",
+    "version": "2.0",
     "categories": [
-      "Trading"
+      "Trading",
+      "Usability"
     ],
     "source": "https://github.com/thauanvargas/MarketUtils",
     "readme": "https://github.com/thauanvargas/MarketUtils/blob/master/README.md",
@@ -1922,7 +1923,7 @@
       ]
     },
     "submissionDate": "19-04-2023 20:00:00",
-    "updateDate": "19-04-2023 20:00:00",
+    "updateDate": "24-04-2023 10:40:00",
     "isOutdated": false,
     "rating": 10
   },

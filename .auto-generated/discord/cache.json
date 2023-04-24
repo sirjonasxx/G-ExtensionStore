@@ -4511,7 +4511,7 @@
   },
   {
     "title": "Market Utils",
-    "version": "1.0",
+    "version": "2.0",
     "_object": {
       "title": "Market Utils",
       "description": "This extension helps you with market place values and other stuff (soon)!",
@@ -4523,9 +4523,10 @@
           "discord": "thauan#7604"
         }
       ],
-      "version": "1.0",
+      "version": "2.0",
       "categories": [
-        "Trading"
+        "Trading",
+        "Usability"
       ],
       "source": "https://github.com/thauanvargas/MarketUtils",
       "readme": "https://github.com/thauanvargas/MarketUtils/blob/master/README.md",
@@ -4560,7 +4561,7 @@
         ]
       },
       "submissionDate": "19-04-2023 20:00:00",
-      "updateDate": "19-04-2023 20:00:00",
+      "updateDate": "24-04-2023 10:40:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4571,6 +4572,16 @@
         "extVersion": "1.0",
         "type": "publish",
         "timestamp": 1682206182712,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1100024470988656752",
+        "extVersion": "2.0",
+        "type": "update",
+        "timestamp": 1682336672019,
         "locked": false,
         "score": 0
       }
