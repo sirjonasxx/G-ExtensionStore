@@ -30,7 +30,7 @@
   },
   "submissionDate": "05-04-2023 18:00:00",
   "updateDate": "18-04-2023 21:00:00",
-  "isOutdated": false,
+  "isOutdated": true,
   "authors": [{ "name": "rocawear" }],
   "framework": { "name": "G-Node", "version": "0.2.15" }
 }
