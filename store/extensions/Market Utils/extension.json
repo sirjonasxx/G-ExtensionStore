@@ -1,13 +1,13 @@
 {
   "title": "Market Utils",
-  "description": "This extension helps you with market place values and other stuff (soon)!",
+  "description": "This extension helps you with market place values and finding the item your looking for to buy!",
   "authors": [{
     "name": "Thauan",
     "hotel": ".com.br",
     "username": "Erotico",
     "discord": "thauan#7604"
   }],
-  "version": "2.0",
+  "version": "2.1",
   "categories": ["Trading", "Usability"],
 
   "source": "https://github.com/thauanvargas/MarketUtils",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "19-04-2023 20:00:00",
-  "updateDate": "24-04-2023 10:40:00",
+  "updateDate": "24-04-2023 22:40:00",
 
   "isOutdated": false
 }
