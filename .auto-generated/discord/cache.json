@@ -4511,10 +4511,10 @@
   },
   {
     "title": "Market Utils",
-    "version": "2.0",
+    "version": "2.1",
     "_object": {
       "title": "Market Utils",
-      "description": "This extension helps you with market place values and other stuff (soon)!",
+      "description": "This extension helps you with market place values and finding the item your looking for to buy!",
       "authors": [
         {
           "name": "Thauan",
@@ -4523,7 +4523,7 @@
           "discord": "thauan#7604"
         }
       ],
-      "version": "2.0",
+      "version": "2.1",
       "categories": [
         "Trading",
         "Usability"
@@ -4561,7 +4561,7 @@
         ]
       },
       "submissionDate": "19-04-2023 20:00:00",
-      "updateDate": "24-04-2023 10:40:00",
+      "updateDate": "24-04-2023 22:40:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4582,6 +4582,16 @@
         "extVersion": "2.0",
         "type": "update",
         "timestamp": 1682336672019,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1100175264325054474",
+        "extVersion": "2.1",
+        "type": "update",
+        "timestamp": 1682372624297,
         "locked": false,
         "score": 0
       }
