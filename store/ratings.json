@@ -105,7 +105,7 @@
   },
   {
     "extension": "G-Presets - Building & Wired Presets",
-    "rating": 725
+    "rating": 735
   },
   {
     "extension": "Rainbow BackGround",
@@ -201,7 +201,7 @@
   },
   {
     "extension": "PositionGo",
-    "rating": 185
+    "rating": 205
   },
   {
     "extension": "Leaderboard Exporter",
@@ -217,6 +217,10 @@
   },
   {
     "extension": "average-checker",
-    "rating": 150
+    "rating": 160
+  },
+  {
+    "extension": "Market Utils",
+    "rating": 30
   }
 ]

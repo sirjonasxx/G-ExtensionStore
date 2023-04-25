@@ -2078,7 +2078,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "1.0",
+    "version": "1.0.1",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2091,7 +2091,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.0",
+      "version": "1.0.1",
       "categories": [
         "Building",
         "Usability"
@@ -2129,7 +2129,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "29-05-2022 03:23:00",
+      "updateDate": "23-04-2023 01:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2192,9 +2192,19 @@
         "timestamp": 1653787674751,
         "locked": false,
         "score": 175
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1099477162597306378",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1682206183613,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1653787674751
+    "latestEmbed": 1682206183613
   },
   {
     "title": "Rainbow BackGround",
@@ -4139,7 +4149,7 @@
         "type": "publish",
         "timestamp": 1663272623566,
         "locked": false,
-        "score": 140
+        "score": 160
       },
       {
         "channelId": "878094299403788330",
@@ -4422,11 +4432,11 @@
   },
   {
     "title": "average-checker",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "_object": {
       "title": "average-checker",
       "description": "Click item to see marketplace average! USAGE: !avg to toggle it ON/OFF",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "categories": [
         "Usability",
         "G-Earth Utilities"
@@ -4463,7 +4473,7 @@
         ]
       },
       "submissionDate": "05-04-2023 18:00:00",
-      "updateDate": "05-04-2023 18:00:00",
+      "updateDate": "18-04-2023 21:00:00",
       "isOutdated": false,
       "authors": [
         {
@@ -4485,8 +4495,107 @@
         "timestamp": 1680715420525,
         "locked": false,
         "score": 140
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1099477166170849361",
+        "extVersion": "2.0.1",
+        "type": "update",
+        "timestamp": 1682206184290,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1680715420525
+    "latestEmbed": 1682206184290
+  },
+  {
+    "title": "Market Utils",
+    "version": "2.1",
+    "_object": {
+      "title": "Market Utils",
+      "description": "This extension helps you with market place values and finding the item your looking for to buy!",
+      "authors": [
+        {
+          "name": "Thauan",
+          "hotel": ".com.br",
+          "username": "Erotico",
+          "discord": "thauan#7604"
+        }
+      ],
+      "version": "2.1",
+      "categories": [
+        "Trading",
+        "Usability"
+      ],
+      "source": "https://github.com/thauanvargas/MarketUtils",
+      "readme": "https://github.com/thauanvargas/MarketUtils/blob/master/README.md",
+      "releases": "https://github.com/thauanvargas/MarketUtils/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "MarketUtils.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "19-04-2023 20:00:00",
+      "updateDate": "24-04-2023 22:40:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1099477158323290122",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1682206182712,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1100024470988656752",
+        "extVersion": "2.0",
+        "type": "update",
+        "timestamp": 1682336672019,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1100175264325054474",
+        "extVersion": "2.1",
+        "type": "update",
+        "timestamp": 1682372624297,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1682206182712
   }
 ]
