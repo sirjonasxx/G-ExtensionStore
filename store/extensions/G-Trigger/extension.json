@@ -8,7 +8,7 @@
     "discord": "Jonasss#6660",
     "twitter": "WiredSpast"
   }],
-  "version": "0.2.3",
+  "version": "0.2.4",
   "categories": ["G-Earth Utilities"],
 
   "source": "https://github.com/WiredSpast/G-Trigger",
@@ -18,7 +18,7 @@
 
   "framework": {
     "name": "Native",
-    "version": "1.5.2"
+    "version": "1.5.3"
   },
 
   "language": "Java",
@@ -32,7 +32,7 @@
   },
 
   "submissionDate": "09-02-2022 01:26:00",
-  "updateDate": "16-10-2022 14:00:00",
+  "updateDate": "16-06-2023 5:05:00",
 
   "isOutdated": false
 }
