@@ -1281,7 +1281,7 @@
         "reputation": 4470
       }
     ],
-    "version": "0.2.3",
+    "version": "0.2.4",
     "categories": [
       "G-Earth Utilities"
     ],
@@ -1290,7 +1290,7 @@
     "stable": true,
     "framework": {
       "name": "Native",
-      "version": "1.5.2"
+      "version": "1.5.3"
     },
     "language": "Java",
     "commands": {
@@ -1319,7 +1319,7 @@
       ]
     },
     "submissionDate": "09-02-2022 01:26:00",
-    "updateDate": "16-10-2022 14:00:00",
+    "updateDate": "16-06-2023 05:05:00",
     "isOutdated": false,
     "rating": 715
   },

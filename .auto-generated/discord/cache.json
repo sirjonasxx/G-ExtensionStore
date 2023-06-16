@@ -3260,7 +3260,7 @@
   },
   {
     "title": "G-Trigger",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "_object": {
       "title": "G-Trigger",
       "description": "Setup triggers on which a reaction will happen.\n\nTrigger options:\n - Key pressed\n - Packet send to server\n - Packet send to client\n - You say command\n - Anyone says command\n\nReaction options:\n - Send packet to server\n - Send packet to client\n\nNOTE: Read the release notes page for a list of all functionalities",
@@ -3273,7 +3273,7 @@
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.2.3",
+      "version": "0.2.4",
       "categories": [
         "G-Earth Utilities"
       ],
@@ -3282,7 +3282,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.2"
+        "version": "1.5.3"
       },
       "language": "Java",
       "commands": {
@@ -3311,7 +3311,7 @@
         ]
       },
       "submissionDate": "09-02-2022 01:26:00",
-      "updateDate": "16-10-2022 14:00:00",
+      "updateDate": "16-06-2023 05:05:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3364,9 +3364,19 @@
         "timestamp": 1665924078931,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1119101567463850077",
+        "extVersion": "0.2.4",
+        "type": "update",
+        "timestamp": 1686885005997,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1665924078931
+    "latestEmbed": 1686885005997
   },
   {
     "title": "SpotifyMotto",
