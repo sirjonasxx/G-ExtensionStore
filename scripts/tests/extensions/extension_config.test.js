@@ -38,7 +38,7 @@ for(const e of extensions) {
 
         it.each(e.authors)('has a valid author', (author) => {
             expect(typeof author.name).toBe("string");
-            expect(!exists(author.discord) || author.discord.match(".*#[0-9]{4}$")).not.toBe(null);
+            expect(!exists(author.discord) || author.discord.match("(?:.*#[0-9]{4}|^(?:[a-z_]*(?:(?:^|[a-z_])\.(?:[a-z_]|$))?[a-z_]*)*)$")).not.toBe(null);
             expect(!exists(author.hotel) || countryCodes.has(author.hotel)).toBe(true);
             expect(!exists(author.username) || typeof author.username === "string").toBe(true);
             expect(!exists(author.twitter) || typeof author.twitter === "string").toBe(true);
