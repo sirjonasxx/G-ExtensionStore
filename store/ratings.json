@@ -222,5 +222,9 @@
   {
     "extension": "Market Utils",
     "rating": 30
+  },
+  {
+    "extension": "G-RoomTracker",
+    "rating": 90
   }
 ]
