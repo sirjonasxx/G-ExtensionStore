@@ -4607,5 +4607,78 @@
       }
     ],
     "latestEmbed": 1682206182712
+  },
+  {
+    "title": "G-RoomTracker",
+    "version": "1.0.1",
+    "_object": {
+      "title": "G-RoomTracker",
+      "description": "Track and highlight recently visited rooms to enhance your navigation experience.",
+      "authors": [
+        {
+          "name": "Alynva",
+          "hotel": ".com.br",
+          "username": "alynva",
+          "discord": "alynva",
+          "twitter": "Alynva"
+        }
+      ],
+      "version": "1.0.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/Alynva/G-RoomTracker",
+      "readme": "https://github.com/Alynva/G-RoomTracker/blob/main/README.md",
+      "releases": "https://github.com/Alynva/G-RoomTracker/releases",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.15"
+      },
+      "language": "ts-node",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "02-07-2023 05:00:00",
+      "updateDate": "02-07-2023 05:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1125068637821222922",
+        "extVersion": "1.0.1",
+        "type": "publish",
+        "timestamp": 1688307666449,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1688307666449
   }
 ]

@@ -877,7 +877,7 @@
         "username": "Alynva",
         "discord": "Alynva#0001",
         "twitter": "Alynva",
-        "extensionsCount": 2,
+        "extensionsCount": 3,
         "reputation": 470
       }
     ],
@@ -1104,7 +1104,7 @@
         "username": "alynva",
         "discord": "Alynva#1713",
         "twitter": "alynva",
-        "extensionsCount": 2,
+        "extensionsCount": 3,
         "reputation": 470
       }
     ],
@@ -1147,6 +1147,65 @@
     "updateDate": "20-08-2021 15:18:01",
     "isOutdated": false,
     "rating": 280
+  },
+  {
+    "title": "G-RoomTracker",
+    "description": "Track and highlight recently visited rooms to enhance your navigation experience.",
+    "authors": [
+      {
+        "name": "Alynva",
+        "hotel": ".com.br",
+        "username": "alynva",
+        "discord": "alynva",
+        "twitter": "Alynva",
+        "extensionsCount": 3,
+        "reputation": 470
+      }
+    ],
+    "version": "1.0.1",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/Alynva/G-RoomTracker",
+    "readme": "https://github.com/Alynva/G-RoomTracker/blob/main/README.md",
+    "releases": "https://github.com/Alynva/G-RoomTracker/releases",
+    "stable": true,
+    "framework": {
+      "name": "G-Node",
+      "version": "0.2.15"
+    },
+    "language": "ts-node",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-npm",
+        "start",
+        "-v",
+        "15.0.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "02-07-2023 05:00:00",
+    "updateDate": "02-07-2023 05:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "G-Shopper",
