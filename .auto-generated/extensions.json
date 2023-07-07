@@ -323,6 +323,61 @@
     "rating": 170
   },
   {
+    "title": "DCRoomInfo",
+    "description": "Use a Discord Webhook to display current users in a Room",
+    "authors": [
+      {
+        "name": "Thauan",
+        "hotel": ".com.br",
+        "username": "-Sun",
+        "discord": "thauanvargas",
+        "extensionsCount": 3,
+        "reputation": 225
+      }
+    ],
+    "version": "1.2",
+    "categories": [
+      "Usability",
+      "Moderation"
+    ],
+    "source": "https://github.com/thauanvargas/discord-room-info",
+    "readme": "https://github.com/thauanvargas/discord-room-info/blob/master/README.md",
+    "releases": "https://github.com/thauanvargas/discord-room-info/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "DCRoomInfo.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "07-07-2023 11:20:00",
+    "updateDate": "07-07-2023 11:20:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "EventSender",
     "description": "Just like built in Habbo Event Messages, but is a normal message!",
     "authors": [
@@ -331,7 +386,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 2,
+        "extensionsCount": 3,
         "reputation": 225
       }
     ],
@@ -1940,7 +1995,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 2,
+        "extensionsCount": 3,
         "reputation": 225
       }
     ],
