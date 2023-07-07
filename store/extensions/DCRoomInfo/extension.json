@@ -1,5 +1,5 @@
 {
-  "title": "Discord Room Information",
+  "title": "DCRoomInfo",
   "description": "Use a Discord Webhook to display current users in a Room",
   "authors": [{
     "name": "Thauan",
