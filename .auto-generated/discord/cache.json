@@ -4693,7 +4693,7 @@
   },
   {
     "title": "DCRoomInfo",
-    "version": "1.2",
+    "version": "1.3",
     "_object": {
       "title": "DCRoomInfo",
       "description": "Use a Discord Webhook to display current users in a Room",
@@ -4705,7 +4705,7 @@
           "discord": "thauanvargas"
         }
       ],
-      "version": "1.2",
+      "version": "1.3",
       "categories": [
         "Usability",
         "Moderation"
@@ -4743,7 +4743,7 @@
         ]
       },
       "submissionDate": "07-07-2023 11:20:00",
-      "updateDate": "07-07-2023 11:20:00",
+      "updateDate": "07-07-2023 18:40:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4756,6 +4756,16 @@
         "timestamp": 1688747829501,
         "locked": false,
         "score": 60
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1126936319445172274",
+        "extVersion": "1.3",
+        "type": "update",
+        "timestamp": 1688752956401,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1688747829501
