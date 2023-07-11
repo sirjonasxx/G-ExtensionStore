@@ -2078,7 +2078,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2091,7 +2091,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Building",
         "Usability"
@@ -2102,7 +2102,7 @@
       "stable": true,
       "framework": {
         "name": "Native",
-        "version": "1.5.2"
+        "version": "1.5.3"
       },
       "language": "Java",
       "commands": {
@@ -2129,7 +2129,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "23-04-2023 01:12:00",
+      "updateDate": "11-07-2023 22:14:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2202,9 +2202,19 @@
         "timestamp": 1682206183613,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1128419884016082954",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1689106665656,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1682206183613
+    "latestEmbed": 1689106665656
   },
   {
     "title": "Rainbow BackGround",
