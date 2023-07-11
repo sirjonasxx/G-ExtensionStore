@@ -4531,7 +4531,7 @@
   },
   {
     "title": "Market Utils",
-    "version": "2.1",
+    "version": "2.2",
     "_object": {
       "title": "Market Utils",
       "description": "This extension helps you with market place values and finding the item your looking for to buy!",
@@ -4539,11 +4539,11 @@
         {
           "name": "Thauan",
           "hotel": ".com.br",
-          "username": "Erotico",
-          "discord": "thauan#7604"
+          "username": "-Sun",
+          "discord": "thauanvargas"
         }
       ],
-      "version": "2.1",
+      "version": "2.2",
       "categories": [
         "Trading",
         "Usability"
@@ -4581,7 +4581,7 @@
         ]
       },
       "submissionDate": "19-04-2023 20:00:00",
-      "updateDate": "24-04-2023 22:40:00",
+      "updateDate": "10-07-2023 14:30:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4614,9 +4614,19 @@
         "timestamp": 1682372624297,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1128120851775094876",
+        "extVersion": "2.2",
+        "type": "update",
+        "timestamp": 1689035371119,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1682206182712
+    "latestEmbed": 1689035371119
   },
   {
     "title": "G-RoomTracker",
