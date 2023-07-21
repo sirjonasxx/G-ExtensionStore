@@ -87,6 +87,17 @@
       }
     },
     {
+      "name": "G-Rust",
+      "description": "Rust G-Earth extension API",
+      "developers": ["WiredSpast"],
+      "languages": ["Rust"],
+      "source": "https://github.com/WiredSpast/G-Rust",
+      "installation": {
+        "required": false,
+        "instructions": null
+      }
+    },
+    {
       "name": "Xabbo",
       "description": "A framework for creating G-Earth extensions using the Xabbo.Common library.",
       "developers": ["b7c"],
