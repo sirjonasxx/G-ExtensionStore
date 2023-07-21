@@ -230,5 +230,9 @@
   {
     "extension": "DCRoomInfo",
     "rating": 160
+  },
+  {
+    "extension": "Clear Wired Selection",
+    "rating": 30
   }
 ]
