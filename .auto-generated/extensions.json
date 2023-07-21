@@ -215,6 +215,84 @@
     "rating": 230
   },
   {
+    "title": "Clear Wired Selection",
+    "description": "Type :cw to clear the selected furni in the currently opened wired",
+    "authors": [
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "wiredspast",
+        "twitter": "WiredSpast",
+        "extensionsCount": 13,
+        "reputation": 4540
+      }
+    ],
+    "version": "0.1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/WiredSpast/Clear-Wired-Selection",
+    "readme": "https://github.com/WiredSpast/Clear-Wired-Selection/blob/main/README.md",
+    "releases": "https://github.com/WiredSpast/Clear-Wired-Selection/releases",
+    "stable": true,
+    "framework": {
+      "name": "G-Rust",
+      "version": "0.0.1-beta.5"
+    },
+    "language": "Rust",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "clear-wired-selection.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "clear-wired-selection.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "chmod",
+        "+x",
+        "clear-wired-selection",
+        "&&",
+        "./clear-wired-selection",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "21-07-2023 06:04:00",
+    "updateDate": "21-07-2023 06:04:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Clientside Effect",
     "description": "Apply any existing effect clientside",
     "authors": [
@@ -224,7 +302,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -278,7 +356,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -494,7 +572,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -1391,7 +1469,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -1617,7 +1695,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -1775,7 +1853,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -2156,7 +2234,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -2324,7 +2402,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -2550,7 +2628,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -2603,7 +2681,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -2822,7 +2900,7 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
@@ -3040,7 +3118,7 @@
         "username": "WiredSpast",
         "discord": "wiredspast",
         "twitter": "WiredSpast",
-        "extensionsCount": 12,
+        "extensionsCount": 13,
         "reputation": 4540
       }
     ],
