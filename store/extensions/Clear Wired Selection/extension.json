@@ -24,6 +24,7 @@
 
   "language": "Rust",
   "commands": {
+    "default": ["cmd", "/C", "clear-wired-selection.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "windows": ["cmd", "/C", "clear-wired-selection.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "mac": ["chmod", "+x", "clear-wired-selection", "&&", "./clear-wired-selection", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
