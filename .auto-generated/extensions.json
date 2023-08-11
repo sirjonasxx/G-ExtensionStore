@@ -2637,7 +2637,7 @@
       "Building"
     ],
     "source": "https://github.com/kouris-h/RoomDuplicator",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "Native",
       "version": "1.5.0"
