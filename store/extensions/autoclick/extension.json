@@ -1,6 +1,6 @@
 {
   "title": "autoclick",
-  "description": "Automatic clicks in any position in the room.",
+  "description": "Automatic clicks in any position in the room.\n\nType :autoclick to start",
   "authors": [
     {
       "name": "alidaver",
