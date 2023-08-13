@@ -234,5 +234,13 @@
   {
     "extension": "Clear Wired Selection",
     "rating": 130
+  },
+  {
+    "extension": "Rainbow Clothes",
+    "rating": 90
+  },
+  {
+    "extension": "autoclick",
+    "rating": 70
   }
 ]

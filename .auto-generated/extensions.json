@@ -2553,14 +2553,14 @@
         "username": "!K2",
         "discord": "lucao013",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 90
       }
     ],
     "framework": {
       "name": "G-Node",
       "version": "0.2.15"
     },
-    "rating": 0
+    "rating": 90
   },
   {
     "title": "RandomRoomVisitor",
@@ -3235,7 +3235,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 1,
-        "reputation": 0
+        "reputation": 70
       }
     ],
     "version": "0.0.1",
@@ -3282,7 +3282,7 @@
     "submissionDate": "12-08-2023 23:36:00",
     "updateDate": "12-08-2023 23:36:00",
     "isOutdated": false,
-    "rating": 0
+    "rating": 70
   },
   {
     "title": "average-checker",
