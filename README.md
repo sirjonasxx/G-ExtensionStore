@@ -14,6 +14,7 @@ In contrast to what the name suggests, all extensions are free
    * You're also allowed to use techniques to detect headers IDs at runtime
    * Only if the above 2 are not applicable, you can require the user to enter header IDs manually
 * Your extension is not malicious & is not aimed at disturbing the game
+   * This includes extensions which give direct advantages in games and/or competitions
 * Your extension must be open-source _(exceptions are possible, contact me for that)_
 
 **Framework requirements**:
