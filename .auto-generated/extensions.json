@@ -1131,7 +1131,7 @@
       "Others"
     ],
     "source": "https://github.com/at15four2020/GPlants",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "Native",
       "version": "1.4.1"
@@ -1163,7 +1163,7 @@
     },
     "submissionDate": "17-08-2021 18:28:15",
     "updateDate": "17-08-2021 18:28:15",
-    "isOutdated": false,
+    "isOutdated": true,
     "rating": 250
   },
   {
