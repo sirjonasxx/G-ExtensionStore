@@ -229,26 +229,26 @@
   },
   {
     "extension": "DCRoomInfo",
-    "rating": 160
+    "rating": 180
   },
   {
     "extension": "Clear Wired Selection",
-    "rating": 130
+    "rating": 150
   },
   {
     "extension": "Rainbow Clothes",
-    "rating": 90
-  },
-  {
-    "extension": "autoclick",
     "rating": 110
   },
   {
+    "extension": "autoclick",
+    "rating": 130
+  },
+  {
     "extension": "FriendNotifier",
-    "rating": 70
+    "rating": 90
   },
   {
     "extension": "Plants",
-    "rating": 70
+    "rating": 90
   }
 ]

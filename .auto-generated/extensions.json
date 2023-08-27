@@ -225,7 +225,7 @@
         "discord": "wiredspast",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.1.0",
@@ -290,7 +290,7 @@
     "submissionDate": "21-07-2023 06:04:00",
     "updateDate": "21-07-2023 06:04:00",
     "isOutdated": false,
-    "rating": 130
+    "rating": 150
   },
   {
     "title": "Clientside Effect",
@@ -303,7 +303,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.3",
@@ -357,7 +357,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.1",
@@ -410,7 +410,7 @@
         "username": "-Sun",
         "discord": "thauanvargas",
         "extensionsCount": 3,
-        "reputation": 445
+        "reputation": 465
       }
     ],
     "version": "1.3",
@@ -453,7 +453,7 @@
     "submissionDate": "07-07-2023 11:20:00",
     "updateDate": "07-07-2023 18:40:00",
     "isOutdated": false,
-    "rating": 160
+    "rating": 180
   },
   {
     "title": "EventSender",
@@ -465,7 +465,7 @@
         "username": "Erotico",
         "discord": "thauan#7604",
         "extensionsCount": 3,
-        "reputation": 445
+        "reputation": 465
       }
     ],
     "version": "1.4",
@@ -572,7 +572,7 @@
         "username": "isaquall",
         "discord": "isaquall",
         "extensionsCount": 1,
-        "reputation": 70
+        "reputation": 90
       }
     ],
     "version": "1.0",
@@ -613,7 +613,7 @@
     "submissionDate": "19-08-2023 11:58:35",
     "updateDate": "19-08-2023 11:58:35",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "Full Wardrobe",
@@ -626,7 +626,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.4",
@@ -1523,7 +1523,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.2.4",
@@ -1749,7 +1749,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.4",
@@ -1907,7 +1907,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.1",
@@ -2127,7 +2127,7 @@
         "username": "-Sun",
         "discord": "thauanvargas",
         "extensionsCount": 3,
-        "reputation": 445
+        "reputation": 465
       }
     ],
     "version": "2.2",
@@ -2288,7 +2288,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.2",
@@ -2396,7 +2396,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 1,
-        "reputation": 70
+        "reputation": 90
       }
     ],
     "version": "1.0.0",
@@ -2443,7 +2443,7 @@
     "submissionDate": "14-08-2023 00:26:00",
     "updateDate": "14-08-2023 00:26:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "PositionGo",
@@ -2514,7 +2514,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.4",
@@ -2664,14 +2664,14 @@
         "username": "!K2",
         "discord": "lucao013",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       }
     ],
     "framework": {
       "name": "G-Node",
       "version": "0.2.15"
     },
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "RandomRoomVisitor",
@@ -2798,7 +2798,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "1.0",
@@ -2851,7 +2851,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.2",
@@ -3070,7 +3070,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "1.2",
@@ -3288,7 +3288,7 @@
         "discord": "wiredspast",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4695
+        "reputation": 4715
       }
     ],
     "version": "0.1.3",
@@ -3346,7 +3346,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 1,
-        "reputation": 110
+        "reputation": 130
       }
     ],
     "version": "0.0.1",
@@ -3393,7 +3393,7 @@
     "submissionDate": "12-08-2023 23:36:00",
     "updateDate": "12-08-2023 23:36:00",
     "isOutdated": false,
-    "rating": 110
+    "rating": 130
   },
   {
     "title": "average-checker",
