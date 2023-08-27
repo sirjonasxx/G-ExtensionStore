@@ -1,0 +1,37 @@
+{
+  "title": "FriendNotifier",
+  "description": "Know when your friends log on and off, and more!\"\n\n:playerlist, :pl - Displays Habbos in current room.\n:mutefriendjoins, :mf - Mutes notifications on friend join/leave. Send again to toggle on/off.\n:muteroomjoins, :mr - Mutes notifications when Habbos join/leave the current room. Send again to toggle on/off.",
+  "authors": [
+    {
+      "name": "isaquall",
+      "hotel": ".com",
+      "username": "isaquall",
+      "discord": "isaquall"
+    }
+  ],
+  "version": "1.0",
+  "categories": ["Usability", "Others"],
+
+  "source": "https://github.com/isaquall/FriendNotifier",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5.3"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "FriendNotifier.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "19-08-2023 11:58:35",
+  "updateDate": "19-08-2023 11:58:35",
+  "isOutdated": false
+}
