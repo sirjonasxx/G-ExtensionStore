@@ -242,5 +242,13 @@
   {
     "extension": "autoclick",
     "rating": 110
+  },
+  {
+    "extension": "FriendNotifier",
+    "rating": 50
+  },
+  {
+    "extension": "Plants",
+    "rating": 50
   }
 ]
