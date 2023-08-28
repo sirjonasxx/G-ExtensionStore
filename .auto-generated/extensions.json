@@ -572,7 +572,7 @@
         "username": "isaquall",
         "discord": "isaquall",
         "extensionsCount": 1,
-        "reputation": 110
+        "reputation": 130
       }
     ],
     "version": "1.0",
@@ -613,7 +613,7 @@
     "submissionDate": "19-08-2023 11:58:35",
     "updateDate": "19-08-2023 11:58:35",
     "isOutdated": false,
-    "rating": 110
+    "rating": 130
   },
   {
     "title": "Full Wardrobe",
@@ -2396,7 +2396,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 2,
-        "reputation": 315
+        "reputation": 335
       }
     ],
     "version": "1.0.1",
@@ -2443,7 +2443,7 @@
     "submissionDate": "14-08-2023 00:26:00",
     "updateDate": "14-08-2023 00:26:00",
     "isOutdated": false,
-    "rating": 165
+    "rating": 185
   },
   {
     "title": "PositionGo",
@@ -3346,7 +3346,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 2,
-        "reputation": 315
+        "reputation": 335
       }
     ],
     "version": "0.0.1",
