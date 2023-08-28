@@ -5105,18 +5105,18 @@
   },
   {
     "title": "Plants",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "Plants",
       "description": "Type :plants and treat all plants in the room automatically",
       "authors": [
         {
-          "name": "alinpr18",
+          "name": "alidaver",
           "hotel": ".es",
           "username": "alidaver"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Usability",
         "Others"
@@ -5171,6 +5171,16 @@
         "timestamp": 1693151313490,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1145640715049766942",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1693212431815,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1693151313490
