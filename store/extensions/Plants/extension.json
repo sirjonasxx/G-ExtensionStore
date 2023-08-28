@@ -3,12 +3,12 @@
   "description": "Type :plants and treat all plants in the room automatically",
   "authors": [
     {
-      "name": "alinpr18",
+      "name": "alidaver",
       "hotel": ".es",
       "username": "alidaver"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["Usability", "Others"],
   
   "source": "https://github.com/alinpr18/plants",
