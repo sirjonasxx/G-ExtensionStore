@@ -2078,7 +2078,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "1.0.3",
+    "version": "1.1",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2091,7 +2091,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "1.0.3",
+      "version": "1.1",
       "categories": [
         "Building",
         "Usability"
@@ -2129,7 +2129,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "13-07-2023 23:33:00",
+      "updateDate": "12-09-2023 02:37:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2222,9 +2222,19 @@
         "timestamp": 1689284183057,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1150954166475296809",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1694479257381,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1689106665656
+    "latestEmbed": 1694479257381
   },
   {
     "title": "Rainbow BackGround",
