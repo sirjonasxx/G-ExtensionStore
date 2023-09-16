@@ -10,7 +10,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "1.0",
@@ -171,7 +171,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "1.0.1",
@@ -572,7 +572,7 @@
         "username": "isaquall",
         "discord": "isaquall",
         "extensionsCount": 1,
-        "reputation": 130
+        "reputation": 150
       }
     ],
     "version": "1.0",
@@ -613,7 +613,7 @@
     "submissionDate": "19-08-2023 11:58:35",
     "updateDate": "19-08-2023 11:58:35",
     "isOutdated": false,
-    "rating": 130
+    "rating": 150
   },
   {
     "title": "Full Wardrobe",
@@ -685,7 +685,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "2.0.1",
@@ -740,7 +740,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "0.2.1",
@@ -794,7 +794,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "0.1.2",
@@ -955,7 +955,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "1.0",
@@ -1123,7 +1123,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "0.2.1",
@@ -1230,7 +1230,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "1.1",
@@ -1273,7 +1273,7 @@
     "submissionDate": "19-09-2021 23:54:00",
     "updateDate": "12-09-2023 02:37:00",
     "isOutdated": false,
-    "rating": 940
+    "rating": 965
   },
   {
     "title": "G-Programmer",
@@ -1461,7 +1461,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       },
       {
         "name": "Tripical",
@@ -2074,7 +2074,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "1.0",
@@ -2342,7 +2342,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "0.1.1",
@@ -2396,7 +2396,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 2,
-        "reputation": 355
+        "reputation": 375
       }
     ],
     "version": "1.0.1",
@@ -2664,14 +2664,14 @@
         "username": "!K2",
         "discord": "lucao013",
         "extensionsCount": 1,
-        "reputation": 110
+        "reputation": 130
       }
     ],
     "framework": {
       "name": "G-Node",
       "version": "0.2.15"
     },
-    "rating": 110
+    "rating": 130
   },
   {
     "title": "RandomRoomVisitor",
@@ -2906,7 +2906,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 4925
+        "reputation": 4950
       }
     ],
     "version": "2.1",
@@ -3346,7 +3346,7 @@
         "hotel": ".es",
         "username": "alidaver",
         "extensionsCount": 2,
-        "reputation": 355
+        "reputation": 375
       }
     ],
     "version": "0.0.1",
@@ -3393,7 +3393,7 @@
     "submissionDate": "12-08-2023 23:36:00",
     "updateDate": "12-08-2023 23:36:00",
     "isOutdated": false,
-    "rating": 150
+    "rating": 170
   },
   {
     "title": "average-checker",
