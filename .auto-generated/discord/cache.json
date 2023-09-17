@@ -5115,7 +5115,7 @@
   },
   {
     "title": "Plants",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "Plants",
       "description": "Type :plants and treat all plants in the room automatically",
@@ -5126,7 +5126,7 @@
           "username": "alidaver"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Usability",
         "Others"
@@ -5168,7 +5168,7 @@
         ]
       },
       "submissionDate": "14-08-2023 00:26:00",
-      "updateDate": "14-08-2023 00:26:00",
+      "updateDate": "11-09-2023 00:58:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5191,8 +5191,18 @@
         "timestamp": 1693212431815,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1152791866740318208",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1694917399142,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1693151313490
+    "latestEmbed": 1694917399142
   }
 ]
