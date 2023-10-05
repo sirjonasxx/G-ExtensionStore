@@ -250,5 +250,9 @@
   {
     "extension": "Plants",
     "rating": 290
+  },
+  {
+    "extension": "G-Loader",
+    "rating": 30
   }
 ]
