@@ -1,0 +1,37 @@
+{
+    "title": "G-Loader",
+    "description": "Simple modern user list using Qt Framework",
+    "authors": [
+      {
+        "name": "Armanta",
+        "username": "Armanta",
+        "discord": "Armanta#6184"
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Usability"],
+
+    "source": "https://github.com/antoinechauvn/G-Loader",
+	"readme": "https://github.com/antoinechauvn/G-Loader/README.md",
+
+    "stable": true,
+
+    "framework": {
+      "name": "G-Python",
+      "version": "0.1.6"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["java", "-jar", "PyExtensionSetup.jar", "-e", "__main__.py", "-v", "3.2.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Nitro"]
+    },
+
+    "submissionDate": "04-10-2023 23:55:00",
+    "updateDate": "04-10-2023 23:55:00",
+    "isOutdated": false
+}
