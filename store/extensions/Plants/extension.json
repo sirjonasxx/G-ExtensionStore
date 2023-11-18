@@ -1,6 +1,6 @@
 {
   "title": "Plants",
-  "description": "Type :plants and treat all plants in the room automatically",
+  "description": "Treat and compost all monster plants in the room automatically.\n\nCommands:\n\n:plants - Treat all plants\n:plants compost - Compost all plants",
   "authors": [
     {
       "name": "alidaver",
@@ -8,7 +8,7 @@
       "username": "alidaver"
     }
   ],
-  "version": "1.0.2",
+  "version": "2.0.0",
   "categories": ["Usability", "Others"],
   
   "source": "https://github.com/alinpr18/plants",
@@ -33,6 +33,6 @@
   },
 
   "submissionDate": "14-08-2023 00:26:00",
-  "updateDate": "11-09-2023 00:58:00",
+  "updateDate": "18-11-2023 23:46:00",
   "isOutdated": false
 }
