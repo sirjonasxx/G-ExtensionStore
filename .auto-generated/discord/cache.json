@@ -5115,10 +5115,10 @@
   },
   {
     "title": "Plants",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "_object": {
       "title": "Plants",
-      "description": "Type :plants and treat all plants in the room automatically",
+      "description": "Treat and compost all monster plants in the room automatically.\n\nCommands:\n\n:plants - Treat all plants\n:plants compost - Compost all plants",
       "authors": [
         {
           "name": "alidaver",
@@ -5126,7 +5126,7 @@
           "username": "alidaver"
         }
       ],
-      "version": "1.0.2",
+      "version": "2.0.0",
       "categories": [
         "Usability",
         "Others"
@@ -5168,7 +5168,7 @@
         ]
       },
       "submissionDate": "14-08-2023 00:26:00",
-      "updateDate": "11-09-2023 00:58:00",
+      "updateDate": "18-11-2023 23:46:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5201,9 +5201,19 @@
         "timestamp": 1694917399142,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1175599665765429268",
+        "extVersion": "2.0.0",
+        "type": "update",
+        "timestamp": 1700355202321,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1694917399142
+    "latestEmbed": 1700355202321
   },
   {
     "title": "G-Loader",
