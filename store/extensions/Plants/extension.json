@@ -1,6 +1,6 @@
 {
   "title": "Plants",
-  "description": "Treat and compost all monster plants in the room automatically.\n\nCommands:\n\n:plants - Treat all plants\n:plants compost - Compost all plants",
+  "description": "Treat and compost all monster plants in the room automatically.\n\nCommands:\n\n!plants - Treat all plants\n!plants compost - Compost all plants",
   "authors": [
     {
       "name": "alidaver",
