@@ -1,21 +1,16 @@
 {
     "title": "Outfit Copy",
-    "description": "Copy everyone's outfit.\nCopy someone \":copy x\"\nCombine outfits: \":outfitcombine x y\"\nCycle through the outfits of everyone in the room: \":outfitcycle\"\nTo stop: \":outfitstop\n",
+    "description": "Copy everyone's outfit.\nCopy someone \":copy x\"\nCombine outfits: \":outfitcombine x y type\"\ntype: a number between 1-3 that defines the type of combination. If empty, 3 will be used.\nCycle through the outfits of everyone in the room: \":outfitcycle\"\nTo stop: \":outfitstop\n",
     "authors": [
       {
         "name": "altxnor",
-        "hotel": "",
-        "username": "",
-        "discord": "",
-        "twitter": ""
+        "discord": "peeandg"
       }
     ],
     "version": "0.1.0",
     "categories": ["Fun", "Usability", "Others"],
     
     "source": "https://github.com/altxnor/outfit-copy",
-    "readme": "",
-    "releases": "",
     
     "stable": true,
     
@@ -24,14 +19,14 @@
       "version": "0.2.15"
     },
 
-    "language": "Java",
+    "language": "Node.js",
     "commands": {
       "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
         "systems": ["Linux", "Windows", "Mac"],
-        "clients": ["Nitro"]
+        "clients": ["Nitro", "Flash"]
     },
 
     "submissionDate": "15-12-2023 01:18:20",
