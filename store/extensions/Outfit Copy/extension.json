@@ -1,6 +1,6 @@
 {
     "title": "Outfit Copy",
-    "description": "Copy everyone's outfit.\nCopy someone \":copy x\"\nCombine outfits: \":outfitcombine x y type\"\ntype: a number between 1-3 that defines the type of combination. If empty, 3 will be used.\nCycle through the outfits of everyone in the room: \":outfitcycle\"\nTo stop: \":outfitstop\n",
+    "description": "Copy everyone's outfit.\n\n:copy x - Copy someone\n:outfitcombine x y type - Combine outfits\n(type: a number between 1-3 that defines the type of combination. If empty, 3 will be used.)\n:outfitcycle - Cycle through the outfits of everyone in the room\n:outfitstop - Stop the command above",
     "authors": [
       {
         "name": "altxnor",
