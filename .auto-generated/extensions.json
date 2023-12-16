@@ -1960,13 +1960,13 @@
         "name": "WiredSpast",
         "hotel": ".nl",
         "username": "WiredSpast",
-        "discord": "Jonasss#6660",
+        "discord": "wiredspast",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
         "reputation": 4815
       }
     ],
-    "version": "0.1",
+    "version": "0.2",
     "categories": [
       "Usability"
     ],
@@ -2006,7 +2006,7 @@
       ]
     },
     "submissionDate": "09-10-2022 15:33:00",
-    "updateDate": "09-10-2022 15:33:00",
+    "updateDate": "16-12-2023 21:33:00",
     "isOutdated": false,
     "rating": 350
   },
