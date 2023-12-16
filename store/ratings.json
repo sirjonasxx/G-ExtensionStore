@@ -189,7 +189,7 @@
   },
   {
     "extension": "Wired Overview",
-    "rating": 580
+    "rating": 590
   },
   {
     "extension": "SpyFriends",
@@ -253,6 +253,10 @@
   },
   {
     "extension": "G-Loader",
+    "rating": 70
+  },
+  {
+    "extension": "Outfit Copy",
     "rating": 70
   }
 ]

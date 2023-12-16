@@ -8,7 +8,7 @@
     "discord": "wiredspast",
     "twitter": "WiredSpast"
   }],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "categories": ["Usability", "Building"],
 
   "source": "https://github.com/WiredSpast/WiredOverview",
@@ -33,7 +33,7 @@
   },
 
   "submissionDate": "18-08-2022 19:07:00",
-  "updateDate": "03-06-2023 19:30:00",
+  "updateDate": "16-12-2023 14:53:00",
 
   "isOutdated": false
 }
