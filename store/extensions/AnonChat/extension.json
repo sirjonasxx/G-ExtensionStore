@@ -1,13 +1,13 @@
 {
   "title": "AnonChat",
-  "description": "Chat privately with your friends. (By using you agree with terms)",
+  "description": "Chat privately with your friends. (By using you agree with terms read them here https://github.com/thauanvargas/anonchat/blob/master/README.md)",
   "authors": [{
     "name": "Thauan",
     "hotel": ".com.br",
     "username": "Erotico",
     "discord": "thauanvargas"
   }],
-  "version": "1.1",
+  "version": "1.2",
   "categories": ["Usability", "Fun"],
 
   "source": "https://github.com/thauanvargas/anonchat",
