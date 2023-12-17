@@ -5375,5 +5375,74 @@
       }
     ],
     "latestEmbed": 1702734977054
+  },
+  {
+    "title": "AnonChat",
+    "version": "1.2",
+    "_object": {
+      "title": "AnonChat",
+      "description": "Chat privately with your friends. (By using you agree with terms read them here https://github.com/thauanvargas/anonchat/blob/master/README.md)",
+      "authors": [
+        {
+          "name": "Thauan",
+          "hotel": ".com.br",
+          "username": "Erotico",
+          "discord": "thauanvargas"
+        }
+      ],
+      "version": "1.2",
+      "categories": [
+        "Usability",
+        "Fun"
+      ],
+      "source": "https://github.com/thauanvargas/anonchat",
+      "readme": "https://github.com/thauanvargas/anonchat/blob/master/README.md",
+      "releases": "https://github.com/thauanvargas/anonchat/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "AnonChat.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "13-12-2023 17:15:00",
+      "updateDate": "17-12-2023 17:15:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1185950841111314492",
+        "extVersion": "1.2",
+        "type": "publish",
+        "timestamp": 1702823114779,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1702823114779
   }
 ]

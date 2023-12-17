@@ -108,6 +108,61 @@
     "rating": 350
   },
   {
+    "title": "AnonChat",
+    "description": "Chat privately with your friends. (By using you agree with terms read them here https://github.com/thauanvargas/anonchat/blob/master/README.md)",
+    "authors": [
+      {
+        "name": "Thauan",
+        "hotel": ".com.br",
+        "username": "Erotico",
+        "discord": "thauanvargas",
+        "extensionsCount": 4,
+        "reputation": 490
+      }
+    ],
+    "version": "1.2",
+    "categories": [
+      "Usability",
+      "Fun"
+    ],
+    "source": "https://github.com/thauanvargas/anonchat",
+    "readme": "https://github.com/thauanvargas/anonchat/blob/master/README.md",
+    "releases": "https://github.com/thauanvargas/anonchat/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "AnonChat.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "13-12-2023 17:15:00",
+    "updateDate": "17-12-2023 17:15:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "BensaFect",
     "description": "Automatically gets Bensalem effects",
     "authors": [
@@ -409,7 +464,7 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 3,
+        "extensionsCount": 4,
         "reputation": 490
       }
     ],
@@ -464,7 +519,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 3,
+        "extensionsCount": 4,
         "reputation": 490
       }
     ],
@@ -2182,7 +2237,7 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 3,
+        "extensionsCount": 4,
         "reputation": 490
       }
     ],
