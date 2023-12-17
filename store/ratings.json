@@ -258,5 +258,9 @@
   {
     "extension": "Outfit Copy",
     "rating": 70
+  },
+  {
+    "extension": "AnonChat",
+    "rating": 50
   }
 ]
