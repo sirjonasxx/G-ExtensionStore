@@ -3976,7 +3976,7 @@
         "type": "update",
         "timestamp": 1702735148385,
         "locked": false,
-        "score": 0
+        "score": 50
       }
     ],
     "latestEmbed": 1702735148385
@@ -4226,7 +4226,7 @@
   },
   {
     "title": "Leaderboard Exporter",
-    "version": "0.1",
+    "version": "0.2",
     "_object": {
       "title": "Leaderboard Exporter",
       "description": "Exports leaderboards to CSV files! \n\nYou can also copy the table directly from the UI. (Ctrl+A -> Ctrl+C)\n\nNOTE: This extension uses a Chrome application window for its UI, you need to have Chrome installed!",
@@ -4235,11 +4235,11 @@
           "name": "WiredSpast",
           "hotel": ".nl",
           "username": "WiredSpast",
-          "discord": "Jonasss#6660",
+          "discord": "wiredspast",
           "twitter": "WiredSpast"
         }
       ],
-      "version": "0.1",
+      "version": "0.2",
       "categories": [
         "Usability"
       ],
@@ -4279,7 +4279,7 @@
         ]
       },
       "submissionDate": "09-10-2022 15:33:00",
-      "updateDate": "09-10-2022 15:33:00",
+      "updateDate": "16-12-2023 21:33:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -4292,9 +4292,19 @@
         "timestamp": 1665322836590,
         "locked": false,
         "score": 340
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1185682030101528717",
+        "extVersion": "0.2",
+        "type": "update",
+        "timestamp": 1702759025495,
+        "locked": false,
+        "score": 25
       }
     ],
-    "latestEmbed": 1665322836590
+    "latestEmbed": 1702759025495
   },
   {
     "title": "GChatSaver",
@@ -5365,5 +5375,74 @@
       }
     ],
     "latestEmbed": 1702734977054
+  },
+  {
+    "title": "AnonChat",
+    "version": "1.2",
+    "_object": {
+      "title": "AnonChat",
+      "description": "Chat privately with your friends. (By using you agree with terms read them here https://github.com/thauanvargas/anonchat/blob/master/README.md)",
+      "authors": [
+        {
+          "name": "Thauan",
+          "hotel": ".com.br",
+          "username": "Erotico",
+          "discord": "thauanvargas"
+        }
+      ],
+      "version": "1.2",
+      "categories": [
+        "Usability",
+        "Fun"
+      ],
+      "source": "https://github.com/thauanvargas/anonchat",
+      "readme": "https://github.com/thauanvargas/anonchat/blob/master/README.md",
+      "releases": "https://github.com/thauanvargas/anonchat/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "AnonChat.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "13-12-2023 17:15:00",
+      "updateDate": "17-12-2023 17:15:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1185950841111314492",
+        "extVersion": "1.2",
+        "type": "publish",
+        "timestamp": 1702823114779,
+        "locked": false,
+        "score": 160
+      }
+    ],
+    "latestEmbed": 1702823114779
   }
 ]

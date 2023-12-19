@@ -189,7 +189,7 @@
   },
   {
     "extension": "Wired Overview",
-    "rating": 590
+    "rating": 640
   },
   {
     "extension": "SpyFriends",
@@ -205,7 +205,7 @@
   },
   {
     "extension": "Leaderboard Exporter",
-    "rating": 350
+    "rating": 385
   },
   {
     "extension": "GChatSaver",
@@ -258,5 +258,9 @@
   {
     "extension": "Outfit Copy",
     "rating": 70
+  },
+  {
+    "extension": "AnonChat",
+    "rating": 170
   }
 ]

@@ -108,6 +108,61 @@
     "rating": 350
   },
   {
+    "title": "AnonChat",
+    "description": "Chat privately with your friends. (By using you agree with terms read them here https://github.com/thauanvargas/anonchat/blob/master/README.md)",
+    "authors": [
+      {
+        "name": "Thauan",
+        "hotel": ".com.br",
+        "username": "Erotico",
+        "discord": "thauanvargas",
+        "extensionsCount": 4,
+        "reputation": 660
+      }
+    ],
+    "version": "1.2",
+    "categories": [
+      "Usability",
+      "Fun"
+    ],
+    "source": "https://github.com/thauanvargas/anonchat",
+    "readme": "https://github.com/thauanvargas/anonchat/blob/master/README.md",
+    "releases": "https://github.com/thauanvargas/anonchat/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "AnonChat.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "13-12-2023 17:15:00",
+    "updateDate": "17-12-2023 17:15:00",
+    "isOutdated": false,
+    "rating": 170
+  },
+  {
     "title": "BensaFect",
     "description": "Automatically gets Bensalem effects",
     "authors": [
@@ -225,7 +280,7 @@
         "discord": "wiredspast",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.1.0",
@@ -303,7 +358,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.3",
@@ -357,7 +412,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.1",
@@ -409,8 +464,8 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 3,
-        "reputation": 490
+        "extensionsCount": 4,
+        "reputation": 660
       }
     ],
     "version": "1.3",
@@ -464,8 +519,8 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 3,
-        "reputation": 490
+        "extensionsCount": 4,
+        "reputation": 660
       }
     ],
     "version": "1.4",
@@ -626,7 +681,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.4",
@@ -1579,7 +1634,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.2.4",
@@ -1805,7 +1860,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.4",
@@ -1960,13 +2015,13 @@
         "name": "WiredSpast",
         "hotel": ".nl",
         "username": "WiredSpast",
-        "discord": "Jonasss#6660",
+        "discord": "wiredspast",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
-    "version": "0.1",
+    "version": "0.2",
     "categories": [
       "Usability"
     ],
@@ -2006,9 +2061,9 @@
       ]
     },
     "submissionDate": "09-10-2022 15:33:00",
-    "updateDate": "09-10-2022 15:33:00",
+    "updateDate": "16-12-2023 21:33:00",
     "isOutdated": false,
-    "rating": 350
+    "rating": 385
   },
   {
     "title": "LinkShortener",
@@ -2182,8 +2237,8 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 3,
-        "reputation": 490
+        "extensionsCount": 4,
+        "reputation": 660
       }
     ],
     "version": "2.2",
@@ -2335,7 +2390,7 @@
   },
   {
     "title": "Outfit Copy",
-    "description": "Copy everyone's outfit.\nCopy someone \":copy x\"\nCombine outfits: \":outfitcombine x y type\"\ntype: a number between 1-3 that defines the type of combination. If empty, 3 will be used.\nCycle through the outfits of everyone in the room: \":outfitcycle\"\nTo stop: \":outfitstop\n",
+    "description": "Copy everyone's outfit.\n\n:copy x - Copy someone\n:outfitcombine x y type - Combine outfits\n(type: a number between 1-3 that defines the type of combination. If empty, 3 will be used.)\n:outfitcycle - Cycle through the outfits of everyone in the room\n:outfitstop - Stop the command above",
     "authors": [
       {
         "name": "altxnor",
@@ -2401,7 +2456,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.2",
@@ -2627,7 +2682,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.4",
@@ -2911,7 +2966,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "1.0",
@@ -2964,7 +3019,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.2",
@@ -3183,7 +3238,7 @@
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "1.2",
@@ -3401,7 +3456,7 @@
         "discord": "wiredspast",
         "twitter": "WiredSpast",
         "extensionsCount": 13,
-        "reputation": 4790
+        "reputation": 4875
       }
     ],
     "version": "0.1.4",
@@ -3448,7 +3503,7 @@
     "submissionDate": "18-08-2022 19:07:00",
     "updateDate": "16-12-2023 14:53:00",
     "isOutdated": false,
-    "rating": 590
+    "rating": 640
   },
   {
     "title": "autoclick",
