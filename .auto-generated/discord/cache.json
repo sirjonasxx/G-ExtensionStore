@@ -5307,17 +5307,17 @@
   },
   {
     "title": "Outfit Copy",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "_object": {
       "title": "Outfit Copy",
-      "description": "Copy everyone's outfit.\nCopy someone \":copy x\"\nCombine outfits: \":outfitcombine x y type\"\ntype: a number between 1-3 that defines the type of combination. If empty, 3 will be used.\nCycle through the outfits of everyone in the room: \":outfitcycle\"\nTo stop: \":outfitstop\n",
+      "description": "Copy everyone's outfit.\n\n:copy x - Copy someone\n:outfitcombine x y type - Combine outfits\n(type: a number between 1-3 that defines the type of combination. If empty, 3 will be used.)\n:outfitcycle - Cycle through the outfits of everyone in the room\n:outfitstop - Stop the command above.\n\nRe-enter the room after installing.",
       "authors": [
         {
           "name": "altxnor",
           "discord": "peeandg"
         }
       ],
-      "version": "0.1.0",
+      "version": "0.1.1",
       "categories": [
         "Fun",
         "Usability",
@@ -5359,7 +5359,7 @@
         ]
       },
       "submissionDate": "15-12-2023 01:18:20",
-      "updateDate": "15-12-2023 01:18:20",
+      "updateDate": "19-12-2023 17:35:20",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5372,9 +5372,19 @@
         "timestamp": 1702734977054,
         "locked": false,
         "score": 60
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1186836500684472374",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1703034272503,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1702734977054
+    "latestEmbed": 1703034272503
   },
   {
     "title": "AnonChat",
