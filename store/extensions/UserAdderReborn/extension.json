@@ -19,7 +19,7 @@
   "categories": ["Usability"],
 
   "source": "https://github.com/thauanvargas/UserAdderReborn",
-  "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/main/README.md",
+  "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/master/README.md",
 
   "stable": true,
 
@@ -38,8 +38,8 @@
     "clients": ["Flash"]
   },
 
-  "submissionDate": "05-01-2023 11:17:00",
-  "updateDate": "05-01-2023 19:28:00",
+  "submissionDate": "05-01-2024 11:17:00",
+  "updateDate": "05-01-2024 19:28:00",
 
   "isOutdated": false
 }
