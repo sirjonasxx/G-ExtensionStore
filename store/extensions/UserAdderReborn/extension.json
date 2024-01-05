@@ -18,14 +18,14 @@
   "version": "1.0",
   "categories": ["Usability"],
 
-  "source": "https://github.com/thauanvargas/UserAdder",
-  "readme": "https://github.com/thauanvargas/UserAdder/blob/main/README.md",
+  "source": "https://github.com/thauanvargas/UserAdderReborn",
+  "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/main/README.md",
 
   "stable": true,
 
   "framework": {
     "name": "Native",
-    "version": "1.5"
+    "version": "1.5.2"
   },
 
   "language": "Java",
@@ -39,7 +39,7 @@
   },
 
   "submissionDate": "05-01-2023 11:17:00",
-  "updateDate": "05-01-2023 11:17:00",
+  "updateDate": "05-01-2023 19:28:00",
 
   "isOutdated": false
 }
