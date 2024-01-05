@@ -262,5 +262,9 @@
   {
     "extension": "AnonChat",
     "rating": 230
+  },
+  {
+    "extension": "UserAdderReborn",
+    "rating": 70
   }
 ]
