@@ -1,5 +1,5 @@
 {
-  "title": "UserAdder Reborn",
+  "title": "UserAdderReborn",
   "description": "Reborned Version of the UserAdder, it will add all users upon entering a room. Thanks schweppes0x",
   "authors": [
     {
@@ -30,7 +30,7 @@
 
   "language": "Java",
   "commands": {
-    "default": ["java", "-jar", "UserAdder-Reborn.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["java", "-jar", "UserAdderReborn.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
 
   "compatibility": {
