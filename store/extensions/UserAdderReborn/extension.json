@@ -1,0 +1,45 @@
+{
+  "title": "UserAdderReborn",
+  "description": "Reborned Version of the UserAdder, it will add all users upon entering a room. Thanks schweppes0x",
+  "authors": [
+    {
+      "name": "Thauan",
+      "hotel": ".com.br",
+      "username": "Erotico",
+      "discord": "thauanvargas"
+    },
+    {
+      "name": "schweppes0x",
+      "hotel": ".nl",
+      "username": "-MrTn-",
+      "discord": "Itstonyownss#0683"
+    }
+  ],
+  "version": "1.0",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/thauanvargas/UserAdder",
+  "readme": "https://github.com/thauanvargas/UserAdder/blob/main/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "UserAdderReborn.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "05-01-2023 11:17:00",
+  "updateDate": "05-01-2023 11:17:00",
+
+  "isOutdated": false
+}
