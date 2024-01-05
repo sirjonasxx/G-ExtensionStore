@@ -5464,5 +5464,78 @@
       }
     ],
     "latestEmbed": 1702823114779
+  },
+  {
+    "title": "UserAdderReborn",
+    "version": "1.0",
+    "_object": {
+      "title": "UserAdderReborn",
+      "description": "Reborned Version of the UserAdder, it will add all users upon entering a room. Thanks schweppes0x",
+      "authors": [
+        {
+          "name": "Thauan",
+          "hotel": ".com.br",
+          "username": "Erotico",
+          "discord": "thauanvargas"
+        },
+        {
+          "name": "schweppes0x",
+          "hotel": ".nl",
+          "username": "-MrTn-",
+          "discord": "Itstonyownss#0683"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/thauanvargas/UserAdderReborn",
+      "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.2"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "UserAdderReborn.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "05-01-2023 11:17:00",
+      "updateDate": "05-01-2023 19:28:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1192913506807337090",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1704483143666,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1704483143666
   }
 ]

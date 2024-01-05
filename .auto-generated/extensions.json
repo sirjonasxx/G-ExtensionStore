@@ -116,7 +116,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauanvargas",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 720
       }
     ],
@@ -171,7 +171,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1370
       }
     ],
@@ -464,7 +464,7 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 720
       }
     ],
@@ -519,7 +519,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 720
       }
     ],
@@ -1805,7 +1805,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1370
       }
     ],
@@ -2237,7 +2237,7 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 720
       }
     ],
@@ -2850,7 +2850,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1370
       }
     ],
@@ -3291,7 +3291,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1370
       }
     ],
@@ -3346,7 +3346,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1370
       }
     ],
@@ -3401,7 +3401,7 @@
         "hotel": ".nl",
         "username": "-MrTn-",
         "discord": "Itstonyownss#0683",
-        "extensionsCount": 6,
+        "extensionsCount": 7,
         "reputation": 1370
       }
     ],
@@ -3444,6 +3444,67 @@
     "updateDate": "29-09-2021 18:00:00",
     "isOutdated": false,
     "rating": 160
+  },
+  {
+    "title": "UserAdderReborn",
+    "description": "Reborned Version of the UserAdder, it will add all users upon entering a room. Thanks schweppes0x",
+    "authors": [
+      {
+        "name": "Thauan",
+        "hotel": ".com.br",
+        "username": "Erotico",
+        "discord": "thauanvargas",
+        "extensionsCount": 5,
+        "reputation": 720
+      },
+      {
+        "name": "schweppes0x",
+        "hotel": ".nl",
+        "username": "-MrTn-",
+        "discord": "Itstonyownss#0683",
+        "extensionsCount": 7,
+        "reputation": 1370
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/thauanvargas/UserAdderReborn",
+    "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.2"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "UserAdderReborn.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "05-01-2023 11:17:00",
+    "updateDate": "05-01-2023 19:28:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Wired Overview",
