@@ -6,7 +6,7 @@
       "name": "Gitosaur"
     }
   ],
-  "version": "1.0",
+  "version": "2.0",
   "categories": ["Usability", "Fun", "Others"],
   
   "source": "https://github.com/Gitosaur/Chatty",
@@ -29,7 +29,7 @@
       "clients": ["Flash"]
   },
 
-  "submissionDate": "06-01-2024 21:15:00",
-  "updateDate": "06-01-2024 21:15:00",
+  "submissionDate": "21-01-2024 21:00:00",
+  "updateDate": "21-01-2024 21:00:00",
   "isOutdated": false
 }
