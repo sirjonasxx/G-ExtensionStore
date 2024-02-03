@@ -1,6 +1,6 @@
 {
   "title": "Chatty",
-  "description": "Hidden chat - cross-room, cross-hotel",
+  "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
   "authors": [
     {
       "name": "Gitosaur"
