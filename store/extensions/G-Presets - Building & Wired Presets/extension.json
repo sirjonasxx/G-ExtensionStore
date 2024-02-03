@@ -8,7 +8,7 @@
     "discord": "sirjonasxx",
     "twitter": "sirjonasxx"
   }],
-  "version": "1.0.4",
+  "version": "1.1.1",
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/sirjonasxx/G-Presets",
@@ -33,7 +33,7 @@
   },
 
   "submissionDate": "19-09-2021 23:54:00",
-  "updateDate": "03-02-2024 22:08:00",
+  "updateDate": "04-02-2024 00:31:00",
 
   "isOutdated": false
 }
