@@ -1338,13 +1338,13 @@
         "name": "sirjonasxx",
         "hotel": ".nl",
         "username": "sirjonasxx-VII",
-        "discord": "sirjonasxx#2633",
+        "discord": "sirjonasxx",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
         "reputation": 5025
       }
     ],
-    "version": "1.1",
+    "version": "1.1.1",
     "categories": [
       "Building",
       "Usability"
@@ -1382,7 +1382,7 @@
       ]
     },
     "submissionDate": "19-09-2021 23:54:00",
-    "updateDate": "12-09-2023 02:37:00",
+    "updateDate": "04-02-2024 00:31:00",
     "isOutdated": false,
     "rating": 1040
   },
