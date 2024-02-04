@@ -120,7 +120,7 @@
         "reputation": 900
       }
     ],
-    "version": "1.2",
+    "version": "1.4",
     "categories": [
       "Usability",
       "Fun"
@@ -158,7 +158,7 @@
       ]
     },
     "submissionDate": "13-12-2023 17:15:00",
-    "updateDate": "17-12-2023 17:15:00",
+    "updateDate": "03-02-2024 20:35:00",
     "isOutdated": false,
     "rating": 230
   },
@@ -268,6 +268,59 @@
     "updateDate": "30-08-2021 02:40:00",
     "isOutdated": false,
     "rating": 230
+  },
+  {
+    "title": "Chatty",
+    "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
+    "authors": [
+      {
+        "name": "Gitosaur",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "2.2",
+    "categories": [
+      "Usability",
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/Gitosaur/Chatty",
+    "readme": "https://github.com/Gitosaur/Chatty/blob/main/README.md",
+    "releases": "https://github.com/Gitosaur/Chatty/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "Chatty.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "24-01-2024 21:45:00",
+    "updateDate": "02-02-2024 21:09:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Clear Wired Selection",

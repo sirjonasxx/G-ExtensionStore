@@ -5418,7 +5418,7 @@
   },
   {
     "title": "AnonChat",
-    "version": "1.2",
+    "version": "1.4",
     "_object": {
       "title": "AnonChat",
       "description": "Chat privately with your friends. (By using you agree with terms read them here https://github.com/thauanvargas/anonchat/blob/master/README.md)",
@@ -5430,7 +5430,7 @@
           "discord": "thauanvargas"
         }
       ],
-      "version": "1.2",
+      "version": "1.4",
       "categories": [
         "Usability",
         "Fun"
@@ -5468,7 +5468,7 @@
         ]
       },
       "submissionDate": "13-12-2023 17:15:00",
-      "updateDate": "17-12-2023 17:15:00",
+      "updateDate": "03-02-2024 20:35:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5481,9 +5481,19 @@
         "timestamp": 1702823114779,
         "locked": false,
         "score": 220
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1203502413940531292",
+        "extVersion": "1.4",
+        "type": "update",
+        "timestamp": 1707007735959,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1702823114779
+    "latestEmbed": 1707007735959
   },
   {
     "title": "UserAdderReborn",
@@ -5557,5 +5567,72 @@
       }
     ],
     "latestEmbed": 1704483143666
+  },
+  {
+    "title": "Chatty",
+    "version": "2.2",
+    "_object": {
+      "title": "Chatty",
+      "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
+      "authors": [
+        {
+          "name": "Gitosaur"
+        }
+      ],
+      "version": "2.2",
+      "categories": [
+        "Usability",
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/Gitosaur/Chatty",
+      "readme": "https://github.com/Gitosaur/Chatty/blob/main/README.md",
+      "releases": "https://github.com/Gitosaur/Chatty/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "Chatty.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "24-01-2024 21:45:00",
+      "updateDate": "02-02-2024 21:09:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1203502411696840724",
+        "extVersion": "2.2",
+        "type": "publish",
+        "timestamp": 1707007735371,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1707007735371
   }
 ]
