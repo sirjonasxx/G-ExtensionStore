@@ -270,5 +270,9 @@
   {
     "extension": "Chatty",
     "rating": 110
+  },
+  {
+    "extension": "RoomLogger",
+    "rating": 30
   }
 ]
