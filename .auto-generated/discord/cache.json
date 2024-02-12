@@ -5634,5 +5634,74 @@
       }
     ],
     "latestEmbed": 1707007735371
+  },
+  {
+    "title": "RoomLogger",
+    "version": "1.0",
+    "_object": {
+      "title": "RoomLogger",
+      "description": "Log Room Chat, log when a player steps somewhere and more !",
+      "authors": [
+        {
+          "name": "Thauan",
+          "hotel": ".com.br",
+          "username": "Erotico",
+          "discord": "thauanvargas"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Fun"
+      ],
+      "source": "https://github.com/thauanvargas/GRoomLogger",
+      "readme": "https://github.com/thauanvargas/GRoomLogger/blob/master/README.md",
+      "releases": "https://github.com/thauanvargas/GRoomLogger/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "AnonChat.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "07-02-2024 15:40:00",
+      "updateDate": "07-02-2024 15:40:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1206427698361016350",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1707705177877,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1707705177877
   }
 ]

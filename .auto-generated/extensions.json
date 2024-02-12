@@ -116,7 +116,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauanvargas",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -517,7 +517,7 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -572,7 +572,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauan#7604",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -2290,7 +2290,7 @@
         "hotel": ".com.br",
         "username": "-Sun",
         "discord": "thauanvargas",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -3062,6 +3062,61 @@
     "rating": 290
   },
   {
+    "title": "RoomLogger",
+    "description": "Log Room Chat, log when a player steps somewhere and more !",
+    "authors": [
+      {
+        "name": "Thauan",
+        "hotel": ".com.br",
+        "username": "Erotico",
+        "discord": "thauanvargas",
+        "extensionsCount": 6,
+        "reputation": 935
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability",
+      "Fun"
+    ],
+    "source": "https://github.com/thauanvargas/GRoomLogger",
+    "readme": "https://github.com/thauanvargas/GRoomLogger/blob/master/README.md",
+    "releases": "https://github.com/thauanvargas/GRoomLogger/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "AnonChat.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "07-02-2024 15:40:00",
+    "updateDate": "07-02-2024 15:40:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Roomcropper",
     "description": "Crop room to occupied tiles\n\nSay \":crop\" to instantly crop the floorplan (requires BC)\nSay \":crop export\" to copy the cropped floorplan to your clipboard",
     "authors": [
@@ -3507,7 +3562,7 @@
         "hotel": ".com.br",
         "username": "Erotico",
         "discord": "thauanvargas",
-        "extensionsCount": 5,
+        "extensionsCount": 6,
         "reputation": 935
       },
       {
