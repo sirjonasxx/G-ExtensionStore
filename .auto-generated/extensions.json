@@ -3063,18 +3063,18 @@
   },
   {
     "title": "RoomLogger",
-    "description": "Log Room Chat, log when a player steps somewhere and more !",
+    "description": "The Best RoomLogger !\n\nLog Chats, Whispers, User Actions, User Stepping in certain locations...\nAnd all can be integrated with Discord!",
     "authors": [
       {
         "name": "Thauan",
         "hotel": ".com.br",
         "username": "Erotico",
-        "discord": "thauanvargas",
+        "discord": "thauan0x",
         "extensionsCount": 6,
         "reputation": 1025
       }
     ],
-    "version": "1.0",
+    "version": "1.1",
     "categories": [
       "Usability",
       "Fun"
@@ -3092,7 +3092,7 @@
       "default": [
         "java",
         "-jar",
-        "AnonChat.jar",
+        "RoomLogger.jar",
         "-c",
         "{cookie}",
         "-p",
@@ -3112,7 +3112,7 @@
       ]
     },
     "submissionDate": "07-02-2024 15:40:00",
-    "updateDate": "07-02-2024 15:40:00",
+    "updateDate": "16-02-2024 16:16:00",
     "isOutdated": false,
     "rating": 90
   },

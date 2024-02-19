@@ -5637,19 +5637,19 @@
   },
   {
     "title": "RoomLogger",
-    "version": "1.0",
+    "version": "1.1",
     "_object": {
       "title": "RoomLogger",
-      "description": "Log Room Chat, log when a player steps somewhere and more !",
+      "description": "The Best RoomLogger !\n\nLog Chats, Whispers, User Actions, User Stepping in certain locations...\nAnd all can be integrated with Discord!",
       "authors": [
         {
           "name": "Thauan",
           "hotel": ".com.br",
           "username": "Erotico",
-          "discord": "thauanvargas"
+          "discord": "thauan0x"
         }
       ],
-      "version": "1.0",
+      "version": "1.1",
       "categories": [
         "Usability",
         "Fun"
@@ -5667,7 +5667,7 @@
         "default": [
           "java",
           "-jar",
-          "AnonChat.jar",
+          "RoomLogger.jar",
           "-c",
           "{cookie}",
           "-p",
@@ -5687,7 +5687,7 @@
         ]
       },
       "submissionDate": "07-02-2024 15:40:00",
-      "updateDate": "07-02-2024 15:40:00",
+      "updateDate": "16-02-2024 16:16:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5700,8 +5700,18 @@
         "timestamp": 1707705177877,
         "locked": false,
         "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1209160331260338237",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1708356688818,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1707705177877
+    "latestEmbed": 1708356688818
   }
 ]
