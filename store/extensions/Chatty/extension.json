@@ -1,6 +1,6 @@
 {
   "title": "Chatty",
-  "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
+  "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
   "authors": [
     {
       "name": "Gitosaur"
@@ -31,6 +31,6 @@
   },
 
   "submissionDate": "24-01-2024 21:45:00",
-  "updateDate": "02-02-2024 21:09:00",
+  "updateDate": "17-03-2024 23:00:00",
   "isOutdated": false
 }
