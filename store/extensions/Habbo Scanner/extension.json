@@ -1,0 +1,62 @@
+{
+    "title": "Habbo Scanner",
+    "description": "Habbo Scanner is a tool that extracts data from Habbo and saves it to a MySQL database. It archives details about furniture (furni), users, pets, and bots seen in Habbo rooms, creating a rich dataset for analysis and insight.",
+    "authors": [
+      {
+        "name": "Jason",
+        "hotel": ".it",
+        "username": "Jason"
+      },
+      {
+        "name": ".Lenin",
+        "hotel": ".it",
+        "username": ".Lenin"
+      },
+      {
+        "name": "shokato",
+        "hotel": ".it",
+        "username": "shokato"
+      },
+      {
+        "name": "dha",
+        "hotel": ".it",
+        "username": "dha"
+      },
+      {
+        "name": ",Homy",
+        "hotel": ".it",
+        "username": ",Homy"
+      },
+      {
+        "name": "Dolce95",
+        "hotel": ".it",
+        "username": "Dolce95"
+      }
+    ],
+    "version": "3.2.0",
+    "categories": ["G-Earth Utilities", "Usability", "Others"],
+    
+    "source": "https://github.com/slogga-dev/Habbo-Scanner.git",
+    "readme": "README.md",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+
+    "language": "Java",
+    "commands": {
+      "default": ["java", "-jar", "habbo-scanner.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash", "Nitro"]
+    },
+
+    "submissionDate": "15-05-2024 00:30:00",
+    "updateDate": "15-05-2024 00:30:00",
+    "isOutdated": false
+}
