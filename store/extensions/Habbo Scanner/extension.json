@@ -33,7 +33,7 @@
         "username": "Dolce95"
       }
     ],
-    "version": "3.2.1",
+    "version": "3.2.2",
     "categories": ["G-Earth Utilities", "Usability", "Others"],
     
     "source": "https://github.com/slogga-dev/Habbo-Scanner",
@@ -43,7 +43,7 @@
     
     "framework": {
       "name": "Native",
-      "version": "1.5.4"
+      "version": "1.5.3"
     },
 
     "language": "Java",
