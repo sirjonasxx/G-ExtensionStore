@@ -5716,10 +5716,10 @@
   },
   {
     "title": "Habbo Scanner",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "_object": {
       "title": "Habbo Scanner",
-      "description": "Habbo Scanner is a tool that extracts data from Habbo and saves it to a MySQL database. It archives details about furniture (furni), users, pets, and bots seen in Habbo rooms, creating a rich dataset for analysis and insight.",
+      "description": "Habbo Scanner is a tool that extracts data from Habbo and saves it to a MySQL database. It archives details about furniture (furni), users, pets, and bots seen in Habbo rooms, creating a rich dataset for analysis and insight. \\n Follow our wiki to set up the extension: https://github.com/slogga-dev/Habbo-Scanner/wiki/Installation-Guide",
       "authors": [
         {
           "name": "Jason",
@@ -5752,14 +5752,14 @@
           "username": "Dolce95"
         }
       ],
-      "version": "3.2.0",
+      "version": "3.2.1",
       "categories": [
         "G-Earth Utilities",
         "Usability",
         "Others"
       ],
-      "source": "https://github.com/slogga-dev/Habbo-Scanner.git",
-      "readme": "README.md",
+      "source": "https://github.com/slogga-dev/Habbo-Scanner",
+      "readme": "https://github.com/slogga-dev/Habbo-Scanner/blob/main/README.md",
       "stable": true,
       "framework": {
         "name": "Native",
@@ -5791,7 +5791,7 @@
         ]
       },
       "submissionDate": "15-05-2024 00:30:00",
-      "updateDate": "15-05-2024 00:30:00",
+      "updateDate": "19-05-2024 12:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5804,6 +5804,16 @@
         "timestamp": 1716072342590,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1241696572920692846",
+        "extVersion": "3.2.1",
+        "type": "update",
+        "timestamp": 1716113932869,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1716072342590
