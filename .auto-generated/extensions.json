@@ -1966,42 +1966,42 @@
         "hotel": ".it",
         "username": "Jason",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       },
       {
         "name": ".Lenin",
         "hotel": ".it",
         "username": ".Lenin",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       },
       {
         "name": "shokato",
         "hotel": ".it",
         "username": "shokato",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       },
       {
         "name": "dha",
         "hotel": ".it",
         "username": "dha",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       },
       {
         "name": ",Homy",
         "hotel": ".it",
         "username": ",Homy",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       },
       {
         "name": "Dolce95",
         "hotel": ".it",
         "username": "Dolce95",
         "extensionsCount": 1,
-        "reputation": 90
+        "reputation": 110
       }
     ],
     "version": "3.2.0",
@@ -2045,7 +2045,7 @@
     "submissionDate": "15-05-2024 00:30:00",
     "updateDate": "15-05-2024 00:30:00",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "Handitem Chooser",
