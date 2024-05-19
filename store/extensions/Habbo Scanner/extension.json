@@ -1,6 +1,6 @@
 {
     "title": "Habbo Scanner",
-    "description": "Habbo Scanner is a tool that extracts data from Habbo and saves it to a MySQL database. It archives details about furniture (furni), users, pets, and bots seen in Habbo rooms, creating a rich dataset for analysis and insight.",
+    "description": "Habbo Scanner is a tool that extracts data from Habbo and saves it to a MySQL database. It archives details about furniture (furni), users, pets, and bots seen in Habbo rooms, creating a rich dataset for analysis and insight. \\n Follow our wiki to set up the extension: https://github.com/slogga-dev/Habbo-Scanner/wiki/Installation-Guide",
     "authors": [
       {
         "name": "Jason",
@@ -36,8 +36,8 @@
     "version": "3.2.0",
     "categories": ["G-Earth Utilities", "Usability", "Others"],
     
-    "source": "https://github.com/slogga-dev/Habbo-Scanner.git",
-    "readme": "README.md",
+    "source": "https://github.com/slogga-dev/Habbo-Scanner",
+    "readme": "https://github.com/slogga-dev/Habbo-Scanner/blob/main/README.md",
     
     "stable": true,
     

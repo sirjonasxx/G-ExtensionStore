@@ -274,5 +274,9 @@
   {
     "extension": "RoomLogger",
     "rating": 170
+  },
+  {
+    "extension": "Habbo Scanner",
+    "rating": 90
   }
 ]
