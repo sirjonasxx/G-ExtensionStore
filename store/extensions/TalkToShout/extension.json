@@ -26,7 +26,7 @@
   "commands": {
     "default": ["cmd", "/C", "TalkToShout-Win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "windows": ["cmd", "/C", "TalkToShout-Win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "mac": ["chmod", "+x", "TalkToShout-Mac", "&&", "./TalkToShout-Mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "mac": ["chmod", "+x", "TalkToShout-Mac", "&&", "./TalkToShout-Mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "linux": ["chmod", "+x", "TalkToShout-Linux", "&&", "./TalkToShout-Linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   
