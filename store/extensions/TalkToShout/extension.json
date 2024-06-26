@@ -1,0 +1,40 @@
+{
+  "title": "Talk To Shout Origins",
+  "description": "Talk to shout, Shout to Talk, switch the functions with eachother",
+  "authors": [
+    {
+      "name": "Eduard",
+      "hotel": ".com",
+      "username": "3duard",
+      "discord": "@eduard"
+    }
+  ],
+  "version": "1.0.1",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/Edaurd/TalkToShout/",
+  "readme": "https://github.com/Edaurd/TalkToShout/blob/main/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.0.1"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "TalkToShout-Win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "TalkToShout-Win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["chmod", "+x", "TalkToShout-Mac", "&&", "./TalkToShout-Mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "26-06-2024 02:40:00",
+  "updateDate": "26-06-2024 02:40:00",
+  "isOutdated": false
+}
