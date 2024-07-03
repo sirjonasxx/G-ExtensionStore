@@ -1,0 +1,39 @@
+{
+  "title": "G-Trader",
+  "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+  "authors": [
+    {
+      "name": "0xb0bba",
+      "discord": "disciplined"
+    }
+  ],
+  "version": "0.1.1",
+  "categories": ["Usability", "Trading"],
+  
+  "source": "https://github.com/0xb0bba/G-Trader/",
+  "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.1.6"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "g-trader-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "g-trader-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["chmod", "+x", "g-trader-mac", "&&", "./g-trader-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "linux": ["chmod", "+x", "g-trader-linux", "&&", "./g-trader-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "03-07-2024 16:00:00",
+  "updateDate": "03-07-2024 16:00:00",
+  "isOutdated": false
+}
