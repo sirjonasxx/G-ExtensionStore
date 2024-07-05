@@ -7,11 +7,12 @@
       "discord": "disciplined"
     }
   ],
-  "version": "0.1.1",
+  "version": "0.2.0",
   "categories": ["Usability", "Trading"],
   
   "source": "https://github.com/0xb0bba/G-Trader/",
   "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+  "releases": "https://github.com/0xb0bba/G-Trader/releases",
   
   "stable": true,
   
@@ -34,6 +35,6 @@
   },
 
   "submissionDate": "03-07-2024 16:00:00",
-  "updateDate": "03-07-2024 16:00:00",
+  "updateDate": "05-07-2024 21:00:00",
   "isOutdated": false
 }
