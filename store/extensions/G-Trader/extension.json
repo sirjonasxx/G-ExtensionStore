@@ -1,13 +1,13 @@
 {
   "title": "G-Trader",
-  "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room",
+  "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room\n:viewtrade View trade info",
   "authors": [
     {
       "name": "0xb0bba",
       "discord": "disciplined"
     }
   ],
-  "version": "0.3.0",
+  "version": "0.4.0",
   "categories": ["Usability", "Trading"],
   
   "source": "https://github.com/0xb0bba/G-Trader/",
@@ -35,6 +35,6 @@
   },
 
   "submissionDate": "03-07-2024 16:00:00",
-  "updateDate": "06-07-2024 18:00:00",
+  "updateDate": "07-07-2024 17:00:00",
   "isOutdated": false
 }
