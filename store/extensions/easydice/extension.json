@@ -9,7 +9,7 @@
       "discord": "@p1nk_axoloti"
     }
   ],
-  "version": "1.1",
+  "version": "1.2",
   "categories": ["Usability"],
   
   "source": "https://github.com/chirp24/easydice/tree/main",
@@ -36,6 +36,6 @@
   },
 
   "submissionDate": "07-07-2024 07:00:00",
-  "updateDate": "07-07-2024 07:00:00",
+  "updateDate": "07-07-2024 19:00:00",
   "isOutdated": false
 }
