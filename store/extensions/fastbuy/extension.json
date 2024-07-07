@@ -1,6 +1,6 @@
 {
-  "title": "easydice",
-  "description": "Use :setup, and reset/roll 5 dice in order. Now, :close, and :roll will roll/close those dice for you.",
+  "title": "fastbuy",
+  "description": "An extension to purchase items in bulk from the store.",
   "authors": [
     {
       "name": "chirp24",
@@ -9,11 +9,11 @@
       "discord": "@p1nk_axoloti"
     }
   ],
-  "version": "1.1",
+  "version": "1.0",
   "categories": ["Usability"],
   
-  "source": "https://github.com/chirp24/easydice/tree/main",
-  "readme": "https://github.com/chirp24/easydice/blob/main/README.md",
+  "source": "https://github.com/chirp24/fastbuy/",
+  "readme": "https://github.com/chirp24/fastbuy/blob/main/README.md",
   
   "stable": true,
   
@@ -24,10 +24,10 @@
 
   "language": "Go",
   "commands": {
-    "default": ["cmd", "/C", "easydice-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "windows": ["cmd", "/C", "easydice-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "mac": ["chmod", "+x", "easydice-mac", "&&", "./fastbuy-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "linux": ["chmod", "+x", "easydice-linux", "&&", "./fastbuy-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["cmd", "/C", "fastbuy-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "fastbuy-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["chmod", "+x", "fastbuy-mac", "&&", "./fastbuy-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "linux": ["chmod", "+x", "fastbuy-linux", "&&", "./fastbuy-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   
   "compatibility": {
@@ -35,7 +35,7 @@
       "clients": ["Origins"]
   },
 
-  "submissionDate": "07-07-2024 07:00:00",
-  "updateDate": "07-07-2024 07:00:00",
+  "submissionDate": "06-07-2024 09:00:00",
+  "updateDate": "06-07-2024 09:00:00",
   "isOutdated": false
 }
