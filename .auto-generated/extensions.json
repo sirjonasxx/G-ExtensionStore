@@ -1675,16 +1675,16 @@
   },
   {
     "title": "G-Trader",
-    "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+    "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room",
     "authors": [
       {
         "name": "0xb0bba",
         "discord": "disciplined",
         "extensionsCount": 1,
-        "reputation": 220
+        "reputation": 230
       }
     ],
-    "version": "0.2.1",
+    "version": "0.3.0",
     "categories": [
       "Usability",
       "Trading"
@@ -1695,7 +1695,7 @@
     "stable": true,
     "framework": {
       "name": "GoEarth",
-      "version": "0.1.6"
+      "version": "0.2.3"
     },
     "language": "Go",
     "commands": {
@@ -1759,9 +1759,9 @@
       ]
     },
     "submissionDate": "03-07-2024 16:00:00",
-    "updateDate": "05-07-2024 22:00:00",
+    "updateDate": "06-07-2024 18:00:00",
     "isOutdated": false,
-    "rating": 220
+    "rating": 230
   },
   {
     "title": "G-Translator",
@@ -3601,10 +3601,10 @@
       {
         "name": "DanielaNaomi",
         "extensionsCount": 1,
-        "reputation": 250
+        "reputation": 260
       }
     ],
-    "version": "1.5",
+    "version": "1.6",
     "categories": [
       "Fun"
     ],
@@ -3639,9 +3639,9 @@
       ]
     },
     "submissionDate": "30-06-2024 19:50:10",
-    "updateDate": "04-07-2024 17:40:10",
+    "updateDate": "06-07-2024 11:12:10",
     "isOutdated": false,
-    "rating": 250
+    "rating": 260
   },
   {
     "title": "Talk To Shout Origins",
@@ -4074,6 +4074,96 @@
       "version": "0.2.15"
     },
     "rating": 160
+  },
+  {
+    "title": "fastbuy",
+    "description": "An extension to purchase items in bulk from the store.",
+    "authors": [
+      {
+        "name": "chirp24",
+        "hotel": ".com",
+        "username": "chirp",
+        "discord": "@p1nk_axoloti",
+        "extensionsCount": 1,
+        "reputation": 150
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/chirp24/fastbuy/",
+    "readme": "https://github.com/chirp24/fastbuy/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.2.3"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "fastbuy-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "fastbuy-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "chmod",
+        "+x",
+        "fastbuy-mac",
+        "&&",
+        "./fastbuy-mac",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "linux": [
+        "chmod",
+        "+x",
+        "fastbuy-linux",
+        "&&",
+        "./fastbuy-linux",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "06-07-2024 09:00:00",
+    "updateDate": "06-07-2024 09:00:00",
+    "isOutdated": false,
+    "rating": 150
   },
   {
     "title": "xabbo",

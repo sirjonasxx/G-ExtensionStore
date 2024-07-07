@@ -1,13 +1,13 @@
 {
   "title": "G-Trader",
-  "description": "Adds a :trade [amount] command to automatically add multiples of an item to the trade in Habbo Origins.",
+  "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room",
   "authors": [
     {
       "name": "0xb0bba",
       "discord": "disciplined"
     }
   ],
-  "version": "0.2.1",
+  "version": "0.3.0",
   "categories": ["Usability", "Trading"],
   
   "source": "https://github.com/0xb0bba/G-Trader/",
@@ -18,7 +18,7 @@
   
   "framework": {
     "name": "GoEarth",
-    "version": "0.1.6"
+    "version": "0.2.3"
   },
 
   "language": "Go",
@@ -35,6 +35,6 @@
   },
 
   "submissionDate": "03-07-2024 16:00:00",
-  "updateDate": "05-07-2024 22:00:00",
+  "updateDate": "06-07-2024 18:00:00",
   "isOutdated": false
 }

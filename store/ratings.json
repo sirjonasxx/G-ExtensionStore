@@ -289,10 +289,14 @@
   },
   {
     "extension": "StickiesArt",
-    "rating": 250
+    "rating": 260
   },
   {
     "extension": "G-Trader",
-    "rating": 220
+    "rating": 230
+  },
+  {
+    "extension": "fastbuy",
+    "rating": 150
   }
 ]
