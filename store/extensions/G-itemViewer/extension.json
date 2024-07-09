@@ -1,0 +1,35 @@
+{
+  "title": "G-itemViewer",
+  "description": "A Habbo-styled GUI used to count and inspect Inventory and Room furni and wallitems",
+  "authors": [
+    {
+      "name": "madlad"
+    }
+  ],
+  "version": "0.1.0",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/bolognesandwiches/G-Inventory-Viewer/tree/master",
+  "readme": "https://github.com/bolognesandwiches/G-Inventory-Viewer/blob/master/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "09-07-2024 12:47:00",
+  "updateDate": "09-07-2024 12:47:00",
+  "isOutdated": false
+}
