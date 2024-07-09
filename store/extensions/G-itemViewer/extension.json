@@ -6,7 +6,7 @@
       "name": "madlad"
     }
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "categories": ["Usability"],
   
   "source": "https://github.com/bolognesandwiches/G-Inventory-Viewer/tree/master",
@@ -30,6 +30,6 @@
   },
 
   "submissionDate": "09-07-2024 12:47:00",
-  "updateDate": "10-07-2024 00:01:00",
+  "updateDate": "10-07-2024 00:34:00",
   "isOutdated": false
 }
