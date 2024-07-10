@@ -7,7 +7,7 @@
         "discord": "qdave"
       }
     ],
-    "version": "1.1",
+    "version": "1.2",
     "categories": ["Usability"],
     
     "source": "https://github.com/QDaves/G-WallMover",
@@ -33,6 +33,6 @@
     },
   
     "submissionDate": "06-07-2024 23:45:00",
-    "updateDate": "09-07-2024 20:00:00",
+    "updateDate": "10-07-2024 20:00:00",
     "isOutdated": false
   }
