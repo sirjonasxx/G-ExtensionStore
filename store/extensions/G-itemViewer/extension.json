@@ -1,12 +1,12 @@
 {
   "title": "G-itemViewer",
-  "description": "A Habbo-styled GUI used to count, value and inspect Inventory and Room furni and wallitems",
+  "description": "A Habbo-styled GUI used to view, pick-up and trade items!",
   "authors": [
     {
       "name": "madlad"
     }
   ],
-  "version": "0.2.0",
+  "version": "0.3.0",
   "categories": ["Usability"],
   
   "source": "https://github.com/bolognesandwiches/G-Inventory-Viewer/tree/master",
@@ -30,6 +30,6 @@
   },
 
   "submissionDate": "09-07-2024 12:47:00",
-  "updateDate": "11-07-2024 23:28:00",
+  "updateDate": "14-07-2024 00:28:00",
   "isOutdated": false
 }
