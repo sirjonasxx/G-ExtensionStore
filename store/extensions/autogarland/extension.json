@@ -1,0 +1,41 @@
+{
+  "title": "autogarland",
+  "description": "An extension to automatically outline your room using garlands.",
+  "authors": [
+    {
+      "name": "chirp24",
+      "hotel": ".com",
+      "username": "chirp",
+      "discord": "@p1nk_axoloti"
+    }
+  ],
+  "version": "1.0",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/chirp24/autogarland/tree/main",
+  "readme": "https://github.com/chirp24/autogarland/blob/main/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.6"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "autogarland-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "autogarland-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["chmod", "+x", "autogarland-mac", "&&", "./fastbuy-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "linux": ["chmod", "+x", "autogarland-linux", "&&", "./fastbuy-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "07-14-2024 03:00:00",
+  "updateDate": "07-14-2024 03:00:00",
+  "isOutdated": false
+}
