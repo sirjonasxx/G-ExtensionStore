@@ -21,7 +21,7 @@
 
   "language": "Go",
   "commands": {
-    "default": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "default": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   
   "compatibility": {
