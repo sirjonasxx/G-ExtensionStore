@@ -1,6 +1,6 @@
 {
   "title": "easydice",
-  "description": "Use :setup, and reset/roll 5 dice in order. Now, :close, and :roll will roll/close those dice for you.",
+  "description": "Use :setup. Then :roll, :close, and :tri.",
   "authors": [
     {
       "name": "chirp24",
@@ -9,7 +9,7 @@
       "discord": "@p1nk_axoloti"
     }
   ],
-  "version": "1.3",
+  "version": "1.5",
   "categories": ["Usability"],
   
   "source": "https://github.com/chirp24/easydice/tree/main",
@@ -36,6 +36,6 @@
   },
 
   "submissionDate": "07-07-2024 07:00:00",
-  "updateDate": "07-07-2024 19:50:00",
+  "updateDate": "20-07-2024 22:00:00",
   "isOutdated": false
 }
