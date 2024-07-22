@@ -7,7 +7,7 @@
     "username": "Erotico",
     "discord": "thauanvargas"
   }],
-  "version": "1.2",
+  "version": "1.3.4",
   "categories": ["Usability", "Fun"],
 
   "source": "https://github.com/thauanvargas/GRoomLogger",
@@ -28,7 +28,7 @@
 
   "compatibility": {
     "systems": ["Linux", "Windows", "Mac"],
-    "clients": ["Flash"]
+    "clients": ["Flash", "Origins"]
   },
 
   "submissionDate": "07-02-2024 15:40:00",
