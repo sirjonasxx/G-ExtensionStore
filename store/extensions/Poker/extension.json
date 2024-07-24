@@ -9,7 +9,7 @@
       "discord": "@boyd9037"
     }
   ],
-  "version": "1.1",
+  "version": "1.2",
   "categories": ["Usability"],
 
   "source": "https://github.com/boydmeyer/poker/tree/main",
@@ -80,6 +80,6 @@
   },
 
   "submissionDate": "10-07-2024 23:30:00",
-  "updateDate": "10-07-2024 23:30:00",
+  "updateDate": "24-07-2024 15:00:00",
   "isOutdated": false
 }
