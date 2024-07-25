@@ -1,6 +1,6 @@
 {
   "title": "G-itemViewer",
-  "description": "A Habbo-styled GUI used to view, pick-up and trade items!",
+  "description": "A Habbo-styled GUI used to view, pick-up and trade items! NOTE: Sends data to a publically accessible API if opted-in (https://gitemviewer.fly.dev/scans/USERPROFILE)",
   "authors": [
     {
       "name": "madlad"
