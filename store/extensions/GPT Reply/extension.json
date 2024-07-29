@@ -1,6 +1,6 @@
 {
     "title": "GPT Reply",
-    "description": "GPT Reply lets you reply to other people with Claude or ChatGPT in Origins.",
+    "description": "GPT Reply lets you reply to other people with Claude or ChatGPT in Origins.\n(This Extension sends data such as your Username and Chatlogs to thirdparty APIS from Openai/Claude)",
     "authors": [
       {
         "name": "QDave",
