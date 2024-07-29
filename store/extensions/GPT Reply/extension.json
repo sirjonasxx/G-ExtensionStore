@@ -23,9 +23,10 @@
   
     "language": "Go",
     "commands": {
-      "default": ["cmd", "/C", "GPT Reply-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-      "windows": ["cmd", "/C", "GPT Reply-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+      "default": ["cmd", "/C", "GPT Reply-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">nul", "2>&1"],
+      "windows": ["cmd", "/C", "GPT Reply-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">nul", "2>&1"]
     },
+
     
     "compatibility": {
         "systems": ["Windows"],
