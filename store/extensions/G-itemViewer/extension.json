@@ -6,7 +6,7 @@
       "name": "madlad"
     }
   ],
-  "version": "1.7.0",
+  "version": "1.9.0",
   "categories": ["Usability"],
   
   "source": "https://github.com/bolognesandwiches/G-Inventory-Viewer/tree/master",
@@ -21,15 +21,17 @@
 
   "language": "Go",
   "commands": {
-    "default": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "default": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["chmod", "+x", "G-itemViewer-mac", "&&", "./G-itemViewwer-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   
   "compatibility": {
-      "systems": ["Windows"],
+      "systems": ["Windows", "Mac"],
       "clients": ["Origins"]
   },
 
   "submissionDate": "09-07-2024 12:47:00",
-  "updateDate": "25-07-2024 00:58:00",
+  "updateDate": "05-08-2024 21:12:00",
   "isOutdated": false
 }

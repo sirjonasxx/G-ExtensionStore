@@ -5940,7 +5940,7 @@
         "type": "publish",
         "timestamp": 1719355454868,
         "locked": false,
-        "score": 80
+        "score": 100
       }
     ],
     "latestEmbed": 1719355454868
@@ -6157,7 +6157,7 @@
         "type": "update",
         "timestamp": 1720436251150,
         "locked": false,
-        "score": 25
+        "score": 50
       }
     ],
     "latestEmbed": 1720436251150
@@ -6701,7 +6701,7 @@
   },
   {
     "title": "G-itemViewer",
-    "version": "1.7.0",
+    "version": "1.9.0",
     "_object": {
       "title": "G-itemViewer",
       "description": "A Habbo-styled GUI used to view, pick-up and trade items! NOTE: Sends data to a publically accessible API if opted-in (https://gitemviewer.fly.dev/scans/USERPROFILE)",
@@ -6710,7 +6710,7 @@
           "name": "madlad"
         }
       ],
-      "version": "1.7.0",
+      "version": "1.9.0",
       "categories": [
         "Usability"
       ],
@@ -6733,18 +6733,43 @@
           "{port}",
           "-f",
           "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "G-itemViewer.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "G-itemViewer-mac",
+          "&&",
+          "./G-itemViewwer-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
         ]
       },
       "compatibility": {
         "systems": [
-          "Windows"
+          "Windows",
+          "Mac"
         ],
         "clients": [
           "Origins"
         ]
       },
       "submissionDate": "09-07-2024 12:47:00",
-      "updateDate": "25-07-2024 00:58:00",
+      "updateDate": "05-08-2024 21:12:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -6907,9 +6932,39 @@
         "timestamp": 1721875915606,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1266918996616286209",
+        "extVersion": "1.7.1",
+        "type": "update",
+        "timestamp": 1722127427504,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1267290185163473011",
+        "extVersion": "1.8.0",
+        "type": "update",
+        "timestamp": 1722215925761,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1270114906154471504",
+        "extVersion": "1.9.0",
+        "type": "update",
+        "timestamp": 1722889391454,
+        "locked": false,
+        "score": 100
       }
     ],
-    "latestEmbed": 1721740069301
+    "latestEmbed": 1722889391454
   },
   {
     "title": "Quick Pickup Utils",
@@ -7331,9 +7386,192 @@
         "type": "publish",
         "timestamp": 1722097249214,
         "locked": false,
-        "score": 40
+        "score": 60
       }
     ],
     "latestEmbed": 1722097249214
+  },
+  {
+    "title": "Autotyper",
+    "version": "1.0.0",
+    "_object": {
+      "title": "Autotyper",
+      "description": "Automatically sends a stored message in chat. To store your message, type ':setmsg {message}', and to send it, simply by saying '!'.",
+      "authors": [
+        {
+          "name": "Nanobyte",
+          "hotel": ".com",
+          "username": "Nanobyte",
+          "discord": "@boyd9037"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/boydmeyer/autotyper/tree/main",
+      "readme": "https://github.com/boydmeyer/autotyper/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "autotyper-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "autotyper-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "autotyper-mac",
+          "&&",
+          "./autotyper-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "autotyper-linux",
+          "&&",
+          "./autotyper-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "27-07-2024 22:00:00",
+      "updateDate": "27-07-2024 22:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1267081096521322598",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1722166075084,
+        "locked": false,
+        "score": 80
+      }
+    ],
+    "latestEmbed": 1722166075084
+  },
+  {
+    "title": "GptReply",
+    "version": "1.0",
+    "_object": {
+      "title": "GptReply",
+      "description": "GPT Reply lets you reply to other people with Claude or ChatGPT in Origins.\n(This Extension sends data such as your Username and Chatlogs to thirdparty APIS from Openai/Claude)",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/QDaves/GPTReply",
+      "readme": "https://github.com/QDaves/GPTReply/blob/main/README.md",
+      "releases": "https://github.com/QDaves/GPTReply/releases",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.3.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "GPT Reply-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          ">nul",
+          "2>&1"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "GPT Reply-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          ">nul",
+          "2>&1"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "29-07-2024 00:36:00",
+      "updateDate": "29-07-2024 00:36:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1267553762579316905",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1722278767504,
+        "locked": false,
+        "score": 140
+      }
+    ],
+    "latestEmbed": 1722278767504
   }
 ]

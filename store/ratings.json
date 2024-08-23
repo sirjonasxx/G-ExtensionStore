@@ -281,7 +281,7 @@
   },
   {
     "extension": "G-AutoLikeRooms",
-    "rating": 90
+    "rating": 110
   },
   {
     "extension": "Talk To Shout Origins",
@@ -289,7 +289,7 @@
   },
   {
     "extension": "StickiesArt",
-    "rating": 375
+    "rating": 400
   },
   {
     "extension": "G-Trader",
@@ -309,7 +309,7 @@
   },
   {
     "extension": "G-itemViewer",
-    "rating": 605
+    "rating": 760
   },
   {
     "extension": "Quick Pickup Utils",
@@ -325,6 +325,14 @@
   },
   {
     "extension": "Shoutify",
-    "rating": 50
+    "rating": 70
+  },
+  {
+    "extension": "Autotyper",
+    "rating": 90
+  },
+  {
+    "extension": "GptReply",
+    "rating": 150
   }
 ]
