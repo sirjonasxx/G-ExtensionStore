@@ -25,7 +25,7 @@
   "commands": {
     "default": ["cmd", "/C", "arcade-tracker.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "windows": ["cmd", "/C", "arcade-tracker-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "mac": ["/bin/sh", "-c", "chmod +x arcade-tracker-linux && ./arcade-tracker-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x arcade-tracker-mac && ./arcade-tracker-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
     "linux": ["/bin/sh", "-c", "chmod +x arcade-tracker-linux && ./arcade-tracker-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
   },
   
