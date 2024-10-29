@@ -1,6 +1,6 @@
 {
   "title": "Trade Tracker",
-  "description": "Automates the process to track your profits and losts in trading.\nCurrent extension is integrated with API tsarcade.com\nPlease read the README to understand how it works.",
+  "description": "Automates the process to track your profits and losts in trading.\nCurrent extension is integrated with API tsarcade.com\nIMPORTANT: This extension shares with the webapp legacyhabbo.me the following data of your Habbo\n- Your Username\n-The Server you are playing at (com, es, br)\n- Your Trades (items, quantities, who you traded with)\nIf you want your data deleted, please contact me through discord (thauanvargas).",
   "authors": [
     {
       "name": "Erotico",
