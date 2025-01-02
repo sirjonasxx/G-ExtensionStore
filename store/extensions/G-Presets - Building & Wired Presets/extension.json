@@ -7,8 +7,13 @@
     "username": "sirjonasxx-VII",
     "discord": "sirjonasxx",
     "twitter": "sirjonasxx"
+  },{
+    "name": "Roboroads",
+    "hotel": ".nl",
+    "username": "Roboroads",
+    "discord": "roboroads"
   }],
-  "version": "1.1.1",
+  "version": "1.2",
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/sirjonasxx/G-Presets",
@@ -33,7 +38,7 @@
   },
 
   "submissionDate": "19-09-2021 23:54:00",
-  "updateDate": "04-02-2024 00:31:00",
+  "updateDate": "02-01-2025 17:00:00",
 
   "isOutdated": false
 }
