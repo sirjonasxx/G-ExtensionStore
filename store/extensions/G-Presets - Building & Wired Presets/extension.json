@@ -13,7 +13,7 @@
     "username": "Roboroads",
     "discord": "roboroads"
   }],
-  "version": "1.2",
+  "version": "1.2.1",
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/sirjonasxx/G-Presets",
@@ -38,7 +38,7 @@
   },
 
   "submissionDate": "19-09-2021 23:54:00",
-  "updateDate": "02-01-2025 17:00:00",
+  "updateDate": "02-01-2025 18:16:00",
 
   "isOutdated": false
 }
