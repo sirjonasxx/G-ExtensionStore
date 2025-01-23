@@ -30,7 +30,7 @@
 
   "compatibility": {
     "systems": ["Linux", "Windows", "Mac"],
-    "clients": ["Unity", "Flash"]
+    "clients": ["Flash"]
   },
 
   "submissionDate": "21-08-2021 20:55:00",
