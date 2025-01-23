@@ -1,0 +1,39 @@
+{
+  "title": "Q-Wired-Page",
+  "description": "Removes the parent variable menu item and adds the children to the Wired menu.",
+  "authors": [
+    {
+      "name": "MrGeneralQ",
+      "hotel": ".nl",
+      "username": "MrGeneralQ",
+      "discord": "mrgeneralq"
+    }
+  ],
+  "version": "1.0",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/mrgeneralq/Q-wired-page",
+  "readme": "https://github.com/mrgeneralq/Q-wired-page/blob/main/README.md",
+  "releases": "https://github.com/mrgeneralq/Q-wired-page/releases",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5.3"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "QWiredPage.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "23-01-2025 17:30:00",
+  "updateDate": "23-01-2025 17:30:00",
+  "isOutdated": false
+}
