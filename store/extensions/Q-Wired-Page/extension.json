@@ -20,7 +20,7 @@
 
   "framework": {
     "name": "Native",
-    "version": "1.5"
+    "version": "1.5.3"
   },
 
   "language": "Java",
