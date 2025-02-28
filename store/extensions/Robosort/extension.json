@@ -6,7 +6,7 @@
       "name": "Roboroads",
       "hotel": ".nl",
       "username": "Roboroads",
-      "discord": "Roboroads",
+      "discord": "roboroads",
       "twitter": "RoboroadsHabbo"
     }
   ],
@@ -15,12 +15,12 @@
     "Building"
   ],
   "source": "https://github.com/Roboroads/Robosort",
-  "readme": "https://github.com/Roboroads/Robosort/README.md",
+  "readme": "https://github.com/Roboroads/Robosort/blob/main/README.md",
   "releases": "https://github.com/Roboroads/Robosort/releases",
   "stable": true,
   "framework": {
     "name": "Native",
-    "version": "1.5"
+    "version": "1.5.4-beta-10"
   },
   "language": "Java",
   "commands": {
