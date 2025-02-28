@@ -7909,7 +7909,7 @@
   },
   {
     "title": "Robosort",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "Robosort",
       "description": "Sort your wired stacks (automatically).",
@@ -7922,7 +7922,7 @@
           "twitter": "RoboroadsHabbo"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Building"
       ],
@@ -7959,7 +7959,7 @@
         ]
       },
       "submissionDate": "27-02-2025 22:57:25",
-      "updateDate": "27-02-2025 22:57:25",
+      "updateDate": "28-02-2025 14:18:44",
       "isOutdated": false
     },
     "discordMessages": [
@@ -7972,6 +7972,16 @@
         "timestamp": 1740743958165,
         "locked": false,
         "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1345069194122629220",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1740759886432,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1740743958165
