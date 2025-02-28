@@ -346,5 +346,9 @@
   {
     "extension": "Q-Wired-Page",
     "rating": 150
+  },
+  {
+    "extension": "Robosort",
+    "rating": 50
   }
 ]
