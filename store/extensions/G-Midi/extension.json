@@ -17,7 +17,7 @@
     "stable": true,
     "framework": {
       "name": "G-Node",
-      "version": "0.2.16"
+      "version": "0.2.18"
     },
     "language": "Node.js",
     "commands": {
