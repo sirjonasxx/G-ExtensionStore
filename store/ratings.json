@@ -350,5 +350,9 @@
   {
     "extension": "Robosort",
     "rating": 285
+  },
+  {
+    "extension": "G-Midi",
+    "rating": 70
   }
 ]
