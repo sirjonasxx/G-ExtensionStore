@@ -24,11 +24,11 @@
 
     "language": "C#",
     "commands": {
-      "default": ["java", "-jar", "CDHelper.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],    
+      "default": ["cmd", "/C", "CDHelper.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
     },
     
     "compatibility": {
-        "systems": ["Mac"],
+        "systems": ["Windows"],
         "clients": ["Flash"]
     },
 
