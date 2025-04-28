@@ -332,6 +332,58 @@
     "rating": 230
   },
   {
+    "title": "CDHelper",
+    "description": "A handy G-Earth extension that adds useful tools to manage your CDs in-game!",
+    "authors": [
+      {
+        "name": "jonny7k",
+        "hotel": ".com.br",
+        "discord": "jonny_7k",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "0.1",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/jonnymariani/cdhelper",
+    "readme": "https://github.com/jonnymariani/cdhelper/blob/main/README.md",
+    "releases": "https://github.com/jonnymariani/cdhelper/releases",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "CDHelper.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "26-04-2025 00:00:00",
+    "updateDate": "26-04-2025 00:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Chatty",
     "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
     "authors": [
