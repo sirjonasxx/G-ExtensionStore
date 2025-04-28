@@ -354,5 +354,9 @@
   {
     "extension": "G-Midi",
     "rating": 190
+  },
+  {
+    "extension": "CDHelper",
+    "rating": 70
   }
 ]
