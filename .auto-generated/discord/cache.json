@@ -8081,7 +8081,7 @@
   },
   {
     "title": "CDHelper",
-    "version": "0.1",
+    "version": "1.0",
     "_object": {
       "title": "CDHelper",
       "description": "A handy G-Earth extension that adds useful tools to manage your CDs in-game!",
@@ -8092,7 +8092,7 @@
           "discord": "jonny_7k"
         }
       ],
-      "version": "0.1",
+      "version": "1.0",
       "categories": [
         "Usability",
         "Others"
@@ -8128,7 +8128,7 @@
         ]
       },
       "submissionDate": "26-04-2025 00:00:00",
-      "updateDate": "26-04-2025 00:00:00",
+      "updateDate": "09-05-2025 23:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8141,8 +8141,18 @@
         "timestamp": 1745856626605,
         "locked": false,
         "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1370635483587018824",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1746855364824,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1745856626605
+    "latestEmbed": 1746855364824
   }
 ]
