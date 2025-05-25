@@ -2120,7 +2120,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2145,7 +2145,7 @@
           "discord": "wiredspast"
         }
       ],
-      "version": "1.2.3",
+      "version": "1.2.4",
       "categories": [
         "Building",
         "Usability"
@@ -2183,7 +2183,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "24-05-2025 23:49:00",
+      "updateDate": "25-05-2025 17:55:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2336,6 +2336,16 @@
         "timestamp": 1748087640623,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1376228185875939543",
+        "extVersion": "1.2.4",
+        "type": "update",
+        "timestamp": 1748188768912,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1748087640623
