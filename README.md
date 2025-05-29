@@ -97,6 +97,7 @@ Most fields are self-explanatory, but some require extra attention:
 * `framework.name` must be available in `store/config.json` -> `frameworks`. Possible values currently are `Native` (Java), `G-Python`, `Geode`, `G-Node` and `Xabbo`
 * `framework.version` is the version of the framework at time of compilation *(or at time of writing in case of interpreted languages)*. For `Native`, it is just the version of G-Earth
 * `commands` contains the commands to execute the extension as if the submitted `extension.zip` file was extracted in the current directory. It has to contain `{cookie}`, `{port}` and `{filename}`. The command is under `commands.default` but you can also add platform-specific commands
+* `compatibility.clients`, the clients for which the extension is compatible. Can be one or more of `Unity`, `Flash`, `Nitro` and `Origins`. Note that they are not compatible out of the box, so make sure to test
 
 *Note: it's possible not all of the fields will be used, but they may be used in future G-Earth versions*
 

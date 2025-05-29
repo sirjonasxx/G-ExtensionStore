@@ -93,11 +93,11 @@
   },
   {
     "extension": "Room Duplicator",
-    "rating": 290
+    "rating": 310
   },
   {
     "extension": "xabbo",
-    "rating": 1035
+    "rating": 1255
   },
   {
     "extension": "LTDHelper",
@@ -105,7 +105,7 @@
   },
   {
     "extension": "G-Presets - Building & Wired Presets",
-    "rating": 1100
+    "rating": 1650
   },
   {
     "extension": "Rainbow BackGround",
@@ -129,7 +129,7 @@
   },
   {
     "extension": "ListeningMotto",
-    "rating": 495
+    "rating": 555
   },
   {
     "extension": "Friend Remover",
@@ -197,7 +197,7 @@
   },
   {
     "extension": "G-Hypertranslate",
-    "rating": 190
+    "rating": 210
   },
   {
     "extension": "PositionGo",
@@ -257,7 +257,7 @@
   },
   {
     "extension": "Outfit Copy",
-    "rating": 260
+    "rating": 285
   },
   {
     "extension": "AnonChat",
@@ -265,14 +265,98 @@
   },
   {
     "extension": "UserAdderReborn",
-    "rating": 170
+    "rating": 190
   },
   {
     "extension": "Chatty",
-    "rating": 110
+    "rating": 170
   },
   {
     "extension": "RoomLogger",
+    "rating": 265
+  },
+  {
+    "extension": "Habbo Scanner",
+    "rating": 210
+  },
+  {
+    "extension": "G-AutoLikeRooms",
+    "rating": 110
+  },
+  {
+    "extension": "Talk To Shout Origins",
+    "rating": 190
+  },
+  {
+    "extension": "StickiesArt",
+    "rating": 400
+  },
+  {
+    "extension": "G-Trader",
+    "rating": 375
+  },
+  {
+    "extension": "fastbuy",
+    "rating": 180
+  },
+  {
+    "extension": "easydice",
+    "rating": 215
+  },
+  {
+    "extension": "G-WallMover",
+    "rating": 535
+  },
+  {
+    "extension": "G-itemViewer",
+    "rating": 760
+  },
+  {
+    "extension": "Quick Pickup Utils",
+    "rating": 270
+  },
+  {
+    "extension": "Poker",
+    "rating": 200
+  },
+  {
+    "extension": "autogarland",
+    "rating": 140
+  },
+  {
+    "extension": "Shoutify",
+    "rating": 70
+  },
+  {
+    "extension": "Autotyper",
     "rating": 100
+  },
+  {
+    "extension": "GptReply",
+    "rating": 190
+  },
+  {
+    "extension": "[AIO] Gamba Suite",
+    "rating": 345
+  },
+  {
+    "extension": "Trade Tracker",
+    "rating": 100
+  },
+  {
+    "extension": "Q-Wired-Page",
+    "rating": 150
+  },
+  {
+    "extension": "Robosort",
+    "rating": 335
+  },
+  {
+    "extension": "G-Midi",
+    "rating": 190
+  },
+  {
+    "extension": "CDHelper",
+    "rating": 125
   }
 ]

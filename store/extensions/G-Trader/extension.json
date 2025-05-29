@@ -1,0 +1,40 @@
+{
+  "title": "G-Trader",
+  "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room\n:viewtrade View trade info",
+  "authors": [
+    {
+      "name": "0xb0bba",
+      "discord": "disciplined"
+    }
+  ],
+  "version": "0.5.1",
+  "categories": ["Usability", "Trading"],
+  
+  "source": "https://github.com/0xb0bba/G-Trader/",
+  "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+  "releases": "https://github.com/0xb0bba/G-Trader/releases",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "g-trader-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "g-trader-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x g-trader-mac && ./g-trader-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x g-trader-linux && ./g-trader-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "03-07-2024 16:00:00",
+  "updateDate": "13-07-2024 16:30:00",
+  "isOutdated": false
+}

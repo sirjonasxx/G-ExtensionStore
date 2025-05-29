@@ -1,0 +1,37 @@
+{
+  "title": "G-itemViewer",
+  "description": "A Habbo-styled GUI used to view, pick-up and trade items! NOTE: Sends data to a publically accessible API if opted-in (https://gitemviewer.fly.dev/scans/USERPROFILE)",
+  "authors": [
+    {
+      "name": "madlad"
+    }
+  ],
+  "version": "1.9.0",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/bolognesandwiches/G-Inventory-Viewer/tree/master",
+  "readme": "https://github.com/bolognesandwiches/G-Inventory-Viewer/blob/master/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "G-itemViewer.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x G-itemViewer-mac && ./G-itemViewer-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "09-07-2024 12:47:00",
+  "updateDate": "05-08-2024 21:12:00",
+  "isOutdated": false
+}

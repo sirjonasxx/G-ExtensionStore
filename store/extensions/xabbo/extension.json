@@ -1,38 +1,38 @@
 {
-    "title": "xabbo",
-    "description": "enhanced habbo",
-    "authors": [
-      {
-        "name": "b7",
-        "hotel": ".com",
-        "username": "1b7",
-        "discord": "b7#8571"
-      }
-    ],
-    "version": "1.0.3",
-    "categories": ["Usability"],
-    
-    "source": "https://github.com/b7c/b7.Xabbo",
-    "readme": "https://github.com/b7c/b7.Xabbo/blob/master/README.md",
-    
-    "stable": true,
-    
-    "framework": {
-      "name": "Xabbo",
-      "version": "1.0.0-beta.2"
-    },
+  "title": "xabbo",
+  "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
+  "authors": [
+    {
+      "name": "b7",
+      "discord": "xb7c"
+    }
+  ],
+  "version": "1.1.3",
+  "categories": ["Usability"],
 
-    "language": "C#",
-    "commands": {
-      "default": ["cmd", "/C", "b7.Xabbo.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
-    },
-    
-    "compatibility": {
-        "systems": ["Windows"],
-        "clients": ["Flash"]
-    },
+  "source": "https://github.com/xabbo/xabbo",
+  "readme": "https://github.com/xabbo/xabbo/blob/main/README.md",
 
-    "submissionDate": "04-09-2021 07:23:00",
-    "updateDate": "07-01-2022 05:04:00",
-    "isOutdated": false
+  "stable": true,
+
+  "framework": {
+    "name": "Xabbo",
+    "version": "1.0.1"
+  },
+
+  "language": "C#",
+  "commands": {
+    "default": ["cmd", "/C", "xabbo.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">", "NUL", "2>&1"],
+    "linux": ["/bin/sh", "-c", "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null", "--", "{port}", "{cookie}", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null", "--", "{port}", "{cookie}", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Windows", "Linux", "Mac"],
+    "clients": ["Flash", "Origins"]
+  },
+
+  "submissionDate": "04-09-2021 07:23:00",
+  "updateDate": "20-11-2024 21:02:17",
+  "isOutdated": false
 }

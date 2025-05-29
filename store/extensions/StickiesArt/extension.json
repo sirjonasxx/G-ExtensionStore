@@ -1,0 +1,34 @@
+{
+    "title": "StickiesArt",
+    "description": "Write letters or phrases with stickies in your room or rooms where you have permission",
+    "authors": [
+      {
+        "name": "DanielaNaomi"
+      }
+    ],
+    "version": "1.7",
+    "categories": ["Fun"],
+    
+    "source": "https://github.com/DanielaNaomi/StickiesArt",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+
+    "language": "Java",
+    "commands": {
+      "default": ["java", "-jar", "StickiesArt.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "30-06-2024 19:50:10",
+    "updateDate": "07-07-2024 23:19:10",
+    "isOutdated": false
+}

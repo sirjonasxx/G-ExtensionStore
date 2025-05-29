@@ -1,0 +1,41 @@
+{
+  "title": "easydice",
+  "description": "Use :setup. Then :roll, :close, and :tri.",
+  "authors": [
+    {
+      "name": "chirp24",
+      "hotel": ".com",
+      "username": "chirp",
+      "discord": "@p1nk_axoloti"
+    }
+  ],
+  "version": "1.7",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/chirp24/easydice/tree/main",
+  "readme": "https://github.com/chirp24/easydice/blob/main/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "easydice-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "easydice-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x easydice-mac && ./easydice-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x easydice-linux && ./easydice-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "07-07-2024 07:00:00",
+  "updateDate": "21-07-2024 15:50:00",
+  "isOutdated": false
+}

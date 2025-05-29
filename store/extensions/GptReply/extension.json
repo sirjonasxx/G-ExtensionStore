@@ -1,0 +1,39 @@
+{
+  "title": "GptReply",
+  "description": "GPT Reply lets you reply to other people with Claude or ChatGPT in Origins.\n(This Extension sends data such as your Username and Chatlogs to thirdparty APIS from Openai/Claude)",
+  "authors": [
+    {
+      "name": "QDave",
+      "discord": "qdave"
+    }
+  ],
+  "version": "1.0",
+  "categories": ["Fun"],
+  
+  "source": "https://github.com/QDaves/GPTReply",
+  "readme": "https://github.com/QDaves/GPTReply/blob/main/README.md",
+  "releases": "https://github.com/QDaves/GPTReply/releases",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.3.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "GPT Reply-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">nul", "2>&1"],
+    "windows": ["cmd", "/C", "GPT Reply-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">nul", "2>&1"]
+  },
+
+  
+  "compatibility": {
+      "systems": ["Windows"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "29-07-2024 00:36:00",
+  "updateDate": "29-07-2024 00:36:00",
+  "isOutdated": false
+}

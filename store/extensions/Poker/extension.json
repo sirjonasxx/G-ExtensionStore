@@ -1,0 +1,77 @@
+{
+  "title": "Poker",
+  "description": "An extension for managing, rolling, and resetting dice with automated poker hand evaluation and game interaction.",
+  "authors": [
+    {
+      "name": "Nanobyte",
+      "hotel": ".com",
+      "username": "Nanobyte",
+      "discord": "@boyd9037"
+    }
+  ],
+  "version": "1.3.1",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/boydmeyer/poker/tree/main",
+  "readme": "https://github.com/boydmeyer/poker/blob/main/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": [
+      "cmd",
+      "/C",
+      "poker-win.exe",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ],
+    "windows": [
+      "cmd",
+      "/C",
+      "poker-win.exe",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ],
+    "mac": [
+      "/bin/sh",
+      "-c",
+      "chmod +x poker-mac && ./poker-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+      "--",
+      "{port}",
+      "{cookie}",
+      "{filename}"
+    ],
+    "linux": [
+      "/bin/sh",
+      "-c",
+      "chmod +x poker-linux && ./poker-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+      "--",
+      "{port}",
+      "{cookie}",
+      "{filename}"
+    ]
+  },
+
+  "compatibility": {
+    "systems": ["Windows", "Mac", "Linux"],
+    "clients": ["Origins"]
+  },
+
+  "submissionDate": "10-07-2024 23:30:00",
+  "updateDate": "26-07-2024 17:30:00",
+  "isOutdated": false
+}

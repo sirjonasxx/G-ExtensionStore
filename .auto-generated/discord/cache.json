@@ -1904,60 +1904,82 @@
         "type": "publish",
         "timestamp": 1630599737545,
         "locked": false,
-        "score": 280
+        "score": 300
       }
     ],
     "latestEmbed": 1630599737545
   },
   {
     "title": "xabbo",
-    "version": "1.0.3",
+    "version": "1.1.3",
     "_object": {
       "title": "xabbo",
-      "description": "enhanced habbo",
+      "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
       "authors": [
         {
           "name": "b7",
-          "hotel": ".com",
-          "username": "1b7",
-          "discord": "b7#8571"
+          "discord": "xb7c"
         }
       ],
-      "version": "1.0.3",
+      "version": "1.1.3",
       "categories": [
         "Usability"
       ],
-      "source": "https://github.com/b7c/b7.Xabbo",
-      "readme": "https://github.com/b7c/b7.Xabbo/blob/master/README.md",
+      "source": "https://github.com/xabbo/xabbo",
+      "readme": "https://github.com/xabbo/xabbo/blob/main/README.md",
       "stable": true,
       "framework": {
         "name": "Xabbo",
-        "version": "1.0.0-beta.2"
+        "version": "1.0.1"
       },
       "language": "C#",
       "commands": {
         "default": [
           "cmd",
           "/C",
-          "b7.Xabbo.exe",
+          "xabbo.exe",
           "-c",
           "{cookie}",
           "-p",
           "{port}",
           "-f",
+          "{filename}",
+          ">",
+          "NUL",
+          "2>&1"
+        ],
+        "linux": [
+          "/bin/sh",
+          "-c",
+          "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
+          "--",
+          "{port}",
+          "{cookie}",
+          "{filename}"
+        ],
+        "mac": [
+          "/bin/sh",
+          "-c",
+          "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
+          "--",
+          "{port}",
+          "{cookie}",
           "{filename}"
         ]
       },
       "compatibility": {
         "systems": [
-          "Windows"
+          "Windows",
+          "Linux",
+          "Mac"
         ],
         "clients": [
-          "Flash"
+          "Flash",
+          "Origins"
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "07-01-2022 05:04:00",
+      "updateDate": "20-11-2024 21:02:17",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2000,9 +2022,29 @@
         "timestamp": 1641551835263,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1302286314963603497",
+        "extVersion": "1.1.1",
+        "type": "update",
+        "timestamp": 1730559653064,
+        "locked": false,
+        "score": 150
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1308904239841673256",
+        "extVersion": "1.1.3",
+        "type": "update",
+        "timestamp": 1732137489412,
+        "locked": false,
+        "score": 50
       }
     ],
-    "latestEmbed": 1641517421533
+    "latestEmbed": 1732137489412
   },
   {
     "title": "LTDHelper",
@@ -2078,7 +2120,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "1.1.1",
+    "version": "1.2.4",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2089,9 +2131,21 @@
           "username": "sirjonasxx-VII",
           "discord": "sirjonasxx",
           "twitter": "sirjonasxx"
+        },
+        {
+          "name": "Roboroads",
+          "hotel": ".nl",
+          "username": "Roboroads",
+          "discord": "roboroads"
+        },
+        {
+          "name": "WiredSpast",
+          "hotel": ".nl",
+          "username": "WiredSpast",
+          "discord": "wiredspast"
         }
       ],
-      "version": "1.1.1",
+      "version": "1.2.4",
       "categories": [
         "Building",
         "Usability"
@@ -2129,7 +2183,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "04-02-2024 00:31:00",
+      "updateDate": "25-05-2025 17:55:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2242,9 +2296,59 @@
         "timestamp": 1707003270586,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1324407516788031530",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1735833758701,
+        "locked": false,
+        "score": 125
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1324427015201361960",
+        "extVersion": "1.2.1",
+        "type": "update",
+        "timestamp": 1735838407586,
+        "locked": false,
+        "score": 175
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1333164868584341505",
+        "extVersion": "1.2.2",
+        "type": "update",
+        "timestamp": 1737921674137,
+        "locked": false,
+        "score": 125
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1375804022988210286",
+        "extVersion": "1.2.3",
+        "type": "update",
+        "timestamp": 1748087640623,
+        "locked": false,
+        "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1376228185875939543",
+        "extVersion": "1.2.4",
+        "type": "update",
+        "timestamp": 1748188768912,
+        "locked": false,
+        "score": 25
       }
     ],
-    "latestEmbed": 1707003270586
+    "latestEmbed": 1748087640623
   },
   {
     "title": "Rainbow BackGround",
@@ -2627,25 +2731,28 @@
   },
   {
     "title": "ListeningMotto",
-    "version": "1.1",
+    "version": "2.0",
     "_object": {
       "title": "ListeningMotto",
       "description": "Display current spotify music you listening in your motto.",
       "authors": [
         {
-          "name": "Lxx",
-          "discord": "Lx#3330"
+          "name": "Lx",
+          "hotel": ".com.br",
+          "username": "Lxx",
+          "discord": "riotspacebar#0000"
         }
       ],
-      "version": "1.1",
+      "version": "2.0",
       "categories": [
         "Fun"
       ],
       "source": "https://github.com/iIlusion/ListeningMission",
+      "readme": "https://github.com/iIlusion/ListeningMission/blob/master/README.md",
       "stable": true,
       "framework": {
         "name": "G-Node",
-        "version": "0.1.3"
+        "version": "0.2.18"
       },
       "language": "Node.js",
       "commands": {
@@ -2676,7 +2783,7 @@
         ]
       },
       "submissionDate": "27-09-2021 02:01:24",
-      "updateDate": "10-02-2022 14:45:30",
+      "updateDate": "12-07-2024 00:50:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2729,9 +2836,19 @@
         "timestamp": 1644516989259,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1261205919933661216",
+        "extVersion": "2.0",
+        "type": "update",
+        "timestamp": 1720765323949,
+        "locked": false,
+        "score": 50
       }
     ],
-    "latestEmbed": 1644516989259
+    "latestEmbed": 1720765323949
   },
   {
     "title": "Friend Remover",
@@ -4147,7 +4264,7 @@
         "type": "publish",
         "timestamp": 1662580575208,
         "locked": false,
-        "score": 180
+        "score": 200
       }
     ],
     "latestEmbed": 1662580575208
@@ -5411,7 +5528,7 @@
         "type": "update",
         "timestamp": 1704431330211,
         "locked": false,
-        "score": 75
+        "score": 100
       }
     ],
     "latestEmbed": 1704431330211
@@ -5563,23 +5680,23 @@
         "type": "publish",
         "timestamp": 1704483143666,
         "locked": false,
-        "score": 160
+        "score": 180
       }
     ],
     "latestEmbed": 1704483143666
   },
   {
     "title": "Chatty",
-    "version": "2.2",
+    "version": "2.3",
     "_object": {
       "title": "Chatty",
-      "description": "Hidden chat - cross-room, cross-hotel\n(Chatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md#terms-of-use)",
+      "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
       "authors": [
         {
           "name": "Gitosaur"
         }
       ],
-      "version": "2.2",
+      "version": "2.3",
       "categories": [
         "Usability",
         "Fun",
@@ -5618,7 +5735,7 @@
         ]
       },
       "submissionDate": "24-01-2024 21:45:00",
-      "updateDate": "02-02-2024 21:09:00",
+      "updateDate": "21-03-2024 22:08:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5631,13 +5748,23 @@
         "timestamp": 1707007735371,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1258537667084292206",
+        "extVersion": "2.3",
+        "type": "update",
+        "timestamp": 1720129162630,
+        "locked": false,
+        "score": 50
       }
     ],
-    "latestEmbed": 1707007735371
+    "latestEmbed": 1720129162630
   },
   {
     "title": "RoomLogger",
-    "version": "1.1",
+    "version": "1.3.4",
     "_object": {
       "title": "RoomLogger",
       "description": "The Best RoomLogger !\n\nLog Chats, Whispers, User Actions, User Stepping in certain locations...\nAnd all can be integrated with Discord!",
@@ -5646,10 +5773,10 @@
           "name": "Thauan",
           "hotel": ".com.br",
           "username": "Erotico",
-          "discord": "thauan0x"
+          "discord": "thauanvargas"
         }
       ],
-      "version": "1.1",
+      "version": "1.3.4",
       "categories": [
         "Usability",
         "Fun"
@@ -5683,11 +5810,12 @@
           "Mac"
         ],
         "clients": [
-          "Flash"
+          "Flash",
+          "Origins"
         ]
       },
       "submissionDate": "07-02-2024 15:40:00",
-      "updateDate": "16-02-2024 16:16:00",
+      "updateDate": "22-06-2024 22:26:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5699,7 +5827,7 @@
         "type": "publish",
         "timestamp": 1707705177877,
         "locked": false,
-        "score": 80
+        "score": 100
       },
       {
         "channelId": "878094299403788330",
@@ -5709,9 +5837,2348 @@
         "type": "update",
         "timestamp": 1708356688818,
         "locked": false,
+        "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1255292503205085214",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1719355455334,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1265301758037725237",
+        "extVersion": "1.3.4",
+        "type": "update",
+        "timestamp": 1721741847662,
+        "locked": false,
+        "score": 75
+      }
+    ],
+    "latestEmbed": 1721741847662
+  },
+  {
+    "title": "Habbo Scanner",
+    "version": "3.2.2",
+    "_object": {
+      "title": "Habbo Scanner",
+      "description": "Habbo Scanner is a tool that extracts data from Habbo and saves it to a MySQL database. It archives details about furniture (furni), users, pets, and bots seen in Habbo rooms, creating a rich dataset for analysis and insight. \\n Follow our wiki to set up the extension: https://github.com/slogga-dev/Habbo-Scanner/wiki/Installation-Guide",
+      "authors": [
+        {
+          "name": "Jason",
+          "hotel": ".it",
+          "username": "Jason"
+        },
+        {
+          "name": ".Lenin",
+          "hotel": ".it",
+          "username": ".Lenin"
+        },
+        {
+          "name": "shokato",
+          "hotel": ".it",
+          "username": "shokato"
+        },
+        {
+          "name": "dha",
+          "hotel": ".it",
+          "username": "dha"
+        },
+        {
+          "name": ",Homy",
+          "hotel": ".it",
+          "username": ",Homy"
+        },
+        {
+          "name": "Dolce95",
+          "hotel": ".it",
+          "username": "Dolce95"
+        }
+      ],
+      "version": "3.2.2",
+      "categories": [
+        "G-Earth Utilities",
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/slogga-dev/Habbo-Scanner",
+      "readme": "https://github.com/slogga-dev/Habbo-Scanner/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "habbo-scanner.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash",
+          "Nitro"
+        ]
+      },
+      "submissionDate": "15-05-2024 00:30:00",
+      "updateDate": "19-05-2024 12:33:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1241522130504519721",
+        "extVersion": "3.2.0",
+        "type": "publish",
+        "timestamp": 1716072342590,
+        "locked": false,
+        "score": 180
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1241696572920692846",
+        "extVersion": "3.2.1",
+        "type": "update",
+        "timestamp": 1716113932869,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1241704860534046810",
+        "extVersion": "3.2.2",
+        "type": "update",
+        "timestamp": 1716115908741,
+        "locked": false,
         "score": 0
       }
     ],
-    "latestEmbed": 1708356688818
+    "latestEmbed": 1716072342590
+  },
+  {
+    "title": "G-AutoLikeRooms",
+    "version": "1.0.0",
+    "_object": {
+      "title": "G-AutoLikeRooms",
+      "description": "Automatically give a like in all rooms you visit.",
+      "authors": [
+        {
+          "name": "Alynva",
+          "hotel": ".com.br",
+          "username": "alynva",
+          "discord": "alynva",
+          "twitter": "Alynva"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/Alynva/G-AutoLikeRooms",
+      "readme": "https://github.com/Alynva/G-AutoLikeRooms/blob/main/README.md",
+      "releases": "https://github.com/Alynva/G-AutoLikeRooms/releases",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.15"
+      },
+      "language": "ts-node",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "09-06-2024 14:00:00",
+      "updateDate": "09-06-2024 14:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1255292501015924888",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1719355454868,
+        "locked": false,
+        "score": 100
+      }
+    ],
+    "latestEmbed": 1719355454868
+  },
+  {
+    "title": "Talk To Shout Origins",
+    "version": "1.2",
+    "_object": {
+      "title": "Talk To Shout Origins",
+      "description": "Talk to shout, Shout to Talk, switch the functions with eachother",
+      "authors": [
+        {
+          "name": "Eduard",
+          "hotel": ".com",
+          "username": "3duard",
+          "discord": "@eduard"
+        },
+        {
+          "name": "b7"
+        }
+      ],
+      "version": "1.2",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/Edaurd/TalkToShout/",
+      "readme": "https://github.com/Edaurd/TalkToShout/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.4.0"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "TalkToShout-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "TalkToShout-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "TalkToShout-mac",
+          "&&",
+          "./TalkToShout-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "TalkToShout-linux",
+          "&&",
+          "./TalkToShout-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "26-06-2024 02:40:00",
+      "updateDate": "15-09-2024 02:40:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1255332309788393482",
+        "extVersion": "1.0.1",
+        "type": "publish",
+        "timestamp": 1719364946004,
+        "locked": false,
+        "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1257128082733797457",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1719793091624,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1257494343879626772",
+        "extVersion": "1.1.1",
+        "type": "update",
+        "timestamp": 1719880415137,
+        "locked": false,
+        "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1300783114867445790",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1730201262348,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1730201262348
+  },
+  {
+    "title": "StickiesArt",
+    "version": "1.7",
+    "_object": {
+      "title": "StickiesArt",
+      "description": "Write letters or phrases with stickies in your room or rooms where you have permission",
+      "authors": [
+        {
+          "name": "DanielaNaomi"
+        }
+      ],
+      "version": "1.7",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/DanielaNaomi/StickiesArt",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "StickiesArt.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "30-06-2024 19:50:10",
+      "updateDate": "07-07-2024 23:19:10",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1257144481619382332",
+        "extVersion": "1.4",
+        "type": "publish",
+        "timestamp": 1719797001615,
+        "locked": false,
+        "score": 260
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1258702285152845897",
+        "extVersion": "1.5",
+        "type": "update",
+        "timestamp": 1720168410665,
+        "locked": false,
+        "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259189192551043174",
+        "extVersion": "1.6",
+        "type": "update",
+        "timestamp": 1720284498940,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259825689163595788",
+        "extVersion": "1.7",
+        "type": "update",
+        "timestamp": 1720436251150,
+        "locked": false,
+        "score": 50
+      }
+    ],
+    "latestEmbed": 1720436251150
+  },
+  {
+    "title": "G-Trader",
+    "version": "0.5.1",
+    "_object": {
+      "title": "G-Trader",
+      "description": "Adds useful commands for trading and inventory management in Habbo Origins\n:trade [amount] Automatically adds multiple items to the trade\n:count Count items in your hand\n:countroom Count items in the room\n:viewtrade View trade info",
+      "authors": [
+        {
+          "name": "0xb0bba",
+          "discord": "disciplined"
+        }
+      ],
+      "version": "0.5.1",
+      "categories": [
+        "Usability",
+        "Trading"
+      ],
+      "source": "https://github.com/0xb0bba/G-Trader/",
+      "readme": "https://github.com/0xb0bba/G-Trader/blob/main/README.md",
+      "releases": "https://github.com/0xb0bba/G-Trader/releases",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "g-trader-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "g-trader-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "g-trader-mac",
+          "&&",
+          "./g-trader-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "g-trader-linux",
+          "&&",
+          "./g-trader-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "03-07-2024 16:00:00",
+      "updateDate": "13-07-2024 16:30:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1258099739224703019",
+        "extVersion": "0.1.1",
+        "type": "publish",
+        "timestamp": 1720024752567,
+        "locked": false,
+        "score": 240
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259028690801791006",
+        "extVersion": "0.2.1",
+        "type": "update",
+        "timestamp": 1720246231923,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259189191024316470",
+        "extVersion": "0.3.0",
+        "type": "update",
+        "timestamp": 1720284498042,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259526218827436042",
+        "extVersion": "0.4.0",
+        "type": "update",
+        "timestamp": 1720364851616,
+        "locked": false,
+        "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260959113093845093",
+        "extVersion": "0.5.0",
+        "type": "update",
+        "timestamp": 1720706480295,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1261703908221517897",
+        "extVersion": "0.5.1",
+        "type": "update",
+        "timestamp": 1720884053502,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1720706480295
+  },
+  {
+    "title": "fastbuy",
+    "version": "1.1",
+    "_object": {
+      "title": "fastbuy",
+      "description": "An extension to purchase items in bulk from the store.",
+      "authors": [
+        {
+          "name": "chirp24",
+          "hotel": ".com",
+          "username": "chirp",
+          "discord": "@p1nk_axoloti"
+        }
+      ],
+      "version": "1.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/chirp24/fastbuy/",
+      "readme": "https://github.com/chirp24/fastbuy/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "fastbuy-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "fastbuy-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "fastbuy-mac",
+          "&&",
+          "./fastbuy-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "fastbuy-linux",
+          "&&",
+          "./fastbuy-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "06-07-2024 09:00:00",
+      "updateDate": "19-07-2024 18:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259189189170429972",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720284497640,
+        "locked": false,
+        "score": 160
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1264428497871306804",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1721533646157,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1721533646157
+  },
+  {
+    "title": "easydice",
+    "version": "1.7",
+    "_object": {
+      "title": "easydice",
+      "description": "Use :setup. Then :roll, :close, and :tri.",
+      "authors": [
+        {
+          "name": "chirp24",
+          "hotel": ".com",
+          "username": "chirp",
+          "discord": "@p1nk_axoloti"
+        }
+      ],
+      "version": "1.7",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/chirp24/easydice/tree/main",
+      "readme": "https://github.com/chirp24/easydice/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "easydice-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "easydice-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "easydice-mac",
+          "&&",
+          "./fastbuy-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "easydice-linux",
+          "&&",
+          "./fastbuy-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "07-07-2024 07:00:00",
+      "updateDate": "21-07-2024 15:50:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259462479168405646",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720349654965,
+        "locked": false,
+        "score": 120
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259629836981506222",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1720389556388,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259651262157164586",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1720394664550,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259668561170010235",
+        "extVersion": "1.3",
+        "type": "update",
+        "timestamp": 1720398788892,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1264428496030142476",
+        "extVersion": "1.5",
+        "type": "update",
+        "timestamp": 1721533645791,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1264530054105534535",
+        "extVersion": "1.6",
+        "type": "update",
+        "timestamp": 1721557858975,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1265102785117028426",
+        "extVersion": "1.7",
+        "type": "update",
+        "timestamp": 1721694408908,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1721533645791
+  },
+  {
+    "title": "G-WallMover",
+    "version": "1.4",
+    "_object": {
+      "title": "G-WallMover",
+      "description": "Lets you Move fast Wall Items in Origin by scrolling with your Mousewheel",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.4",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/QDaves/G-WallMover",
+      "readme": "https://github.com/QDaves/G-WallMover/blob/master/README.md",
+      "releases": "https://github.com/QDaves/G-WallMover/releases",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "G-WallMover-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "G-WallMover-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "06-07-2024 23:45:00",
+      "updateDate": "13-07-2024 23:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1259463114059944087",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720349806375,
+        "locked": false,
+        "score": 320
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260351649113968682",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1720561649733,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260959114755047465",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1720706480733,
+        "locked": false,
+        "score": 125
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1261803718676844667",
+        "extVersion": "1.4",
+        "type": "update",
+        "timestamp": 1720907850053,
+        "locked": false,
+        "score": 50
+      }
+    ],
+    "latestEmbed": 1720706480733
+  },
+  {
+    "title": "G-itemViewer",
+    "version": "1.9.0",
+    "_object": {
+      "title": "G-itemViewer",
+      "description": "A Habbo-styled GUI used to view, pick-up and trade items! NOTE: Sends data to a publically accessible API if opted-in (https://gitemviewer.fly.dev/scans/USERPROFILE)",
+      "authors": [
+        {
+          "name": "madlad"
+        }
+      ],
+      "version": "1.9.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/bolognesandwiches/G-Inventory-Viewer/tree/master",
+      "readme": "https://github.com/bolognesandwiches/G-Inventory-Viewer/blob/master/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "G-itemViewer.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "G-itemViewer.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "G-itemViewer-mac",
+          "&&",
+          "./G-itemViewwer-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "09-07-2024 12:47:00",
+      "updateDate": "05-08-2024 21:12:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260232849382965281",
+        "extVersion": "0.1.0",
+        "type": "publish",
+        "timestamp": 1720533325581,
+        "locked": false,
+        "score": 220
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260375830912172097",
+        "extVersion": "0.1.1",
+        "type": "update",
+        "timestamp": 1720567415158,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260385977319297125",
+        "extVersion": "0.1.2",
+        "type": "update",
+        "timestamp": 1720569834190,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260552072722513951",
+        "extVersion": "0.1.3",
+        "type": "update",
+        "timestamp": 1720609434366,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260590264913891455",
+        "extVersion": "0.1.4",
+        "type": "update",
+        "timestamp": 1720618540120,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1261158769136631808",
+        "extVersion": "0.2.0",
+        "type": "update",
+        "timestamp": 1720754081982,
+        "locked": false,
+        "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1261841981827580019",
+        "extVersion": "0.3.0",
+        "type": "update",
+        "timestamp": 1720916972768,
+        "locked": false,
+        "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1262109826767519870",
+        "extVersion": "0.4.0",
+        "type": "update",
+        "timestamp": 1720980831923,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1262378037924593758",
+        "extVersion": "0.5.1",
+        "type": "update",
+        "timestamp": 1721044778353,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1262736654591066212",
+        "extVersion": "0.6.0",
+        "type": "update",
+        "timestamp": 1721130279213,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1263442838679584841",
+        "extVersion": "1.0.0",
+        "type": "update",
+        "timestamp": 1721298646700,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1263485547184128090",
+        "extVersion": "1.1.0",
+        "type": "update",
+        "timestamp": 1721308829208,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1264429188031451300",
+        "extVersion": "1.3.0",
+        "type": "update",
+        "timestamp": 1721533810764,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1265294299407581185",
+        "extVersion": "1.5.0",
+        "type": "update",
+        "timestamp": 1721740069301,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1265764334449983641",
+        "extVersion": "1.6.0",
+        "type": "update",
+        "timestamp": 1721852134445,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1265864079226966020",
+        "extVersion": "1.7.0",
+        "type": "update",
+        "timestamp": 1721875915606,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1266918996616286209",
+        "extVersion": "1.7.1",
+        "type": "update",
+        "timestamp": 1722127427504,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1267290185163473011",
+        "extVersion": "1.8.0",
+        "type": "update",
+        "timestamp": 1722215925761,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1270114906154471504",
+        "extVersion": "1.9.0",
+        "type": "update",
+        "timestamp": 1722889391454,
+        "locked": false,
+        "score": 100
+      }
+    ],
+    "latestEmbed": 1722889391454
+  },
+  {
+    "title": "Quick Pickup Utils",
+    "version": "1.0.0",
+    "_object": {
+      "title": "Quick Pickup Utils",
+      "description": "Chat commands to quickly pickup items in your Habbo flat\n\nCommands:\n- :pickup <wall | floor> <amount>\n- :pickup <item_name> <amount>\n\nExamples:\n- :pickup wall 10\n- :pickup rare_daffodil_rug 5",
+      "authors": [
+        {
+          "name": "SimonFlapse",
+          "username": "PolarBear",
+          "discord": "simonflapse"
+        },
+        {
+          "name": "Hotel",
+          "username": "Hotel",
+          "discord": "jouster"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Building",
+        "Usability"
+      ],
+      "source": "https://github.com/SimonFlapse/QuickPickupUtils",
+      "readme": "https://github.com/SimonFlapse/QuickPickupUtils/blob/main/README.md",
+      "releases": "https://github.com/SimonFlapse/QuickPickupUtils/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.4-beta-6"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "quick-pickup-utils-1.0.0.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "09-07-2024 23:10:00",
+      "updateDate": "09-07-2024 23:10:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260609987621687380",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1720623242336,
+        "locked": false,
+        "score": 260
+      }
+    ],
+    "latestEmbed": 1720623242336
+  },
+  {
+    "title": "Poker",
+    "version": "1.3.1",
+    "_object": {
+      "title": "Poker",
+      "description": "An extension for managing, rolling, and resetting dice with automated poker hand evaluation and game interaction.",
+      "authors": [
+        {
+          "name": "Nanobyte",
+          "hotel": ".com",
+          "username": "Nanobyte",
+          "discord": "@boyd9037"
+        }
+      ],
+      "version": "1.3.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/boydmeyer/poker/tree/main",
+      "readme": "https://github.com/boydmeyer/poker/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "poker-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "poker-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "poker-mac",
+          "&&",
+          "./poker-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "poker-linux",
+          "&&",
+          "./poker-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "10-07-2024 23:30:00",
+      "updateDate": "26-07-2024 17:30:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1260959735385948211",
+        "extVersion": "1.1",
+        "type": "publish",
+        "timestamp": 1720706628790,
+        "locked": false,
+        "score": 160
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1265727113948958782",
+        "extVersion": "1.2",
+        "type": "update",
+        "timestamp": 1721843260415,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1266257837366186005",
+        "extVersion": "1.3",
+        "type": "update",
+        "timestamp": 1721969794599,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1266484732275986575",
+        "extVersion": "1.3.1",
+        "type": "update",
+        "timestamp": 1722023890795,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1721843260415
+  },
+  {
+    "title": "autogarland",
+    "version": "1.1",
+    "_object": {
+      "title": "autogarland",
+      "description": "An extension to automatically outline your room using garlands.",
+      "authors": [
+        {
+          "name": "chirp24",
+          "hotel": ".com",
+          "username": "chirp",
+          "discord": "@p1nk_axoloti"
+        }
+      ],
+      "version": "1.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/chirp24/autogarland/tree/main",
+      "readme": "https://github.com/chirp24/autogarland/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.6"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "autogarland-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "autogarland-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "autogarland-mac",
+          "&&",
+          "./fastbuy-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "autogarland-linux",
+          "&&",
+          "./fastbuy-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "14-07-2024 03:22:00",
+      "updateDate": "14-07-2024 17:50:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1262079581872062707",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1720973621025,
+        "locked": false,
+        "score": 120
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1262170259910037585",
+        "extVersion": "1.1",
+        "type": "update",
+        "timestamp": 1720995240354,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1720973621025
+  },
+  {
+    "title": "Shoutify",
+    "version": "1.0.0",
+    "_object": {
+      "title": "Shoutify",
+      "description": "The ultimate chat extension that transforms all your say-chats into shouts!",
+      "authors": [
+        {
+          "name": "Nanobyte",
+          "hotel": ".com",
+          "username": "Nanobyte",
+          "discord": "@boyd9037"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/boydmeyer/shoutify/tree/main",
+      "readme": "https://github.com/boydmeyer/shoutify/blob/main/README.MD",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "shoutify-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "shoutify-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "chmod",
+          "+x",
+          "shoutify-mac",
+          "&&",
+          "./shoutify-mac",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "linux": [
+          "chmod",
+          "+x",
+          "shoutify-linux",
+          "&&",
+          "./shoutify-linux",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "27-07-2024 18:00:00",
+      "updateDate": "27-07-2024 18:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1266792420427698351",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1722097249214,
+        "locked": false,
+        "score": 60
+      }
+    ],
+    "latestEmbed": 1722097249214
+  },
+  {
+    "title": "Autotyper",
+    "version": "2.0.0",
+    "_object": {
+      "title": "Autotyper",
+      "description": "The AutoTyper app features an intuitive, easy-to-use interface that simplifies repetitive messaging by automatically sending predefined messages at customizable intervals.",
+      "authors": [
+        {
+          "name": "Nanobyte",
+          "hotel": ".com",
+          "username": "Nanobyte",
+          "discord": "@codemeneer"
+        }
+      ],
+      "version": "2.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/boydmeyer/autotyper/tree/main",
+      "readme": "https://github.com/boydmeyer/autotyper/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.2.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "autotyper-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "autotyper-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "27-07-2024 22:00:00",
+      "updateDate": "23-08-2024 15:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1267081096521322598",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1722166075084,
+        "locked": false,
+        "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1279065279741300770",
+        "extVersion": "2.0.0",
+        "type": "update",
+        "timestamp": 1725023326877,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1725023326877
+  },
+  {
+    "title": "GptReply",
+    "version": "1.0",
+    "_object": {
+      "title": "GptReply",
+      "description": "GPT Reply lets you reply to other people with Claude or ChatGPT in Origins.\n(This Extension sends data such as your Username and Chatlogs to thirdparty APIS from Openai/Claude)",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Fun"
+      ],
+      "source": "https://github.com/QDaves/GPTReply",
+      "readme": "https://github.com/QDaves/GPTReply/blob/main/README.md",
+      "releases": "https://github.com/QDaves/GPTReply/releases",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.3.3"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "GPT Reply-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          ">nul",
+          "2>&1"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "GPT Reply-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          ">nul",
+          "2>&1"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "29-07-2024 00:36:00",
+      "updateDate": "29-07-2024 00:36:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1267553762579316905",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1722278767504,
+        "locked": false,
+        "score": 180
+      }
+    ],
+    "latestEmbed": 1722278767504
+  },
+  {
+    "title": "[AIO] Gamba Suite",
+    "version": "2.0.0",
+    "_object": {
+      "title": "[AIO] Gamba Suite",
+      "description": "Pkr, 13/21 and Tri dice automated rolling and resetting with in-chat hand evaluation. The all-in-one dice management extension.",
+      "authors": [
+        {
+          "name": "JTD",
+          "hotel": ".com",
+          "username": "JTD",
+          "discord": "jtd420"
+        }
+      ],
+      "version": "2.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/JTD420/Gamba-Suite/tree/main",
+      "readme": "https://github.com/JTD420/Gamba-Suite/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.3.5"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "Gamba-Suite-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "Gamba-Suite-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "29-08-2024 23:55:00",
+      "updateDate": "02-09-2024 01:23:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1279067715214114866",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1725023907531,
+        "locked": false,
+        "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1280608100969222277",
+        "extVersion": "2.0.0",
+        "type": "update",
+        "timestamp": 1725391164219,
+        "locked": false,
+        "score": 225
+      }
+    ],
+    "latestEmbed": 1725391164219
+  },
+  {
+    "title": "Trade Tracker",
+    "version": "2.0",
+    "_object": {
+      "title": "Trade Tracker",
+      "description": "Automates the process to track your profits and losts in trading.\nCurrent extension is integrated with API tsarcade.com\nIMPORTANT: This extension shares with the webapp legacyhabbo.me the following data of your Habbo\n- Your Username\n-The Server you are playing at (com, es, br)\n- Your Trades (items, quantities, who you traded with)\nIf you want your data deleted, please contact me through discord (thauan0x).",
+      "authors": [
+        {
+          "name": "Erotico",
+          "discord": "thauan0x"
+        }
+      ],
+      "version": "2.0",
+      "categories": [
+        "Usability",
+        "Trading"
+      ],
+      "source": "https://github.com/thauanvargas/arcade-tracker/",
+      "readme": "https://github.com/thauanvargas/arcade-tracker/blob/master/README.md",
+      "releases": "https://github.com/thauanvargas/arcade-tracker/releases",
+      "stable": true,
+      "framework": {
+        "name": "GoEarth",
+        "version": "0.4.0"
+      },
+      "language": "Go",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "arcade-tracker.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "arcade-tracker-win.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ],
+        "mac": [
+          "/bin/sh",
+          "-c",
+          "chmod +x arcade-tracker-mac && ./arcade-tracker-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+          "--",
+          "{port}",
+          "{cookie}",
+          "{filename}"
+        ],
+        "linux": [
+          "/bin/sh",
+          "-c",
+          "chmod +x arcade-tracker-linux && ./arcade-tracker-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+          "--",
+          "{port}",
+          "{cookie}",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Mac",
+          "Linux"
+        ],
+        "clients": [
+          "Origins"
+        ]
+      },
+      "submissionDate": "24-10-2024 10:00:00",
+      "updateDate": "13-12-2024 09:30:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1302285074284281938",
+        "extVersion": "1.1",
+        "type": "publish",
+        "timestamp": 1730559357389,
+        "locked": false,
+        "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1317066360802512987",
+        "extVersion": "2.0",
+        "type": "update",
+        "timestamp": 1734083490755,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1734083490755
+  },
+  {
+    "title": "Q-Wired-Page",
+    "version": "1.0",
+    "_object": {
+      "title": "Q-Wired-Page",
+      "description": "Removes the parent variable menu item and adds the children to the Wired menu.",
+      "authors": [
+        {
+          "name": "MrGeneralQ",
+          "hotel": ".nl",
+          "username": "MrGeneralQ",
+          "discord": "mrgeneralq"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/mrgeneralq/Q-wired-page",
+      "readme": "https://github.com/mrgeneralq/Q-wired-page/blob/main/README.md",
+      "releases": "https://github.com/mrgeneralq/Q-wired-page/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "QWiredPage.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "23-01-2025 17:30:00",
+      "updateDate": "23-01-2025 17:30:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1332029498404896929",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1737650980698,
+        "locked": false,
+        "score": 140
+      }
+    ],
+    "latestEmbed": 1737650980698
+  },
+  {
+    "title": "Robosort",
+    "version": "1.1.1",
+    "_object": {
+      "title": "Robosort",
+      "description": "Sort your wired stacks (automatically).",
+      "authors": [
+        {
+          "name": "Roboroads",
+          "hotel": ".nl",
+          "username": "Roboroads",
+          "discord": "roboroads",
+          "twitter": "RoboroadsHabbo"
+        }
+      ],
+      "version": "1.1.1",
+      "categories": [
+        "Building"
+      ],
+      "source": "https://github.com/Roboroads/Robosort",
+      "readme": "https://github.com/Roboroads/Robosort/blob/main/README.md",
+      "releases": "https://github.com/Roboroads/Robosort/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.4-beta-10"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "Robosort.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "27-02-2025 22:57:25",
+      "updateDate": "11-03-2025 12:35:34",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1345002385826779186",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1740743958165,
+        "locked": false,
+        "score": 120
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1345069194122629220",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1740759886432,
+        "locked": false,
+        "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1346658491682783303",
+        "extVersion": "1.1.0",
+        "type": "update",
+        "timestamp": 1741138804635,
+        "locked": false,
+        "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1349039377602314362",
+        "extVersion": "1.1.1",
+        "type": "update",
+        "timestamp": 1741706451977,
+        "locked": false,
+        "score": 75
+      }
+    ],
+    "latestEmbed": 1741706451977
+  },
+  {
+    "title": "G-Midi",
+    "version": "1.0",
+    "_object": {
+      "title": "G-Midi",
+      "description": "Play .midi files on 37-key pianos \n\nAutomatically plays piano notes from the uploaded MIDI file",
+      "authors": [
+        {
+          "name": "-Yıldırım",
+          "hotel": ".com.tr",
+          "username": "-Yıldırım",
+          "discord": "yildirimmmmmm",
+          "twitter": "HabboYildirim"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/yildirimmmm/G-Midi",
+      "readme": "https://github.com/yildirimmmm/G-Midi#readme",
+      "stable": true,
+      "framework": {
+        "name": "G-Node",
+        "version": "0.2.18"
+      },
+      "language": "Node.js",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "NodeExtensionSetup.jar",
+          "-npm",
+          "start",
+          "-v",
+          "15.0.0",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Linux",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "21-03-2025 21:58:00",
+      "updateDate": "21-03-2025 21:58:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1353074709322797139",
+        "extVersion": "1.0",
+        "type": "publish",
+        "timestamp": 1742668550168,
+        "locked": false,
+        "score": 180
+      }
+    ],
+    "latestEmbed": 1742668550168
+  },
+  {
+    "title": "CDHelper",
+    "version": "1.0",
+    "_object": {
+      "title": "CDHelper",
+      "description": "A handy G-Earth extension that adds useful tools to manage your CDs in-game!",
+      "authors": [
+        {
+          "name": "jonny7k",
+          "hotel": ".com.br",
+          "discord": "jonny_7k"
+        }
+      ],
+      "version": "1.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/jonnymariani/cdhelper",
+      "readme": "https://github.com/jonnymariani/cdhelper/blob/main/README.md",
+      "releases": "https://github.com/jonnymariani/cdhelper/releases",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "CDHelper.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "26-04-2025 00:00:00",
+      "updateDate": "09-05-2025 23:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1366446472060735549",
+        "extVersion": "0.1",
+        "type": "publish",
+        "timestamp": 1745856626605,
+        "locked": false,
+        "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1370635483587018824",
+        "extVersion": "1.0",
+        "type": "update",
+        "timestamp": 1746855364824,
+        "locked": false,
+        "score": 25
+      }
+    ],
+    "latestEmbed": 1746855364824
   }
 ]

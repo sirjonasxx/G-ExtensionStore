@@ -1,0 +1,41 @@
+{
+  "title": "fastbuy",
+  "description": "An extension to purchase items in bulk from the store.",
+  "authors": [
+    {
+      "name": "chirp24",
+      "hotel": ".com",
+      "username": "chirp",
+      "discord": "@p1nk_axoloti"
+    }
+  ],
+  "version": "1.1",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/chirp24/fastbuy/",
+  "readme": "https://github.com/chirp24/fastbuy/blob/main/README.md",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "fastbuy-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "fastbuy-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x fastbuy-mac && ./fastbuy-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x fastbuy-linux && ./fastbuy-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "06-07-2024 09:00:00",
+  "updateDate": "19-07-2024 18:00:00",
+  "isOutdated": false
+}

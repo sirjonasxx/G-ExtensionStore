@@ -107,6 +107,17 @@
         "required": false,
         "instructions": null
       }
+    },
+    {
+      "name": "GoEarth",
+      "description": "Go extension API for G-Earth",
+      "developers": ["b7c"],
+      "languages": ["Go"],
+      "source": "https://github.com/xabbo/goearth",
+      "installation": {
+        "required": false,
+        "instructions": null
+      }
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "title": "G-AutoLikeRooms",
+  "description": "Automatically give a like in all rooms you visit.",
+  "authors": [{
+    "name": "Alynva",
+    "hotel": ".com.br",
+    "username": "alynva",
+    "discord": "alynva",
+    "twitter": "Alynva"
+  }],
+  "version": "1.0.0",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/Alynva/G-AutoLikeRooms",
+  "readme": "https://github.com/Alynva/G-AutoLikeRooms/blob/main/README.md",
+  "releases": "https://github.com/Alynva/G-AutoLikeRooms/releases",
+
+  "stable": true,
+
+  "framework": {
+    "name": "G-Node",
+    "version": "0.2.15"
+  },
+
+  "language": "ts-node",
+  "commands": {
+    "default": ["java", "-jar", "NodeExtensionSetup.jar", "-npm", "start", "-v", "15.0.0", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Flash"]
+  },
+
+  "submissionDate": "09-06-2024 14:00:00",
+  "updateDate": "09-06-2024 14:00:00",
+
+  "isOutdated": false
+}

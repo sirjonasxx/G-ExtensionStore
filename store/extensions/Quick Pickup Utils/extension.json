@@ -1,0 +1,43 @@
+{
+  "title": "Quick Pickup Utils",
+  "description": "Chat commands to quickly pickup items in your Habbo flat\n\nCommands:\n- :pickup <wall | floor> <amount>\n- :pickup <item_name> <amount>\n\nExamples:\n- :pickup wall 10\n- :pickup rare_daffodil_rug 5",
+  "authors": [
+    {
+      "name": "SimonFlapse",
+      "username": "PolarBear",
+      "discord": "simonflapse"
+    },
+    {
+      "name": "Hotel",
+      "username": "Hotel",
+      "discord": "jouster"
+    }
+  ],
+  "version": "1.0.0",
+  "categories": ["Building", "Usability"],
+
+  "source": "https://github.com/SimonFlapse/QuickPickupUtils",
+  "readme": "https://github.com/SimonFlapse/QuickPickupUtils/blob/main/README.md",
+  "releases": "https://github.com/SimonFlapse/QuickPickupUtils/releases",
+
+  "stable": true,
+
+  "framework": {
+    "name": "Native",
+    "version": "1.5.4-beta-6"
+  },
+
+  "language": "Java",
+  "commands": {
+    "default": ["java", "-jar", "quick-pickup-utils-1.0.0.jar", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+
+  "compatibility": {
+    "systems": ["Linux", "Windows", "Mac"],
+    "clients": ["Origins"]
+  },
+
+  "submissionDate": "09-07-2024 23:10:00",
+  "updateDate": "09-07-2024 23:10:00",
+  "isOutdated": false
+}

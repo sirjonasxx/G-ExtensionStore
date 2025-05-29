@@ -8,7 +8,7 @@ const {readdirSync} = require("fs");
 const extensions = extensionConfigs();
 const countryCodes = new Set([".com.br", ".de", ".nl", ".es", ".fi", ".fr", ".it", ".com.tr", ".com"]);
 const OSes = new Set(["Linux", "Windows", "Mac"]);
-const clients = new Set(["Unity", "Flash", "Nitro"]);
+const clients = new Set(["Unity", "Flash", "Nitro", "Origins"]);
 const allCategories = new Set(extension_configTest.categories.map(c => c.name));
 const frameworks = new Map(extension_configTest.frameworks.map((f) => [f.name, {... f, languages: new Set(f.languages)}]));
 

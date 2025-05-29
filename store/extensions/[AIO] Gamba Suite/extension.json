@@ -1,0 +1,59 @@
+{
+  "title": "[AIO] Gamba Suite",
+  "description": "Pkr, 13/21 and Tri dice automated rolling and resetting with in-chat hand evaluation. The all-in-one dice management extension.",
+  "authors": [
+    {
+      "name": "JTD",
+      "hotel": ".com",
+      "username": "JTD",
+      "discord": "jtd420"
+    }
+  ],
+  "version": "2.0.0",
+  "categories": ["Usability"],
+
+  "source": "https://github.com/JTD420/Gamba-Suite/tree/main",
+  "readme": "https://github.com/JTD420/Gamba-Suite/blob/main/README.md",
+
+  "stable": true,
+
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.3.5"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": [
+      "cmd",
+      "/C",
+      "Gamba-Suite-win.exe",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ],
+    "windows": [
+      "cmd",
+      "/C",
+      "Gamba-Suite-win.exe",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ]
+  },
+
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Origins"]
+  },
+
+  "submissionDate": "29-08-2024 23:55:00",
+  "updateDate": "02-09-2024 01:23:00",
+  "isOutdated": false
+}

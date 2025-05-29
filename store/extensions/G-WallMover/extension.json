@@ -1,0 +1,38 @@
+{
+    "title": "G-WallMover",
+    "description": "Lets you Move fast Wall Items in Origin by scrolling with your Mousewheel",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave"
+      }
+    ],
+    "version": "1.4",
+    "categories": ["Usability"],
+    
+    "source": "https://github.com/QDaves/G-WallMover",
+    "readme": "https://github.com/QDaves/G-WallMover/blob/master/README.md",
+    "releases": "https://github.com/QDaves/G-WallMover/releases",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.2.3"
+    },
+  
+    "language": "Go",
+    "commands": {
+      "default": ["cmd", "/C", "G-WallMover-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+      "windows": ["cmd", "/C", "G-WallMover-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Windows"],
+        "clients": ["Origins"]
+    },
+  
+    "submissionDate": "06-07-2024 23:45:00",
+    "updateDate": "13-07-2024 23:00:00",
+    "isOutdated": false
+  }
