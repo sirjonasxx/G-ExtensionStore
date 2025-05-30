@@ -5687,7 +5687,7 @@
   },
   {
     "title": "Chatty",
-    "version": "2.3",
+    "version": "2.3.1",
     "_object": {
       "title": "Chatty",
       "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
@@ -5696,7 +5696,7 @@
           "name": "Gitosaur"
         }
       ],
-      "version": "2.3",
+      "version": "2.3.1",
       "categories": [
         "Usability",
         "Fun",
@@ -5735,7 +5735,7 @@
         ]
       },
       "submissionDate": "24-01-2024 21:45:00",
-      "updateDate": "21-03-2024 22:08:00",
+      "updateDate": "30-05-2025 00:39:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -5758,9 +5758,19 @@
         "timestamp": 1720129162630,
         "locked": false,
         "score": 50
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1377902700972212233",
+        "extVersion": "2.3.1",
+        "type": "update",
+        "timestamp": 1748588004604,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1720129162630
+    "latestEmbed": 1748588004604
   },
   {
     "title": "RoomLogger",
