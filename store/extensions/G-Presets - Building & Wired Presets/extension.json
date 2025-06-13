@@ -18,7 +18,7 @@
     "username": "WiredSpast",
     "discord": "wiredspast"
   }],
-  "version": "1.2.4",
+  "version": "1.2.5",
   "categories": ["Building", "Usability"],
 
   "source": "https://github.com/sirjonasxx/G-Presets",
@@ -43,7 +43,7 @@
   },
 
   "submissionDate": "19-09-2021 23:54:00",
-  "updateDate": "25-05-2025 17:55:00",
+  "updateDate": "13-06-2025 11:27:00",
 
   "isOutdated": false
 }
