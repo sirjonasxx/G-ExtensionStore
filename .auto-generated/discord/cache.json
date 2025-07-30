@@ -3348,7 +3348,7 @@
   },
   {
     "title": "Stack Dropper",
-    "version": "1.2",
+    "version": "1.3",
     "_object": {
       "title": "Stack Dropper",
       "description": "Drop any item from your inventory or the BC catalog into a stack\n\nEnable the extension and then drop any flooritem to start stacking it!\nPut -1 in \"Max item count:\" to drop all the items of that type!",
@@ -3357,11 +3357,11 @@
           "name": "WiredSpast",
           "hotel": ".nl",
           "username": "WiredSpast",
-          "discord": "Jonasss#6660",
+          "discord": "wiredspast",
           "twitter": "WiredSpast"
         }
       ],
-      "version": "1.2",
+      "version": "1.3",
       "categories": [
         "Building",
         "Usability"
@@ -3398,7 +3398,7 @@
         ]
       },
       "submissionDate": "10-01-2022 01:55:34",
-      "updateDate": "17-04-2022 18:58:00",
+      "updateDate": "30-07-2025 11:30:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3431,9 +3431,19 @@
         "timestamp": 1650214885249,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1400048818111647764",
+        "extVersion": "1.3",
+        "type": "update",
+        "timestamp": 1753868050272,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1650043901966
+    "latestEmbed": 1753868050272
   },
   {
     "title": "G-Trigger",
