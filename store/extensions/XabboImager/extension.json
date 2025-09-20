@@ -1,0 +1,22 @@
+{
+  "title": "XabboImager",
+  "description": "Inject pixel art into Habbo Photos",
+  "authors": [
+    { "name": "QDave", "discord": "qdave" }
+  ],
+  "version": "1.0",
+  "categories": ["Usability", "Others"],
+  "source": "https://github.com/QDaves/XabboImager",
+  "readme": "https://github.com/QDaves/XabboImager/blob/main/README.md",
+  "releases": "https://github.com/QDaves/XabboImager/releases",
+  "stable": true,
+  "framework": { "name": "Xabbo", "version": "1.0.0" },
+  "language": "C#",
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Flash"]
+  },
+  "submissionDate": "20-09-2025 00:00:00",
+  "updateDate": "20-09-2025 00:00:00",
+  "isOutdated": false
+}
