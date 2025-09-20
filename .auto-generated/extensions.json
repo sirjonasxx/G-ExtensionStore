@@ -10,7 +10,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "1.0",
@@ -164,18 +164,18 @@
   },
   {
     "title": "Autotyper",
-    "description": "Automatically sends a stored message in chat. To store your message, type ':setmsg {message}', and to send it, simply by saying '!'.",
+    "description": "The AutoTyper app features an intuitive, easy-to-use interface that simplifies repetitive messaging by automatically sending predefined messages at customizable intervals.",
     "authors": [
       {
         "name": "Nanobyte",
         "hotel": ".com",
         "username": "Nanobyte",
-        "discord": "@boyd9037",
+        "discord": "@codemeneer",
         "extensionsCount": 3,
-        "reputation": 320
+        "reputation": 370
       }
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "categories": [
       "Usability"
     ],
@@ -209,48 +209,20 @@
         "{port}",
         "-f",
         "{filename}"
-      ],
-      "mac": [
-        "chmod",
-        "+x",
-        "autotyper-mac",
-        "&&",
-        "./autotyper-mac",
-        "-c",
-        "{cookie}",
-        "-p",
-        "{port}",
-        "-f",
-        "{filename}"
-      ],
-      "linux": [
-        "chmod",
-        "+x",
-        "autotyper-linux",
-        "&&",
-        "./autotyper-linux",
-        "-c",
-        "{cookie}",
-        "-p",
-        "{port}",
-        "-f",
-        "{filename}"
       ]
     },
     "compatibility": {
       "systems": [
-        "Windows",
-        "Mac",
-        "Linux"
+        "Windows"
       ],
       "clients": [
         "Origins"
       ]
     },
     "submissionDate": "27-07-2024 22:00:00",
-    "updateDate": "27-07-2024 22:00:00",
+    "updateDate": "23-08-2024 15:00:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 100
   },
   {
     "title": "BensaFect",
@@ -316,7 +288,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "1.0.1",
@@ -360,16 +332,68 @@
     "rating": 230
   },
   {
+    "title": "CDHelper",
+    "description": "A handy G-Earth extension that adds useful tools to manage your CDs in-game!",
+    "authors": [
+      {
+        "name": "jonny7k",
+        "hotel": ".com.br",
+        "discord": "jonny_7k",
+        "extensionsCount": 1,
+        "reputation": 125
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/jonnymariani/cdhelper",
+    "readme": "https://github.com/jonnymariani/cdhelper/blob/main/README.md",
+    "releases": "https://github.com/jonnymariani/cdhelper/releases",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "CDHelper.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "26-04-2025 00:00:00",
+    "updateDate": "09-05-2025 23:00:00",
+    "isOutdated": false,
+    "rating": 125
+  },
+  {
     "title": "Chatty",
     "description": "Hidden chat - cross-room, cross-hotel\nChatty allows you to exchange end-to-end encrypted messages using the normal Habbo chat, without sending any packets to the Habbo servers.\n\n\nChatty sends data to an external server. The specific data and terms of use are listed here: https://github.com/Gitosaur/Chatty/blob/main/README.md",
     "authors": [
       {
         "name": "Gitosaur",
         "extensionsCount": 1,
-        "reputation": 170
+        "reputation": 180
       }
     ],
-    "version": "2.3",
+    "version": "2.3.1",
     "categories": [
       "Usability",
       "Fun",
@@ -408,9 +432,9 @@
       ]
     },
     "submissionDate": "24-01-2024 21:45:00",
-    "updateDate": "21-03-2024 22:08:00",
+    "updateDate": "30-05-2025 00:39:00",
     "isOutdated": false,
-    "rating": 170
+    "rating": 180
   },
   {
     "title": "Clear Wired Selection",
@@ -422,8 +446,8 @@
         "username": "WiredSpast",
         "discord": "wiredspast",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.1.0",
@@ -433,7 +457,7 @@
     "source": "https://github.com/WiredSpast/Clear-Wired-Selection",
     "readme": "https://github.com/WiredSpast/Clear-Wired-Selection/blob/main/README.md",
     "releases": "https://github.com/WiredSpast/Clear-Wired-Selection/releases",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "G-Rust",
       "version": "0.0.1-beta.5"
@@ -463,16 +487,12 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "clear-wired-selection",
-        "&&",
-        "./clear-wired-selection",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x clear-wired-selection && ./clear-wired-selection -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -487,7 +507,7 @@
     },
     "submissionDate": "21-07-2023 06:04:00",
     "updateDate": "21-07-2023 06:04:00",
-    "isOutdated": false,
+    "isOutdated": true,
     "rating": 190
   },
   {
@@ -500,8 +520,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.3",
@@ -554,8 +574,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.1",
@@ -823,8 +843,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.4",
@@ -883,7 +903,7 @@
         "discord": "alynva",
         "twitter": "Alynva",
         "extensionsCount": 4,
-        "reputation": 670
+        "reputation": 710
       }
     ],
     "version": "1.0.0",
@@ -929,7 +949,7 @@
     "submissionDate": "09-06-2024 14:00:00",
     "updateDate": "09-06-2024 14:00:00",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "G-BuildTools",
@@ -942,7 +962,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "2.0.1",
@@ -997,7 +1017,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "0.2.1",
@@ -1051,7 +1071,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "0.1.2",
@@ -1212,7 +1232,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "1.0",
@@ -1321,7 +1341,7 @@
         "discord": "Alynva#0001",
         "twitter": "Alynva",
         "extensionsCount": 4,
-        "reputation": 670
+        "reputation": 710
       }
     ],
     "version": "0.1",
@@ -1367,7 +1387,7 @@
     "submissionDate": "07-09-2022 02:37:00",
     "updateDate": "07-09-2022 02:37:00",
     "isOutdated": false,
-    "rating": 190
+    "rating": 210
   },
   {
     "title": "G-Loader",
@@ -1436,7 +1456,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "0.2.1",
@@ -1480,6 +1500,65 @@
     "updateDate": "03-05-2022 06:15:00",
     "isOutdated": false,
     "rating": 225
+  },
+  {
+    "title": "G-Midi",
+    "description": "Play .midi files on 37-key pianos \n\nAutomatically plays piano notes from the uploaded MIDI file",
+    "authors": [
+      {
+        "name": "-Yıldırım",
+        "hotel": ".com.tr",
+        "username": "-Yıldırım",
+        "discord": "yildirimmmmmm",
+        "twitter": "HabboYildirim",
+        "extensionsCount": 1,
+        "reputation": 190
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/yildirimmmm/G-Midi",
+    "readme": "https://github.com/yildirimmmm/G-Midi#readme",
+    "stable": true,
+    "framework": {
+      "name": "G-Node",
+      "version": "0.2.18"
+    },
+    "language": "Node.js",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-npm",
+        "start",
+        "-v",
+        "15.0.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "21-03-2025 21:58:00",
+    "updateDate": "21-03-2025 21:58:00",
+    "isOutdated": false,
+    "rating": 190
   },
   {
     "title": "G-Plants",
@@ -1543,10 +1622,26 @@
         "discord": "sirjonasxx",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
+      },
+      {
+        "name": "Roboroads",
+        "hotel": ".nl",
+        "username": "Roboroads",
+        "discord": "roboroads",
+        "extensionsCount": 2,
+        "reputation": 2150
+      },
+      {
+        "name": "WiredSpast",
+        "hotel": ".nl",
+        "username": "WiredSpast",
+        "discord": "wiredspast",
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
-    "version": "1.1.1",
+    "version": "1.2.6",
     "categories": [
       "Building",
       "Usability"
@@ -1584,9 +1679,9 @@
       ]
     },
     "submissionDate": "19-09-2021 23:54:00",
-    "updateDate": "04-02-2024 00:31:00",
+    "updateDate": "21-07-2025 12:29:00",
     "isOutdated": false,
-    "rating": 1100
+    "rating": 1795
   },
   {
     "title": "G-Programmer",
@@ -1604,7 +1699,7 @@
         "discord": "Alynva#1713",
         "twitter": "alynva",
         "extensionsCount": 4,
-        "reputation": 670
+        "reputation": 710
       }
     ],
     "version": "1.4.0",
@@ -1658,7 +1753,7 @@
         "discord": "alynva",
         "twitter": "Alynva",
         "extensionsCount": 4,
-        "reputation": 670
+        "reputation": 710
       }
     ],
     "version": "1.0.1",
@@ -1812,29 +1907,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "g-trader-mac",
-        "&&",
-        "./g-trader-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x g-trader-mac && ./g-trader-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "g-trader-linux",
-        "&&",
-        "./g-trader-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x g-trader-linux && ./g-trader-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -1864,7 +1951,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       },
       {
         "name": "Tripical",
@@ -1925,8 +2012,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.2.4",
@@ -1978,8 +2065,8 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 1,
-        "reputation": 535
+        "extensionsCount": 2,
+        "reputation": 725
       }
     ],
     "version": "1.4",
@@ -2104,10 +2191,10 @@
       {
         "name": "madlad",
         "extensionsCount": 1,
-        "reputation": 625
+        "reputation": 760
       }
     ],
-    "version": "1.8.0",
+    "version": "1.9.0",
     "categories": [
       "Usability"
     ],
@@ -2130,20 +2217,41 @@
         "{port}",
         "-f",
         "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "G-itemViewer.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "/bin/sh",
+        "-c",
+        "chmod +x G-itemViewer-mac && ./G-itemViewer-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
+        "{port}",
+        "{cookie}",
+        "{filename}"
       ]
     },
     "compatibility": {
       "systems": [
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "clients": [
         "Origins"
       ]
     },
     "submissionDate": "09-07-2024 12:47:00",
-    "updateDate": "29-07-2024 01:46:00",
+    "updateDate": "05-08-2024 21:12:00",
     "isOutdated": false,
-    "rating": 625
+    "rating": 760
   },
   {
     "title": "GChatSaver",
@@ -2260,8 +2368,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.4",
@@ -2304,6 +2412,71 @@
     "updateDate": "26-08-2022 01:03:00",
     "isOutdated": false,
     "rating": 250
+  },
+  {
+    "title": "GptReply",
+    "description": "GPT Reply lets you reply to other people with Claude or ChatGPT in Origins.\n(This Extension sends data such as your Username and Chatlogs to thirdparty APIS from Openai/Claude)",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 2,
+        "reputation": 725
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Fun"
+    ],
+    "source": "https://github.com/QDaves/GPTReply",
+    "readme": "https://github.com/QDaves/GPTReply/blob/main/README.md",
+    "releases": "https://github.com/QDaves/GPTReply/releases",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.3.3"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "GPT Reply-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}",
+        ">nul",
+        "2>&1"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "GPT Reply-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}",
+        ">nul",
+        "2>&1"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "29-07-2024 00:36:00",
+    "updateDate": "29-07-2024 00:36:00",
+    "isOutdated": false,
+    "rating": 190
   },
   {
     "title": "Handitem Chooser",
@@ -2418,8 +2591,8 @@
         "username": "WiredSpast",
         "discord": "wiredspast",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.2",
@@ -2589,7 +2762,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "1.0",
@@ -2859,8 +3032,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.2",
@@ -2914,7 +3087,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "0.1.1",
@@ -3027,7 +3200,7 @@
         "username": "Nanobyte",
         "discord": "@boyd9037",
         "extensionsCount": 3,
-        "reputation": 320
+        "reputation": 370
       }
     ],
     "version": "1.3.1",
@@ -3066,29 +3239,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "poker-mac",
-        "&&",
-        "./poker-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x poker-mac && ./poker-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "poker-linux",
-        "&&",
-        "./poker-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x poker-linux && ./poker-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -3175,8 +3340,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.4",
@@ -3222,6 +3387,60 @@
     "updateDate": "06-02-2022 18:30:00",
     "isOutdated": false,
     "rating": 525
+  },
+  {
+    "title": "Q-Wired-Page",
+    "description": "Removes the parent variable menu item and adds the children to the Wired menu.",
+    "authors": [
+      {
+        "name": "MrGeneralQ",
+        "hotel": ".nl",
+        "username": "MrGeneralQ",
+        "discord": "mrgeneralq",
+        "extensionsCount": 1,
+        "reputation": 150
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/mrgeneralq/Q-wired-page",
+    "readme": "https://github.com/mrgeneralq/Q-wired-page/blob/main/README.md",
+    "releases": "https://github.com/mrgeneralq/Q-wired-page/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.3"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "QWiredPage.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "23-01-2025 17:30:00",
+    "updateDate": "23-01-2025 17:30:00",
+    "isOutdated": false,
+    "rating": 150
   },
   {
     "title": "Quick Pickup Utils",
@@ -3451,6 +3670,61 @@
     "rating": 285
   },
   {
+    "title": "Robosort",
+    "description": "Sort your wired stacks (automatically).",
+    "authors": [
+      {
+        "name": "Roboroads",
+        "hotel": ".nl",
+        "username": "Roboroads",
+        "discord": "roboroads",
+        "twitter": "RoboroadsHabbo",
+        "extensionsCount": 2,
+        "reputation": 2150
+      }
+    ],
+    "version": "1.1.1",
+    "categories": [
+      "Building"
+    ],
+    "source": "https://github.com/Roboroads/Robosort",
+    "readme": "https://github.com/Roboroads/Robosort/blob/main/README.md",
+    "releases": "https://github.com/Roboroads/Robosort/releases",
+    "stable": true,
+    "framework": {
+      "name": "Native",
+      "version": "1.5.4-beta-10"
+    },
+    "language": "Java",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "Robosort.jar",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "27-02-2025 22:57:25",
+    "updateDate": "11-03-2025 12:35:34",
+    "isOutdated": false,
+    "rating": 355
+  },
+  {
     "title": "RollerWalk",
     "description": "Roles make you go to your destination when you swipe. User guide: type :rw on, By pressing the alt key,",
     "authors": [
@@ -3512,7 +3786,7 @@
         "username": "Kouris",
         "discord": "Remco#3719",
         "extensionsCount": 1,
-        "reputation": 290
+        "reputation": 310
       },
       {
         "name": "WiredSpast",
@@ -3520,8 +3794,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "1.0",
@@ -3560,8 +3834,8 @@
     },
     "submissionDate": "02-09-2021 18:08:10",
     "updateDate": "02-09-2021 18:08:10",
-    "isOutdated": false,
-    "rating": 290
+    "isOutdated": true,
+    "rating": 310
   },
   {
     "title": "RoomLogger",
@@ -3629,8 +3903,8 @@
         "username": "WiredSpast",
         "discord": "Jonasss#6660",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.2",
@@ -3685,7 +3959,7 @@
         "discord": "sirjonasxx#2633",
         "twitter": "sirjonasxx",
         "extensionsCount": 12,
-        "reputation": 5085
+        "reputation": 5780
       }
     ],
     "version": "2.1",
@@ -3740,7 +4014,7 @@
         "username": "Nanobyte",
         "discord": "@boyd9037",
         "extensionsCount": 3,
-        "reputation": 320
+        "reputation": 370
       }
     ],
     "version": "1.0.0",
@@ -3779,29 +4053,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "shoutify-mac",
-        "&&",
-        "./shoutify-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x shoutify-mac && ./shoutify-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "shoutify-linux",
-        "&&",
-        "./shoutify-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x shoutify-linux && ./shoutify-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -3818,7 +4084,7 @@
     "submissionDate": "27-07-2024 18:00:00",
     "updateDate": "27-07-2024 18:00:00",
     "isOutdated": false,
-    "rating": 50
+    "rating": 70
   },
   {
     "title": "SpotifyMotto",
@@ -3936,13 +4202,13 @@
         "name": "WiredSpast",
         "hotel": ".nl",
         "username": "WiredSpast",
-        "discord": "Jonasss#6660",
+        "discord": "wiredspast",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
-    "version": "1.2",
+    "version": "1.3",
     "categories": [
       "Building",
       "Usability"
@@ -3979,9 +4245,9 @@
       ]
     },
     "submissionDate": "10-01-2022 01:55:34",
-    "updateDate": "17-04-2022 18:58:00",
+    "updateDate": "30-07-2025 11:30:00",
     "isOutdated": false,
-    "rating": 525
+    "rating": 635
   },
   {
     "title": "StarDuckGifter",
@@ -4045,7 +4311,7 @@
       {
         "name": "DanielaNaomi",
         "extensionsCount": 1,
-        "reputation": 375
+        "reputation": 400
       }
     ],
     "version": "1.7",
@@ -4085,7 +4351,7 @@
     "submissionDate": "30-06-2024 19:50:10",
     "updateDate": "07-07-2024 23:19:10",
     "isOutdated": false,
-    "rating": 375
+    "rating": 400
   },
   {
     "title": "Talk To Shout Origins",
@@ -4097,10 +4363,15 @@
         "username": "3duard",
         "discord": "@eduard",
         "extensionsCount": 1,
-        "reputation": 180
+        "reputation": 190
+      },
+      {
+        "name": "b7",
+        "extensionsCount": 2,
+        "reputation": 1445
       }
     ],
-    "version": "1.1.1",
+    "version": "1.2",
     "categories": [
       "Usability"
     ],
@@ -4109,7 +4380,7 @@
     "stable": true,
     "framework": {
       "name": "GoEarth",
-      "version": "0.1.6"
+      "version": "0.4.0"
     },
     "language": "Go",
     "commands": {
@@ -4136,29 +4407,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "TalkToShout-mac",
-        "&&",
-        "./TalkToShout-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x TalkToShout-mac && ./TalkToShout-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "TalkToShout-linux",
-        "&&",
-        "./TalkToShout-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x TalkToShout-linux && ./TalkToShout-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -4173,9 +4436,91 @@
       ]
     },
     "submissionDate": "26-06-2024 02:40:00",
-    "updateDate": "02-07-2024 01:33:00",
+    "updateDate": "15-09-2024 02:40:00",
     "isOutdated": false,
-    "rating": 180
+    "rating": 190
+  },
+  {
+    "title": "Trade Tracker",
+    "description": "Automates the process to track your profits and losts in trading.\nCurrent extension is integrated with API tsarcade.com\nIMPORTANT: This extension shares with the webapp legacyhabbo.me the following data of your Habbo\n- Your Username\n-The Server you are playing at (com, es, br)\n- Your Trades (items, quantities, who you traded with)\nIf you want your data deleted, please contact me through discord (thauan0x).",
+    "authors": [
+      {
+        "name": "Erotico",
+        "discord": "thauan0x",
+        "extensionsCount": 1,
+        "reputation": 100
+      }
+    ],
+    "version": "2.0",
+    "categories": [
+      "Usability",
+      "Trading"
+    ],
+    "source": "https://github.com/thauanvargas/arcade-tracker/",
+    "readme": "https://github.com/thauanvargas/arcade-tracker/blob/master/README.md",
+    "releases": "https://github.com/thauanvargas/arcade-tracker/releases",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.4.0"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "arcade-tracker.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "arcade-tracker-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "mac": [
+        "/bin/sh",
+        "-c",
+        "chmod +x arcade-tracker-mac && ./arcade-tracker-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
+        "{port}",
+        "{cookie}",
+        "{filename}"
+      ],
+      "linux": [
+        "/bin/sh",
+        "-c",
+        "chmod +x arcade-tracker-linux && ./arcade-tracker-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
+        "{port}",
+        "{cookie}",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "24-10-2024 10:00:00",
+    "updateDate": "13-12-2024 09:30:00",
+    "isOutdated": false,
+    "rating": 100
   },
   {
     "title": "TradeBlocker",
@@ -4356,8 +4701,8 @@
         "username": "WiredSpast",
         "discord": "wiredspast",
         "twitter": "WiredSpast",
-        "extensionsCount": 13,
-        "reputation": 4950
+        "extensionsCount": 14,
+        "reputation": 6875
       }
     ],
     "version": "0.1.4",
@@ -4405,6 +4750,68 @@
     "updateDate": "16-12-2023 14:53:00",
     "isOutdated": false,
     "rating": 690
+  },
+  {
+    "title": "[AIO] Gamba Suite",
+    "description": "Pkr, 13/21 and Tri dice automated rolling and resetting with in-chat hand evaluation. The all-in-one dice management extension.",
+    "authors": [
+      {
+        "name": "JTD",
+        "hotel": ".com",
+        "username": "JTD",
+        "discord": "jtd420",
+        "extensionsCount": 1,
+        "reputation": 345
+      }
+    ],
+    "version": "2.0.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/JTD420/Gamba-Suite/tree/main",
+    "readme": "https://github.com/JTD420/Gamba-Suite/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "GoEarth",
+      "version": "0.3.5"
+    },
+    "language": "Go",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "Gamba-Suite-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ],
+      "windows": [
+        "cmd",
+        "/C",
+        "Gamba-Suite-win.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Origins"
+      ]
+    },
+    "submissionDate": "29-08-2024 23:55:00",
+    "updateDate": "02-09-2024 01:23:00",
+    "isOutdated": false,
+    "rating": 345
   },
   {
     "title": "autoclick",
@@ -4513,29 +4920,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "autogarland-mac",
-        "&&",
-        "./fastbuy-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x autogarland-mac && ./autogarland-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "autogarland-linux",
-        "&&",
-        "./fastbuy-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x autogarland-linux && ./autogarland-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -4658,29 +5057,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "easydice-mac",
-        "&&",
-        "./fastbuy-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x easydice-mac && ./easydice-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "easydice-linux",
-        "&&",
-        "./fastbuy-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x easydice-linux && ./easydice-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -4748,29 +5139,21 @@
         "{filename}"
       ],
       "mac": [
-        "chmod",
-        "+x",
-        "fastbuy-mac",
-        "&&",
-        "./fastbuy-mac",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x fastbuy-mac && ./fastbuy-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ],
       "linux": [
-        "chmod",
-        "+x",
-        "fastbuy-linux",
-        "&&",
-        "./fastbuy-linux",
+        "/bin/sh",
         "-c",
-        "{cookie}",
-        "-p",
+        "chmod +x fastbuy-linux && ./fastbuy-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+        "--",
         "{port}",
-        "-f",
+        "{cookie}",
         "{filename}"
       ]
     },
@@ -4791,53 +5174,75 @@
   },
   {
     "title": "xabbo",
-    "description": "enhanced habbo",
+    "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
     "authors": [
       {
         "name": "b7",
-        "hotel": ".com",
-        "username": "1b7",
-        "discord": "b7#8571",
-        "extensionsCount": 1,
-        "reputation": 1035
+        "discord": "xb7c",
+        "extensionsCount": 2,
+        "reputation": 1445
       }
     ],
-    "version": "1.0.3",
+    "version": "1.1.3",
     "categories": [
       "Usability"
     ],
-    "source": "https://github.com/b7c/b7.Xabbo",
-    "readme": "https://github.com/b7c/b7.Xabbo/blob/master/README.md",
+    "source": "https://github.com/xabbo/xabbo",
+    "readme": "https://github.com/xabbo/xabbo/blob/main/README.md",
     "stable": true,
     "framework": {
       "name": "Xabbo",
-      "version": "1.0.0-beta.2"
+      "version": "1.0.1"
     },
     "language": "C#",
     "commands": {
       "default": [
         "cmd",
         "/C",
-        "b7.Xabbo.exe",
+        "xabbo.exe",
         "-c",
         "{cookie}",
         "-p",
         "{port}",
         "-f",
+        "{filename}",
+        ">",
+        "NUL",
+        "2>&1"
+      ],
+      "linux": [
+        "/bin/sh",
+        "-c",
+        "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
+        "--",
+        "{port}",
+        "{cookie}",
+        "{filename}"
+      ],
+      "mac": [
+        "/bin/sh",
+        "-c",
+        "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
+        "--",
+        "{port}",
+        "{cookie}",
         "{filename}"
       ]
     },
     "compatibility": {
       "systems": [
-        "Windows"
+        "Windows",
+        "Linux",
+        "Mac"
       ],
       "clients": [
-        "Flash"
+        "Flash",
+        "Origins"
       ]
     },
     "submissionDate": "04-09-2021 07:23:00",
-    "updateDate": "07-01-2022 05:04:00",
+    "updateDate": "20-11-2024 21:02:17",
     "isOutdated": false,
-    "rating": 1035
+    "rating": 1255
   }
 ]

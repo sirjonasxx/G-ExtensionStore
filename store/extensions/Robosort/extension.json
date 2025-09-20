@@ -1,0 +1,52 @@
+{
+  "title": "Robosort",
+  "description": "Sort your wired stacks (automatically).",
+  "authors": [
+    {
+      "name": "Roboroads",
+      "hotel": ".nl",
+      "username": "Roboroads",
+      "discord": "roboroads",
+      "twitter": "RoboroadsHabbo"
+    }
+  ],
+  "version": "1.1.1",
+  "categories": [
+    "Building"
+  ],
+  "source": "https://github.com/Roboroads/Robosort",
+  "readme": "https://github.com/Roboroads/Robosort/blob/main/README.md",
+  "releases": "https://github.com/Roboroads/Robosort/releases",
+  "stable": true,
+  "framework": {
+    "name": "Native",
+    "version": "1.5.4-beta-10"
+  },
+  "language": "Java",
+  "commands": {
+    "default": [
+      "java",
+      "-jar",
+      "Robosort.jar",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ]
+  },
+  "compatibility": {
+    "systems": [
+      "Linux",
+      "Windows",
+      "Mac"
+    ],
+    "clients": [
+      "Flash"
+    ]
+  },
+  "submissionDate": "27-02-2025 22:57:25",
+  "updateDate": "11-03-2025 12:35:34",
+  "isOutdated": false
+}

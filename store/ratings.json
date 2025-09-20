@@ -93,11 +93,11 @@
   },
   {
     "extension": "Room Duplicator",
-    "rating": 290
+    "rating": 310
   },
   {
     "extension": "xabbo",
-    "rating": 1035
+    "rating": 1255
   },
   {
     "extension": "LTDHelper",
@@ -105,7 +105,7 @@
   },
   {
     "extension": "G-Presets - Building & Wired Presets",
-    "rating": 1100
+    "rating": 1795
   },
   {
     "extension": "Rainbow BackGround",
@@ -157,7 +157,7 @@
   },
   {
     "extension": "Stack Dropper",
-    "rating": 525
+    "rating": 635
   },
   {
     "extension": "G-Trigger",
@@ -197,7 +197,7 @@
   },
   {
     "extension": "G-Hypertranslate",
-    "rating": 190
+    "rating": 210
   },
   {
     "extension": "PositionGo",
@@ -269,7 +269,7 @@
   },
   {
     "extension": "Chatty",
-    "rating": 170
+    "rating": 180
   },
   {
     "extension": "RoomLogger",
@@ -281,15 +281,15 @@
   },
   {
     "extension": "G-AutoLikeRooms",
-    "rating": 90
+    "rating": 110
   },
   {
     "extension": "Talk To Shout Origins",
-    "rating": 180
+    "rating": 190
   },
   {
     "extension": "StickiesArt",
-    "rating": 375
+    "rating": 400
   },
   {
     "extension": "G-Trader",
@@ -309,7 +309,7 @@
   },
   {
     "extension": "G-itemViewer",
-    "rating": 625
+    "rating": 760
   },
   {
     "extension": "Quick Pickup Utils",
@@ -325,10 +325,38 @@
   },
   {
     "extension": "Shoutify",
-    "rating": 50
+    "rating": 70
   },
   {
     "extension": "Autotyper",
-    "rating": 70
+    "rating": 100
+  },
+  {
+    "extension": "GptReply",
+    "rating": 190
+  },
+  {
+    "extension": "[AIO] Gamba Suite",
+    "rating": 345
+  },
+  {
+    "extension": "Trade Tracker",
+    "rating": 100
+  },
+  {
+    "extension": "Q-Wired-Page",
+    "rating": 150
+  },
+  {
+    "extension": "Robosort",
+    "rating": 355
+  },
+  {
+    "extension": "G-Midi",
+    "rating": 190
+  },
+  {
+    "extension": "CDHelper",
+    "rating": 125
   }
 ]

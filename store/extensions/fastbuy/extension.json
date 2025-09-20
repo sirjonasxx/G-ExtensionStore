@@ -26,8 +26,8 @@
   "commands": {
     "default": ["cmd", "/C", "fastbuy-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "windows": ["cmd", "/C", "fastbuy-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "mac": ["chmod", "+x", "fastbuy-mac", "&&", "./fastbuy-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "linux": ["chmod", "+x", "fastbuy-linux", "&&", "./fastbuy-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "mac": ["/bin/sh", "-c", "chmod +x fastbuy-mac && ./fastbuy-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x fastbuy-linux && ./fastbuy-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
   },
   
   "compatibility": {

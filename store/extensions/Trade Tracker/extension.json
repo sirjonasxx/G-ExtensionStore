@@ -1,0 +1,40 @@
+{
+  "title": "Trade Tracker",
+  "description": "Automates the process to track your profits and losts in trading.\nCurrent extension is integrated with API tsarcade.com\nIMPORTANT: This extension shares with the webapp legacyhabbo.me the following data of your Habbo\n- Your Username\n-The Server you are playing at (com, es, br)\n- Your Trades (items, quantities, who you traded with)\nIf you want your data deleted, please contact me through discord (thauan0x).",
+  "authors": [
+    {
+      "name": "Erotico",
+      "discord": "thauan0x"
+    }
+  ],
+  "version": "2.0",
+  "categories": ["Usability", "Trading"],
+  
+  "source": "https://github.com/thauanvargas/arcade-tracker/",
+  "readme": "https://github.com/thauanvargas/arcade-tracker/blob/master/README.md",
+  "releases": "https://github.com/thauanvargas/arcade-tracker/releases",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.4.0"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "arcade-tracker.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "arcade-tracker-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x arcade-tracker-mac && ./arcade-tracker-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x arcade-tracker-linux && ./arcade-tracker-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Origins"]
+  },
+
+  "submissionDate": "24-10-2024 10:00:00",
+  "updateDate": "13-12-2024 09:30:00",
+  "isOutdated": false
+}

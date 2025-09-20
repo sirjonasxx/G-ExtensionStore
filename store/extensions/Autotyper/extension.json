@@ -1,15 +1,15 @@
 {
   "title": "Autotyper",
-  "description": "Automatically sends a stored message in chat. To store your message, type ':setmsg {message}', and to send it, simply by saying '!'.",
+  "description": "The AutoTyper app features an intuitive, easy-to-use interface that simplifies repetitive messaging by automatically sending predefined messages at customizable intervals.",
   "authors": [
     {
       "name": "Nanobyte",
       "hotel": ".com",
       "username": "Nanobyte",
-      "discord": "@boyd9037"
+      "discord": "@codemeneer"
     }
   ],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "categories": ["Usability"],
 
   "source": "https://github.com/boydmeyer/autotyper/tree/main",
@@ -45,41 +45,15 @@
       "{port}",
       "-f",
       "{filename}"
-    ],
-    "mac": [
-      "chmod",
-      "+x",
-      "autotyper-mac",
-      "&&",
-      "./autotyper-mac",
-      "-c",
-      "{cookie}",
-      "-p",
-      "{port}",
-      "-f",
-      "{filename}"
-    ],
-    "linux": [
-      "chmod",
-      "+x",
-      "autotyper-linux",
-      "&&",
-      "./autotyper-linux",
-      "-c",
-      "{cookie}",
-      "-p",
-      "{port}",
-      "-f",
-      "{filename}"
     ]
   },
 
   "compatibility": {
-    "systems": ["Windows", "Mac", "Linux"],
+    "systems": ["Windows"],
     "clients": ["Origins"]
   },
 
   "submissionDate": "27-07-2024 22:00:00",
-  "updateDate": "27-07-2024 22:00:00",
+  "updateDate": "23-08-2024 15:00:00",
   "isOutdated": false
 }

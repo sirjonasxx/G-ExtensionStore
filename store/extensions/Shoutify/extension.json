@@ -47,29 +47,21 @@
       "{filename}"
     ],
     "mac": [
-      "chmod",
-      "+x",
-      "shoutify-mac",
-      "&&",
-      "./shoutify-mac",
+      "/bin/sh",
       "-c",
-      "{cookie}",
-      "-p",
+      "chmod +x shoutify-mac && ./shoutify-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+      "--",
       "{port}",
-      "-f",
+      "{cookie}",
       "{filename}"
     ],
     "linux": [
-      "chmod",
-      "+x",
-      "shoutify-linux",
-      "&&",
-      "./shoutify-linux",
+      "/bin/sh",
       "-c",
-      "{cookie}",
-      "-p",
+      "chmod +x shoutify-linux && ./shoutify-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+      "--",
       "{port}",
-      "-f",
+      "{cookie}",
       "{filename}"
     ]
   },

@@ -25,8 +25,8 @@
   "commands": {
     "default": ["cmd", "/C", "g-trader-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "windows": ["cmd", "/C", "g-trader-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "mac": ["chmod", "+x", "g-trader-mac", "&&", "./g-trader-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "linux": ["chmod", "+x", "g-trader-linux", "&&", "./g-trader-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "mac": ["/bin/sh", "-c", "chmod +x g-trader-mac && ./g-trader-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x g-trader-linux && ./g-trader-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
   },
   
   "compatibility": {

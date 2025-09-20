@@ -3,13 +3,16 @@
   "description": "Talk to shout, Shout to Talk, switch the functions with eachother",
   "authors": [
     {
-      "name": "Eduard",
-      "hotel": ".com",
-      "username": "3duard",
-      "discord": "@eduard"
+        "name": "Eduard",
+        "hotel": ".com",
+        "username": "3duard",
+        "discord": "@eduard"
+    },
+    {
+        "name": "b7"
     }
-  ],
-  "version": "1.1.1",
+],
+  "version": "1.2",
   "categories": ["Usability"],
   
   "source": "https://github.com/Edaurd/TalkToShout/",
@@ -19,15 +22,15 @@
   
   "framework": {
     "name": "GoEarth",
-    "version": "0.1.6"
+    "version": "0.4.0"
   },
 
   "language": "Go",
   "commands": {
     "default": ["cmd", "/C", "TalkToShout-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
     "windows": ["cmd", "/C", "TalkToShout-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "mac": ["chmod", "+x", "TalkToShout-mac", "&&", "./TalkToShout-mac", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
-    "linux": ["chmod", "+x", "TalkToShout-linux", "&&", "./TalkToShout-linux", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    "mac": ["/bin/sh", "-c", "chmod +x TalkToShout-mac && ./TalkToShout-mac -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x TalkToShout-linux && ./TalkToShout-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
   },
   
   "compatibility": {
@@ -36,6 +39,6 @@
   },
 
   "submissionDate": "26-06-2024 02:40:00",
-  "updateDate": "02-07-2024 01:33:00",
+  "updateDate": "15-09-2024 02:40:00",
   "isOutdated": false
 }

@@ -1,0 +1,38 @@
+{
+    "title": "CDHelper",
+    "description": "A handy G-Earth extension that adds useful tools to manage your CDs in-game!",
+    "authors": [
+      {
+        "name": "jonny7k",
+        "hotel": ".com.br",      
+        "discord": "jonny_7k"
+      }
+    ],
+    "version": "1.0",
+    "categories": ["Usability", "Others"],
+    
+    "source": "https://github.com/jonnymariani/cdhelper",
+    "readme": "https://github.com/jonnymariani/cdhelper/blob/main/README.md",
+    "releases": "https://github.com/jonnymariani/cdhelper/releases",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+
+    "language": "C#",
+    "commands": {
+      "default": ["cmd", "/C", "CDHelper.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+    },
+    
+    "compatibility": {
+        "systems": ["Windows"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "26-04-2025 00:00:00",
+    "updateDate": "09-05-2025 23:00:00",
+    "isOutdated": false
+}

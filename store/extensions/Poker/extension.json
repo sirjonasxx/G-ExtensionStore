@@ -47,29 +47,21 @@
       "{filename}"
     ],
     "mac": [
-      "chmod",
-      "+x",
-      "poker-mac",
-      "&&",
-      "./poker-mac",
+      "/bin/sh",
       "-c",
-      "{cookie}",
-      "-p",
+      "chmod +x poker-mac && ./poker-mac -p \"$1\" -c \"$2\" -f \"$3\"",
+      "--",
       "{port}",
-      "-f",
+      "{cookie}",
       "{filename}"
     ],
     "linux": [
-      "chmod",
-      "+x",
-      "poker-linux",
-      "&&",
-      "./poker-linux",
+      "/bin/sh",
       "-c",
-      "{cookie}",
-      "-p",
+      "chmod +x poker-linux && ./poker-linux -p \"$1\" -c \"$2\" -f \"$3\"",
+      "--",
       "{port}",
-      "-f",
+      "{cookie}",
       "{filename}"
     ]
   },
