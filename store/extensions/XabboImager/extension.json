@@ -12,6 +12,14 @@
   "stable": true,
   "framework": { "name": "Xabbo", "version": "1.0.0" },
   "language": "C#",
+  "commands": {
+    "default": [
+      "XabboImager_win-x64.exe",
+      "-c", "{cookie}",
+      "-p", "{port}",
+      "-f", "{filename}"
+    ]
+  },
   "compatibility": {
     "systems": ["Windows"],
     "clients": ["Flash"]
