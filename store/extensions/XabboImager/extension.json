@@ -14,7 +14,7 @@
   "language": "C#",
   "commands": {
     "default": [
-      "XabboImager_win-x64.exe",
+      "XabboImager_win_64.exe",
       "-c", "{cookie}",
       "-p", "{port}",
       "-f", "{filename}"
