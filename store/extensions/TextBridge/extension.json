@@ -13,7 +13,7 @@
   "framework": { "name": "Xabbo", "version": "1.0.0" },
   "language": "C#",
   "commands": {
-    "default": ["cmd", "/C", "TextBridge_win-x64.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">", "NUL", "2>&1"]
+    "default": ["cmd", "/C", "TextBridge_win-x64.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
   },
   "compatibility": {
     "systems": ["Windows"],
