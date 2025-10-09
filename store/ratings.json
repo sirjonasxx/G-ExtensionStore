@@ -358,5 +358,9 @@
   {
     "extension": "CDHelper",
     "rating": 125
+  },
+  {
+    "extension": "TextBridge",
+    "rating": 50
   }
 ]
