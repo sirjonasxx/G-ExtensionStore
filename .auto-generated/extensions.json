@@ -2065,7 +2065,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 2,
+        "extensionsCount": 3,
         "reputation": 725
       }
     ],
@@ -2420,7 +2420,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 2,
+        "extensionsCount": 3,
         "reputation": 725
       }
     ],
@@ -4439,6 +4439,57 @@
     "updateDate": "15-09-2024 02:40:00",
     "isOutdated": false,
     "rating": 190
+  },
+  {
+    "title": "TextBridge",
+    "description": "Real-time AI translation for Habbo. Disclaimer: Messages (In/Out) are sent to external providers when using paid api services.",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 3,
+        "reputation": 725
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Usability",
+      "Others"
+    ],
+    "source": "https://github.com/QDaves/TextBridge",
+    "readme": "https://github.com/QDaves/TextBridge/blob/main/README.md",
+    "releases": "https://github.com/QDaves/TextBridge/releases/tag/Release",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.0"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "TextBridge_win-x64.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "09-10-2025 00:00:00",
+    "updateDate": "09-10-2025 00:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Trade Tracker",

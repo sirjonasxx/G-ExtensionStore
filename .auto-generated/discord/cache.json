@@ -8220,5 +8220,70 @@
       }
     ],
     "latestEmbed": 1746855364824
+  },
+  {
+    "title": "TextBridge",
+    "version": "1.0.0",
+    "_object": {
+      "title": "TextBridge",
+      "description": "Real-time AI translation for Habbo. Disclaimer: Messages (In/Out) are sent to external providers when using paid api services.",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/QDaves/TextBridge",
+      "readme": "https://github.com/QDaves/TextBridge/blob/main/README.md",
+      "releases": "https://github.com/QDaves/TextBridge/releases/tag/Release",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.0"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "TextBridge_win-x64.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "09-10-2025 00:00:00",
+      "updateDate": "09-10-2025 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1425825871507492935",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1760013778668,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1760013778668
   }
 ]
