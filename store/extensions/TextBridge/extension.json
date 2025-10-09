@@ -1,6 +1,6 @@
 {
   "title": "TextBridge",
-  "description": "Real-time AI transalation for Habbo hotel",
+  "description": "Real-time AI translation for Habbo. Disclaimer: Messages (In/Out) are sent to external providers when using paid api services.",
   "authors": [
     { "name": "QDave", "discord": "qdave" }
   ],
