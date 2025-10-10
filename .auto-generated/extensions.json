@@ -2066,7 +2066,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 3,
-        "reputation": 815
+        "reputation": 835
       }
     ],
     "version": "1.4",
@@ -2421,7 +2421,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 3,
-        "reputation": 815
+        "reputation": 835
       }
     ],
     "version": "1.0",
@@ -4448,7 +4448,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 3,
-        "reputation": 815
+        "reputation": 835
       }
     ],
     "version": "1.0.0",
@@ -4489,7 +4489,7 @@
     "submissionDate": "09-10-2025 00:00:00",
     "updateDate": "09-10-2025 00:00:00",
     "isOutdated": false,
-    "rating": 90
+    "rating": 110
   },
   {
     "title": "Trade Tracker",
