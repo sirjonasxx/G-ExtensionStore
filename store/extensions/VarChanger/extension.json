@@ -1,0 +1,25 @@
+{
+  "title": "VarChanger",
+  "description": "Override Habbo gamedata files",
+  "authors": [
+    { "name": "QDave", "discord": "qdave" }
+  ],
+  "version": "1.0.0",
+  "categories": ["Fun", "Others"],
+  "source": "https://github.com/QDaves/VarChanger",
+  "readme": "https://github.com/QDaves/VarChanger/blob/master/README.md",
+  "releases": "https://github.com/QDaves/VarChanger/releases/tag/VarChanger1.0.0",
+  "stable": true,
+  "framework": { "name": "Xabbo", "version": "1.0.1" },
+  "language": "C#",
+  "commands": {
+    "default": ["cmd", "/C", "VarChanger_win-x64.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Flash"]
+  },
+  "submissionDate": "01-11-2025 00:00:00",
+  "updateDate": "01-11-2025 00:00:00",
+  "isOutdated": false
+}
