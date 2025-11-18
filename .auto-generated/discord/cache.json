@@ -2365,7 +2365,7 @@
         "type": "update",
         "timestamp": 1753093954558,
         "locked": false,
-        "score": 25
+        "score": 50
       }
     ],
     "latestEmbed": 1753093954558
@@ -3440,7 +3440,7 @@
         "type": "update",
         "timestamp": 1753868050272,
         "locked": false,
-        "score": 125
+        "score": 150
       }
     ],
     "latestEmbed": 1753868050272
@@ -8281,7 +8281,7 @@
         "type": "publish",
         "timestamp": 1760013778668,
         "locked": false,
-        "score": 200
+        "score": 220
       }
     ],
     "latestEmbed": 1760013778668
@@ -8346,7 +8346,7 @@
         "type": "publish",
         "timestamp": 1763449982810,
         "locked": false,
-        "score": 20
+        "score": 40
       }
     ],
     "latestEmbed": 1763449982810
@@ -8411,7 +8411,7 @@
         "type": "publish",
         "timestamp": 1763449983437,
         "locked": false,
-        "score": 20
+        "score": 40
       }
     ],
     "latestEmbed": 1763449983437
@@ -8476,7 +8476,7 @@
         "type": "publish",
         "timestamp": 1763449983899,
         "locked": false,
-        "score": 20
+        "score": 40
       }
     ],
     "latestEmbed": 1763449983899
