@@ -8285,5 +8285,200 @@
       }
     ],
     "latestEmbed": 1760013778668
+  },
+  {
+    "title": "Mimiq",
+    "version": "1.0.0",
+    "_object": {
+      "title": "Mimiq",
+      "description": "Mimiq/c user Avatars in Habbo",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/QDaves/Mimiq",
+      "readme": "https://github.com/QDaves/Mimiq/blob/main/README.md",
+      "releases": "https://github.com/QDaves/Mimiq/releases/tag/release",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "Mimiq_win-x64.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "13-10-2025 00:00:00",
+      "updateDate": "13-10-2025 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1440238355991367721",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1763449982810,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1763449982810
+  },
+  {
+    "title": "PixelArt",
+    "version": "1.0.0",
+    "_object": {
+      "title": "PixelArt",
+      "description": "habbo pixel art builder",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/QDaves/PixelArt",
+      "readme": "https://github.com/QDaves/PixelArt/blob/main/README.md",
+      "releases": "https://github.com/QDaves/PixelArt/releases/tag/release",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "PixelArt_win64.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "18-10-2025 00:00:00",
+      "updateDate": "18-10-2025 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1440238358264807514",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1763449983437,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1763449983437
+  },
+  {
+    "title": "VarChanger",
+    "version": "1.0.0",
+    "_object": {
+      "title": "VarChanger",
+      "description": "Override Habbo gamedata files",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Fun",
+        "Others"
+      ],
+      "source": "https://github.com/QDaves/VarChanger",
+      "readme": "https://github.com/QDaves/VarChanger/blob/master/README.md",
+      "releases": "https://github.com/QDaves/VarChanger/releases/tag/VarChanger1.0.0",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "VarChanger_win-x64.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "01-11-2025 00:00:00",
+      "updateDate": "01-11-2025 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1440238360445845535",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1763449983899,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1763449983899
   }
 ]

@@ -2065,7 +2065,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 3,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -2420,7 +2420,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 3,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -2861,6 +2861,57 @@
     "rating": 115
   },
   {
+    "title": "Mimiq",
+    "description": "Mimiq/c user Avatars in Habbo",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 6,
+        "reputation": 935
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/QDaves/Mimiq",
+    "readme": "https://github.com/QDaves/Mimiq/blob/main/README.md",
+    "releases": "https://github.com/QDaves/Mimiq/releases/tag/release",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "Mimiq_win-x64.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "13-10-2025 00:00:00",
+    "updateDate": "13-10-2025 00:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Mod Tools",
     "description": "User guide: write :mt pla and click player, write :mt mute (minute) or :mt rmute , NOTE: :mt rmute helps to remove mute",
     "authors": [
@@ -3131,6 +3182,57 @@
     "updateDate": "04-05-2022 07:12:00",
     "isOutdated": false,
     "rating": 310
+  },
+  {
+    "title": "PixelArt",
+    "description": "habbo pixel art builder",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 6,
+        "reputation": 935
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/QDaves/PixelArt",
+    "readme": "https://github.com/QDaves/PixelArt/blob/main/README.md",
+    "releases": "https://github.com/QDaves/PixelArt/releases/tag/release",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "PixelArt_win64.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "18-10-2025 00:00:00",
+    "updateDate": "18-10-2025 00:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Plants",
@@ -4447,7 +4549,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 3,
+        "extensionsCount": 6,
         "reputation": 935
       }
     ],
@@ -4741,6 +4843,57 @@
     "updateDate": "05-01-2023 19:28:00",
     "isOutdated": false,
     "rating": 190
+  },
+  {
+    "title": "VarChanger",
+    "description": "Override Habbo gamedata files",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 6,
+        "reputation": 935
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Fun",
+      "Others"
+    ],
+    "source": "https://github.com/QDaves/VarChanger",
+    "readme": "https://github.com/QDaves/VarChanger/blob/master/README.md",
+    "releases": "https://github.com/QDaves/VarChanger/releases/tag/VarChanger1.0.0",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "VarChanger_win-x64.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "01-11-2025 00:00:00",
+    "updateDate": "01-11-2025 00:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Wired Overview",
