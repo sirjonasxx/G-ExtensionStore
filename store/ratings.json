@@ -362,5 +362,17 @@
   {
     "extension": "TextBridge",
     "rating": 210
+  },
+  {
+    "extension": "Mimiq",
+    "rating": 30
+  },
+  {
+    "extension": "PixelArt",
+    "rating": 30
+  },
+  {
+    "extension": "VarChanger",
+    "rating": 30
   }
 ]
