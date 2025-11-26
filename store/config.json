@@ -118,6 +118,17 @@
         "required": false,
         "instructions": null
       }
+    },
+    {
+      "name": "G-PHP",
+      "description": "PHP G-Earth extension API",
+      "developers": ["Cebolla"],
+      "languages": ["PHP""],
+      "source": "https://github.com/michyaraque/g-php",
+      "installation": {
+        "required": false,
+        "instructions": null
+      }
     }
   ]
 }
