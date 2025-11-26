@@ -126,8 +126,8 @@
       "languages": ["PHP"],
       "source": "https://github.com/michyaraque/g-php",
       "installation": {
-        "required": false,
-        "instructions": null
+        "required": true,
+        "instructions": "https://github.com/michyaraque/g-php"
       }
     }
   ]
