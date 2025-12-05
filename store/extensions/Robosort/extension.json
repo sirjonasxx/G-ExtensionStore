@@ -20,7 +20,7 @@
   "stable": true,
   "framework": {
     "name": "Native",
-    "version": "1.5.4"
+    "version": "1.5.3"
   },
   "language": "Java",
   "commands": {
