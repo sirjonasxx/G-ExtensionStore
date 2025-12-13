@@ -374,5 +374,9 @@
   {
     "extension": "VarChanger",
     "rating": 110
+  },
+  {
+    "extension": "GiftEnabler",
+    "rating": 90
   }
 ]
