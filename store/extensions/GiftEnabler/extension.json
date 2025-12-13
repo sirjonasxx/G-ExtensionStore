@@ -1,0 +1,25 @@
+{
+  "title": "GiftEnabler",
+  "description": "Enables gifting on all catalog items",
+  "authors": [
+    { "name": "QDave", "discord": "qdave" }
+  ],
+  "version": "1.0.0",
+  "categories": ["Usability", "Others"],
+  "source": "https://github.com/QDaves/GiftEnabler",
+  "readme": "https://github.com/QDaves/GiftEnabler/blob/main/README.md",
+  "releases": "https://github.com/QDaves/GiftEnabler/releases",
+  "stable": true,
+  "framework": { "name": "Xabbo", "version": "1.0.1" },
+  "language": "C#",
+  "commands": {
+    "default": ["cmd", "/C", "GiftEnabler-win-x64.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Flash"]
+  },
+  "submissionDate": "13-12-2025 00:00:00",
+  "updateDate": "13-12-2025 00:00:00",
+  "isOutdated": false
+}
