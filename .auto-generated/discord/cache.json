@@ -8490,5 +8490,70 @@
       }
     ],
     "latestEmbed": 1763449983899
+  },
+  {
+    "title": "GiftEnabler",
+    "version": "1.0.0",
+    "_object": {
+      "title": "GiftEnabler",
+      "description": "Enables gifting on all catalog items",
+      "authors": [
+        {
+          "name": "QDave",
+          "discord": "qdave"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/QDaves/GiftEnabler",
+      "readme": "https://github.com/QDaves/GiftEnabler/blob/main/README.md",
+      "releases": "https://github.com/QDaves/GiftEnabler/releases",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "GiftEnabler-win-x64.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "13-12-2025 00:00:00",
+      "updateDate": "13-12-2025 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1449519413316419850",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1765662759437,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1765662759437
   }
 ]
