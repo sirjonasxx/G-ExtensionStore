@@ -365,11 +365,11 @@
   },
   {
     "extension": "Mimiq",
-    "rating": 110
+    "rating": 130
   },
   {
     "extension": "PixelArt",
-    "rating": 110
+    "rating": 130
   },
   {
     "extension": "VarChanger",
@@ -377,6 +377,6 @@
   },
   {
     "extension": "GiftEnabler",
-    "rating": 310
+    "rating": 330
   }
 ]
