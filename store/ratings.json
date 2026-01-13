@@ -378,5 +378,9 @@
   {
     "extension": "GiftEnabler",
     "rating": 430
+  },
+  {
+    "extension": "WallAligner",
+    "rating": 50
   }
 ]
