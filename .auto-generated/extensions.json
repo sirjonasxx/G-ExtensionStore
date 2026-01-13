@@ -2065,7 +2065,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -2365,7 +2365,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -2471,7 +2471,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -2918,7 +2918,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -3241,7 +3241,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -4600,7 +4600,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -4902,7 +4902,7 @@
       {
         "name": "QDave",
         "discord": "qdave",
-        "extensionsCount": 7,
+        "extensionsCount": 8,
         "reputation": 1775
       }
     ],
@@ -4945,6 +4945,57 @@
     "updateDate": "01-11-2025 00:00:00",
     "isOutdated": false,
     "rating": 110
+  },
+  {
+    "title": "WallAligner",
+    "description": "Visual wall item alignment tool with text writer, SVG image loader and free draw mode",
+    "authors": [
+      {
+        "name": "QDave",
+        "discord": "qdave",
+        "extensionsCount": 8,
+        "reputation": 1775
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Building",
+      "Others"
+    ],
+    "source": "https://github.com/QDaves/WallAligner",
+    "readme": "https://github.com/QDaves/WallAligner/blob/master/README.md",
+    "releases": "https://github.com/QDaves/WallAligner/releases",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "WallAligner_64.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "12-01-2026 00:00:00",
+    "updateDate": "12-01-2026 00:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "Wired Overview",
