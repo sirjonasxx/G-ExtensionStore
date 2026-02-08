@@ -1,0 +1,23 @@
+{
+  "title": "ShowImages",
+  "description": "Fixes photo thumbnails in rooms",
+  "authors": [
+    { "name": "QDave", "discord": "qdave" }
+  ],
+  "version": "1.0.0",
+  "categories": ["Others"],
+  "source": "https://github.com/QDaves/ShowImages",
+  "stable": true,
+  "framework": { "name": "Xabbo", "version": "1.0.1" },
+  "language": "C#",
+  "commands": {
+    "default": ["cmd", "/C", "ShowImages.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Flash"]
+  },
+  "submissionDate": "08-02-2026 00:00:00",
+  "updateDate": "08-02-2026 00:00:00",
+  "isOutdated": false
+}
