@@ -1,0 +1,24 @@
+{
+  "title": "WallGridAlignment",
+  "description": "grid alignment tool for wall furnis",
+  "authors": [
+    { "name": "QDave", "discord": "qdave" }
+  ],
+  "version": "1.0.0",
+  "categories": ["Building", "Others"],
+  "source": "https://github.com/QDaves/Wall-GridAlignment",
+  "readme": "https://github.com/QDaves/Wall-GridAlignment/blob/main/README.md",
+  "stable": true,
+  "framework": { "name": "Xabbo", "version": "1.0.1" },
+  "language": "C#",
+  "commands": {
+    "default": ["cmd", "/C", "GridAlignment_64.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Flash"]
+  },
+  "submissionDate": "07-02-2026 00:00:00",
+  "updateDate": "07-02-2026 00:00:00",
+  "isOutdated": false
+}
