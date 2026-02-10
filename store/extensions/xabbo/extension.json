@@ -26,7 +26,7 @@
   },
 
   "compatibility": {
-    "systems": ["Windows", "Linux", "Mac"],
+    "systems": ["Windows"],
     "clients": ["Flash", "Origins"]
   },
 
