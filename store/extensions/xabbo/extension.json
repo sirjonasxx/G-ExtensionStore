@@ -22,9 +22,7 @@
 
   "language": "C#",
   "commands": {
-    "default": ["cmd", "/C", "xabbo.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">", "NUL", "2>&1"],
-    "linux": ["/bin/sh", "-c", "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null", "--", "{port}", "{cookie}", "{filename}"],
-    "mac": ["/bin/sh", "-c", "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null", "--", "{port}", "{cookie}", "{filename}"]
+    "default": ["cmd", "/C", "xabbo.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">", "NUL", "2>&1"]
   },
 
   "compatibility": {
