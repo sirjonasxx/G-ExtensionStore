@@ -382,5 +382,9 @@
   {
     "extension": "WallAligner",
     "rating": 190
+  },
+  {
+    "extension": "WallGridAlignment",
+    "rating": 30
   }
 ]
