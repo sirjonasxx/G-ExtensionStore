@@ -21,7 +21,7 @@
   "source": "https://github.com/thauanvargas/UserAdderReborn",
   "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/main/README.md",
 
-  "stable": true,
+  "stable": false,
 
   "framework": {
     "name": "Native",
@@ -41,5 +41,5 @@
   "submissionDate": "05-01-2023 11:17:00",
   "updateDate": "05-01-2023 19:28:00",
 
-  "isOutdated": false
+  "isOutdated": true
 }
