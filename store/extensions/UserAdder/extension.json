@@ -15,7 +15,7 @@
   "source": "https://github.com/schweppes-0x/UserAdder",
   "readme": "https://github.com/schweppes-0x/UserAdder/blob/main/README.md",
 
-  "stable": true,
+  "stable": false,
 
   "framework": {
     "name": "Native",
@@ -35,5 +35,5 @@
   "submissionDate": "27-09-2021 18:30:00",
   "updateDate": "29-09-2021 18:00:00",
 
-  "isOutdated": false
+  "isOutdated": true
 }
