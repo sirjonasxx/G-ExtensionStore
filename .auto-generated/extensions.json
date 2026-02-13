@@ -4800,7 +4800,7 @@
     ],
     "source": "https://github.com/schweppes-0x/UserAdder",
     "readme": "https://github.com/schweppes-0x/UserAdder/blob/main/README.md",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "Native",
       "version": "1.5"
@@ -4831,7 +4831,7 @@
     },
     "submissionDate": "27-09-2021 18:30:00",
     "updateDate": "29-09-2021 18:00:00",
-    "isOutdated": false,
+    "isOutdated": true,
     "rating": 160
   },
   {
@@ -4861,7 +4861,7 @@
     ],
     "source": "https://github.com/thauanvargas/UserAdderReborn",
     "readme": "https://github.com/thauanvargas/UserAdderReborn/blob/main/README.md",
-    "stable": true,
+    "stable": false,
     "framework": {
       "name": "Native",
       "version": "1.5.2"
@@ -4892,7 +4892,7 @@
     },
     "submissionDate": "05-01-2023 11:17:00",
     "updateDate": "05-01-2023 19:28:00",
-    "isOutdated": false,
+    "isOutdated": true,
     "rating": 190
   },
   {
