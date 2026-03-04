@@ -1,17 +1,17 @@
 {
-  "title": "xabbo",
-  "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
+  "title": "XabboScripter",
+  "description": "C# scripting interface",
   "authors": [
     {
       "name": "b7",
       "discord": "xb7c"
     }
   ],
-  "version": "1.1.4",
+  "version": "1.1.3",
   "categories": ["Usability"],
 
-  "source": "https://github.com/xabbo/xabbo",
-  "readme": "https://github.com/xabbo/xabbo/blob/main/README.md",
+  "source": "https://github.com/xabbo/scripter",
+  "readme": "https://github.com/xabbo/scripter/blob/main/README.md",
 
   "stable": true,
 
@@ -22,7 +22,7 @@
 
   "language": "C#",
   "commands": {
-    "default": ["cmd", "/C", "xabbo.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">", "NUL", "2>&1"]
+    "default": ["cmd", "/C", "Xabbo.Scripter.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}", ">", "NUL", "2>&1"]
   },
 
   "compatibility": {
