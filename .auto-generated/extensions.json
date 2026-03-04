@@ -4521,7 +4521,7 @@
       {
         "name": "b7",
         "extensionsCount": 3,
-        "reputation": 1530
+        "reputation": 1540
       }
     ],
     "version": "1.2",
@@ -5115,7 +5115,7 @@
         "name": "b7",
         "discord": "xb7c",
         "extensionsCount": 3,
-        "reputation": 1530
+        "reputation": 1540
       }
     ],
     "version": "1.1.4",
@@ -5158,7 +5158,7 @@
     "submissionDate": "04-09-2021 07:23:00",
     "updateDate": "10-02-2026 00:00:00",
     "isOutdated": false,
-    "rating": 50
+    "rating": 60
   },
   {
     "title": "[AIO] Gamba Suite",
@@ -5589,7 +5589,7 @@
         "name": "b7",
         "discord": "xb7c",
         "extensionsCount": 3,
-        "reputation": 1530
+        "reputation": 1540
       }
     ],
     "version": "1.1.4",
