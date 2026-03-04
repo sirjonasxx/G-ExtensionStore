@@ -1911,7 +1911,7 @@
   },
   {
     "title": "xabbo",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "_object": {
       "title": "xabbo",
       "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
@@ -1921,7 +1921,7 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.3",
+      "version": "1.1.4",
       "categories": [
         "Usability"
       ],
@@ -1947,31 +1947,11 @@
           ">",
           "NUL",
           "2>&1"
-        ],
-        "linux": [
-          "/bin/sh",
-          "-c",
-          "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
-          "--",
-          "{port}",
-          "{cookie}",
-          "{filename}"
-        ],
-        "mac": [
-          "/bin/sh",
-          "-c",
-          "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
-          "--",
-          "{port}",
-          "{cookie}",
-          "{filename}"
         ]
       },
       "compatibility": {
         "systems": [
-          "Windows",
-          "Linux",
-          "Mac"
+          "Windows"
         ],
         "clients": [
           "Flash",
@@ -1979,7 +1959,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "20-11-2024 21:02:17",
+      "updateDate": "10-02-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2042,9 +2022,19 @@
         "timestamp": 1732137489412,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1478732076168777780",
+        "extVersion": "1.1.4",
+        "type": "update",
+        "timestamp": 1772627600983,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1732137489412
+    "latestEmbed": 1772627600983
   },
   {
     "title": "LTDHelper",
@@ -8714,5 +8704,72 @@
       }
     ],
     "latestEmbed": 1770745831301
+  },
+  {
+    "title": "XabboScripter",
+    "version": "1.1.3",
+    "_object": {
+      "title": "XabboScripter",
+      "description": "C# scripting interface",
+      "authors": [
+        {
+          "name": "b7",
+          "discord": "xb7c"
+        }
+      ],
+      "version": "1.1.3",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/xabbo/scripter",
+      "readme": "https://github.com/xabbo/scripter/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "Xabbo.Scripter.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          ">",
+          "NUL",
+          "2>&1"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash",
+          "Origins"
+        ]
+      },
+      "submissionDate": "04-09-2021 07:23:00",
+      "updateDate": "10-02-2026 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1478732074079748147",
+        "extVersion": "1.1.3",
+        "type": "publish",
+        "timestamp": 1772627600484,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1772627600484
   }
 ]
