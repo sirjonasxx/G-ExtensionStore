@@ -8707,7 +8707,7 @@
   },
   {
     "title": "XabboScripter",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "_object": {
       "title": "XabboScripter",
       "description": "C# scripting interface",
@@ -8717,7 +8717,7 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.3",
+      "version": "1.1.4",
       "categories": [
         "Usability"
       ],
@@ -8768,6 +8768,16 @@
         "timestamp": 1772627600484,
         "locked": false,
         "score": 40
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1478762356577272042",
+        "extVersion": "1.1.4",
+        "type": "update",
+        "timestamp": 1772634820294,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1772627600484
