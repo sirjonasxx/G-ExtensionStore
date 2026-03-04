@@ -97,7 +97,7 @@
   },
   {
     "extension": "xabbo",
-    "rating": 1280
+    "rating": 1290
   },
   {
     "extension": "LTDHelper",
@@ -386,5 +386,9 @@
   {
     "extension": "WallGridAlignment",
     "rating": 90
+  },
+  {
+    "extension": "XabboScripter",
+    "rating": 50
   }
 ]
