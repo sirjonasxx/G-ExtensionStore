@@ -902,7 +902,7 @@
         "username": "alynva",
         "discord": "alynva",
         "twitter": "Alynva",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 710
       }
     ],
@@ -1340,7 +1340,7 @@
         "username": "Alynva",
         "discord": "Alynva#0001",
         "twitter": "Alynva",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 710
       }
     ],
@@ -1561,6 +1561,65 @@
     "rating": 210
   },
   {
+    "title": "G-MiniMailHater",
+    "description": "Automatically get rid of the minimail notification.",
+    "authors": [
+      {
+        "name": "Alynva",
+        "hotel": ".com.br",
+        "username": "Alynva",
+        "discord": "Alynva#0001",
+        "twitter": "Alynva",
+        "extensionsCount": 5,
+        "reputation": 710
+      }
+    ],
+    "version": "1.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/Alynva/G-MiniMailHater",
+    "readme": "https://github.com/Alynva/G-MiniMailHater#readme",
+    "releases": "https://github.com/Alynva/G-MiniMailHater/releases",
+    "stable": true,
+    "framework": {
+      "name": "G-Node",
+      "version": "0.2.18"
+    },
+    "language": "Node.js",
+    "commands": {
+      "default": [
+        "java",
+        "-jar",
+        "NodeExtensionSetup.jar",
+        "-npm",
+        "start",
+        "-v",
+        "16.17.0",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "22-03-2026 12:00:00",
+    "updateDate": "22-03-2026 12:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "G-Plants",
     "description": "G-Earth plant treatment module.",
     "authors": [
@@ -1698,7 +1757,7 @@
         "username": "alynva",
         "discord": "Alynva#1713",
         "twitter": "alynva",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 710
       }
     ],
@@ -1752,7 +1811,7 @@
         "username": "alynva",
         "discord": "alynva",
         "twitter": "Alynva",
-        "extensionsCount": 4,
+        "extensionsCount": 5,
         "reputation": 710
       }
     ],
