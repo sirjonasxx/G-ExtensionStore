@@ -390,5 +390,9 @@
   {
     "extension": "XabboScripter",
     "rating": 60
+  },
+  {
+    "extension": "G-MiniMailHater",
+    "rating": 70
   }
 ]
