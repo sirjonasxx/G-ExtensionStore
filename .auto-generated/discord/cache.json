@@ -1911,7 +1911,7 @@
   },
   {
     "title": "xabbo",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "_object": {
       "title": "xabbo",
       "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
@@ -1921,7 +1921,7 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.4",
+      "version": "1.1.5",
       "categories": [
         "Usability"
       ],
@@ -1959,7 +1959,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "10-02-2026 00:00:00",
+      "updateDate": "01-04-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2032,9 +2032,19 @@
         "timestamp": 1772627600983,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1489495253072482345",
+        "extVersion": "1.1.5",
+        "type": "update",
+        "timestamp": 1775193742111,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1772627600983
+    "latestEmbed": 1775193742111
   },
   {
     "title": "LTDHelper",
