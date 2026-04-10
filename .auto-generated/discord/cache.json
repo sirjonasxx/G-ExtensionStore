@@ -8737,7 +8737,7 @@
   },
   {
     "title": "XabboScripter",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "_object": {
       "title": "XabboScripter",
       "description": "C# scripting interface",
@@ -8747,7 +8747,7 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.4",
+      "version": "1.1.5",
       "categories": [
         "Usability"
       ],
@@ -8785,7 +8785,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "10-02-2026 00:00:00",
+      "updateDate": "09-04-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8808,9 +8808,19 @@
         "timestamp": 1772634820294,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1491968634522697859",
+        "extVersion": "1.1.5",
+        "type": "update",
+        "timestamp": 1775783442406,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1772627600484
+    "latestEmbed": 1775783442406
   },
   {
     "title": "G-MiniMailHater",
