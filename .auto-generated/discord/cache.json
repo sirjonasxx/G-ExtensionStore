@@ -8025,7 +8025,7 @@
   },
   {
     "title": "Robosort",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "_object": {
       "title": "Robosort",
       "description": "Sort your wired stacks (automatically).",
@@ -8038,7 +8038,7 @@
           "twitter": "RoboroadsHabbo"
         }
       ],
-      "version": "1.2.1",
+      "version": "1.2.2",
       "categories": [
         "Building"
       ],
@@ -8075,7 +8075,7 @@
         ]
       },
       "submissionDate": "27-02-2025 22:57:25",
-      "updateDate": "05-12-2025 19:51:27",
+      "updateDate": "26-04-2026 21:37:20",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8128,9 +8128,19 @@
         "timestamp": 1764964856058,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1498211071792779384",
+        "extVersion": "1.2.2",
+        "type": "update",
+        "timestamp": 1777271755317,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1764964856058
+    "latestEmbed": 1777271755317
   },
   {
     "title": "G-Midi",
