@@ -394,5 +394,9 @@
   {
     "extension": "G-MiniMailHater",
     "rating": 90
+  },
+  {
+    "extension": "PlantManager",
+    "rating": 70
   }
 ]
