@@ -1772,7 +1772,7 @@
         "username": "Roboroads",
         "discord": "roboroads",
         "extensionsCount": 2,
-        "reputation": 2695
+        "reputation": 2720
       },
       {
         "name": "WiredSpast",
@@ -3438,7 +3438,7 @@
         "discord": "lanflyy",
         "twitter": "Lanflyy",
         "extensionsCount": 1,
-        "reputation": 70
+        "reputation": 90
       }
     ],
     "version": "1.0.0",
@@ -3485,7 +3485,7 @@
     "submissionDate": "07-05-2026 01:50:00",
     "updateDate": "07-05-2026 01:50:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 90
   },
   {
     "title": "Plants",
@@ -4035,7 +4035,7 @@
         "discord": "roboroads",
         "twitter": "RoboroadsHabbo",
         "extensionsCount": 2,
-        "reputation": 2695
+        "reputation": 2720
       }
     ],
     "version": "1.2.2",
@@ -4077,7 +4077,7 @@
     "submissionDate": "27-02-2025 22:57:25",
     "updateDate": "26-04-2026 21:37:20",
     "isOutdated": false,
-    "rating": 500
+    "rating": 525
   },
   {
     "title": "RollerWalk",
