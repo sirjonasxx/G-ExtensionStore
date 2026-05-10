@@ -1,0 +1,40 @@
+{
+  "title": "G-Controller",
+  "description": "Controls your Habbo from your phone.\nG-Controller is a tool that allows you to control your Habbo client from your phone.\nYou can also navigate through rooms, chat, look directions, and more.",
+  "authors": [
+    {
+      "name": "cebolla1",
+      "discord": "michyaraque"
+    }
+  ],
+  "version": "0.2.0",
+  "categories": ["Usability"],
+  
+  "source": "https://github.com/michyaraque/G-Controller/",
+  "readme": "https://github.com/michyaraque/G-Controller/blob/main/README.md",
+  "releases": "https://github.com/michyaraque/G-Controller/releases",
+  
+  "stable": true,
+  
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.5.0"
+  },
+
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "g-controller-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "g-controller-win.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "mac": ["/bin/sh", "-c", "chmod +x g-controller-mac.app/Contents/MacOS/g-controller && ./g-controller-mac.app/Contents/MacOS/g-controller -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"],
+    "linux": ["/bin/sh", "-c", "chmod +x g-controller-linux && ./g-controller-linux -p \"$1\" -c \"$2\" -f \"$3\"", "--", "{port}", "{cookie}", "{filename}"]
+  },
+  
+  "compatibility": {
+      "systems": ["Windows", "Mac", "Linux"],
+      "clients": ["Flash"]
+  },
+
+  "submissionDate": "10-05-2026 15:49:00",
+  "updateDate": "10-05-2026 15:49:00",
+  "isOutdated": false
+}
