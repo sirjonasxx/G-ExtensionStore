@@ -398,5 +398,9 @@
   {
     "extension": "PlantManager",
     "rating": 70
+  },
+  {
+    "extension": "G-Controller",
+    "rating": 30
   }
 ]
