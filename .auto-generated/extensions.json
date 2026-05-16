@@ -3429,7 +3429,7 @@
   },
   {
     "title": "PlantManager",
-    "description": "Automatically treats and composts all monster plants in the current room.\n\nCommands:\n`:plants` - Treat all plants\n`:plants compost` - Compost all plants\n`:plants abort` - Abort plant processing",
+    "description": "Tool to automate monsterplant management : Treat plants & compost plants.",
     "authors": [
       {
         "name": "Lanflyy",
@@ -3441,7 +3441,7 @@
         "reputation": 90
       }
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "categories": [
       "Usability",
       "Others"
@@ -3451,19 +3451,15 @@
     "releases": "https://github.com/Lanflyy/plant-manager/releases",
     "stable": true,
     "framework": {
-      "name": "G-Node",
-      "version": "0.2.16"
+      "name": "Native",
+      "version": "1.5.3"
     },
-    "language": "Node.js",
+    "language": "Java",
     "commands": {
       "default": [
         "java",
         "-jar",
-        "NodeExtensionSetup.jar",
-        "-npm",
-        "start",
-        "-v",
-        "18.0.0",
+        "PlantManager.jar",
         "-c",
         "{cookie}",
         "-p",
@@ -3483,7 +3479,7 @@
       ]
     },
     "submissionDate": "07-05-2026 01:50:00",
-    "updateDate": "07-05-2026 01:50:00",
+    "updateDate": "16-05-2026 11:55:00",
     "isOutdated": false,
     "rating": 90
   },

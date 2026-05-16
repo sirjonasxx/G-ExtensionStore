@@ -8907,10 +8907,10 @@
   },
   {
     "title": "PlantManager",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "_object": {
       "title": "PlantManager",
-      "description": "Automatically treats and composts all monster plants in the current room.\n\nCommands:\n`:plants` - Treat all plants\n`:plants compost` - Compost all plants\n`:plants abort` - Abort plant processing",
+      "description": "Tool to automate monsterplant management : Treat plants & compost plants.",
       "authors": [
         {
           "name": "Lanflyy",
@@ -8920,7 +8920,7 @@
           "twitter": "Lanflyy"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "categories": [
         "Usability",
         "Others"
@@ -8930,19 +8930,15 @@
       "releases": "https://github.com/Lanflyy/plant-manager/releases",
       "stable": true,
       "framework": {
-        "name": "G-Node",
-        "version": "0.2.16"
+        "name": "Native",
+        "version": "1.5.3"
       },
-      "language": "Node.js",
+      "language": "Java",
       "commands": {
         "default": [
           "java",
           "-jar",
-          "NodeExtensionSetup.jar",
-          "-npm",
-          "start",
-          "-v",
-          "18.0.0",
+          "PlantManager.jar",
           "-c",
           "{cookie}",
           "-p",
@@ -8962,7 +8958,7 @@
         ]
       },
       "submissionDate": "07-05-2026 01:50:00",
-      "updateDate": "07-05-2026 01:50:00",
+      "updateDate": "16-05-2026 11:55:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8975,9 +8971,19 @@
         "timestamp": 1778164204622,
         "locked": false,
         "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1505077374528655410",
+        "extVersion": "1.1.0",
+        "type": "update",
+        "timestamp": 1778908809426,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1778164204622
+    "latestEmbed": 1778908809426
   },
   {
     "title": "G-Controller",
