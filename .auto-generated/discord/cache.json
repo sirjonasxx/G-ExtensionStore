@@ -1911,7 +1911,7 @@
   },
   {
     "title": "xabbo",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "_object": {
       "title": "xabbo",
       "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
@@ -1921,12 +1921,12 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.5",
+      "version": "1.1.6",
       "categories": [
         "Usability"
       ],
-      "source": "https://github.com/xabbo/xabbo",
-      "readme": "https://github.com/xabbo/xabbo/blob/main/README.md",
+      "source": "https://github.com/QDaves/xabbo",
+      "readme": "https://github.com/QDaves/xabbo/blob/main/README.md",
       "stable": true,
       "framework": {
         "name": "Xabbo",
@@ -1947,11 +1947,31 @@
           ">",
           "NUL",
           "2>&1"
+        ],
+        "linux": [
+          "/bin/sh",
+          "-c",
+          "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
+          "--",
+          "{port}",
+          "{cookie}",
+          "{filename}"
+        ],
+        "mac": [
+          "/bin/sh",
+          "-c",
+          "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
+          "--",
+          "{port}",
+          "{cookie}",
+          "{filename}"
         ]
       },
       "compatibility": {
         "systems": [
-          "Windows"
+          "Windows",
+          "Linux",
+          "Mac"
         ],
         "clients": [
           "Flash",
@@ -1959,7 +1979,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "01-04-2026 00:00:00",
+      "updateDate": "20-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2042,9 +2062,19 @@
         "timestamp": 1775193742111,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1506748044534616134",
+        "extVersion": "1.1.6",
+        "type": "update",
+        "timestamp": 1779307128217,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1775193742111
+    "latestEmbed": 1779307128217
   },
   {
     "title": "LTDHelper",
@@ -8358,7 +8388,7 @@
   },
   {
     "title": "Mimiq",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "Mimiq",
       "description": "Mimiq/c user Avatars in Habbo",
@@ -8368,7 +8398,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Fun",
         "Others"
@@ -8404,7 +8434,7 @@
         ]
       },
       "submissionDate": "13-10-2025 00:00:00",
-      "updateDate": "13-10-2025 00:00:00",
+      "updateDate": "20-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8417,9 +8447,19 @@
         "timestamp": 1763449982810,
         "locked": false,
         "score": 120
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1506748035504537862",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1779307126131,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1763449982810
+    "latestEmbed": 1779307126131
   },
   {
     "title": "PixelArt",
@@ -8618,7 +8658,7 @@
   },
   {
     "title": "WallAligner",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "WallAligner",
       "description": "Visual wall item alignment tool with text writer, SVG image loader and free draw mode",
@@ -8628,7 +8668,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Building",
         "Others"
@@ -8664,7 +8704,7 @@
         ]
       },
       "submissionDate": "12-01-2026 00:00:00",
-      "updateDate": "12-01-2026 00:00:00",
+      "updateDate": "20-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8677,13 +8717,23 @@
         "timestamp": 1768324561753,
         "locked": false,
         "score": 200
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1506748037966598285",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1779307126786,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1768324561753
+    "latestEmbed": 1779307126786
   },
   {
     "title": "WallGridAlignment",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "WallGridAlignment",
       "description": "grid alignment tool for wall furnis",
@@ -8693,7 +8743,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Building",
         "Others"
@@ -8728,7 +8778,7 @@
         ]
       },
       "submissionDate": "07-02-2026 00:00:00",
-      "updateDate": "07-02-2026 00:00:00",
+      "updateDate": "20-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8741,9 +8791,19 @@
         "timestamp": 1770745831301,
         "locked": false,
         "score": 80
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1506748041661513918",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1779307127715,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1770745831301
+    "latestEmbed": 1779307127715
   },
   {
     "title": "XabboScripter",
