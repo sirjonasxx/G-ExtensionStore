@@ -4,7 +4,7 @@
   "authors": [
     { "name": "QDave", "discord": "qdave" }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["Fun", "Others"],
   "source": "https://github.com/QDaves/Mimiq",
   "readme": "https://github.com/QDaves/Mimiq/blob/main/README.md",
@@ -20,6 +20,6 @@
     "clients": ["Flash"]
   },
   "submissionDate": "13-10-2025 00:00:00",
-  "updateDate": "13-10-2025 00:00:00",
+  "updateDate": "20-05-2026 00:00:00",
   "isOutdated": false
 }
