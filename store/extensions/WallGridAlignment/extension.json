@@ -4,7 +4,7 @@
   "authors": [
     { "name": "QDave", "discord": "qdave" }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["Building", "Others"],
   "source": "https://github.com/QDaves/Wall-GridAlignment",
   "readme": "https://github.com/QDaves/Wall-GridAlignment/blob/main/README.md",
@@ -19,6 +19,6 @@
     "clients": ["Flash"]
   },
   "submissionDate": "07-02-2026 00:00:00",
-  "updateDate": "07-02-2026 00:00:00",
+  "updateDate": "20-05-2026 00:00:00",
   "isOutdated": false
 }
