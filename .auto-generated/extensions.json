@@ -3064,7 +3064,7 @@
         "reputation": 2225
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": [
       "Fun",
       "Others"
@@ -3100,7 +3100,7 @@
       ]
     },
     "submissionDate": "13-10-2025 00:00:00",
-    "updateDate": "20-05-2026 00:00:00",
+    "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
     "rating": 140
   },
@@ -5155,7 +5155,7 @@
         "reputation": 2225
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": [
       "Building",
       "Others"
@@ -5191,7 +5191,7 @@
       ]
     },
     "submissionDate": "12-01-2026 00:00:00",
-    "updateDate": "20-05-2026 00:00:00",
+    "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
     "rating": 220
   },
@@ -5206,7 +5206,7 @@
         "reputation": 2225
       }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": [
       "Building",
       "Others"
@@ -5241,7 +5241,7 @@
       ]
     },
     "submissionDate": "07-02-2026 00:00:00",
-    "updateDate": "20-05-2026 00:00:00",
+    "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
     "rating": 100
   },
@@ -5790,7 +5790,7 @@
         "reputation": 1670
       }
     ],
-    "version": "1.1.6",
+    "version": "1.1.7",
     "categories": [
       "Usability"
     ],
@@ -5812,43 +5812,19 @@
         "-p",
         "{port}",
         "-f",
-        "{filename}",
-        ">",
-        "NUL",
-        "2>&1"
-      ],
-      "linux": [
-        "/bin/sh",
-        "-c",
-        "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
-        "--",
-        "{port}",
-        "{cookie}",
-        "{filename}"
-      ],
-      "mac": [
-        "/bin/sh",
-        "-c",
-        "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
-        "--",
-        "{port}",
-        "{cookie}",
         "{filename}"
       ]
     },
     "compatibility": {
       "systems": [
-        "Windows",
-        "Linux",
-        "Mac"
+        "Windows"
       ],
       "clients": [
-        "Flash",
-        "Origins"
+        "Flash"
       ]
     },
     "submissionDate": "04-09-2021 07:23:00",
-    "updateDate": "20-05-2026 00:00:00",
+    "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
     "rating": 1385
   }

@@ -1911,7 +1911,7 @@
   },
   {
     "title": "xabbo",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "_object": {
       "title": "xabbo",
       "description": "enhanced habbo\n\nrequires the .NET 8 Runtime",
@@ -1921,7 +1921,7 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.6",
+      "version": "1.1.7",
       "categories": [
         "Usability"
       ],
@@ -1943,43 +1943,19 @@
           "-p",
           "{port}",
           "-f",
-          "{filename}",
-          ">",
-          "NUL",
-          "2>&1"
-        ],
-        "linux": [
-          "/bin/sh",
-          "-c",
-          "chmod +x xabbo-linux-x64 && ./xabbo-linux-x64 -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
-          "--",
-          "{port}",
-          "{cookie}",
-          "{filename}"
-        ],
-        "mac": [
-          "/bin/sh",
-          "-c",
-          "chmod +x xabbo-osx && ./xabbo-osx -p \"$1\" -c \"$2\" -f \"$3\" >& /dev/null",
-          "--",
-          "{port}",
-          "{cookie}",
           "{filename}"
         ]
       },
       "compatibility": {
         "systems": [
-          "Windows",
-          "Linux",
-          "Mac"
+          "Windows"
         ],
         "clients": [
-          "Flash",
-          "Origins"
+          "Flash"
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "20-05-2026 00:00:00",
+      "updateDate": "21-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2072,6 +2048,16 @@
         "timestamp": 1779307128217,
         "locked": false,
         "score": 75
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1507066674862620722",
+        "extVersion": "1.1.7",
+        "type": "update",
+        "timestamp": 1779383095554,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1779307128217
@@ -8388,7 +8374,7 @@
   },
   {
     "title": "Mimiq",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "Mimiq",
       "description": "Mimiq/c user Avatars in Habbo",
@@ -8398,7 +8384,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Fun",
         "Others"
@@ -8434,7 +8420,7 @@
         ]
       },
       "submissionDate": "13-10-2025 00:00:00",
-      "updateDate": "20-05-2026 00:00:00",
+      "updateDate": "21-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8455,6 +8441,16 @@
         "extVersion": "1.0.1",
         "type": "update",
         "timestamp": 1779307126131,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1507066665676963891",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1779383093313,
         "locked": false,
         "score": 0
       }
@@ -8658,7 +8654,7 @@
   },
   {
     "title": "WallAligner",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "WallAligner",
       "description": "Visual wall item alignment tool with text writer, SVG image loader and free draw mode",
@@ -8668,7 +8664,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Building",
         "Others"
@@ -8704,7 +8700,7 @@
         ]
       },
       "submissionDate": "12-01-2026 00:00:00",
-      "updateDate": "20-05-2026 00:00:00",
+      "updateDate": "21-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8727,13 +8723,23 @@
         "timestamp": 1779307126786,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1507066667069477024",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1779383094170,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1779307126786
   },
   {
     "title": "WallGridAlignment",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "_object": {
       "title": "WallGridAlignment",
       "description": "grid alignment tool for wall furnis",
@@ -8743,7 +8749,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "categories": [
         "Building",
         "Others"
@@ -8778,7 +8784,7 @@
         ]
       },
       "submissionDate": "07-02-2026 00:00:00",
-      "updateDate": "20-05-2026 00:00:00",
+      "updateDate": "21-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8799,6 +8805,16 @@
         "extVersion": "1.0.1",
         "type": "update",
         "timestamp": 1779307127715,
+        "locked": false,
+        "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1507066670789820479",
+        "extVersion": "1.0.2",
+        "type": "update",
+        "timestamp": 1779383095104,
         "locked": false,
         "score": 0
       }
