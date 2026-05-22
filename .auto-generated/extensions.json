@@ -2208,7 +2208,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.4",
@@ -2508,7 +2508,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.0",
@@ -2614,7 +2614,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0",
@@ -3061,7 +3061,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.2",
@@ -3102,7 +3102,7 @@
     "submissionDate": "13-10-2025 00:00:00",
     "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
-    "rating": 175
+    "rating": 200
   },
   {
     "title": "Mod Tools",
@@ -3384,7 +3384,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.0",
@@ -4719,7 +4719,7 @@
       {
         "name": "b7",
         "extensionsCount": 3,
-        "reputation": 1705
+        "reputation": 1730
       }
     ],
     "version": "1.2",
@@ -4799,7 +4799,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.0",
@@ -5101,7 +5101,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.0",
@@ -5152,7 +5152,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.2",
@@ -5193,7 +5193,7 @@
     "submissionDate": "12-01-2026 00:00:00",
     "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
-    "rating": 255
+    "rating": 280
   },
   {
     "title": "WallGridAlignment",
@@ -5203,7 +5203,7 @@
         "name": "QDave",
         "discord": "qdave",
         "extensionsCount": 9,
-        "reputation": 2330
+        "reputation": 2405
       }
     ],
     "version": "1.0.2",
@@ -5243,7 +5243,7 @@
     "submissionDate": "07-02-2026 00:00:00",
     "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
-    "rating": 135
+    "rating": 160
   },
   {
     "title": "Wired Overview",
@@ -5313,7 +5313,7 @@
         "name": "b7",
         "discord": "xb7c",
         "extensionsCount": 3,
-        "reputation": 1705
+        "reputation": 1730
       }
     ],
     "version": "1.1.5",
@@ -5787,7 +5787,7 @@
         "name": "b7",
         "discord": "xb7c",
         "extensionsCount": 3,
-        "reputation": 1705
+        "reputation": 1730
       }
     ],
     "version": "1.1.7",
@@ -5826,6 +5826,6 @@
     "submissionDate": "04-09-2021 07:23:00",
     "updateDate": "21-05-2026 00:00:00",
     "isOutdated": false,
-    "rating": 1420
+    "rating": 1445
   }
 ]
