@@ -97,7 +97,7 @@
   },
   {
     "extension": "xabbo",
-    "rating": 1395
+    "rating": 1420
   },
   {
     "extension": "LTDHelper",
@@ -365,7 +365,7 @@
   },
   {
     "extension": "Mimiq",
-    "rating": 150
+    "rating": 175
   },
   {
     "extension": "PixelArt",
@@ -381,11 +381,11 @@
   },
   {
     "extension": "WallAligner",
-    "rating": 230
+    "rating": 255
   },
   {
     "extension": "WallGridAlignment",
-    "rating": 110
+    "rating": 135
   },
   {
     "extension": "XabboScripter",
