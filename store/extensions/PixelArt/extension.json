@@ -4,7 +4,7 @@
   "authors": [
     { "name": "QDave", "discord": "qdave" }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["Fun", "Others"],
   "source": "https://github.com/QDaves/PixelArt",
   "readme": "https://github.com/QDaves/PixelArt/blob/main/README.md",
@@ -20,6 +20,6 @@
     "clients": ["Flash"]
   },
   "submissionDate": "18-10-2025 00:00:00",
-  "updateDate": "18-10-2025 00:00:00",
+  "updateDate": "23-05-2026 00:00:00",
   "isOutdated": false
 }
