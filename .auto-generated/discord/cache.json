@@ -8459,7 +8459,7 @@
   },
   {
     "title": "PixelArt",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "_object": {
       "title": "PixelArt",
       "description": "habbo pixel art builder",
@@ -8469,7 +8469,7 @@
           "discord": "qdave"
         }
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "Fun",
         "Others"
@@ -8505,7 +8505,7 @@
         ]
       },
       "submissionDate": "18-10-2025 00:00:00",
-      "updateDate": "18-10-2025 00:00:00",
+      "updateDate": "23-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8518,9 +8518,19 @@
         "timestamp": 1763449983437,
         "locked": false,
         "score": 140
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1507835905191313528",
+        "extVersion": "1.0.1",
+        "type": "update",
+        "timestamp": 1779566494666,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1763449983437
+    "latestEmbed": 1779566494666
   },
   {
     "title": "VarChanger",
@@ -8823,7 +8833,7 @@
   },
   {
     "title": "XabboScripter",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "_object": {
       "title": "XabboScripter",
       "description": "C# scripting interface",
@@ -8833,7 +8843,7 @@
           "discord": "xb7c"
         }
       ],
-      "version": "1.1.5",
+      "version": "1.1.6",
       "categories": [
         "Usability"
       ],
@@ -8871,7 +8881,7 @@
         ]
       },
       "submissionDate": "04-09-2021 07:23:00",
-      "updateDate": "09-04-2026 00:00:00",
+      "updateDate": "23-05-2026 00:00:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8904,9 +8914,19 @@
         "timestamp": 1775783442406,
         "locked": false,
         "score": 25
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1507835908437840084",
+        "extVersion": "1.1.6",
+        "type": "update",
+        "timestamp": 1779566495206,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1775783442406
+    "latestEmbed": 1779566495206
   },
   {
     "title": "G-MiniMailHater",
