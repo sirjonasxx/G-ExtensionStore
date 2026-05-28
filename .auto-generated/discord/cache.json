@@ -9003,10 +9003,10 @@
   },
   {
     "title": "PlantManager",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "_object": {
       "title": "PlantManager",
-      "description": "Tool to automate monsterplant management : Treat plants & compost plants.",
+      "description": "Tool to automate monsterplant management :\n* Treat all plants\n* Compost all plants\n* Plant all seeds\n* Set on/off can reproduce\n* Auto accept breeding requests.",
       "authors": [
         {
           "name": "Lanflyy",
@@ -9016,7 +9016,7 @@
           "twitter": "Lanflyy"
         }
       ],
-      "version": "1.1.0",
+      "version": "1.3.0",
       "categories": [
         "Usability",
         "Others"
@@ -9077,9 +9077,19 @@
         "timestamp": 1778908809426,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1509618113946325133",
+        "extVersion": "1.3.0",
+        "type": "update",
+        "timestamp": 1779991406240,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1778908809426
+    "latestEmbed": 1779991406240
   },
   {
     "title": "G-Controller",
