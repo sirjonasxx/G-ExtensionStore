@@ -9185,5 +9185,71 @@
       }
     ],
     "latestEmbed": 1778424343143
+  },
+  {
+    "title": "ColorMessages",
+    "version": "1.0.1",
+    "_object": {
+      "title": "ColorMessages",
+      "description": "Automatically applies color tag to chat, shout and whisper messages\n- Requires Habbo Club\n\n:colormsg - see all commands\n:colormsg [red/green/blue/cyan/purple/default]\n:colormsg shoutalways",
+      "authors": [
+        {
+          "name": "JoaninhaJNS",
+          "hotel": ".com.br",
+          "username": "JoaninhaJNS",
+          "discord": "steadyonly"
+        }
+      ],
+      "version": "1.0.1",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/JoaninhaJNS/ColorMessages",
+      "releases": "https://github.com/JoaninhaJNS/ColorMessages/releases",
+      "readme": "https://github.com/JoaninhaJNS/ColorMessages/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "ColorMessages-win-x64.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "04-06-2026 00:00:00",
+      "updateDate": "04-06-2026 00:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1512236725307445259",
+        "extVersion": "1.0.1",
+        "type": "publish",
+        "timestamp": 1780615731752,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1780615731752
   }
 ]

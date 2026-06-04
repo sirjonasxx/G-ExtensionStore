@@ -565,6 +565,58 @@
     "rating": 395
   },
   {
+    "title": "ColorMessages",
+    "description": "Automatically applies color tag to chat, shout and whisper messages\n- Requires Habbo Club\n\n:colormsg - see all commands\n:colormsg [red/green/blue/cyan/purple/default]\n:colormsg shoutalways",
+    "authors": [
+      {
+        "name": "JoaninhaJNS",
+        "hotel": ".com.br",
+        "username": "JoaninhaJNS",
+        "discord": "steadyonly",
+        "extensionsCount": 1,
+        "reputation": 0
+      }
+    ],
+    "version": "1.0.1",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/JoaninhaJNS/ColorMessages",
+    "releases": "https://github.com/JoaninhaJNS/ColorMessages/releases",
+    "readme": "https://github.com/JoaninhaJNS/ColorMessages/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "ColorMessages-win-x64.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "04-06-2026 00:00:00",
+    "updateDate": "04-06-2026 00:00:00",
+    "isOutdated": false,
+    "rating": 0
+  },
+  {
     "title": "Custom walk",
     "description": "Continuously sit, perform actions and use signs while walking",
     "authors": [
