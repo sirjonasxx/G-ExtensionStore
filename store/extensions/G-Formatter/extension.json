@@ -10,7 +10,7 @@
         }
     ],
     "version": "1.0.0",
-    "categories": ["Tools","Others"],
+    "categories": ["Usability","Others"],
     "source": "https://github.com/LoremRoman/G-Formatter",
     "releases": "https://github.com/LoremRoman/G-Formatter/releases",
     "readme": "https://github.com/LoremRoman/G-Formatter#readme",
@@ -28,6 +28,6 @@
         "clients": ["Flash"]
     },
     "submissionDate": "07-06-2026 02:20:00",
-    "updateDate": "09-06-2026 07:23:00",
+    "updateDate": "09-06-2026 08:17:00",
     "isOutdated": false
 }
