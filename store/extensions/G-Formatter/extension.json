@@ -25,9 +25,9 @@
     },
     "compatibility": {
         "systems": ["Windows"],
-        "clients": ["Unity","Flash","Nitro","Origins"]
+        "clients": ["Flash"]
     },
     "submissionDate": "07-06-2026 02:20:00",
-    "updateDate": "07-06-2026 02:20:00",
+    "updateDate": "09-06-2026 07:23:00",
     "isOutdated": false
 }
