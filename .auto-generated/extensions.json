@@ -574,7 +574,7 @@
         "username": "JoaninhaJNS",
         "discord": "steadyonly",
         "extensionsCount": 2,
-        "reputation": 220
+        "reputation": 260
       }
     ],
     "version": "1.0.1",
@@ -954,7 +954,7 @@
         "username": "JoaninhaJNS",
         "discord": "steadyonly",
         "extensionsCount": 2,
-        "reputation": 220
+        "reputation": 260
       }
     ],
     "version": "1.0.0",
@@ -994,7 +994,7 @@
     "submissionDate": "09-06-2026 16:00:00",
     "updateDate": "09-06-2026 16:00:00",
     "isOutdated": false,
-    "rating": 110
+    "rating": 150
   },
   {
     "title": "G-AutoLikeRooms",
@@ -1418,7 +1418,7 @@
         "username": "BigBenitocamelo",
         "discord": "loremroman",
         "extensionsCount": 1,
-        "reputation": 70
+        "reputation": 110
       }
     ],
     "version": "1.0.0",
@@ -1459,7 +1459,7 @@
     "submissionDate": "07-06-2026 02:20:00",
     "updateDate": "09-06-2026 08:17:00",
     "isOutdated": false,
-    "rating": 70
+    "rating": 110
   },
   {
     "title": "G-Forum",
