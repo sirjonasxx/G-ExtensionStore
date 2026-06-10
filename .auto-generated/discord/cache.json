@@ -9318,5 +9318,71 @@
       }
     ],
     "latestEmbed": 1781051285402
+  },
+  {
+    "title": "FullRoomSniper",
+    "version": "1.0.0",
+    "_object": {
+      "title": "FullRoomSniper",
+      "description": "Monitors room capacity and attempts to enter full rooms",
+      "authors": [
+        {
+          "name": "JoaninhaJNS",
+          "hotel": ".com.br",
+          "username": "JoaninhaJNS",
+          "discord": "steadyonly"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/JoaninhaJNS/FullRoomSniper",
+      "releases": "https://github.com/JoaninhaJNS/FullRoomSniper/releases",
+      "readme": "https://github.com/JoaninhaJNS/FullRoomSniper/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "FullRoomSniper.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "09-06-2026 16:00:00",
+      "updateDate": "09-06-2026 16:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1514064144007958530",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1781051422332,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1781051422332
   }
 ]

@@ -573,7 +573,7 @@
         "hotel": ".com.br",
         "username": "JoaninhaJNS",
         "discord": "steadyonly",
-        "extensionsCount": 1,
+        "extensionsCount": 2,
         "reputation": 110
       }
     ],
@@ -943,6 +943,58 @@
     "updateDate": "17-02-2022 07:23:00",
     "isOutdated": false,
     "rating": 315
+  },
+  {
+    "title": "FullRoomSniper",
+    "description": "Monitors room capacity and attempts to enter full rooms",
+    "authors": [
+      {
+        "name": "JoaninhaJNS",
+        "hotel": ".com.br",
+        "username": "JoaninhaJNS",
+        "discord": "steadyonly",
+        "extensionsCount": 2,
+        "reputation": 110
+      }
+    ],
+    "version": "1.0.0",
+    "categories": [
+      "Usability"
+    ],
+    "source": "https://github.com/JoaninhaJNS/FullRoomSniper",
+    "releases": "https://github.com/JoaninhaJNS/FullRoomSniper/releases",
+    "readme": "https://github.com/JoaninhaJNS/FullRoomSniper/blob/main/README.md",
+    "stable": true,
+    "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+    "language": "C#",
+    "commands": {
+      "default": [
+        "cmd",
+        "/C",
+        "FullRoomSniper.exe",
+        "-c",
+        "{cookie}",
+        "-p",
+        "{port}",
+        "-f",
+        "{filename}"
+      ]
+    },
+    "compatibility": {
+      "systems": [
+        "Windows"
+      ],
+      "clients": [
+        "Flash"
+      ]
+    },
+    "submissionDate": "09-06-2026 16:00:00",
+    "updateDate": "09-06-2026 16:00:00",
+    "isOutdated": false,
+    "rating": 0
   },
   {
     "title": "G-AutoLikeRooms",
