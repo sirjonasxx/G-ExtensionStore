@@ -9247,9 +9247,142 @@
         "type": "publish",
         "timestamp": 1780615731752,
         "locked": false,
-        "score": 60
+        "score": 100
       }
     ],
     "latestEmbed": 1780615731752
+  },
+  {
+    "title": "G-Formatter",
+    "version": "1.0.0",
+    "_object": {
+      "title": "G-Formatter",
+      "description": "Text styling made simple. A professional text formatting extension for G-Earth designed to streamline BBCode insertion and text styling for Habbo.\n\nFeatures:\n- Quick toggle for Bold, Underline, and Italic.\n- One-click text color application.\n- Format cleaning tools.\n- Integrated emoji panel.",
+      "authors": [
+        {
+          "name": "LoremRoman",
+          "hotel": ".es",
+          "username": "BigBenitocamelo",
+          "discord": "loremroman"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/LoremRoman/G-Formatter",
+      "releases": "https://github.com/LoremRoman/G-Formatter/releases",
+      "readme": "https://github.com/LoremRoman/G-Formatter#readme",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.0"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "G-Formatter.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "07-06-2026 02:20:00",
+      "updateDate": "09-06-2026 08:17:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1514063569589764136",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1781051285402,
+        "locked": false,
+        "score": 120
+      }
+    ],
+    "latestEmbed": 1781051285402
+  },
+  {
+    "title": "FullRoomSniper",
+    "version": "1.0.0",
+    "_object": {
+      "title": "FullRoomSniper",
+      "description": "Monitors room capacity and attempts to enter full rooms",
+      "authors": [
+        {
+          "name": "JoaninhaJNS",
+          "hotel": ".com.br",
+          "username": "JoaninhaJNS",
+          "discord": "steadyonly"
+        }
+      ],
+      "version": "1.0.0",
+      "categories": [
+        "Usability"
+      ],
+      "source": "https://github.com/JoaninhaJNS/FullRoomSniper",
+      "releases": "https://github.com/JoaninhaJNS/FullRoomSniper/releases",
+      "readme": "https://github.com/JoaninhaJNS/FullRoomSniper/blob/main/README.md",
+      "stable": true,
+      "framework": {
+        "name": "Xabbo",
+        "version": "1.0.1"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "FullRoomSniper.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "09-06-2026 16:00:00",
+      "updateDate": "09-06-2026 16:00:00",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1514064144007958530",
+        "extVersion": "1.0.0",
+        "type": "publish",
+        "timestamp": 1781051422332,
+        "locked": false,
+        "score": 160
+      }
+    ],
+    "latestEmbed": 1781051422332
   }
 ]

@@ -405,6 +405,14 @@
   },
   {
     "extension": "ColorMessages",
-    "rating": 70
+    "rating": 110
+  },
+  {
+    "extension": "G-Formatter",
+    "rating": 130
+  },
+  {
+    "extension": "FullRoomSniper",
+    "rating": 170
   }
 ]
