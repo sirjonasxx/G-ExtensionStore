@@ -1,0 +1,33 @@
+{
+  "title": "TotemEffects",
+  "description": "Automatically farm totem effects",
+  "authors": [
+      {
+        "name": "JoaninhaJNS",
+        "hotel": ".com.br",
+        "username": "JoaninhaJNS",
+        "discord": "steadyonly"
+      }
+    ],
+  "version": "1.0.0",
+  "categories": ["Usability"],
+  "source": "https://github.com/JoaninhaJNS/TotemEffects",
+  "releases": "https://github.com/JoaninhaJNS/TotemEffects/releases",
+  "readme": "https://github.com/JoaninhaJNS/TotemEffects/blob/master/README.md",
+  "stable": true,
+  "framework": {
+      "name": "Xabbo",
+      "version": "1.0.1"
+    },
+  "language": "C#",
+  "commands": {
+    "default": ["cmd", "/C", "TotemEffects.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Flash"]
+  },
+  "submissionDate": "17-06-2026 17:30:00",
+  "updateDate": "17-06-2026 17:30:00",
+  "isOutdated": false
+}
