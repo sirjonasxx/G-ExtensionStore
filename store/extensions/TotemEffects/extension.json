@@ -9,7 +9,7 @@
         "discord": "steadyonly"
       }
     ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "categories": ["Usability"],
   "source": "https://github.com/JoaninhaJNS/TotemEffects",
   "releases": "https://github.com/JoaninhaJNS/TotemEffects/releases",
@@ -27,7 +27,7 @@
     "systems": ["Windows"],
     "clients": ["Flash"]
   },
-  "submissionDate": "22-06-2026 22:00:00",
-  "updateDate": "22-06-2026 22:00:00",
+  "submissionDate": "26-06-2026 12:00:00",
+  "updateDate": "26-06-2026 12:00:00",
   "isOutdated": false
 }
