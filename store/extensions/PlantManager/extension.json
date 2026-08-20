@@ -1,6 +1,6 @@
 {
   "title": "PlantManager",
-  "description": "Tool to automate monsterplant management :\n* Treat all plants\n* Compost all plants\n* Plant all seeds\n* Set on/off can reproduce\n* Auto accept breeding requests.",
+  "description": "Tool to automate monsterplant management :\n* Treat all plants\n* Compost all plants\n* Plant all seeds\n* Set on/off can reproduce\n* Auto accept breeding requests\n* And many others.",
   "authors": [
     {
       "name": "Lanflyy",
@@ -10,7 +10,7 @@
       "twitter": "Lanflyy"
     }
   ],
-  "version": "1.3.0",
+  "version": "1.4.2",
   "categories": ["Usability", "Others"],
   
   "source": "https://github.com/Lanflyy/plant-manager",
@@ -35,6 +35,6 @@
   },
 
   "submissionDate": "07-05-2026 01:50:00",
-  "updateDate": "16-05-2026 11:55:00",
+  "updateDate": "20-08-2026 02:11:00",
   "isOutdated": false
 }
