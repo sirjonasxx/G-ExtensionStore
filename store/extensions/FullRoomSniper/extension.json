@@ -9,7 +9,7 @@
         "discord": "steadyonly"
       }
     ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["Usability"],
   "source": "https://github.com/JoaninhaJNS/FullRoomSniper",
   "releases": "https://github.com/JoaninhaJNS/FullRoomSniper/releases",
@@ -28,6 +28,6 @@
     "clients": ["Flash"]
   },
   "submissionDate": "09-06-2026 16:00:00",
-  "updateDate": "09-06-2026 16:00:00",
+  "updateDate": "20-06-2026 19:00:00",
   "isOutdated": false
 }
