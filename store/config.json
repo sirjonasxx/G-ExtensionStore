@@ -129,6 +129,17 @@
         "required": true,
         "instructions": "https://github.com/michyaraque/g-php"
       }
+    },
+    {
+      "name": "QX",
+      "description": "C# scripting for G-Earth.",
+      "developers": ["QDave"],
+      "languages": ["C#"],
+      "source": "https://github.com/QDaves/QX-Scripter",
+      "installation": {
+        "required": true,
+        "instructions": "https://dotnet.microsoft.com/download/dotnet/10.0"
+      }
     }
   ]
 }
