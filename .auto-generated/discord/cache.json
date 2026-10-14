@@ -2136,7 +2136,7 @@
   },
   {
     "title": "G-Presets - Building & Wired Presets",
-    "version": "1.2.11",
+    "version": "1.2.12",
     "_object": {
       "title": "G-Presets - Building & Wired Presets",
       "description": "Save and reuse wired and non-wired setups",
@@ -2161,7 +2161,7 @@
           "discord": "wiredspast"
         }
       ],
-      "version": "1.2.11",
+      "version": "1.2.12",
       "categories": [
         "Building",
         "Usability"
@@ -2199,7 +2199,7 @@
         ]
       },
       "submissionDate": "19-09-2021 23:54:00",
-      "updateDate": "03-04-2026 08:03:00",
+      "updateDate": "14-10-2026 15:44:00",
       "isOutdated": false
     },
     "discordMessages": [
@@ -2432,9 +2432,19 @@
         "timestamp": 1775196622124,
         "locked": false,
         "score": 0
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1559928280327393332",
+        "extVersion": "1.2.12",
+        "type": "update",
+        "timestamp": 1791986284579,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1775196622124
+    "latestEmbed": 1791986284579
   },
   {
     "title": "Rainbow BackGround",
@@ -3325,7 +3335,7 @@
   },
   {
     "title": "G-Click Ultimate",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "_object": {
       "title": "G-Click Ultimate",
       "description": "Ultimate clicking tools",
@@ -3338,7 +3348,7 @@
           "twitter": "sirjonasxx"
         }
       ],
-      "version": "0.1.2",
+      "version": "0.1.3",
       "categories": [
         "Games"
       ],
@@ -3375,7 +3385,7 @@
         ]
       },
       "submissionDate": "20-12-2021 23:48:35",
-      "updateDate": "13-07-2022 18:48:00",
+      "updateDate": "11-06-2026 21:48:38",
       "isOutdated": false
     },
     "discordMessages": [
@@ -3408,9 +3418,19 @@
         "timestamp": 1657731178557,
         "locked": false,
         "score": 300
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1559928273725689887",
+        "extVersion": "0.1.3",
+        "type": "update",
+        "timestamp": 1791986283987,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1657731178557
+    "latestEmbed": 1791986283987
   },
   {
     "title": "Stack Dropper",
@@ -8041,7 +8061,7 @@
   },
   {
     "title": "Robosort",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "_object": {
       "title": "Robosort",
       "description": "Sort your wired stacks (automatically).",
@@ -8054,7 +8074,7 @@
           "twitter": "RoboroadsHabbo"
         }
       ],
-      "version": "1.2.2",
+      "version": "1.3.0",
       "categories": [
         "Building"
       ],
@@ -8091,7 +8111,7 @@
         ]
       },
       "submissionDate": "27-02-2025 22:57:25",
-      "updateDate": "26-04-2026 21:37:20",
+      "updateDate": "08-10-2026 19:39:12",
       "isOutdated": false
     },
     "discordMessages": [
@@ -8154,9 +8174,19 @@
         "timestamp": 1777271755317,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1559928282802294805",
+        "extVersion": "1.3.0",
+        "type": "update",
+        "timestamp": 1791986285222,
+        "locked": false,
+        "score": 0
       }
     ],
-    "latestEmbed": 1777271755317
+    "latestEmbed": 1791986285222
   },
   {
     "title": "G-Midi",
@@ -9394,5 +9424,174 @@
       }
     ],
     "latestEmbed": 1781051422332
+  },
+  {
+    "title": "QX Scripter",
+    "version": "0.1.13",
+    "_object": {
+      "title": "QX Scripter",
+      "description": "C# scripting for G-Earth, with visual script panels and an MCP server for AI agents.",
+      "authors": [
+        {
+          "name": "QDave"
+        }
+      ],
+      "version": "0.1.13",
+      "categories": [
+        "G-Earth Utilities",
+        "Usability",
+        "Others"
+      ],
+      "source": "https://github.com/QDaves/QX-Scripter",
+      "readme": "https://github.com/QDaves/QX-Scripter/blob/main/README.md",
+      "releases": "https://github.com/QDaves/QX-Scripter/tags",
+      "stable": true,
+      "framework": {
+        "name": "QX",
+        "version": "0.0.22"
+      },
+      "language": "C#",
+      "commands": {
+        "default": [
+          "cmd",
+          "/C",
+          "QX.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          "--store"
+        ],
+        "windows": [
+          "cmd",
+          "/C",
+          "QX.exe",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}",
+          "--store"
+        ],
+        "linux": [
+          "/bin/sh",
+          "-c",
+          "chmod +x QX-linux-x64 && exec ./QX-linux-x64 -c \"$1\" -p \"$2\" -f \"$3\" --store >/dev/null 2>&1",
+          "--",
+          "{cookie}",
+          "{port}",
+          "{filename}"
+        ],
+        "mac": [
+          "/bin/sh",
+          "-c",
+          "if [ \"$(sysctl -n hw.optional.arm64 2>/dev/null)\" = 1 ]; then bin=QX-osx-arm64; else bin=QX-osx-x64; fi; chmod +x \"$bin\" && exec \"./$bin\" -c \"$1\" -p \"$2\" -f \"$3\" --store >/dev/null 2>&1",
+          "--",
+          "{cookie}",
+          "{port}",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Windows",
+          "Linux",
+          "Mac"
+        ],
+        "clients": [
+          "Flash"
+        ]
+      },
+      "submissionDate": "14-09-2026 21:00:00",
+      "updateDate": "06-10-2026 19:09:40",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1559928268336005272",
+        "extVersion": "0.1.13",
+        "type": "publish",
+        "timestamp": 1791986281790,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1791986281790
+  },
+  {
+    "title": "Room Backup",
+    "version": "1.0.2",
+    "_object": {
+      "title": "Room Backup",
+      "description": "Save and remount Habbo room layouts (floor + wall), including stacked heights with Magic Stack Tile and furniture states.\n\nPlace missing items aside first, then remount with stackmagic. Walls use G-BuildTools-style moves.\n\nOpen snapshots folder from the UI (Folder button) or :mfolder.\n\nInspired by G-Presets and G-BuildTools.\n\nTested on Habbo ES - should work on other hotels G-Earth supports. Large rooms: merges multi-packet Objects/Items (Magic Stack Tiles are intentionally not saved).",
+      "authors": [
+        {
+          "name": "reactruler",
+          "hotel": ".es",
+          "username": "-Habbito",
+          "discord": "reactruler28"
+        }
+      ],
+      "version": "1.0.2",
+      "categories": [
+        "Building"
+      ],
+      "source": "https://github.com/ReactRuler/Room-Backup",
+      "readme": "https://github.com/ReactRuler/Room-Backup/blob/main/README.md",
+      "releases": "https://github.com/ReactRuler/Room-Backup/releases",
+      "stable": true,
+      "framework": {
+        "name": "Native",
+        "version": "1.5.3"
+      },
+      "language": "Java",
+      "commands": {
+        "default": [
+          "java",
+          "-jar",
+          "RoomBackup.jar",
+          "-c",
+          "{cookie}",
+          "-p",
+          "{port}",
+          "-f",
+          "{filename}"
+        ]
+      },
+      "compatibility": {
+        "systems": [
+          "Linux",
+          "Windows",
+          "Mac"
+        ],
+        "clients": [
+          "Unity",
+          "Flash",
+          "Nitro",
+          "Origins"
+        ]
+      },
+      "submissionDate": "21-08-2026 14:52:13",
+      "updateDate": "25-08-2026 20:41:15",
+      "isOutdated": false
+    },
+    "discordMessages": [
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1559928271024689224",
+        "extVersion": "1.0.2",
+        "type": "publish",
+        "timestamp": 1791986282405,
+        "locked": false,
+        "score": 0
+      }
+    ],
+    "latestEmbed": 1791986282405
   }
 ]
