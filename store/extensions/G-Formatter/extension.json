@@ -1,6 +1,6 @@
 {
     "title": "G-Formatter",
-    "description": "Text styling made simple. A professional text formatting extension for G-Earth designed to streamline BBCode insertion and text styling for Habbo.\n\nFeatures:\n- Quick toggle for Bold, Underline, and Italic.\n- One-click text color application.\n- Format cleaning tools.\n- Integrated emoji panel.",
+    "description": "Text styling made simple. A professional text formatting extension  designed to streamline BBCode insertion and text styling.\n\nSimply Right-Click anywhere in the game to summon the toolbar directly to your cursor, or press Ctrl + Shift + S to open the Settings panel.\n\nFeatures:\n- Right-Click to instantly teleport the menu to your mouse.\n- Smart hover submenus for colors, emojis, and clipboard tools.\n- Quick toggle for Bold, Underline, and Italic.\n- Settings Panel to adjust dynamic idle opacity or pause the extension.",
     "authors": [
         {
             "name": "LoremRoman",
@@ -9,7 +9,7 @@
             "discord": "loremroman"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "categories": ["Usability","Others"],
     "source": "https://github.com/LoremRoman/G-Formatter",
     "releases": "https://github.com/LoremRoman/G-Formatter/releases",
@@ -28,6 +28,6 @@
         "clients": ["Flash"]
     },
     "submissionDate": "07-06-2026 02:20:00",
-    "updateDate": "09-06-2026 08:17:00",
+    "updateDate": "10-06-2026 20:37:00",
     "isOutdated": false
 }
