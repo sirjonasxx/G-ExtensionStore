@@ -9427,7 +9427,7 @@
   },
   {
     "title": "QX Scripter",
-    "version": "0.1.13",
+    "version": "0.1.18",
     "_object": {
       "title": "QX Scripter",
       "description": "C# scripting for G-Earth, with visual script panels and an MCP server for AI agents.",
@@ -9436,7 +9436,7 @@
           "name": "QDave"
         }
       ],
-      "version": "0.1.13",
+      "version": "0.1.18",
       "categories": [
         "G-Earth Utilities",
         "Usability",
@@ -9448,7 +9448,7 @@
       "stable": true,
       "framework": {
         "name": "QX",
-        "version": "0.0.22"
+        "version": "0.1.18"
       },
       "language": "C#",
       "commands": {
@@ -9506,7 +9506,7 @@
         ]
       },
       "submissionDate": "14-09-2026 21:00:00",
-      "updateDate": "06-10-2026 19:09:40",
+      "updateDate": "14-10-2026 21:12:43",
       "isOutdated": false
     },
     "discordMessages": [
@@ -9519,6 +9519,16 @@
         "timestamp": 1791986281790,
         "locked": false,
         "score": 100
+      },
+      {
+        "channelId": "878094299403788330",
+        "guildId": "744927320871010404",
+        "messageId": "1560048702838804501",
+        "extVersion": "0.1.18",
+        "type": "update",
+        "timestamp": 1792014995749,
+        "locked": false,
+        "score": 0
       }
     ],
     "latestEmbed": 1791986281790
