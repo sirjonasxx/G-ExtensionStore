@@ -1,0 +1,44 @@
+{
+  "title": "MyFurni",
+  "description": "A Habbo inventory and Marketplace manager. View your furniture inventory, check Marketplace values, organise items and list furniture directly from the extension.",
+  "authors": [
+    {
+      "name": "floppidity"
+    }
+  ],
+  "version": "1.0.0",
+  "categories": [
+    "Trading",
+    "Others"
+  ],
+  "source": "",
+  "readme": "",
+  "releases": "",
+  "stable": false,
+  "framework": {
+    "name": "G-Python",
+    "version": "0.1.6"
+  },
+  "language": "Python",
+  "commands": {
+    "default": [
+      "python",
+      "main.py",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ]
+  },
+  "compatibility": {
+    "systems": [
+      "Windows"
+    ],
+    "clients": [
+      "Flash"
+    ]
+  },
+  "isOutdated": false
+}
