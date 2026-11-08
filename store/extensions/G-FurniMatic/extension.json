@@ -1,0 +1,47 @@
+{
+  "title": "G-FurniMatic",
+  "description": "Feeds the Furni-Matic for you: pick the furni you want to get rid of and it recycles them 8 at a time.\n\n- Waits for the hotel's answer and its pause between batches, batch after batch or one at a time\n- Keep a few of each, lock furni that must never go; LTDs and rentals stay out\n- Safe price: furni worth more on the Marketplace are hidden and need your OK\n- Places, opens and picks up prize boxes in your own room, and logs every prize with its rarity\n- No game sounds or popups for things you didn't do\n\nEnglish, Español, Português.",
+  "authors": [
+    {
+      "name": ".Denio"
+    }
+  ],
+  "categories": [
+    "Usability",
+    "Trading"
+  ],
+  "source": "https://github.com/denio4321/g-furnimatic",
+  "readme": "https://github.com/denio4321/g-furnimatic#readme",
+  "releases": "https://github.com/denio4321/g-furnimatic/releases",
+  "stable": true,
+  "language": "Node.js",
+  "commands": {
+    "default": [
+      "cmd",
+      "/C",
+      "G-FurniMatic.exe",
+      "-c",
+      "{cookie}",
+      "-p",
+      "{port}",
+      "-f",
+      "{filename}"
+    ]
+  },
+  "compatibility": {
+    "systems": [
+      "Windows"
+    ],
+    "clients": [
+      "Flash"
+    ]
+  },
+  "isOutdated": false,
+  "version": "1.1.2",
+  "framework": {
+    "name": "G-Node",
+    "version": "0.2.18"
+  },
+  "submissionDate": "19-10-2026 19:39:20",
+  "updateDate": "19-10-2026 19:39:20"
+}
