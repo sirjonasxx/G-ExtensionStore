@@ -1,0 +1,34 @@
+{
+  "title": "AFK",
+  "description": "Anti-AFK. An extension that tracks how long you have been AFK.",
+  "authors": [
+    {
+      "name": "danii / v19",
+      "hotel": ".com",
+      "username": "v19",
+      "discord": "danii98",
+    }
+  ],
+  "version": "0.5",
+  "categories": ["Others"],
+  "source": "https://github.com/daniiv19/anti-afk",
+  "readme": "https://github.com/daniiv19/anti-afk/README.md",
+  "releases": "https://github.com/daniiv19/anti-afk/releases",
+  "stable": true,
+  "framework": {
+    "name": "GoEarth",
+    "version": "0.2.3"
+  },
+  "language": "Go",
+  "commands": {
+    "default": ["cmd", "/C", "anti-afk.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"],
+    "windows": ["cmd", "/C", "anti-afk.exe", "-c", "{cookie}", "-p", "{port}", "-f", "{filename}"]
+  },
+  "compatibility": {
+    "systems": ["Windows"],
+    "clients": ["Origins"]
+  },
+  "submissionDate": "18-07-2024 10:00:00",
+  "updateDate": "18-07-2024 10:00:00",
+  "isOutdated": false
+}
