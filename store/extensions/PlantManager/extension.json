@@ -10,7 +10,7 @@
       "twitter": "Lanflyy"
     }
   ],
-  "version": "1.4.2",
+  "version": "1.6.0",
   "categories": ["Usability", "Others"],
   
   "source": "https://github.com/Lanflyy/plant-manager",
@@ -21,7 +21,7 @@
   
   "framework": {
     "name": "Native",
-    "version": "1.5.3"
+    "version": "1.5.4-beta-29"
   },
 
   "language": "Java",
