@@ -1,0 +1,41 @@
+{
+    "title": "Group Manager",
+    "description": "An advanced group management overlay for Habbo, bypasses native client limitations by introducing multi-selection checkboxes, bulk operations, and mass member deletion.",
+    "authors": [
+      {
+        "name": "Max",
+        "hotel": "habbo.com.br",
+        "username": "xuredemen",
+        "discord": "",
+        "twitter": ""
+      }
+    ],
+    "version": "1.1",
+    "categories": ["Groups", "Managing", "Others"],
+    
+    "source": "https://github.com/maxph3/Habbo-Group-Manager/blob/main/habbo_group_manager.py",
+    "readme": "https://github.com/maxph3/Habbo-Group-Manager/blob/main/README.md",
+    "releases": "",
+    
+    "stable": true,
+    
+    "framework": {
+      "name": "G-Python",
+      "version": "1.2.2"
+    },
+
+    "language": "Python",
+    "commands": {
+      "default": ["python", "habbo_group_manager.py"],
+      "linux": ["python3", "habbo_group_manager.py"]
+    },
+    
+    "compatibility": {
+        "systems": ["Linux", "Windows", "Mac"],
+        "clients": ["Flash"]
+    },
+
+    "submissionDate": "14-09-2026 11:11:00",
+    "updateDate": "",
+    "isOutdated": false
+}
